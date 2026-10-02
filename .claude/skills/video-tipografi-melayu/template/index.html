@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Video tipografi</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #111; display: grid; place-items: center; }
+  canvas { width: min(100vw, 177.78vh); aspect-ratio: 16 / 9; display: block; cursor: pointer; }
+  body.bare { background: transparent; } body.bare canvas { width: 1920px; }
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+<audio id="au" src="__VOICE__" preload="auto"></audio>
+<script>
+  window.DUR = __DUR__;         // panjang filem (saat)
+  window.VOICE = '__VOICE__';// suara sahaja, tiada muzik latar
+  window.OFF = __OFF__;        // suara bermula pada 0.6 s masa filem
+  if (location.search.includes('bare')) document.body.classList.add('bare');
+</script>
+<script src="engine/kinetik.js"></script>
+<script src="engine/bulat.js"></script>
+<script src="words.js"></script>
+<script src="scenes.js"></script>
+<script>boot();</script>
+</body>
+</html>

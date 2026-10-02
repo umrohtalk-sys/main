@@ -1,0 +1,1468 @@
+{
+ "text": " Tapi ada satu perkara yang sering orang terlepas pandang. Sebelum kita bina app, kita perlu tahu apa yang kita bina. Dan di sini lah referensi memainkan peranan. Pernah nampak satu desain di Pinterest, satu app di Behance atau satu interface yang terus buat kita fikir, \"Hah, macam ni yang aku nak.\" Simpan. Sebab itulah referensi. Kita tak semestinya perlu pandai menerangkan desain dengan istilah teknikal, tunjukkan sahaja apa yang kita suka. Bila AI nampak referensi, kita boleh beri arah, \"Saya suka layout ini. Saya mahu style seperti ini. Saya suka cara menu disusun.\" Daripada hanya berkata, \"AI, buatkan app yang cantik. Kita memberikan AI gambaran yang lebih jelas tentang apa yang kita mahukan. Dan ini sebenarnya sebahagian daripada fundamental bina app. Belajar mencari, belajar memilih, belajar memahami, kemudian belajar membina. Sebab itu untuk educator yang baru nak mula, anda bukan hanya perlu belajar prompt. Anda perlu belajar bagaimana untuk mencari referensi, menyusun idea, membina app blueprint, bekerja dengan AI, tes dan publish. Semua ini boleh dipelajari langkah demi langkah. Dan itulah tujuan kami membina app panduan bina app untuk pemula dan edukator. Supaya anda tak lagi bermula dengan \"Aku nak buat app tapi nak mula dari mana?\" Sebaliknya, anda tahu apa yang perlu dibuat. Belajar bina? Bina untuk belajar.",
+ "chunks": [
+  {
+   "text": " Tapi",
+   "timestamp": [
+    0,
+    0.46
+   ]
+  },
+  {
+   "text": " ada",
+   "timestamp": [
+    0.46,
+    0.68
+   ]
+  },
+  {
+   "text": " satu",
+   "timestamp": [
+    0.68,
+    0.94
+   ]
+  },
+  {
+   "text": " perkara",
+   "timestamp": [
+    0.94,
+    1.3
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    1.3,
+    1.6
+   ]
+  },
+  {
+   "text": " sering",
+   "timestamp": [
+    1.6,
+    1.98
+   ]
+  },
+  {
+   "text": " orang",
+   "timestamp": [
+    1.98,
+    2.14
+   ]
+  },
+  {
+   "text": " terlepas",
+   "timestamp": [
+    2.14,
+    2.58
+   ]
+  },
+  {
+   "text": " pandang.",
+   "timestamp": [
+    2.58,
+    2.96
+   ]
+  },
+  {
+   "text": " Sebelum",
+   "timestamp": [
+    3.54,
+    4.02
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    4.02,
+    4.22
+   ]
+  },
+  {
+   "text": " bina",
+   "timestamp": [
+    4.22,
+    4.46
+   ]
+  },
+  {
+   "text": " app,",
+   "timestamp": [
+    4.46,
+    4.88
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    5.12,
+    5.24
+   ]
+  },
+  {
+   "text": " perlu",
+   "timestamp": [
+    5.24,
+    5.46
+   ]
+  },
+  {
+   "text": " tahu",
+   "timestamp": [
+    5.46,
+    5.72
+   ]
+  },
+  {
+   "text": " apa",
+   "timestamp": [
+    5.72,
+    6.28
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    6.28,
+    6.6
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    6.6,
+    6.78
+   ]
+  },
+  {
+   "text": " bina.",
+   "timestamp": [
+    6.78,
+    7.18
+   ]
+  },
+  {
+   "text": " Dan",
+   "timestamp": [
+    7.58,
+    7.84
+   ]
+  },
+  {
+   "text": " di",
+   "timestamp": [
+    7.84,
+    8
+   ]
+  },
+  {
+   "text": " sini",
+   "timestamp": [
+    8,
+    8.22
+   ]
+  },
+  {
+   "text": " lah",
+   "timestamp": [
+    8.22,
+    8.44
+   ]
+  },
+  {
+   "text": " referensi",
+   "timestamp": [
+    8.44,
+    9.22
+   ]
+  },
+  {
+   "text": " memainkan",
+   "timestamp": [
+    9.22,
+    9.7
+   ]
+  },
+  {
+   "text": " peranan.",
+   "timestamp": [
+    9.7,
+    10
+   ]
+  },
+  {
+   "text": " Pernah",
+   "timestamp": [
+    10.8,
+    11.22
+   ]
+  },
+  {
+   "text": " nampak",
+   "timestamp": [
+    11.22,
+    11.5
+   ]
+  },
+  {
+   "text": " satu",
+   "timestamp": [
+    11.5,
+    11.76
+   ]
+  },
+  {
+   "text": " desain",
+   "timestamp": [
+    11.76,
+    12.2
+   ]
+  },
+  {
+   "text": " di",
+   "timestamp": [
+    12.2,
+    12.36
+   ]
+  },
+  {
+   "text": " Pinterest,",
+   "timestamp": [
+    12.36,
+    12.72
+   ]
+  },
+  {
+   "text": " satu",
+   "timestamp": [
+    13.28,
+    13.5
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    13.5,
+    13.74
+   ]
+  },
+  {
+   "text": " di",
+   "timestamp": [
+    13.74,
+    13.9
+   ]
+  },
+  {
+   "text": " Behance",
+   "timestamp": [
+    13.9,
+    14.5
+   ]
+  },
+  {
+   "text": " atau",
+   "timestamp": [
+    14.5,
+    15.16
+   ]
+  },
+  {
+   "text": " satu",
+   "timestamp": [
+    15.16,
+    15.4
+   ]
+  },
+  {
+   "text": " interface",
+   "timestamp": [
+    15.4,
+    15.76
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    15.76,
+    15.98
+   ]
+  },
+  {
+   "text": " terus",
+   "timestamp": [
+    15.98,
+    16.2
+   ]
+  },
+  {
+   "text": " buat",
+   "timestamp": [
+    16.2,
+    16.42
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    16.42,
+    16.6
+   ]
+  },
+  {
+   "text": " fikir,",
+   "timestamp": [
+    16.6,
+    16.94
+   ]
+  },
+  {
+   "text": " \"Hah,",
+   "timestamp": [
+    17.2,
+    17.38
+   ]
+  },
+  {
+   "text": " macam",
+   "timestamp": [
+    17.72,
+    17.9
+   ]
+  },
+  {
+   "text": " ni",
+   "timestamp": [
+    17.9,
+    18.28
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    18.28,
+    18.44
+   ]
+  },
+  {
+   "text": " aku",
+   "timestamp": [
+    18.44,
+    18.6
+   ]
+  },
+  {
+   "text": " nak.\"",
+   "timestamp": [
+    18.6,
+    18.76
+   ]
+  },
+  {
+   "text": " Simpan.",
+   "timestamp": [
+    19.44,
+    19.88
+   ]
+  },
+  {
+   "text": " Sebab",
+   "timestamp": [
+    20.44,
+    20.74
+   ]
+  },
+  {
+   "text": " itulah",
+   "timestamp": [
+    20.74,
+    21.1
+   ]
+  },
+  {
+   "text": " referensi.",
+   "timestamp": [
+    21.1,
+    21.68
+   ]
+  },
+  {
+   "text": " Kita",
+   "timestamp": [
+    22.34,
+    22.68
+   ]
+  },
+  {
+   "text": " tak",
+   "timestamp": [
+    22.68,
+    22.84
+   ]
+  },
+  {
+   "text": " semestinya",
+   "timestamp": [
+    22.84,
+    23.28
+   ]
+  },
+  {
+   "text": " perlu",
+   "timestamp": [
+    23.28,
+    23.62
+   ]
+  },
+  {
+   "text": " pandai",
+   "timestamp": [
+    23.62,
+    24.14
+   ]
+  },
+  {
+   "text": " menerangkan",
+   "timestamp": [
+    24.14,
+    24.74
+   ]
+  },
+  {
+   "text": " desain",
+   "timestamp": [
+    24.76,
+    25.28
+   ]
+  },
+  {
+   "text": " dengan",
+   "timestamp": [
+    25.28,
+    25.48
+   ]
+  },
+  {
+   "text": " istilah",
+   "timestamp": [
+    25.48,
+    25.78
+   ]
+  },
+  {
+   "text": " teknikal,",
+   "timestamp": [
+    25.78,
+    26.28
+   ]
+  },
+  {
+   "text": " tunjukkan",
+   "timestamp": [
+    26.78,
+    27.32
+   ]
+  },
+  {
+   "text": " sahaja",
+   "timestamp": [
+    27.32,
+    27.72
+   ]
+  },
+  {
+   "text": " apa",
+   "timestamp": [
+    27.72,
+    27.98
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    27.98,
+    28.12
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    28.12,
+    28.3
+   ]
+  },
+  {
+   "text": " suka.",
+   "timestamp": [
+    28.3,
+    28.54
+   ]
+  },
+  {
+   "text": " Bila",
+   "timestamp": [
+    29.26,
+    29.54
+   ]
+  },
+  {
+   "text": " AI",
+   "timestamp": [
+    29.54,
+    29.8
+   ]
+  },
+  {
+   "text": " nampak",
+   "timestamp": [
+    29.8,
+    30.28
+   ]
+  },
+  {
+   "text": " referensi,",
+   "timestamp": [
+    30.28,
+    30.94
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    31.36,
+    31.5
+   ]
+  },
+  {
+   "text": " boleh",
+   "timestamp": [
+    31.5,
+    31.7
+   ]
+  },
+  {
+   "text": " beri",
+   "timestamp": [
+    31.7,
+    31.96
+   ]
+  },
+  {
+   "text": " arah,",
+   "timestamp": [
+    31.96,
+    32.46
+   ]
+  },
+  {
+   "text": " \"Saya",
+   "timestamp": [
+    32.78,
+    33.02
+   ]
+  },
+  {
+   "text": " suka",
+   "timestamp": [
+    33.02,
+    33.22
+   ]
+  },
+  {
+   "text": " layout",
+   "timestamp": [
+    33.22,
+    33.64
+   ]
+  },
+  {
+   "text": " ini.",
+   "timestamp": [
+    33.64,
+    33.9
+   ]
+  },
+  {
+   "text": " Saya",
+   "timestamp": [
+    34.5,
+    34.68
+   ]
+  },
+  {
+   "text": " mahu",
+   "timestamp": [
+    34.68,
+    35
+   ]
+  },
+  {
+   "text": " style",
+   "timestamp": [
+    35,
+    35.46
+   ]
+  },
+  {
+   "text": " seperti",
+   "timestamp": [
+    35.46,
+    35.72
+   ]
+  },
+  {
+   "text": " ini.",
+   "timestamp": [
+    35.72,
+    36.06
+   ]
+  },
+  {
+   "text": " Saya",
+   "timestamp": [
+    36.58,
+    36.8
+   ]
+  },
+  {
+   "text": " suka",
+   "timestamp": [
+    36.8,
+    36.98
+   ]
+  },
+  {
+   "text": " cara",
+   "timestamp": [
+    36.98,
+    37.38
+   ]
+  },
+  {
+   "text": " menu",
+   "timestamp": [
+    37.38,
+    37.84
+   ]
+  },
+  {
+   "text": " disusun.\"",
+   "timestamp": [
+    37.84,
+    38.36
+   ]
+  },
+  {
+   "text": " Daripada",
+   "timestamp": [
+    38.94,
+    39.34
+   ]
+  },
+  {
+   "text": " hanya",
+   "timestamp": [
+    39.34,
+    39.58
+   ]
+  },
+  {
+   "text": " berkata,",
+   "timestamp": [
+    39.58,
+    40.02
+   ]
+  },
+  {
+   "text": " \"AI,",
+   "timestamp": [
+    40.56,
+    40.86
+   ]
+  },
+  {
+   "text": " buatkan",
+   "timestamp": [
+    41.26,
+    41.64
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    41.64,
+    41.86
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    41.86,
+    42.02
+   ]
+  },
+  {
+   "text": " cantik.",
+   "timestamp": [
+    42.02,
+    42.42
+   ]
+  },
+  {
+   "text": " Kita",
+   "timestamp": [
+    42.96,
+    43.22
+   ]
+  },
+  {
+   "text": " memberikan",
+   "timestamp": [
+    43.22,
+    43.62
+   ]
+  },
+  {
+   "text": " AI",
+   "timestamp": [
+    43.62,
+    43.96
+   ]
+  },
+  {
+   "text": " gambaran",
+   "timestamp": [
+    43.96,
+    44.6
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    44.6,
+    44.82
+   ]
+  },
+  {
+   "text": " lebih",
+   "timestamp": [
+    44.82,
+    45.06
+   ]
+  },
+  {
+   "text": " jelas",
+   "timestamp": [
+    45.06,
+    45.44
+   ]
+  },
+  {
+   "text": " tentang",
+   "timestamp": [
+    45.44,
+    45.94
+   ]
+  },
+  {
+   "text": " apa",
+   "timestamp": [
+    45.94,
+    46.46
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    46.46,
+    46.68
+   ]
+  },
+  {
+   "text": " kita",
+   "timestamp": [
+    46.68,
+    46.88
+   ]
+  },
+  {
+   "text": " mahukan.",
+   "timestamp": [
+    46.88,
+    47.22
+   ]
+  },
+  {
+   "text": " Dan",
+   "timestamp": [
+    47.7,
+    48.22
+   ]
+  },
+  {
+   "text": " ini",
+   "timestamp": [
+    48.22,
+    48.44
+   ]
+  },
+  {
+   "text": " sebenarnya",
+   "timestamp": [
+    48.44,
+    48.86
+   ]
+  },
+  {
+   "text": " sebahagian",
+   "timestamp": [
+    48.86,
+    49.26
+   ]
+  },
+  {
+   "text": " daripada",
+   "timestamp": [
+    49.26,
+    49.66
+   ]
+  },
+  {
+   "text": " fundamental",
+   "timestamp": [
+    49.66,
+    50.42
+   ]
+  },
+  {
+   "text": " bina",
+   "timestamp": [
+    50.42,
+    50.86
+   ]
+  },
+  {
+   "text": " app.",
+   "timestamp": [
+    50.86,
+    51.2
+   ]
+  },
+  {
+   "text": " Belajar",
+   "timestamp": [
+    51.66,
+    52.08
+   ]
+  },
+  {
+   "text": " mencari,",
+   "timestamp": [
+    52.08,
+    52.58
+   ]
+  },
+  {
+   "text": " belajar",
+   "timestamp": [
+    53.04,
+    53.36
+   ]
+  },
+  {
+   "text": " memilih,",
+   "timestamp": [
+    53.36,
+    54.18
+   ]
+  },
+  {
+   "text": " belajar",
+   "timestamp": [
+    54.24,
+    54.66
+   ]
+  },
+  {
+   "text": " memahami,",
+   "timestamp": [
+    54.66,
+    55.2
+   ]
+  },
+  {
+   "text": " kemudian",
+   "timestamp": [
+    55.56,
+    56
+   ]
+  },
+  {
+   "text": " belajar",
+   "timestamp": [
+    56,
+    56.5
+   ]
+  },
+  {
+   "text": " membina.",
+   "timestamp": [
+    56.5,
+    56.98
+   ]
+  },
+  {
+   "text": " Sebab",
+   "timestamp": [
+    57.5,
+    57.8
+   ]
+  },
+  {
+   "text": " itu",
+   "timestamp": [
+    57.8,
+    58.02
+   ]
+  },
+  {
+   "text": " untuk",
+   "timestamp": [
+    58.02,
+    58.28
+   ]
+  },
+  {
+   "text": " educator",
+   "timestamp": [
+    58.28,
+    58.64
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    58.64,
+    59.02
+   ]
+  },
+  {
+   "text": " baru",
+   "timestamp": [
+    59.02,
+    59.2
+   ]
+  },
+  {
+   "text": " nak",
+   "timestamp": [
+    59.2,
+    59.34
+   ]
+  },
+  {
+   "text": " mula,",
+   "timestamp": [
+    59.34,
+    59.64
+   ]
+  },
+  {
+   "text": " anda",
+   "timestamp": [
+    60.1,
+    60.34
+   ]
+  },
+  {
+   "text": " bukan",
+   "timestamp": [
+    60.34,
+    60.58
+   ]
+  },
+  {
+   "text": " hanya",
+   "timestamp": [
+    60.58,
+    60.88
+   ]
+  },
+  {
+   "text": " perlu",
+   "timestamp": [
+    60.88,
+    61.08
+   ]
+  },
+  {
+   "text": " belajar",
+   "timestamp": [
+    61.08,
+    61.4
+   ]
+  },
+  {
+   "text": " prompt.",
+   "timestamp": [
+    61.4,
+    61.76
+   ]
+  },
+  {
+   "text": " Anda",
+   "timestamp": [
+    62.26,
+    62.54
+   ]
+  },
+  {
+   "text": " perlu",
+   "timestamp": [
+    62.54,
+    62.76
+   ]
+  },
+  {
+   "text": " belajar",
+   "timestamp": [
+    62.76,
+    63.12
+   ]
+  },
+  {
+   "text": " bagaimana",
+   "timestamp": [
+    63.12,
+    63.56
+   ]
+  },
+  {
+   "text": " untuk",
+   "timestamp": [
+    63.56,
+    63.82
+   ]
+  },
+  {
+   "text": " mencari",
+   "timestamp": [
+    63.82,
+    64.3
+   ]
+  },
+  {
+   "text": " referensi,",
+   "timestamp": [
+    64.3,
+    64.94
+   ]
+  },
+  {
+   "text": " menyusun",
+   "timestamp": [
+    65.32,
+    65.82
+   ]
+  },
+  {
+   "text": " idea,",
+   "timestamp": [
+    65.82,
+    66.2
+   ]
+  },
+  {
+   "text": " membina",
+   "timestamp": [
+    66.76,
+    67.12
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    67.12,
+    67.48
+   ]
+  },
+  {
+   "text": " blueprint,",
+   "timestamp": [
+    67.48,
+    67.92
+   ]
+  },
+  {
+   "text": " bekerja",
+   "timestamp": [
+    68.32,
+    68.8
+   ]
+  },
+  {
+   "text": " dengan",
+   "timestamp": [
+    68.8,
+    69.02
+   ]
+  },
+  {
+   "text": " AI,",
+   "timestamp": [
+    69.02,
+    69.3
+   ]
+  },
+  {
+   "text": " tes",
+   "timestamp": [
+    69.78,
+    70.08
+   ]
+  },
+  {
+   "text": " dan",
+   "timestamp": [
+    70.08,
+    70.42
+   ]
+  },
+  {
+   "text": " publish.",
+   "timestamp": [
+    70.42,
+    70.78
+   ]
+  },
+  {
+   "text": " Semua",
+   "timestamp": [
+    71.46,
+    71.98
+   ]
+  },
+  {
+   "text": " ini",
+   "timestamp": [
+    71.98,
+    72.18
+   ]
+  },
+  {
+   "text": " boleh",
+   "timestamp": [
+    72.18,
+    72.42
+   ]
+  },
+  {
+   "text": " dipelajari",
+   "timestamp": [
+    72.42,
+    72.9
+   ]
+  },
+  {
+   "text": " langkah",
+   "timestamp": [
+    72.9,
+    73.46
+   ]
+  },
+  {
+   "text": " demi",
+   "timestamp": [
+    73.46,
+    73.68
+   ]
+  },
+  {
+   "text": " langkah.",
+   "timestamp": [
+    73.68,
+    74.08
+   ]
+  },
+  {
+   "text": " Dan",
+   "timestamp": [
+    74.52,
+    74.9
+   ]
+  },
+  {
+   "text": " itulah",
+   "timestamp": [
+    74.9,
+    75.3
+   ]
+  },
+  {
+   "text": " tujuan",
+   "timestamp": [
+    75.3,
+    75.6
+   ]
+  },
+  {
+   "text": " kami",
+   "timestamp": [
+    75.6,
+    75.84
+   ]
+  },
+  {
+   "text": " membina",
+   "timestamp": [
+    75.84,
+    76.24
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    76.24,
+    76.7
+   ]
+  },
+  {
+   "text": " panduan",
+   "timestamp": [
+    76.7,
+    77.22
+   ]
+  },
+  {
+   "text": " bina",
+   "timestamp": [
+    77.22,
+    77.52
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    77.52,
+    77.84
+   ]
+  },
+  {
+   "text": " untuk",
+   "timestamp": [
+    77.84,
+    78.06
+   ]
+  },
+  {
+   "text": " pemula",
+   "timestamp": [
+    78.06,
+    78.4
+   ]
+  },
+  {
+   "text": " dan",
+   "timestamp": [
+    78.4,
+    78.58
+   ]
+  },
+  {
+   "text": " edukator.",
+   "timestamp": [
+    78.58,
+    79.02
+   ]
+  },
+  {
+   "text": " Supaya",
+   "timestamp": [
+    79.5,
+    79.9
+   ]
+  },
+  {
+   "text": " anda",
+   "timestamp": [
+    79.9,
+    80.12
+   ]
+  },
+  {
+   "text": " tak",
+   "timestamp": [
+    80.12,
+    80.28
+   ]
+  },
+  {
+   "text": " lagi",
+   "timestamp": [
+    80.28,
+    80.5
+   ]
+  },
+  {
+   "text": " bermula",
+   "timestamp": [
+    80.5,
+    80.84
+   ]
+  },
+  {
+   "text": " dengan",
+   "timestamp": [
+    80.84,
+    81.1
+   ]
+  },
+  {
+   "text": " \"Aku",
+   "timestamp": [
+    81.1,
+    81.84
+   ]
+  },
+  {
+   "text": " nak",
+   "timestamp": [
+    81.84,
+    81.96
+   ]
+  },
+  {
+   "text": " buat",
+   "timestamp": [
+    81.96,
+    82.12
+   ]
+  },
+  {
+   "text": " app",
+   "timestamp": [
+    82.12,
+    82.44
+   ]
+  },
+  {
+   "text": " tapi",
+   "timestamp": [
+    82.44,
+    83.02
+   ]
+  },
+  {
+   "text": " nak",
+   "timestamp": [
+    83.02,
+    83.16
+   ]
+  },
+  {
+   "text": " mula",
+   "timestamp": [
+    83.16,
+    83.34
+   ]
+  },
+  {
+   "text": " dari",
+   "timestamp": [
+    83.34,
+    83.5
+   ]
+  },
+  {
+   "text": " mana?\"",
+   "timestamp": [
+    83.5,
+    83.7
+   ]
+  },
+  {
+   "text": " Sebaliknya,",
+   "timestamp": [
+    84.48,
+    85.08
+   ]
+  },
+  {
+   "text": " anda",
+   "timestamp": [
+    85.36,
+    85.7
+   ]
+  },
+  {
+   "text": " tahu",
+   "timestamp": [
+    85.7,
+    86.08
+   ]
+  },
+  {
+   "text": " apa",
+   "timestamp": [
+    86.08,
+    86.46
+   ]
+  },
+  {
+   "text": " yang",
+   "timestamp": [
+    86.46,
+    86.72
+   ]
+  },
+  {
+   "text": " perlu",
+   "timestamp": [
+    86.72,
+    86.9
+   ]
+  },
+  {
+   "text": " dibuat.",
+   "timestamp": [
+    86.9,
+    87.26
+   ]
+  },
+  {
+   "text": " Belajar",
+   "timestamp": [
+    88.02,
+    88.38
+   ]
+  },
+  {
+   "text": " bina?",
+   "timestamp": [
+    88.38,
+    88.56
+   ]
+  },
+  {
+   "text": " Bina",
+   "timestamp": [
+    88.96,
+    89.38
+   ]
+  },
+  {
+   "text": " untuk",
+   "timestamp": [
+    89.38,
+    89.56
+   ]
+  },
+  {
+   "text": " belajar.",
+   "timestamp": [
+    89.56,
+    89.9
+   ]
+  }
+ ]
+}
