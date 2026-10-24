@@ -1,4 +1,0 @@
-Arena Clawd Pro - folder siap unggah ke Netlify.
-Cara 1: app.netlify.com -> Add new site -> Deploy manually -> seret folder ini (atau file zip-nya).
-Cara 2: netlify deploy --dir . --prod  (dari dalam folder ini, dengan Netlify CLI).
-Isi: index.html (game lengkap satu file), sampul.jpg, netlify.toml, robots.txt.

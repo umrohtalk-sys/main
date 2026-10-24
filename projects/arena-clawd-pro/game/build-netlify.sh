@@ -1,8 +1,9 @@
 #!/bin/sh
-# game.html -> ../netlify/ (folder siap unggah ke Netlify) + ../arena-clawd-pro-netlify.zip
+# game.html + PROMPT-*.md -> ../arena-clawd-pro-siap-upload/ (satu folder: game siap Netlify + prompt) dan zip-nya
 cd "$(dirname "$0")"
-OUT=../netlify
-rm -rf "$OUT" && mkdir -p "$OUT"
+PAK=../arena-clawd-pro-siap-upload
+OUT=$PAK/game-netlify
+rm -rf "$PAK" && mkdir -p "$OUT" "$PAK/prompt"
 { printf '<!doctype html>\n<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
   printf '<meta property="og:title" content="Arena Clawd Pro"><meta property="og:description" content="Game MOBA matematika main sendiri untuk SD kelas 1-6: 6 hero, Soal Gempur, Ultimate Matematika, Belajar, Latihan, Kemajuan."><meta property="og:image" content="sampul.jpg"><meta name="theme-color" content="#efebe2">\n'
   cat game.html; printf '\n</html>\n'; } > "$OUT/index.html"
@@ -28,11 +29,20 @@ cat > "$OUT/netlify.toml" <<'T'
   status = 200
 T
 printf 'User-agent: *\nDisallow: /\n' > "$OUT/robots.txt"
-cat > "$OUT/BACA-SAYA.txt" <<'T'
-Arena Clawd Pro - folder siap unggah ke Netlify.
-Cara 1: app.netlify.com -> Add new site -> Deploy manually -> seret folder ini (atau file zip-nya).
-Cara 2: netlify deploy --dir . --prod  (dari dalam folder ini, dengan Netlify CLI).
-Isi: index.html (game lengkap satu file), sampul.jpg, netlify.toml, robots.txt.
+cp PROMPT-id.md PROMPT-ms.md PROMPT-en.md "$PAK/prompt/"
+cp ../sampul-arena-clawd-pro.jpg "$PAK/prompt/sampul.jpg"
+cat > "$PAK/BACA-SAYA.txt" <<'T'
+ARENA CLAWD PRO - satu folder siap unggah
+
+game-netlify/   Game lengkap. Seret folder ini ke Netlify (app.netlify.com -> Add new site -> Deploy manually).
+                Isi: index.html, sampul.jpg, netlify.toml, robots.txt.
+prompt/         Prompt detail untuk membuat game ini: PROMPT-id.md (Indonesia), PROMPT-ms.md (Melayu),
+                PROMPT-en.md (Inggris), plus sampul.jpg untuk kartu di Prompt Generator.
+
+Prompt sengaja dipisah dari folder game supaya tidak ikut tayang di situs game.
+Coba di komputer: buka game-netlify/index.html di Chrome, atau dari dalam game-netlify/ jalankan
+  python3 -m http.server 8765
+lalu buka http://localhost:8765/
 T
-rm -f ../arena-clawd-pro-netlify.zip && (cd "$OUT" && zip -qr ../arena-clawd-pro-netlify.zip .)
-echo "netlify/ dan arena-clawd-pro-netlify.zip siap"
+rm -f ../arena-clawd-pro-siap-upload.zip && (cd .. && zip -qr arena-clawd-pro-siap-upload.zip arena-clawd-pro-siap-upload)
+echo "arena-clawd-pro-siap-upload/ dan arena-clawd-pro-siap-upload.zip siap"
