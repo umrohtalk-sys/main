@@ -6,6 +6,8 @@ Game MOBA matematika main sendiri, lanjutan dari branch `arena-clawd-pro-wip` di
 
 | File | Isi |
 |---|---|
+| [`netlify/`](netlify/) | **Folder siap unggah ke Netlify**: `index.html`, `sampul.jpg`, `netlify.toml`, `robots.txt` |
+| [`arena-clawd-pro-netlify.zip`](arena-clawd-pro-netlify.zip) | Isi folder `netlify/` dalam zip, untuk diseret ke Netlify |
 | [`game/index.html`](game/index.html) | Game lengkap, satu file. Buka langsung di Chrome |
 | [`game/game.html`](game/game.html) | Sumber (format Artifact). `sh game/build.sh` membuat `index.html` |
 | [`game/LANJUTKAN.md`](game/LANJUTKAN.md) | Status, daftar 11 fitur yang sudah dibuat, langkah tersisa |
@@ -14,12 +16,18 @@ Game MOBA matematika main sendiri, lanjutan dari branch `arena-clawd-pro-wip` di
 | [`game/uji/`](game/uji/) | `senario.json` dan `jalankan.js` (Playwright) |
 | [`game-preview.patch`](game-preview.patch) | Semua perubahan untuk repo game-preview (tanpa PNG bukti) |
 
+## Unggah ke Netlify
+
+- Cara mudah: app.netlify.com → Add new site → Deploy manually → seret folder `netlify/` (atau `arena-clawd-pro-netlify.zip`).
+- Lewat CLI: `cd projects/arena-clawd-pro/netlify && netlify deploy --dir . --prod`.
+- Setelah mengubah `game/game.html`, buat ulang folder dan zip: `sh game/build-netlify.sh`.
+
 ## Pratinjau di localhost
 
 ```bash
-cd projects/arena-clawd-pro/game
+cd projects/arena-clawd-pro/netlify
 python3 -m http.server 8765
-# buka http://localhost:8765/index.html
+# buka http://localhost:8765/
 ```
 
 ## Memasang ke repo game-preview (sesi ini tidak punya izin push ke sana)
