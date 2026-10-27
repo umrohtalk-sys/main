@@ -1,0 +1,5 @@
+Kubu Clawd - folder siap unggah ke Netlify.
+Cara 1: app.netlify.com -> Add new site -> Deploy manually -> seret folder ini (atau zip-nya).
+Cara 2: netlify deploy --dir . --prod  (dari dalam folder ini, dengan Netlify CLI).
+Coba di komputer: dari dalam folder ini jalankan  python3 -m http.server 8080  lalu buka http://localhost:8080/
+Isi: index.html (game lengkap satu file), sampul.jpg, netlify.toml, robots.txt.

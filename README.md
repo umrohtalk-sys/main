@@ -4,6 +4,7 @@
 
 | Folder | Isi |
 |---|---|
+| [`projects/kubu-clawd/`](projects/kubu-clawd/) | **Game Kubu Clawd** (strategi desa gaya Clash of Clans + kuis matematika): folder Netlify siap unggah, zip, sumber, bukti uji |
 | [`projects/arena-clawd-pro/`](projects/arena-clawd-pro/) | **Game Arena Clawd Pro** (MOBA matematika, minion & menara saja) siap main, bukti uji, prompt detail 3 bahasa, dan patch untuk repo game-preview |
 | [`projects/gemi-referensi-remake/`](projects/gemi-referensi-remake/) | **Video jadi**: [`out/gemi-referensi-remake.mp4`](projects/gemi-referensi-remake/out/gemi-referensi-remake.mp4). 1920×1080 landscape, 30 fps, 93,5 detik, Bahasa Melayu, suara saja tanpa musik, −16 LUFS |
 | [`.claude/skills/video-tipografi-melayu/`](.claude/skills/video-tipografi-melayu/) | **Skill Claude**: engine tipografi kinetik, maskot Si Bulat, script render MP4, dan panduan gaya. Otomatis aktif di setiap sesi Claude Code dalam repo ini |
