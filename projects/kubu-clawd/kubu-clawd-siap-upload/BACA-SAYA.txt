@@ -1,0 +1,11 @@
+KUBU CLAWD - satu folder siap unggah
+
+game-netlify/   Game lengkap. Seret folder ini ke Netlify (app.netlify.com -> Add new site -> Deploy manually).
+                Isi: index.html, sampul.jpg, netlify.toml, robots.txt.
+prompt/         Prompt detail untuk membuat game ini: PROMPT-id.md (Indonesia), PROMPT-ms.md (Melayu),
+                PROMPT-en.md (Inggris), plus sampul.jpg untuk kartu di Prompt Generator.
+
+Prompt sengaja dipisah dari folder game supaya tidak ikut tayang di situs game.
+Coba di komputer: buka game-netlify/index.html di Chrome, atau dari dalam game-netlify/ jalankan
+  python3 -m http.server 8080
+lalu buka http://localhost:8080/

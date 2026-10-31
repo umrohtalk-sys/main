@@ -6,9 +6,10 @@ Game strategi desa bergaya kertas & tinta (siri Clawd), terinspirasi Clash of Cl
 
 | File | Isi |
 |---|---|
-| [`kubu-clawd-netlify/`](kubu-clawd-netlify/) | **Folder siap unggah ke Netlify**: `index.html`, `sampul.jpg`, `netlify.toml`, `robots.txt` |
-| [`kubu-clawd-netlify.zip`](kubu-clawd-netlify.zip) | Folder yang sama dalam zip |
-| [`game/game.html`](game/game.html) | Sumber (format Artifact). `sh game/build-netlify.sh` membuat ulang folder Netlify + zip |
+| [`kubu-clawd-siap-upload/`](kubu-clawd-siap-upload/) | **Satu folder siap unggah**: `game-netlify/` (game untuk Netlify) + `prompt/` (prompt 3 bahasa + sampul) |
+| [`kubu-clawd-siap-upload.zip`](kubu-clawd-siap-upload.zip) | Folder yang sama dalam zip |
+| [`game/PROMPT-id.md`](game/PROMPT-id.md) · [`ms`](game/PROMPT-ms.md) · [`en`](game/PROMPT-en.md) | Prompt detail untuk Prompt Generator |
+| [`game/game.html`](game/game.html) | Sumber (format Artifact). `sh game/build-netlify.sh` membuat ulang folder siap unggah + zip |
 | [`game/bukti/`](game/bukti/) | Tangkapan layar uji main otomatis (HP 390×844 dan desktop 1280×800) |
 
 ## Isi game
@@ -40,12 +41,12 @@ Game strategi desa bergaya kertas & tinta (siri Clawd), terinspirasi Clash of Cl
 
 ## Unggah ke Netlify
 
-app.netlify.com → Add new site → Deploy manually → seret folder `kubu-clawd-netlify/` (atau zip-nya).
+app.netlify.com → Add new site → Deploy manually → seret folder `kubu-clawd-siap-upload/game-netlify/`.
 
 ## Pratinjau di localhost
 
 ```bash
-cd projects/kubu-clawd/kubu-clawd-netlify
+cd projects/kubu-clawd/kubu-clawd-siap-upload/game-netlify
 python3 -m http.server 8080
 # buka http://localhost:8080/
 ```
