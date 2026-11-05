@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NGAJI KIDS</title>
+<meta name="description" content="Temukan ustadz dan ustadzah yang sabar dan ramah anak di kotamu. Hubungi langsung lewat WhatsApp, tanpa biaya platform.">
+<meta name="theme-color" content="#0E5E45">
+<meta property="og:title" content="NGAJI KIDS · Cari guru ngaji untuk si kecil">
+<meta property="og:description" content="Temukan ustadz dan ustadzah yang ramah anak di kotamu.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="sr" href="#app">Langsung ke isi</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" id="brand" href="#beranda" aria-label="NGAJI KIDS, beranda"></a>
+    <span class="demoflag" id="demoflag" hidden title="config.js belum diisi: memakai data contoh">Demo</span>
+    <nav class="nav" id="navlinks" aria-label="Menu utama"></nav>
+    <div class="navcta" id="navcta"></div>
+  </div>
+</header>
+
+<div id="app" tabindex="-1"></div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#beranda">NGAJI<b>KIDS</b></a>
+        <p>NGAJI KIDS hanya mempertemukan orang tua dan pengajar mengaji. Jadwal, tempat, dan biaya disepakati langsung. Kami tidak memproses pembayaran.</p>
+      </div>
+      <div><h4>Jelajahi</h4><nav><a href="#cari">Cari guru</a><a href="#daftar-pengajar">Jadi pengajar</a><a href="#masuk">Masuk</a></nav></div>
+      <div><h4>Kebijakan</h4><nav><a href="#privasi">Kebijakan Privasi</a><a href="#syarat">Syarat Penggunaan</a></nav></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 NGAJI KIDS</span><span class="ar" lang="ar" dir="rtl">جَزَاكُمُ اللّٰهُ خَيْرًا</span></div>
+  </div>
+</footer>
+
+<nav class="tabbar" id="tabbar" aria-label="Navigasi bawah"></nav>
+<div id="toasts" aria-live="polite"></div>
+
+<!-- 1. Isi kunci Supabase di config.js. Kosong = mode demo dengan data contoh. -->
+<script src="config.js"></script>
+<script src="assets/vendor/supabase.js"></script>
+<script src="assets/art.js"></script>
+<script src="assets/data-supabase.js"></script>
+<script src="assets/data-demo.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

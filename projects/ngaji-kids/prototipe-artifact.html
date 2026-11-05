@@ -1,0 +1,1476 @@
+<title>NGAJI KIDS</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Baloo+2:wght@600;700;800&family=Nunito:wght@500;600;700;800&display=swap">
+<style>/* NGAJI KIDS — "Mihrab & stiker": lengkung jendela masjid, motif bintang delapan,
+   kartu stiker bersudut bulat, pita hijau-lime yang ceria. */
+:root {
+  --bg: #F3F7EF; --surface: #FFFFFF; --surface2: #E9F2E2; --ink: #10302A; --muted: #4F665C; --line: #D3E2D0;
+  --emerald: #0E5E45; --emerald2: #13785A; --on-emerald: #FFFFFF; --lime: #C8EE5A; --on-lime: #173B10;
+  --gold: #F2B33D; --on-gold: #3D2600; --plum: #5B3FA8; --rose: #D9486E; --sky: #2D7DD2;
+  --wa: #1A9E55; --danger: #C9374F; --pat: #0E5E45; --pat-o: .07; --shadow: 0 10px 30px -12px rgba(14, 60, 40, .25);
+  --t0bg: #DDF3E6; --t0: #0E6B48; --t1bg: #ECE6FF; --t1: #4B32A0; --t2bg: #FFE3EA; --t2: #A62D52; --t3bg: #FFF0C7; --t3: #7A4E00;
+  --f-display: "Baloo 2", "Nunito", system-ui, sans-serif;
+  --f-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-arab: "Amiri", "Scheherazade New", "Traditional Arabic", serif;
+  --r: 22px; --r-lg: 34px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #091B16; --surface: #0F2A21; --surface2: #15372B; --ink: #E7F3EC; --muted: #A2BDAF; --line: #234A3C;
+  --emerald: #1F9C71; --emerald2: #22B07F; --on-emerald: #FFFFFF; --lime: #C8EE5A; --on-lime: #173B10;
+  --gold: #F5C04A; --on-gold: #3D2600; --plum: #A08BFF; --rose: #FF7FA0; --sky: #6FB2FF;
+  --wa: #22B463; --danger: #FF6B83; --pat: #8FE0B9; --pat-o: .06; --shadow: 0 10px 30px -12px rgba(0, 0, 0, .6);
+  --t0bg: #173F2F; --t0: #8FE6BC; --t1bg: #2A2450; --t1: #C9BDFF; --t2bg: #45202D; --t2: #FFB3C6; --t3bg: #3E3112; --t3: #FFD877;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #091B16; --surface: #0F2A21; --surface2: #15372B; --ink: #E7F3EC; --muted: #A2BDAF; --line: #234A3C;
+  --emerald: #1F9C71; --emerald2: #22B07F; --on-emerald: #FFFFFF; --lime: #C8EE5A; --on-lime: #173B10;
+  --gold: #F5C04A; --on-gold: #3D2600; --plum: #A08BFF; --rose: #FF7FA0; --sky: #6FB2FF;
+  --wa: #22B463; --danger: #FF6B83; --pat: #8FE0B9; --pat-o: .06; --shadow: 0 10px 30px -12px rgba(0, 0, 0, .6);
+  --t0bg: #173F2F; --t0: #8FE6BC; --t1bg: #2A2450; --t1: #C9BDFF; --t2bg: #45202D; --t2: #FFB3C6; --t3bg: #3E3112; --t3: #FFD877;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--surface); }
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.15; text-wrap: balance; margin: 0; letter-spacing: -.01em; }
+h1 { font-size: clamp(30px, 4.6vw, 52px); font-weight: 800; }
+h2 { font-size: clamp(24px, 3vw, 34px); font-weight: 800; }
+h3 { font-size: 20px; font-weight: 700; }
+p { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; }
+mark { background: var(--lime); color: var(--on-lime); padding: 0 .28em; border-radius: .4em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 8px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+.mono { font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.ic { flex: none; }
+
+/* Motif bintang delapan (khatam) sebagai latar — warnanya mengikuti token --pat */
+.pattern { position: relative; isolation: isolate; }
+.pattern::before { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none; background: var(--pat); opacity: var(--pat-o);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cpolygon points='28,10 33.2,15.5 40.7,15.3 40.5,22.8 46,28 40.5,33.2 40.7,40.7 33.2,40.5 28,46 22.8,40.5 15.3,40.7 15.5,33.2 10,28 15.5,22.8 15.3,15.3 22.8,15.5' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M0 0L10 10M56 0L46 10M0 56L10 46M56 56L46 46' stroke='black' stroke-width='2'/%3E%3C/svg%3E") 0 0/56px 56px repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cpolygon points='28,10 33.2,15.5 40.7,15.3 40.5,22.8 46,28 40.5,33.2 40.7,40.7 33.2,40.5 28,46 22.8,40.5 15.3,40.7 15.5,33.2 10,28 15.5,22.8 15.3,15.3 22.8,15.5' fill='none' stroke='black' stroke-width='2'/%3E%3Cpath d='M0 0L10 10M56 0L46 10M0 56L10 46M56 56L46 46' stroke='black' stroke-width='2'/%3E%3C/svg%3E") 0 0/56px 56px repeat; }
+
+/* ---------- tombol & elemen kecil ---------- */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px;
+  background: var(--emerald); color: var(--on-emerald); font: 700 16px/1.1 var(--f-display); text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: transform .15s, box-shadow .15s, background .15s; box-shadow: 0 4px 0 color-mix(in srgb, var(--emerald) 60%, #000); }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(2px); box-shadow: 0 1px 0 color-mix(in srgb, var(--emerald) 60%, #000); }
+.btn:disabled { opacity: .6; cursor: progress; }
+.btn.sm { min-height: 40px; padding: 8px 16px; font-size: 15px; box-shadow: none; }
+.btn.block { width: 100%; }
+.btn.ghost { background: var(--surface); color: var(--ink); border: 2px solid var(--line); box-shadow: none; }
+.btn.ghost:hover { border-color: var(--emerald); }
+.btn.gold { background: var(--gold); color: var(--on-gold); box-shadow: 0 4px 0 color-mix(in srgb, var(--gold) 55%, #000); }
+.btn.dark { background: var(--ink); color: var(--bg); box-shadow: none; }
+.btn.wa { background: var(--wa); color: #fff; box-shadow: 0 4px 0 color-mix(in srgb, var(--wa) 60%, #000); }
+.btn.danger { background: var(--danger); color: #fff; box-shadow: none; }
+.btn.sm.gold, .btn.sm.wa { box-shadow: none; }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--emerald2); font: inherit; text-decoration: underline; cursor: pointer; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px; border: 2px solid var(--line); background: var(--surface); color: var(--ink);
+  font: 700 14px/1.2 var(--f-body); text-decoration: none; cursor: pointer; white-space: nowrap; }
+.chip.on { background: var(--emerald); border-color: var(--emerald); color: var(--on-emerald); }
+.chip.ghost { background: transparent; }
+.tag { display: inline-block; padding: 3px 11px; border-radius: 999px; font-weight: 800; font-size: 13px; background: var(--t0bg); color: var(--t0); }
+.tag.t1 { background: var(--t1bg); color: var(--t1); } .tag.t2 { background: var(--t2bg); color: var(--t2); } .tag.t3 { background: var(--t3bg); color: var(--t3); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 800; }
+.badge.ver { background: var(--t3bg); color: var(--t3); }
+.pill { display: inline-block; padding: 5px 14px; border-radius: 999px; background: var(--ink); color: var(--lime); font: 700 14px var(--f-display); letter-spacing: .04em; text-transform: uppercase; }
+
+/* ---------- header ---------- */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 16px; min-height: 70px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font: 800 22px/1 var(--f-display); letter-spacing: .02em; color: var(--emerald); }
+.brand b { color: var(--ink); font-weight: 800; margin-left: 3px; }
+.nav { display: flex; gap: 4px; margin: 0 auto; padding: 5px; background: var(--surface2); border-radius: 999px; }
+.nav a { padding: 8px 16px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 15px; color: var(--muted); }
+.nav a:hover { color: var(--ink); }
+.nav a.on { background: var(--surface); color: var(--ink); box-shadow: 0 2px 8px -4px rgba(0, 0, 0, .25); }
+.navcta { display: flex; gap: 8px; }
+.demoflag { padding: 3px 10px; border-radius: 999px; background: var(--gold); color: var(--on-gold); font: 800 12px var(--f-display); letter-spacing: .05em; text-transform: uppercase; }
+
+/* tab bar HP */
+.tabbar { display: none; }
+@media (max-width: 860px) {
+  .nav, .hide-sm { display: none; }
+  .navcta { margin-left: auto; }
+  .tabbar { display: grid; grid-template-columns: repeat(4, 1fr); position: fixed; z-index: 55; left: 0; right: 0; bottom: 0;
+    padding: 6px max(10px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(10px, env(safe-area-inset-left, 0px));
+    background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -8px 24px -16px rgba(0, 0, 0, .3); }
+  .tabbar a { display: grid; justify-items: center; gap: 2px; padding: 6px 0; border-radius: 16px; text-decoration: none; color: var(--muted); font: 700 12px var(--f-body); }
+  .tabbar a.on { color: var(--emerald); background: var(--surface2); }
+  body { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* ---------- beranda ---------- */
+.hero { --pat-o: .05; overflow: hidden; }
+.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 40px; align-items: center; padding-block: 48px 24px; }
+.bismillah { font: 700 26px/1.6 var(--f-arab); color: var(--emerald2); margin-bottom: 8px; }
+.hero h1 { margin-bottom: 16px; }
+.lead { font-size: 18px; color: var(--muted); max-width: 52ch; margin-bottom: 26px; }
+.searchbar { display: flex; gap: 8px; padding: 8px; background: var(--surface); border-radius: 999px; box-shadow: var(--shadow); border: 1px solid var(--line); max-width: 620px; }
+.sb-field { flex: 1; display: flex; align-items: center; gap: 8px; padding: 0 14px; min-width: 0; color: var(--muted); }
+.sb-field + .sb-field { border-left: 1px solid var(--line); }
+.sb-field input, .sb-field select { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--ink); font: 600 16px var(--f-body); padding: 10px 0; outline: none; }
+.quick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; color: var(--muted); font-weight: 700; font-size: 14px; }
+.hero-visual { position: relative; max-width: 520px; justify-self: center; width: 100%; }
+.hero-art { width: 100%; height: auto; display: block; }
+.lantern { transform-origin: top center; animation: sway 5s ease-in-out infinite; transform-box: fill-box; }
+.lantern.l2 { animation-delay: -2s; }
+@keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+.float-note { position: absolute; display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-radius: 18px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow); font-weight: 700; font-size: 15px; border: 1px solid var(--line); }
+.float-note.n1 { left: -4%; top: 52%; transform: rotate(-4deg); }
+.float-note.n1 .ic { color: var(--emerald2); }
+.float-note.n2 { right: -2%; top: 14%; background: var(--lime); color: var(--on-lime); border: 0; transform: rotate(5deg); }
+
+.ayat { text-align: center; padding-block: 28px; }
+.ar { font: 700 clamp(28px, 4vw, 44px)/1.8 var(--f-arab); color: var(--emerald2); }
+.ar.small { font-size: 26px; }
+.tr { color: var(--muted); font-style: italic; }
+.tr span { display: inline-block; font-style: normal; font-weight: 800; font-size: 13px; color: var(--emerald2); margin-left: 6px; letter-spacing: .03em; }
+
+.panel { background: var(--emerald); color: var(--on-emerald); border-radius: var(--r-lg); padding: clamp(24px, 4vw, 48px); --pat: #fff; --pat-o: .08; }
+.panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 8px 24px; margin-bottom: 32px; }
+.panel-head p { opacity: .85; }
+.stickers { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 22px 18px; }
+.sticker { position: relative; display: grid; gap: 4px; align-content: start; text-align: left; padding: 22px 18px 18px; border: 0; border-radius: 26px; background: var(--surface); color: var(--ink);
+  cursor: pointer; font: inherit; box-shadow: 0 14px 28px -14px rgba(0, 0, 0, .45); transition: transform .2s; }
+.sticker:nth-child(odd) { transform: rotate(-2deg); } .sticker:nth-child(even) { transform: rotate(1.5deg) translateY(10px); }
+.sticker:hover { transform: rotate(0) translateY(-4px); }
+.sticker b { font: 800 19px/1.2 var(--f-display); }
+.sticker small { color: var(--muted); font-size: 14px; line-height: 1.35; }
+.st-ic { width: 64px; height: 64px; margin-bottom: 6px; }
+.st-ic svg { width: 100%; height: 100%; }
+.sticker .count { justify-self: start; margin-top: 10px; padding: 3px 10px; border-radius: 999px; background: var(--ink); color: var(--bg); font-size: 12px; font-weight: 800; }
+.clipwrap { position: absolute; top: -18px; right: 22px; width: 18px; color: color-mix(in srgb, var(--muted) 70%, var(--surface)); }
+.clipwrap svg { width: 18px; height: 42px; display: block; }
+
+.sec { padding-block: 56px 0; }
+.sec-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+
+/* kartu pengajar */
+.tcard { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: 10px; transition: transform .2s, box-shadow .2s; min-width: 0; }
+.tcard:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.tc-top { position: relative; height: 150px; border-radius: 22px; background: var(--surface2); display: grid; place-items: end center; overflow: hidden; }
+.tc-arch { width: 118px; height: 136px; border-radius: 999px 999px 0 0; overflow: hidden; background: var(--gold); padding: 5px 5px 0; }
+.tc-arch .av { width: 100%; height: 100%; border-radius: 999px 999px 0 0; }
+.av { display: block; overflow: hidden; object-fit: cover; background: var(--surface2); }
+.av svg { width: 100%; height: 100%; display: block; }
+.tc-chips { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; }
+.tc-chips .chip { padding: 3px 10px; font-size: 12px; border-width: 1px; }
+.fav { position: absolute; top: 8px; right: 8px; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; border: 0; background: var(--surface); color: var(--muted); cursor: pointer; }
+.fav.on, [data-fav][aria-pressed="true"] .ic { color: var(--rose); }
+.fav.on .ic, [data-fav][aria-pressed="true"] .ic { fill: currentColor; }
+.tc-body { display: grid; gap: 8px; padding: 14px 8px 6px; align-content: start; flex: 1; }
+.tc-body h3 { font-size: 19px; }
+.loc { display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 14px; font-weight: 600; }
+.tc-body .badge { justify-self: start; }
+.mini { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 6px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); }
+.mini dt { font-size: 12px; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+.mini dd { margin: 0; font-weight: 800; font-size: 14px; }
+.tc-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 6px 4px 12px; }
+.who { font-weight: 800; color: var(--muted); font-size: 14px; }
+
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.steps li { position: relative; padding: 26px 22px 24px; border-radius: 26px; background: var(--surface); border: 1px solid var(--line); display: grid; gap: 8px; align-content: start; }
+.steps p { color: var(--muted); }
+.starbadge { position: relative; width: 60px; height: 60px; display: grid; place-items: center; margin-bottom: 6px; }
+.starbadge svg { position: absolute; inset: 0; fill: var(--lime); }
+.steps li:nth-child(2) .starbadge svg { fill: var(--gold); }
+.steps li:nth-child(3) .starbadge svg { fill: var(--t1bg); }
+.starbadge b { position: relative; font: 700 28px/1 var(--f-arab); color: var(--ink); }
+
+.band { margin-top: 56px; background: var(--lime); color: var(--on-lime); }
+.band-grid { display: grid; grid-template-columns: 1.3fr .7fr; gap: 24px; align-items: center; padding-block: 48px; }
+.band h2 { margin: 14px 0 18px; max-width: 20ch; }
+.band mark { background: var(--emerald); color: #fff; }
+.checks { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 10px; font-weight: 700; }
+.checks li { display: flex; gap: 10px; align-items: flex-start; }
+.checks .ic { margin-top: 3px; color: #0E5E45; }
+.band .btn.dark { background: #10302A; color: #fff; }
+.band-art { justify-self: center; }
+.band-mascot { width: min(280px, 60vw); height: auto; animation: bob 4s ease-in-out infinite; }
+@keyframes bob { 50% { transform: translateY(-10px); } }
+
+.safety { display: flex; gap: 18px; align-items: flex-start; padding: 24px; border-radius: 26px; background: var(--t3bg); color: var(--ink); }
+.safety h2 { font-size: 24px; margin-bottom: 6px; }
+.safety-ic { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 16px; background: var(--gold); color: var(--on-gold); }
+.safety.sm { padding: 18px; font-size: 15px; }
+.safety.sm .safety-ic { width: 42px; height: 42px; }
+
+.faq { display: grid; gap: 10px; max-width: 860px; }
+.faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 4px 20px; }
+.faq summary { list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 0; cursor: pointer; font: 700 18px/1.3 var(--f-display); }
+.faq summary::-webkit-details-marker { display: none; }
+.plus { flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--surface2); transition: transform .2s; }
+.faq details[open] .plus { transform: rotate(45deg); background: var(--lime); color: var(--on-lime); }
+.faq details p { padding: 0 0 16px; color: var(--muted); max-width: 70ch; }
+
+.cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 32px; padding: 32px clamp(24px, 4vw, 48px); border-radius: 999px; background: var(--emerald); color: #fff; --pat: #fff; --pat-o: .08; }
+.cta .ar { color: var(--lime); line-height: 1.3; }
+.cta h2 { max-width: 22ch; }
+.cta-form { display: flex; gap: 6px; padding: 6px; background: #fff; border-radius: 999px; flex: 0 1 380px; min-width: 0; }
+.cta-form input { flex: 1; min-width: 0; border: 0; padding: 0 16px; font: 600 16px var(--f-body); background: transparent; color: #10302A; outline: none; }
+.cta-form .btn { width: 48px; padding: 0; }
+
+/* ---------- footer ---------- */
+.foot { margin-top: 72px; padding-block: 40px 32px; background: var(--surface); border-top: 1px solid var(--line); }
+.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }
+.foot p { color: var(--muted); font-size: 15px; max-width: 46ch; margin-top: 10px; }
+.foot h4 { margin: 0 0 10px; font: 800 15px var(--f-display); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.foot nav { display: grid; gap: 6px; }
+.foot nav a { text-decoration: none; font-weight: 700; }
+.foot nav a:hover { color: var(--emerald2); }
+.foot-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.foot-bottom .ar { font-size: 20px; line-height: 1.4; }
+
+/* ---------- halaman umum ---------- */
+.page { padding-block: 32px 24px; }
+.page-head { margin-bottom: 18px; display: grid; gap: 6px; }
+.filters { display: flex; gap: 8px; padding: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); }
+.filter-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin: 18px 0 24px; }
+.chips-scroll { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; min-width: 0; max-width: 100%; }
+.chips-scroll::-webkit-scrollbar { display: none; }
+.segs { display: flex; gap: 10px; flex-wrap: wrap; }
+.seg { display: flex; padding: 4px; border-radius: 999px; background: var(--surface2); }
+.seg button { border: 0; background: transparent; padding: 7px 14px; border-radius: 999px; font: 700 14px var(--f-body); color: var(--muted); cursor: pointer; }
+.seg button.on { background: var(--surface); color: var(--ink); box-shadow: 0 2px 6px -3px rgba(0, 0, 0, .3); }
+.empty { display: grid; justify-items: center; gap: 10px; text-align: center; padding: 40px 20px; border-radius: 28px; background: var(--surface); border: 2px dashed var(--line); grid-column: 1 / -1; }
+.empty p { color: var(--muted); max-width: 44ch; }
+.empty-mascot { width: 120px; height: 120px; }
+.back { display: inline-block; margin-bottom: 16px; color: var(--muted); font-weight: 700; text-decoration: none; }
+
+.profile { display: grid; grid-template-columns: 360px 1fr; gap: 24px; align-items: start; }
+.p-side { position: sticky; top: 90px; display: grid; gap: 12px; justify-items: center; text-align: center; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 30px; }
+.p-arch { width: 200px; height: 240px; border-radius: 999px 999px 24px 24px; padding: 8px; background: var(--emerald); --pat: #fff; --pat-o: .14; }
+.p-arch .av { width: 100%; height: 100%; border-radius: 999px 999px 18px 18px; border: 4px solid var(--gold); }
+.p-arch.sm { width: 130px; height: 156px; flex: none; }
+.p-side h1 { font-size: 28px; }
+.p-badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.p-side .tags { justify-content: center; }
+.p-actions { width: 100%; display: grid; gap: 10px; margin-top: 8px; }
+.p-actions .btn.wa { width: 100%; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.row2 .btn { padding-inline: 10px; }
+.p-main { display: grid; gap: 18px; min-width: 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 26px; padding: 24px; min-width: 0; }
+.card h2 { font-size: 22px; margin-bottom: 12px; }
+.bio { font-size: 17px; max-width: 65ch; }
+.info { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px 24px; margin: 0; }
+.info dt { font-size: 13px; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.info dd { margin: 2px 0 0; font-weight: 700; }
+.sticky-cta { display: none; }
+
+/* ---------- form ---------- */
+.form { display: grid; gap: 14px; }
+.fld { display: grid; gap: 6px; font-weight: 700; font-size: 14px; min-width: 0; }
+.fld > span:first-child { color: var(--muted); }
+input, select, textarea { font: 500 16px var(--f-body); color: var(--ink); }
+.fld input, .fld select, .fld textarea, .modal input, .modal textarea { width: 100%; padding: 13px 16px; border: 2px solid var(--line); border-radius: 16px; background: var(--bg); color: var(--ink); outline: none; transition: border-color .15s; }
+.fld input:focus, .fld select:focus, .fld textarea:focus, .modal input:focus, .modal textarea:focus { border-color: var(--emerald2); background: var(--surface); }
+.pw { position: relative; display: block; }
+.pw input { padding-right: 50px; }
+.eye { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border: 0; background: transparent; color: var(--muted); cursor: pointer; border-radius: 12px; }
+.check { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; }
+.check input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--emerald); flex: none; }
+.msg { min-height: 1.4em; color: var(--muted); font-weight: 700; font-size: 15px; }
+.kv { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px dashed var(--line); }
+.kv span { color: var(--muted); }
+.kv b { word-break: break-all; text-align: right; }
+
+/* auth */
+.auth { display: grid; grid-template-columns: 1fr 1fr; min-height: calc(100vh - 70px); }
+.auth-art { display: grid; place-items: center; padding: 48px; background: var(--emerald); color: #fff; text-align: center; --pat: #fff; --pat-o: .1; }
+.auth-art > div { display: grid; gap: 14px; justify-items: center; max-width: 440px; }
+.auth-mascot { width: min(260px, 50vw); height: auto; animation: bob 4s ease-in-out infinite; }
+.auth-art .ar { color: var(--lime); font-size: clamp(24px, 3vw, 34px); }
+.auth-art .tr { color: rgba(255, 255, 255, .85); }
+.auth-art .tr span { color: var(--lime); }
+.auth-form { width: 100%; max-width: 520px; margin: 0 auto; padding: 48px max(16px, env(safe-area-inset-right, 0px)) 48px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 14px; align-content: center; }
+.tabs { display: grid; grid-template-columns: 1fr 1fr; padding: 5px; border-radius: 999px; background: var(--surface2); margin-bottom: 8px; }
+.tabs a { text-align: center; padding: 10px; border-radius: 999px; text-decoration: none; font: 700 16px var(--f-display); color: var(--muted); }
+.tabs a.on { background: var(--surface); color: var(--ink); box-shadow: 0 2px 8px -4px rgba(0, 0, 0, .3); }
+.roles { border: 0; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.roles legend { font-weight: 700; font-size: 14px; color: var(--muted); margin-bottom: 6px; padding: 0; }
+.role { position: relative; cursor: pointer; }
+.role input { position: absolute; opacity: 0; }
+.role span { display: grid; gap: 2px; padding: 14px; border-radius: 18px; border: 2px solid var(--line); background: var(--surface); height: 100%; }
+.role small { color: var(--muted); font-size: 13px; }
+.role input:checked + span { border-color: var(--emerald); background: var(--t0bg); }
+.role input:focus-visible + span { outline: 3px solid var(--gold); }
+.auth-links { text-align: center; font-weight: 700; }
+.auth-links a { color: var(--emerald2); }
+.demo-box { margin-top: 8px; padding: 16px; border-radius: 22px; background: var(--t3bg); display: grid; gap: 8px; }
+.demo-acc { display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto auto; align-items: center; text-align: left; gap: 0 10px; padding: 10px 14px; border: 0; border-radius: 16px; background: var(--surface); color: var(--ink); cursor: pointer; font: inherit; }
+.demo-acc b { font-family: var(--f-display); font-size: 16px; }
+.demo-acc small { grid-row: 2; color: var(--muted); }
+.demo-acc .ic { grid-row: 1 / 3; grid-column: 2; color: var(--emerald2); }
+.demo-acc:hover { outline: 2px solid var(--emerald2); }
+
+/* dashboard */
+.dash { display: grid; grid-template-columns: 260px 1fr; gap: 24px; padding-block: 28px 24px; align-items: start; }
+.dash-nav { position: sticky; top: 90px; display: grid; gap: 4px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; }
+.dash-me { display: flex; gap: 10px; align-items: center; padding: 4px 6px 14px; margin-bottom: 6px; border-bottom: 1px solid var(--line); min-width: 0; }
+.dash-me div { display: grid; min-width: 0; }
+.dash-me b { font-family: var(--f-display); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dash-me small { color: var(--muted); }
+.dash-nav a, .dash-nav .out { display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-radius: 16px; text-decoration: none; font-weight: 700; color: var(--muted); background: none; border: 0; font-size: 16px; font-family: var(--f-body); cursor: pointer; text-align: left; }
+.dash-nav a.on { background: var(--t3bg); color: var(--ink); }
+.dash-nav a:hover, .dash-nav .out:hover { color: var(--ink); }
+.dash-card { margin-top: 12px; padding: 16px; border-radius: 22px; background: var(--emerald); color: #fff; font-size: 14px; display: grid; justify-items: center; text-align: center; gap: 8px; --pat: #fff; --pat-o: .1; }
+.dash-card small { display: block; color: var(--lime); font-weight: 800; margin-top: 4px; }
+.dash-mascot { width: 90px; height: 90px; }
+.dash-main { display: grid; gap: 18px; min-width: 0; }
+.dash-head { display: grid; gap: 8px; }
+.dash-head h1 { font-size: clamp(28px, 3.4vw, 40px); }
+.cards2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.narrow { max-width: 480px; }
+.status-card { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px; border-radius: 22px; background: var(--t3bg); }
+.status-card.approved { background: var(--t0bg); }
+.status-card.rejected { background: var(--t2bg); }
+.status-card div { display: grid; }
+.status-card small { color: var(--muted); }
+.danger-zone { border-color: color-mix(in srgb, var(--danger) 40%, var(--line)); }
+.danger-zone .muted { margin-bottom: 14px; }
+.progress-card { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; padding: 16px 20px; border-radius: 22px; background: var(--surface); border: 1px solid var(--line); }
+.progress-card > div:nth-child(2) { display: grid; flex: 1; min-width: 180px; }
+.progress-card small { color: var(--muted); }
+.ring { --p: 0; width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--emerald2) calc(var(--p) * 1%), var(--surface2) 0); }
+.ring b { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 50%; background: var(--surface); font: 800 15px var(--f-display); font-variant-numeric: tabular-nums; }
+.st { font-weight: 800; }
+.st.approved { color: var(--emerald2); } .st.pending { color: var(--t3); } .st.rejected { color: var(--danger); }
+.pform { display: grid; gap: 18px; }
+.fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 14px; }
+.photo-row { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin-bottom: 18px; }
+.upload { flex: 1; min-width: 220px; position: relative; display: flex; gap: 12px; align-items: center; padding: 16px; border: 2px dashed var(--line); border-radius: 20px; cursor: pointer; color: var(--emerald2); }
+.upload:hover { border-color: var(--emerald2); }
+.upload span { display: grid; color: var(--ink); }
+.upload small { color: var(--muted); }
+.upload input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.chipset { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+.pick input { position: absolute; opacity: 0; }
+.pick span { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px 8px 10px; border-radius: 999px; border: 2px solid var(--line); background: var(--surface); font-weight: 700; cursor: pointer; }
+.pick span svg { width: 28px; height: 28px; }
+.pick input:checked + span { border-color: var(--emerald); background: var(--t0bg); }
+.pick input:focus-visible + span { outline: 3px solid var(--gold); }
+.sub { font-size: 16px; margin: 14px 0 10px; }
+.savebar { position: sticky; bottom: 12px; display: flex; justify-content: flex-end; align-items: center; gap: 14px; padding: 10px 10px 10px 20px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.stat { padding: 18px; border-radius: 22px; background: var(--t0bg); display: grid; }
+.stat b { font: 800 36px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-weight: 700; font-size: 14px; margin-top: 6px; }
+.stat.s0 { background: var(--t3bg); } .stat.s2 { background: var(--t2bg); } .stat.s3 { background: var(--t1bg); }
+.sec-t { font-size: 22px; margin-top: 10px; }
+.arow { display: grid; grid-template-columns: 64px 1fr auto; gap: 16px; align-items: start; }
+.arow > .av { width: 64px; height: 64px; border-radius: 18px; }
+.arow-body { display: grid; gap: 4px; min-width: 0; }
+.arow-body small { color: var(--muted); }
+.arow-act { display: flex; flex-direction: column; gap: 8px; align-items: stretch; }
+
+/* hukum */
+.legal-head { padding: 32px; border-radius: 30px; background: var(--emerald); color: #fff; display: grid; gap: 10px; justify-items: start; margin-bottom: 24px; --pat: #fff; --pat-o: .08; }
+.legal-head p { max-width: 75ch; opacity: .9; font-size: 15px; }
+.legal-head .chip { background: var(--lime); color: var(--on-lime); border: 0; }
+.legal-grid { display: grid; grid-template-columns: 260px 1fr; gap: 32px; align-items: start; }
+.toc { position: sticky; top: 90px; display: grid; gap: 2px; padding: 12px; border-radius: 22px; background: var(--surface); border: 1px solid var(--line); }
+.toc a { padding: 7px 12px; border-radius: 12px; text-decoration: none; color: var(--muted); font-weight: 700; font-size: 14px; }
+.toc a:hover { background: var(--surface2); color: var(--ink); }
+.prose { max-width: 70ch; min-width: 0; }
+.prose h2 { font-size: 22px; margin: 28px 0 8px; scroll-margin-top: 90px; }
+.prose h2:first-child { margin-top: 0; }
+.prose p, .prose li { color: var(--ink); }
+.prose ul { padding-left: 20px; display: grid; gap: 6px; margin: 8px 0; }
+mark.todo { background: var(--t3bg); color: var(--t3); font-weight: 700; }
+
+/* modal & toast */
+.modal-wrap { position: fixed; inset: 0; z-index: 90; display: grid; place-items: center; padding: 16px; background: rgba(5, 20, 15, .55); animation: fade .2s; }
+.modal-wrap.out { opacity: 0; transition: opacity .2s; }
+.modal { position: relative; width: min(460px, 100%); max-height: 90vh; overflow: auto; display: grid; gap: 14px; padding: 28px 24px 24px; border-radius: 30px; background: var(--surface); box-shadow: var(--shadow); animation: pop .25s; }
+.modal h2 { font-size: 24px; padding-right: 36px; }
+.modal .x { position: absolute; top: 14px; right: 14px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--surface2); color: var(--ink); cursor: pointer; display: grid; place-items: center; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes pop { from { transform: translateY(16px) scale(.97); opacity: 0; } }
+#toasts { position: fixed; z-index: 95; left: 50%; transform: translateX(-50%); bottom: calc(24px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 8px; width: min(420px, calc(100% - 32px)); }
+.toast { padding: 14px 18px; border-radius: 18px; background: var(--ink); color: var(--bg); font-weight: 700; box-shadow: var(--shadow); animation: pop .25s; transition: opacity .4s, transform .4s; }
+.toast.err { background: var(--danger); color: #fff; }
+.toast.info { background: var(--gold); color: var(--on-gold); }
+.toast.out { opacity: 0; transform: translateY(8px); }
+#app.loading { opacity: .5; transition: opacity .2s .1s; }
+
+/* ---------- responsif ---------- */
+@media (max-width: 1000px) {
+  .profile { grid-template-columns: 1fr; }
+  .p-side { position: static; }
+  .dash { grid-template-columns: 1fr; }
+  .dash-nav { position: static; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+  .dash-me { grid-column: 1 / -1; }
+  .dash-card { display: none; }
+  .legal-grid { grid-template-columns: 1fr; }
+  .toc { position: static; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 860px) {
+  .hero-grid { grid-template-columns: 1fr; padding-block: 24px 8px; gap: 12px; }
+  .hero-visual { order: -1; max-width: 300px; }
+  .float-note { font-size: 13px; padding: 9px 12px; }
+  .float-note.n1 { left: -2%; }
+  .steps { grid-template-columns: 1fr; }
+  .band-grid { grid-template-columns: 1fr; }
+  .band-art { order: -1; }
+  .band-mascot { width: 160px; }
+  .foot-grid { grid-template-columns: 1fr 1fr; }
+  .foot-grid > :first-child { grid-column: 1 / -1; }
+  .foot { margin-top: 48px; }
+  .auth { grid-template-columns: 1fr; min-height: 0; }
+  .auth-art { padding: 28px 16px; }
+  .auth-art > div { gap: 4px; }
+  .auth-mascot { width: 110px; }
+  .auth-form { padding-block: 24px; }
+  .sticky-cta { display: block; position: fixed; z-index: 54; left: 0; right: 0; bottom: calc(68px + env(safe-area-inset-bottom, 0px)); padding: 10px max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)); background: linear-gradient(transparent, var(--bg) 35%); }
+  .sticky-cta .btn { width: 100%; }
+  .p-actions .btn.wa { display: none; }
+  .page { padding-bottom: 80px; }
+  .savebar { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+  #toasts { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (max-width: 600px) {
+  body { font-size: 15px; }
+  .searchbar, .filters { flex-direction: column; border-radius: 26px; }
+  .sb-field { padding: 4px 12px; border-radius: 16px; background: var(--bg); }
+  .sb-field + .sb-field { border-left: 0; }
+  .searchbar .btn, .filters .btn { width: 100%; }
+  .stickers { grid-template-columns: 1fr 1fr; gap: 22px 12px; }
+  .sticker { padding: 18px 14px 14px; }
+  .sticker small { display: none; }
+  .st-ic { width: 52px; height: 52px; }
+  .cta { border-radius: 30px; }
+  .cta-form { flex-basis: 100%; }
+  .grid3, .grid2 { grid-template-columns: 1fr; }
+  .roles { grid-template-columns: 1fr; }
+  .arow { grid-template-columns: 48px 1fr; }
+  .arow > .av, .arow > .safety-ic { width: 48px; height: 48px; }
+  .arow-act { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; }
+  .card { padding: 18px; }
+  .p-arch { width: 160px; height: 192px; }
+  .segs { width: 100%; }
+  .seg { flex: 1; } .seg button { flex: 1; padding-inline: 6px; }
+  .savebar { border-radius: 24px; }
+  .foot-grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+
+<a class="sr" href="#app">Langsung ke isi</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" id="brand" href="#beranda" aria-label="NGAJI KIDS, beranda"></a>
+    <span class="demoflag" id="demoflag" hidden title="config.js belum diisi: memakai data contoh">Demo</span>
+    <nav class="nav" id="navlinks" aria-label="Menu utama"></nav>
+    <div class="navcta" id="navcta"></div>
+  </div>
+</header>
+
+<div id="app" tabindex="-1"></div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#beranda">NGAJI<b>KIDS</b></a>
+        <p>NGAJI KIDS hanya mempertemukan orang tua dan pengajar mengaji. Jadwal, tempat, dan biaya disepakati langsung. Kami tidak memproses pembayaran.</p>
+      </div>
+      <div><h4>Jelajahi</h4><nav><a href="#cari">Cari guru</a><a href="#daftar-pengajar">Jadi pengajar</a><a href="#masuk">Masuk</a></nav></div>
+      <div><h4>Kebijakan</h4><nav><a href="#privasi">Kebijakan Privasi</a><a href="#syarat">Syarat Penggunaan</a></nav></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 NGAJI KIDS</span><span class="ar" lang="ar" dir="rtl">جَزَاكُمُ اللّٰهُ خَيْرًا</span></div>
+  </div>
+</footer>
+
+<nav class="tabbar" id="tabbar" aria-label="Navigasi bawah"></nav>
+<div id="toasts" aria-live="polite"></div>
+
+
+<script>window.NGAJI_CONFIG = {}; window.NK_LEGAL_MD = "Draf awal. Terakhir diperbarui: [tanggal]. Ganti semua teks dalam tanda kurung siku sebelum dipublikasikan, dan mintalah advokat atau konsultan hukum meninjaunya. Draf ini disusun mengacu pada UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi dan UU ITE, tetapi bukan nasihat hukum.\n\n## Bagian A. Kebijakan Privasi\n\n### 1. Siapa kami\nNGAJI KIDS adalah platform yang mempertemukan orang tua dengan pengajar mengaji (ustadz dan ustadzah). Pengelolanya adalah [nama pengelola atau badan], beralamat di [kota], kontak [email]. Kami bertindak sebagai pengendali data pribadi.\n\n### 2. Data yang kami kumpulkan\n- **Semua pengguna:** nama, alamat email, kata sandi (disimpan dalam bentuk terenkripsi oleh penyedia autentikasi), dan waktu persetujuan Anda atas dokumen ini.\n- **Pengajar:** foto profil, kota dan kecamatan, jenis kelamin, pendidikan, pengalaman, sanad atau ijazah, jadwal, usia murid yang dilayani, kontak (WhatsApp, email, media sosial), serta dokumen ijazah atau identitas untuk verifikasi.\n- **Orang tua:** nama dan email. Kami tidak meminta nama, foto, atau data pribadi anak.\n- **Laporan:** alasan laporan yang Anda kirim tentang suatu profil.\n- **Data teknis:** data log dasar seperti alamat IP dan jenis perangkat untuk keamanan dan perbaikan layanan.\n\n### 3. Untuk apa data digunakan\nUntuk membuat dan mengelola akun, menampilkan profil pengajar, memungkinkan orang tua menghubungi pengajar, memverifikasi pengajar, menangani laporan penyalahgunaan, menjaga keamanan layanan, dan memenuhi kewajiban hukum. Kami tidak menjual data Anda dan tidak menggunakannya untuk iklan.\n\n### 4. Siapa yang dapat melihat data Anda\n- **Publik:** profil pengajar yang sudah disetujui (nama, foto, wilayah, jenis ajaran, pendidikan, pengalaman, sanad, jadwal). Nomor WhatsApp dan email pengajar tidak ditampilkan di halaman publik.\n- **Pengguna yang sudah masuk:** kontak pengajar, saat orang tua menekan tombol hubungi.\n- **Admin NGAJI KIDS:** data akun, dokumen verifikasi, dan laporan, hanya untuk keperluan verifikasi dan moderasi.\n- **Penyedia layanan teknis:** [Supabase untuk basis data dan penyimpanan, Netlify untuk hosting], yang memproses data atas nama kami.\n- **Pihak berwenang:** bila diwajibkan oleh hukum.\n\nPerlu Anda ketahui: setelah orang tua menghubungi pengajar lewat WhatsApp, percakapan berlangsung di luar NGAJI KIDS dan tunduk pada kebijakan WhatsApp serta kesepakatan kedua pihak.\n\n### 5. Dokumen verifikasi\nDokumen ijazah atau identitas disimpan privat, hanya dapat dibuka oleh pemilik dan admin, dan tidak pernah ditampilkan ke publik. [Tentukan: dokumen dihapus X hari setelah verifikasi selesai.]\n\n### 6. Penyimpanan dan keamanan\nData disimpan di server penyedia layanan kami dengan pembatasan akses per akun. Kami menerapkan langkah keamanan yang wajar, tetapi tidak ada sistem yang sepenuhnya bebas risiko. Jika terjadi kegagalan pelindungan data pribadi, kami akan memberi tahu pengguna terdampak dan pihak berwenang sesuai ketentuan hukum.\n\n### 7. Lama penyimpanan\nData akun disimpan selama akun aktif. Jika Anda menghapus akun, data profil dihapus dalam [30] hari, kecuali data yang wajib kami simpan menurut hukum atau untuk menangani laporan yang masih berjalan.\n\n### 8. Hak Anda\nAnda berhak mengakses, memperbaiki, memperbarui, menghapus, dan menarik persetujuan atas data pribadi Anda, serta mengajukan keberatan atas pemrosesannya. Sebagian dapat Anda lakukan sendiri di halaman akun. Untuk permintaan lain, hubungi [email]. Kami menjawab dalam waktu [14] hari kerja.\n\n### 9. Anak\nLayanan ini ditujukan bagi orang tua atau wali dan pengajar berusia 18 tahun ke atas. Anak tidak membuat akun sendiri. Pengajar tidak boleh meminta atau mempublikasikan data pribadi anak di NGAJI KIDS.\n\n### 10. Perubahan kebijakan\nPerubahan penting akan kami umumkan di situs dan, bila perlu, lewat email. Menggunakan layanan setelah perubahan berarti Anda menerima kebijakan yang diperbarui.\n\n## Bagian B. Syarat Penggunaan\n\n### 1. Tentang layanan\nNGAJI KIDS hanya mempertemukan orang tua dengan pengajar. Kami bukan penyelenggara kelas, bukan pihak dalam kesepakatan mengajar, dan tidak memproses pembayaran. Jadwal, tempat, dan biaya disepakati langsung antara orang tua dan pengajar.\n\n### 2. Akun\n- Anda harus berusia 18 tahun ke atas dan memberikan data yang benar.\n- Satu orang satu akun. Jaga kerahasiaan kata sandi Anda. Setiap aktivitas di akun menjadi tanggung jawab Anda.\n- Hanya Anda yang dapat mengubah data akun dan profil Anda. Jika Anda menduga akun disalahgunakan, segera ubah kata sandi dan hubungi kami.\n\n### 3. Kewajiban pengajar\n- Mengisi profil dengan jujur, termasuk pendidikan, pengalaman, dan sanad atau ijazah.\n- Tidak menampilkan atau mengklaim kualifikasi yang tidak dimiliki.\n- Bersikap sopan dan melindungi keselamatan serta kehormatan anak. Dilarang melakukan kekerasan fisik, verbal, atau seksual, serta eksploitasi dalam bentuk apa pun.\n- Tidak meminta pembayaran atas nama NGAJI KIDS dan tidak menggunakan kontak orang tua untuk keperluan di luar kesepakatan mengajar.\n\n### 4. Kewajiban orang tua\n- Menggunakan kontak pengajar hanya untuk keperluan mencari guru mengaji.\n- Tidak menyebarkan data pengajar atau menyalahgunakannya untuk pelecehan atau penagihan.\n- Memilih dan mengawasi pengajar dengan wajar.\n\n### 5. Keselamatan anak\nKami menyarankan pertemuan pertama didampingi orang tua atau dilakukan di tempat umum, meminta pengajar menunjukkan ijazah atau sanad, serta tidak mengirim uang sebelum kesepakatan jelas. Anak sebaiknya tidak ditinggalkan sendirian dengan pengajar yang belum dikenal. Jika terjadi dugaan tindak pidana terhadap anak, segera laporkan kepada pihak berwajib.\n\n### 6. Konten dan perilaku yang dilarang\nKonten yang melanggar hukum, menyesatkan, menyinggung SARA, mengandung pornografi, ujaran kebencian, atau ajakan kekerasan. Penipuan, penyamaran sebagai orang lain, peretasan, pengambilan data otomatis (scraping), dan spam juga dilarang.\n\n### 7. Verifikasi bukan jaminan\nBadge Terverifikasi berarti admin telah memeriksa dokumen yang dikirim pengajar pada saat itu. Badge ini bukan jaminan mutu, perilaku, atau keamanan pengajar. Orang tua tetap perlu menilai sendiri.\n\n### 8. Laporan dan tindakan kami\nSetiap profil memiliki tombol laporkan. Kami dapat menyembunyikan profil, menangguhkan atau menghapus akun, dan meneruskan informasi kepada pihak berwajib bila ada pelanggaran syarat ini atau dugaan pelanggaran hukum, tanpa pemberitahuan terlebih dahulu bila diperlukan demi keselamatan.\n\n### 9. Batas tanggung jawab\nSejauh diizinkan hukum, NGAJI KIDS tidak bertanggung jawab atas kerugian yang timbul dari hubungan atau kesepakatan antara orang tua dan pengajar, atau dari kebenaran informasi yang dimasukkan pengguna. Layanan disediakan sebagaimana adanya dan dapat terhenti sewaktu-waktu. Ketentuan ini tidak menghilangkan tanggung jawab yang menurut hukum tidak dapat dikecualikan.\n\n### 10. Hak kekayaan intelektual\nNama, logo, dan tampilan NGAJI KIDS milik [pengelola]. Konten yang Anda unggah tetap milik Anda, dan Anda memberi kami izin menampilkannya di layanan sesuai tujuan platform ini.\n\n### 11. Perubahan dan penghentian\nKami dapat mengubah syarat ini atau menghentikan layanan. Anda dapat menghapus akun kapan saja.\n\n### 12. Hukum yang berlaku\nSyarat ini tunduk pada hukum Republik Indonesia. Perselisihan diselesaikan secara musyawarah terlebih dahulu, dan bila tidak berhasil, melalui pengadilan negeri di [kota].\n\n## Bagian C. Daftar yang perlu dilengkapi (tidak ditampilkan)\n- Nama pengelola, alamat, dan email kontak.\n- Penyedia layanan teknis yang benar-benar dipakai.\n- Lama penyimpanan dokumen verifikasi dan data setelah akun dihapus.\n- Tinjauan oleh advokat, terutama bagian perlindungan anak dan batas tanggung jawab.\n- Pertimbangkan menunjuk petugas pelindungan data bila skala pengguna membesar.\n";</script>
+<script>/* NGAJI KIDS — ilustrasi SVG (tanpa file gambar eksternal).
+   Semua warna memakai variabel CSS agar ikut tema terang/gelap. */
+(function () {
+  // Bintang delapan (khatam) — motif geometri Islam
+  function star8(cx, cy, R, r) {
+    const pts = [];
+    for (let i = 0; i < 16; i++) {
+      const a = (Math.PI / 8) * i - Math.PI / 2;
+      const rad = i % 2 ? r : R;
+      pts.push((cx + rad * Math.cos(a)).toFixed(2) + "," + (cy + rad * Math.sin(a)).toFixed(2));
+    }
+    return pts.join(" ");
+  }
+
+  const logo = (size = 40) => `
+<svg width="${size}" height="${size}" viewBox="0 0 48 48" aria-hidden="true">
+  <polygon points="${star8(24, 24, 23, 18.5)}" fill="var(--emerald)"/>
+  <path d="M27.5 11.5a11 11 0 1 0 8.5 18 9 9 0 1 1-8.5-18z" fill="var(--gold)"/>
+  <path d="M13 31.5c3.5-1.6 7-1.6 11 .4 4-2 7.5-2 11-.4v3.2c-3.5-1.6-7-1.6-11 .4-4-2-7.5-2-11-.4z" fill="var(--lime)"/>
+</svg>`;
+
+  // Maskot: Si Hilal (bulan sabit) membaca Al-Qur'an di atas rehal
+  const mascot = (cls = "") => `
+<svg class="${cls}" viewBox="0 0 220 220" aria-hidden="true">
+  <defs>
+    <mask id="hilalMask"><rect width="220" height="220" fill="#fff"/><circle cx="142" cy="74" r="64" fill="#000"/></mask>
+    <linearGradient id="hilalG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD877"/><stop offset="1" stop-color="#F0A92A"/></linearGradient>
+  </defs>
+  <circle cx="108" cy="100" r="80" fill="url(#hilalG)" mask="url(#hilalMask)"/>
+  <ellipse cx="62" cy="96" rx="6" ry="8" fill="#2b1a05"/>
+  <ellipse cx="84" cy="112" rx="6" ry="8" fill="#2b1a05"/>
+  <circle cx="60" cy="93" r="2" fill="#fff"/><circle cx="82" cy="109" r="2" fill="#fff"/>
+  <path d="M60 130q12 12 26 2" stroke="#2b1a05" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="48" cy="118" rx="8" ry="5" fill="#FF8FA3" opacity=".7"/>
+  <ellipse cx="96" cy="138" rx="7" ry="4.5" fill="#FF8FA3" opacity=".7"/>
+  <!-- rehal -->
+  <path d="M58 206l64-44M162 206l-64-44" stroke="#8A5A2B" stroke-width="10" stroke-linecap="round"/>
+  <!-- mushaf terbuka -->
+  <path d="M60 150q50-18 50 6v34q-26-16-50-4z" fill="#fff"/>
+  <path d="M160 150q-50-18-50 6v34q26-16 50-4z" fill="#fff"/>
+  <path d="M60 150v36q24-12 50 4 26-16 50-4v-36" fill="none" stroke="var(--emerald)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M70 162q16-6 30 0M70 172q16-6 30 0M120 162q16-6 30 0M120 172q16-6 30 0" stroke="#9cc9b3" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="${star8(196, 34, 12, 6)}" fill="var(--lime)"/>
+  <polygon points="${star8(26, 40, 7, 3.5)}" fill="var(--gold)"/>
+</svg>`;
+
+  // Ilustrasi hero: jendela mihrab, lentera, dan Si Hilal
+  function hero() {
+    let tiles = "";
+    for (let y = 0; y < 8; y++) for (let x = 0; x < 8; x++)
+      tiles += `<polygon points="${star8(40 + x * 64 + (y % 2) * 32, 60 + y * 64, 20, 15)}"/>`;
+    return `
+<svg class="hero-art" viewBox="0 0 520 560" role="img" aria-label="Ilustrasi Si Hilal membaca Al-Qur'an di bawah jendela masjid">
+  <defs>
+    <clipPath id="archClip"><path d="M50 560V250a210 210 0 0 1 420 0v310z"/></clipPath>
+    <linearGradient id="archG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#13785A"/><stop offset="1" stop-color="#0A4A37"/></linearGradient>
+  </defs>
+  <path d="M-10 470C80 380 180 520 300 430S480 300 540 360" stroke="var(--lime)" stroke-width="64" fill="none" stroke-linecap="round"/>
+  <path d="M30 560V250a230 230 0 0 1 460 0v310z" fill="var(--gold)"/>
+  <path d="M50 560V250a210 210 0 0 1 420 0v310z" fill="url(#archG)"/>
+  <g clip-path="url(#archClip)" fill="none" stroke="#2FA57A" stroke-width="2" opacity=".55">${tiles}</g>
+  <g clip-path="url(#archClip)">
+    <circle cx="260" cy="300" r="150" fill="#1C8F69" opacity=".35"/>
+    <g class="lantern l1">
+      <line x1="150" y1="40" x2="150" y2="130" stroke="#F5C04A" stroke-width="3"/>
+      <path d="M134 130h32l6 14-6 44h-32l-6-44z" fill="#F5C04A"/>
+      <path d="M140 146h20l-3 34h-14z" fill="#FFF3C4"/>
+      <path d="M138 188h24l-12 16z" fill="#F5C04A"/>
+    </g>
+    <g class="lantern l2">
+      <line x1="370" y1="40" x2="370" y2="100" stroke="#F5C04A" stroke-width="3"/>
+      <path d="M356 100h28l5 12-5 38h-28l-5-38z" fill="#F5C04A"/>
+      <path d="M361 114h18l-3 28h-12z" fill="#FFF3C4"/>
+      <path d="M359 150h22l-11 14z" fill="#F5C04A"/>
+    </g>
+    <g transform="translate(130 250) scale(1.2)">${mascot().replace(/^\s*<svg[^>]*>|<\/svg>\s*$/g, "")}</g>
+  </g>
+  <polygon points="${star8(470, 90, 18, 8)}" fill="var(--lime)"/>
+  <polygon points="${star8(40, 170, 11, 5)}" fill="var(--gold)"/>
+  <polygon points="${star8(500, 250, 8, 4)}" fill="var(--gold)"/>
+</svg>`;
+  }
+
+  // Avatar ilustrasi untuk pengajar tanpa foto: peci untuk ustadz, kerudung untuk ustadzah
+  const AV_BG = ["#FFE08A", "#C9F0D8", "#D9CCFF", "#FFC9D6", "#BFE3FF", "#FFD9B0"];
+  const HIJAB = ["#5B3FA8", "#0E5E45", "#D9486E", "#1D6FB8", "#B9721D", "#6C7A2B"];
+  function avatar(gender, seed = 0) {
+    const bg = AV_BG[seed % AV_BG.length], hj = HIJAB[(seed * 7 + 3) % HIJAB.length];
+    const skin = ["#F6CFA8", "#E8B88E", "#D9A27A", "#F1C49C"][seed % 4];
+    const face = `
+      <ellipse cx="60" cy="62" rx="22" ry="24" fill="${skin}"/>
+      <ellipse cx="52" cy="62" rx="2.6" ry="3.4" fill="#2b1a05"/><ellipse cx="68" cy="62" rx="2.6" ry="3.4" fill="#2b1a05"/>
+      <path d="M53 73q7 6 14 0" stroke="#2b1a05" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <ellipse cx="46" cy="70" rx="4" ry="2.5" fill="#FF8FA3" opacity=".6"/><ellipse cx="74" cy="70" rx="4" ry="2.5" fill="#FF8FA3" opacity=".6"/>`;
+    const body = gender === "P"
+      ? `<path d="M60 26c-24 0-34 18-34 38 0 14 4 22 8 28H86c4-6 8-14 8-28 0-20-10-38-34-38z" fill="${hj}"/>
+         <path d="M14 124q4-38 46-38t46 38z" fill="${hj}"/>${face}
+         <path d="M37 58q2-24 23-24t23 24q-6-14-23-14t-23 14z" fill="${hj}"/>`
+      : `<path d="M14 124q4-36 46-36t46 36z" fill="#FDFBF5"/>
+         <path d="M52 88l8 12 8-12" fill="none" stroke="#C9B98F" stroke-width="3"/>
+         <rect x="53" y="80" width="14" height="10" fill="${skin}"/>
+         <ellipse cx="37" cy="64" rx="4" ry="6" fill="${skin}"/><ellipse cx="83" cy="64" rx="4" ry="6" fill="${skin}"/>${face}
+         <path d="M40 44q0-14 20-14t20 14v4H40z" fill="#1F2A2E"/>
+         <rect x="40" y="44" width="40" height="5" fill="#33454B"/>
+         <path d="M46 80q14 10 28 0q-2 8-14 9q-12-1-14-9z" fill="#3a2a1a" opacity=".55"/>`;
+    return `<svg viewBox="0 0 120 120" aria-hidden="true"><rect width="120" height="120" fill="${bg}"/>${body}</svg>`;
+  }
+
+  // Ikon jenis ajaran
+  const ICON = {
+    "Iqra": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M6 16q13-6 26 2v36q-13-8-26-2z" fill="#3BB37E"/><path d="M58 16q-13-6-26 2v36q13-8 26-2z" fill="#2B9A6A"/><path d="M10 19q10-4 20 2v28q-10-6-20-2z" fill="#fff"/><path d="M54 19q-10-4-20 2v28q10-6 20-2z" fill="#fff"/><text x="20" y="38" font-family="Amiri,serif" font-size="16" text-anchor="middle" fill="#0E5E45">ا</text><text x="44" y="38" font-family="Amiri,serif" font-size="16" text-anchor="middle" fill="#0E5E45">ب</text></svg>`,
+    "Tahsin": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 14h40a8 8 0 0 1 8 8v18a8 8 0 0 1-8 8H26l-12 10v-10H8a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#7C5CE0" transform="translate(4 0)"/><path d="M20 30q4-8 8 0t8 0 8 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/></svg>`,
+    "Tahfidz": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 56S6 40 6 22a13 13 0 0 1 26-3 13 13 0 0 1 26 3c0 18-26 34-26 34z" fill="#FF6F91"/><polygon points="${star8(32, 28, 11, 5)}" fill="#FFE08A"/></svg>`,
+    "Tajwid": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="4" y="10" width="26" height="22" rx="6" fill="#2FB36F"/><rect x="34" y="10" width="26" height="22" rx="6" fill="#3D8BFD"/><rect x="4" y="36" width="26" height="22" rx="6" fill="#F0503C"/><rect x="34" y="36" width="26" height="22" rx="6" fill="#F5B82E"/><text x="17" y="28" font-family="Amiri,serif" font-size="15" text-anchor="middle" fill="#fff">نّ</text><text x="47" y="28" font-family="Amiri,serif" font-size="15" text-anchor="middle" fill="#fff">قْ</text><text x="17" y="54" font-family="Amiri,serif" font-size="15" text-anchor="middle" fill="#fff">آ</text><text x="47" y="54" font-family="Amiri,serif" font-size="15" text-anchor="middle" fill="#fff">مّ</text></svg>`,
+    "Bahasa Arab": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="8" width="40" height="28" rx="10" fill="#F5B82E"/><path d="M10 36l-2 10 10-10z" fill="#F5B82E"/><rect x="22" y="28" width="40" height="26" rx="10" fill="#0E8A62"/><path d="M54 54l2 8-10-8z" fill="#0E8A62"/><text x="22" y="28" font-family="Amiri,serif" font-size="15" text-anchor="middle" fill="#4a3000">أهلا</text><text x="42" y="47" font-family="Amiri,serif" font-size="14" text-anchor="middle" fill="#fff">شكرا</text></svg>`,
+    "Doa Harian": `<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="30" r="20" fill="none" stroke="#8A5A2B" stroke-width="3" stroke-dasharray="0.1 7.2" stroke-linecap="round" style="stroke-width:7"/><path d="M32 50v8" stroke="#8A5A2B" stroke-width="4" stroke-linecap="round"/><circle cx="32" cy="60" r="3" fill="#F5B82E"/><path d="M38 20a10 10 0 1 0 4 14 8 8 0 1 1-4-14z" fill="#F5B82E"/></svg>`,
+    "Adab & Akhlak": `<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="26" fill="#C8EE5A"/><path d="M20 28a4 4 0 0 1 8 0M36 28a4 4 0 0 1 8 0" stroke="#0E5E45" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M20 38q12 12 24 0" stroke="#0E5E45" stroke-width="4" fill="none" stroke-linecap="round"/><polygon points="${star8(52, 12, 9, 4)}" fill="#F5B82E"/></svg>`,
+  };
+  const icon = (name) => ICON[name] || `<svg viewBox="0 0 64 64" aria-hidden="true"><polygon points="${star8(32, 32, 28, 20)}" fill="#3BB37E"/></svg>`;
+
+  const clip = `<svg class="clip" viewBox="0 0 24 56" aria-hidden="true"><path d="M8 50V12a5 5 0 0 1 10 0v34a8 8 0 0 1-16 0V16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>`;
+  const starBadge = (txt) => `<span class="starbadge"><svg viewBox="0 0 60 60" aria-hidden="true"><polygon points="${star8(30, 30, 29, 22)}"/></svg><b>${txt}</b></span>`;
+
+  // Ikon garis kecil untuk UI
+  const P = {
+    search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',
+    home: '<path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+    heart: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+    pin: '<path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+    arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    check: '<path d="m5 12 5 5 9-10"/>',
+    shield: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+    clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/>',
+    flag: '<path d="M5 21V4M5 4h12l-2 4 2 4H5"/>',
+    wa: '<path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.1z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8a4 4 0 0 1-2.1-2.1l.8-1-1-2z"/>',
+    out: '<path d="M15 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4M10 16l-4-4 4-4M6 12h10"/>',
+    edit: '<path d="M4 20h4L19 9l-4-4L4 16z"/>',
+    upload: '<path d="M12 16V4M7 9l5-5 5 5M4 20h16"/>',
+    x: '<path d="M6 6l12 12M18 6 6 18"/>',
+    filter: '<path d="M4 6h16M7 12h10M10 18h4"/>',
+    eye: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+    grid: '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    doc: '<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 13h6M9 17h6"/>',
+    trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>',
+  };
+  const i = (name, size = 20) => `<svg class="ic" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[name] || ""}</svg>`;
+
+  window.ART = { star8, logo, mascot, hero, avatar, icon, clip, starBadge, i };
+})();
+</script>
+<script>/* Mode DEMO: dipakai otomatis jika config.js belum diisi.
+   Data contoh disimpan di browser (localStorage) sehingga prototipe bisa dicoba tanpa Supabase.
+   Semua nama dan profil di sini adalah CONTOH, bukan orang sungguhan. */
+(function () {
+  if (window.NK_DATA) return; // Supabase sudah aktif
+  const KEY = "nk-demo-v1";
+  const SUBJ = ["Iqra", "Tahsin", "Tahfidz", "Tajwid", "Bahasa Arab", "Doa Harian", "Adab & Akhlak"].map((name, i) => ({ id: i + 1, name }));
+  const T = (id, user_id, full_name, gender, city, district, subjects, mode, extra) => ({
+    id, user_id, full_name, gender, city, district, subjects, mode, status: "approved", verified: true,
+    photo_url: null, fee_note: "Dibicarakan langsung", whatsapp: "6281200000000", email: "", social_url: "", document_url: null, ...extra,
+  });
+  const seed = () => ({
+    users: [
+      { id: "u-parent", email: "orangtua@contoh.id", full_name: "Bunda Aisyah (contoh)", role: "parent" },
+      { id: "u-teacher", email: "pengajar@contoh.id", full_name: "Ustadzah Nur Hasanah (contoh)", role: "teacher" },
+      { id: "u-admin", email: "admin@contoh.id", full_name: "Admin NGAJI KIDS", role: "admin" },
+    ],
+    teachers: [
+      T("t1", "u-teacher", "Ustadzah Nur Hasanah (contoh)", "P", "Jakarta Selatan", "Tebet", ["Iqra", "Tajwid", "Doa Harian"], ["offline", "online"], { bio: "Mengajar anak dengan metode bermain dan bernyanyi. Setiap anak punya buku prestasi kecil untuk ditempel bintang.", education: "S1 Pendidikan Agama Islam", experience: "6 tahun di TPA Al-Ikhlas", sanad: "Syahadah Tahsin Metode Ummi", schedule: "Senin–Jumat, 15.00–18.00", age_range: "4–10 tahun" }),
+      T("t2", "u-x2", "Ustadz Fadhil Rahman (contoh)", "L", "Bandung", "Coblong", ["Tahfidz", "Tahsin"], ["offline"], { bio: "Hafidz 30 juz. Fokus murojaah yang menyenangkan dan target hafalan yang realistis untuk anak.", education: "Pondok Tahfidz Darul Qur'an", experience: "8 tahun membimbing tahfidz anak", sanad: "Sanad Hafs 'an 'Ashim", schedule: "Sabtu–Ahad, 07.00–11.00", age_range: "7–14 tahun", fee_note: "Mulai Rp150.000/bulan" }),
+      T("t3", "u-x3", "Ustadzah Salma Azzahra (contoh)", "P", "Depok", "Beji", ["Bahasa Arab", "Adab & Akhlak"], ["online"], { bio: "Belajar kosakata Arab lewat kartu bergambar dan lagu. Kelas online 30 menit agar anak tetap fokus.", education: "S1 Sastra Arab", experience: "4 tahun guru Bahasa Arab SD", sanad: "-", schedule: "Senin, Rabu, Jumat 19.00–20.30", age_range: "6–12 tahun", verified: false }),
+      T("t4", "u-x4", "Ustadz Hamzah Al-Faruq (contoh)", "L", "Surabaya", "Wonokromo", ["Iqra", "Tajwid", "Tahsin"], ["offline", "online"], { bio: "Sabar menghadapi anak yang baru mengenal huruf hijaiyah. Bisa datang ke rumah wilayah Surabaya selatan.", education: "D3 Ilmu Al-Qur'an", experience: "5 tahun ustadz TPQ", sanad: "Syahadah Metode Qiroati", schedule: "Setiap hari ba'da Ashar", age_range: "4–9 tahun" }),
+      T("t5", "u-x5", "Ustadzah Khadijah Putri (contoh)", "P", "Yogyakarta", "Depok, Sleman", ["Tahfidz", "Doa Harian", "Adab & Akhlak"], ["offline"], { bio: "Menghafal juz 30 sambil belajar adab sehari-hari. Kelas kecil maksimal 4 anak.", education: "S1 Ilmu Al-Qur'an dan Tafsir", experience: "7 tahun", sanad: "Sanad juz 30", schedule: "Selasa & Kamis 16.00–17.30", age_range: "5–11 tahun" }),
+      T("t6", "u-x6", "Ustadz Yusuf Maulana (contoh)", "L", "Bekasi", "Bekasi Barat", ["Tahsin", "Tajwid"], ["online"], { bio: "Kelas online interaktif dengan papan tulis digital. Cocok untuk anak yang sudah lancar Iqra 6.", education: "Ma'had Aly", experience: "3 tahun", sanad: "Syahadah Tahsin Tilawati", schedule: "Senin–Kamis 18.30–20.00", age_range: "8–15 tahun", verified: false }),
+      T("t7", "u-x7", "Ustadzah Maryam Lubis (contoh)", "P", "Medan", "Medan Baru", ["Iqra", "Bahasa Arab"], ["offline", "online"], { bio: "Mengajar dengan kartu huruf berwarna dan reward stiker. Ramah untuk anak yang pemalu.", education: "S1 Pendidikan Bahasa Arab", experience: "5 tahun", sanad: "Syahadah Iqra", schedule: "Senin–Sabtu 14.00–17.00", age_range: "4–8 tahun" }),
+      T("t8", "u-x8", "Ustadz Ilham Saputra (contoh)", "L", "Makassar", "Panakkukang", ["Tahfidz", "Tajwid"], ["offline"], { bio: "Program hafalan bertahap dengan laporan mingguan untuk orang tua.", education: "Pondok Pesantren Hidayatullah", experience: "6 tahun", sanad: "Sanad 30 juz", schedule: "Ahad 08.00–12.00", age_range: "8–14 tahun" }),
+      T("t9", "u-x9", "Ustadzah Hafsah Ramadhani (contoh)", "P", "Bogor", "Bogor Tengah", ["Iqra", "Tahsin"], ["offline"], { bio: "Baru mendaftar, menunggu verifikasi admin.", education: "S1 PAI", experience: "2 tahun", sanad: "-", schedule: "Sabtu pagi", age_range: "4–8 tahun", status: "pending", verified: false, document_url: "u-x9/ijazah.pdf" }),
+    ],
+    favorites: [],
+    reports: [{ id: "r1", teacher_id: "t6", reason: "Contoh laporan: nomor WhatsApp tidak aktif.", status: "open", created_at: new Date(Date.now() - 864e5).toISOString() }],
+    sessionUser: null,
+  });
+
+  let S;
+  try { S = JSON.parse(localStorage.getItem(KEY)) || seed(); } catch { S = seed(); }
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
+  const subs = [];
+  const emit = () => subs.forEach((f) => f());
+  const wait = (v) => new Promise((r) => setTimeout(() => r(v), 120));
+  const uid = () => S.sessionUser;
+  const me = () => S.users.find((u) => u.id === uid()) || null;
+  const pub = (t) => {
+    const { whatsapp, email, social_url, document_url, user_id, status, ...rest } = t;
+    const u = S.users.find((x) => x.id === user_id);
+    return { ...rest, full_name: u ? u.full_name : t.full_name };
+  };
+
+  window.NK_DATA = {
+    mode: "demo",
+    demoAccounts: [
+      { id: "u-parent", label: "Orang tua", desc: "Cari guru, simpan favorit, hubungi lewat WhatsApp" },
+      { id: "u-teacher", label: "Pengajar", desc: "Isi profil, unggah foto dan ijazah" },
+      { id: "u-admin", label: "Admin", desc: "Setujui pengajar dan tangani laporan" },
+    ],
+    async demoLogin(id) { S.sessionUser = id; save(); emit(); return wait({}); },
+    async resetDemo() { S = seed(); save(); emit(); },
+    async session() { const u = me(); return u ? { user: { id: u.id, email: u.email } } : null; },
+    onAuth(cb) { subs.push(cb); },
+    async signIn(email) {
+      const u = S.users.find((x) => x.email === String(email).toLowerCase());
+      if (!u) return wait({ error: "Mode demo: gunakan tombol akun contoh di bawah, atau buat akun baru." });
+      S.sessionUser = u.id; save(); emit(); return wait({});
+    },
+    async signUp({ email, name, role }) {
+      email = String(email).toLowerCase();
+      if (S.users.some((u) => u.email === email)) return wait({ error: "Email ini sudah terdaftar." });
+      const u = { id: "u-" + Date.now().toString(36), email, full_name: name, role };
+      S.users.push(u); S.sessionUser = u.id; save(); emit(); return wait({});
+    },
+    async resetPassword() { return wait({}); },
+    async updatePassword() { return wait({}); },
+    async signOut() { S.sessionUser = null; save(); emit(); },
+    async me() { return wait(me()); },
+    async updateName(name) {
+      const u = me(); if (!u) return { error: "Belum masuk" };
+      u.full_name = name; save(); return wait({});
+    },
+    async subjects() { return wait(SUBJ); },
+    async teachers(f = {}) {
+      let list = S.teachers.filter((t) => t.status === "approved").map(pub);
+      const has = (a, b) => String(a || "").toLowerCase().includes(String(b).toLowerCase());
+      if (f.kota) list = list.filter((t) => has(t.city, f.kota) || has(t.district, f.kota));
+      if (f.nama) list = list.filter((t) => has(t.full_name, f.nama));
+      if (f.mapel) list = list.filter((t) => t.subjects.includes(f.mapel));
+      if (f.mode) list = list.filter((t) => t.mode.includes(f.mode));
+      if (f.gender) list = list.filter((t) => t.gender === f.gender);
+      return wait(list);
+    },
+    async teacher(id) { const t = S.teachers.find((x) => x.id === id && x.status === "approved"); return wait(t ? pub(t) : null); },
+    async contact(id) {
+      if (!uid()) return null;
+      const t = S.teachers.find((x) => x.id === id && x.status === "approved");
+      return wait(t ? { whatsapp: t.whatsapp, email: t.email, social_url: t.social_url } : null);
+    },
+    async report(teacher_id, reason) {
+      S.reports.push({ id: "r" + Date.now(), teacher_id, reason, status: "open", created_at: new Date().toISOString() });
+      save(); return wait({});
+    },
+    async favIds() { return new Set(S.favorites.filter((f) => f.parent_id === uid()).map((f) => f.teacher_id)); },
+    async toggleFav(teacher_id, on) {
+      S.favorites = S.favorites.filter((f) => !(f.parent_id === uid() && f.teacher_id === teacher_id));
+      if (on) S.favorites.push({ parent_id: uid(), teacher_id });
+      save(); return wait({});
+    },
+    async favTeachers() {
+      const ids = await this.favIds();
+      return wait(S.teachers.filter((t) => ids.has(t.id) && t.status === "approved").map(pub));
+    },
+    async myTeacher() {
+      const t = S.teachers.find((x) => x.user_id === uid());
+      if (!t) return wait(null);
+      return wait({ ...t, subject_ids: SUBJ.filter((s) => t.subjects.includes(s.name)).map((s) => s.id) });
+    },
+    async createTeacher(city) {
+      const u = me();
+      const t = { id: "t" + Date.now(), user_id: u.id, full_name: u.full_name, gender: null, city, district: "", subjects: [], mode: [], status: "pending", verified: false, photo_url: null, fee_note: "Dibicarakan langsung", whatsapp: "", email: "", social_url: "", document_url: null };
+      S.teachers.push(t); save();
+      return this.myTeacher();
+    },
+    async saveTeacher(id, patch, subjectIds) {
+      const t = S.teachers.find((x) => x.id === id && x.user_id === uid());
+      if (!t) return { error: "Profil tidak ditemukan" };
+      delete patch.status; delete patch.verified; // sama seperti trigger protect_status di database
+      Object.assign(t, patch, { subjects: SUBJ.filter((s) => subjectIds.includes(s.id)).map((s) => s.name) });
+      save(); return wait({});
+    },
+    async upload(bucket, file, name) {
+      if (bucket === "photos") {
+        const url = await new Promise((r) => { const fr = new FileReader(); fr.onload = () => r(fr.result); fr.readAsDataURL(file); });
+        return { path: url, url };
+      }
+      return { path: `${uid()}/${name}-${file.name}` };
+    },
+    async pending() {
+      return wait(S.teachers.filter((t) => t.status === "pending").map((t) => ({ ...t, full_name: (S.users.find((u) => u.id === t.user_id) || t).full_name })));
+    },
+    async setTeacher(id, patch) { const t = S.teachers.find((x) => x.id === id); if (t) Object.assign(t, patch); save(); return wait({}); },
+    async docLink() { return null; },
+    async reports() {
+      return wait(S.reports.filter((r) => r.status === "open").map((r) => ({ ...r, teacher_name: (S.teachers.find((t) => t.id === r.teacher_id) || {}).full_name })));
+    },
+    async closeReport(id) { const r = S.reports.find((x) => x.id === id); if (r) r.status = "closed"; save(); return wait({}); },
+    async adminStats() {
+      return wait({
+        approved: S.teachers.filter((t) => t.status === "approved").length,
+        pending: S.teachers.filter((t) => t.status === "pending").length,
+        reports: S.reports.filter((r) => r.status === "open").length,
+        users: S.users.length,
+      });
+    },
+    async deleteAccount() {
+      const u = me(); if (!u) return { error: "Belum masuk" };
+      if (u.role === "admin") return { error: "Akun admin tidak bisa dihapus dari sini." };
+      S.teachers = S.teachers.filter((t) => t.user_id !== u.id);
+      S.favorites = S.favorites.filter((f) => f.parent_id !== u.id);
+      S.users = S.users.filter((x) => x.id !== u.id);
+      S.sessionUser = null; save(); emit(); return wait({});
+    },
+  };
+})();
+</script>
+<script>/* NGAJI KIDS — aplikasi satu halaman (tanpa build). Rute memakai hash: #cari, #guru-<id>, #akun, dst. */
+(function () {
+  const D = window.NK_DATA, A = window.ART, ic = A.i;
+  const app = document.getElementById("app");
+  const st = { me: null, favs: new Set(), subjects: [], filter: {} };
+
+  // ---------- util ----------
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const seed = (id) => [...String(id)].reduce((a, c) => a + c.charCodeAt(0), 0);
+  const initial = (n) => String(n || "?").replace(/^Ustadz(ah)?\s+/i, "").trim().charAt(0).toUpperCase();
+  const modeLabel = { offline: "Tatap muka", online: "Online" };
+  const roleLabel = { parent: "Orang tua", teacher: "Pengajar", admin: "Admin" };
+  const go = (h) => { if (location.hash.slice(1) === h) render(); else location.hash = h; };
+  const tagColor = (s) => ["Iqra", "Tahsin", "Tahfidz", "Tajwid", "Bahasa Arab", "Doa Harian", "Adab & Akhlak"].indexOf(s) % 4;
+
+  function toast(text, kind = "ok") {
+    const el = document.createElement("div");
+    el.className = "toast " + kind; el.setAttribute("role", "status"); el.textContent = text;
+    $("#toasts").appendChild(el);
+    setTimeout(() => el.classList.add("out"), 2800); setTimeout(() => el.remove(), 3300);
+  }
+  // Dialog buatan sendiri (alert/prompt bawaan browser diganti agar konsisten di HP)
+  function modal(html, onMount) {
+    const wrap = document.createElement("div");
+    wrap.className = "modal-wrap";
+    wrap.innerHTML = `<div class="modal" role="dialog" aria-modal="true"><button class="x" data-close aria-label="Tutup">${ic("x")}</button>${html}</div>`;
+    document.body.appendChild(wrap);
+    const close = () => { wrap.classList.add("out"); setTimeout(() => wrap.remove(), 200); };
+    wrap.addEventListener("click", (e) => { if (e.target === wrap || e.target.closest("[data-close]")) close(); });
+    document.addEventListener("keydown", function k(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", k); } });
+    onMount && onMount(wrap, close);
+    const f = wrap.querySelector("input,textarea,button:not(.x)"); f && f.focus();
+    return close;
+  }
+
+  const avatarHTML = (t, cls = "") => t.photo_url
+    ? `<img class="av ${cls}" src="${esc(t.photo_url)}" alt="Foto ${esc(t.full_name)}" loading="lazy">`
+    : `<span class="av ${cls}" role="img" aria-label="${esc(t.full_name)}">${A.avatar(t.gender, seed(t.id))}</span>`;
+  const verBadge = (t) => t.verified ? `<span class="badge ver" title="Dokumen sudah diperiksa admin">${ic("shield", 14)} Terverifikasi</span>` : "";
+  const tags = (arr) => (arr || []).map((s) => `<span class="tag t${tagColor(s)}">${esc(s)}</span>`).join("");
+
+  function teacherCard(t) {
+    const fav = st.favs.has(t.id);
+    return `<article class="tcard">
+      <div class="tc-top">
+        <div class="tc-arch">${avatarHTML(t)}</div>
+        <div class="tc-chips">${(t.mode || []).map((m) => `<span class="chip">${modeLabel[m] || esc(m)}</span>`).join("")}</div>
+        <button class="fav ${fav ? "on" : ""}" data-fav="${esc(t.id)}" aria-pressed="${fav}" aria-label="${fav ? "Hapus dari favorit" : "Simpan ke favorit"}">${ic("heart", 18)}</button>
+      </div>
+      <div class="tc-body">
+        <h3>${esc(t.full_name)}</h3>
+        <p class="loc">${ic("pin", 15)} ${t.district ? esc(t.district) + ", " : ""}${esc(t.city)}</p>
+        ${verBadge(t)}
+        <div class="tags">${tags(t.subjects)}</div>
+        <dl class="mini"><div><dt>Usia murid</dt><dd>${esc(t.age_range || "—")}</dd></div><div><dt>Biaya</dt><dd>${esc(t.fee_note || "Dibicarakan")}</dd></div></dl>
+      </div>
+      <div class="tc-foot">
+        <span class="who">${t.gender === "P" ? "Ustadzah" : t.gender === "L" ? "Ustadz" : "Pengajar"}</span>
+        <a class="btn sm" href="#guru-${esc(t.id)}">Lihat profil ${ic("arrow", 16)}</a>
+      </div>
+    </article>`;
+  }
+
+  // ---------- halaman ----------
+  const V = {};
+
+  V.beranda = async () => {
+    const list = await D.teachers();
+    const count = (s) => list.filter((t) => (t.subjects || []).includes(s)).length;
+    const subj = st.subjects.length ? st.subjects.map((s) => s.name) : ["Iqra", "Tahsin", "Tahfidz", "Tajwid", "Bahasa Arab"];
+    const DESC = { "Iqra": "Mengenal huruf hijaiyah dari nol", "Tahsin": "Memperbaiki bacaan dan makhraj", "Tahfidz": "Menghafal Al-Qur'an bertahap", "Tajwid": "Hukum bacaan yang benar", "Bahasa Arab": "Kosakata dan percakapan dasar", "Doa Harian": "Doa pendek untuk sehari-hari", "Adab & Akhlak": "Sopan santun ala Rasulullah ﷺ" };
+    const cities = [...new Set(list.map((t) => t.city))].slice(0, 6);
+    return `
+    <section class="hero pattern">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="bismillah" lang="ar" dir="rtl">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+          <h1>Yuk, mengaji jadi <mark>seru</mark> bareng ustadz &amp; ustadzah pilihan!</h1>
+          <p class="lead">Temukan guru ngaji yang sabar dan ramah anak di kotamu. Baca profilnya, lalu hubungi langsung lewat WhatsApp. Tanpa biaya platform.</p>
+          <form class="searchbar" id="heroSearch" role="search">
+            <label class="sb-field">${ic("pin", 18)}<span class="sr">Kota</span><input id="hs-kota" name="kota" placeholder="Kota atau kecamatan" autocomplete="address-level2"></label>
+            <label class="sb-field">${ic("book", 18)}<span class="sr">Jenis belajar</span>
+              <select id="hs-mapel" name="mapel"><option value="">Semua jenis</option>${subj.map((s) => `<option>${esc(s)}</option>`).join("")}</select></label>
+            <button class="btn" type="submit">${ic("search", 18)} Cari guru</button>
+          </form>
+          ${cities.length ? `<div class="quick"><span>Populer:</span>${cities.map((c) => `<button class="chip ghost" data-city="${esc(c)}">${esc(c)}</button>`).join("")}</div>` : ""}
+        </div>
+        <div class="hero-visual">
+          ${A.hero()}
+          <div class="float-note n1">${ic("check", 16)} <b>${list.length}</b> pengajar siap mengajar</div>
+          <div class="float-note n2">Gratis, tanpa biaya platform</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ayat wrap">
+      <p class="ar" lang="ar" dir="rtl">اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ</p>
+      <p class="tr">“Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan.” <span>QS. Al-‘Alaq: 1</span></p>
+    </section>
+
+    <section class="wrap" id="jenis">
+      <div class="panel pattern">
+        <div class="panel-head"><h2>Mau belajar apa hari ini?</h2><p>Pilih jenis belajar, kami tampilkan pengajarnya.</p></div>
+        <div class="stickers">
+          ${subj.map((s, i) => `<button class="sticker s${i % 4}" data-mapel="${esc(s)}">
+            <span class="clipwrap">${A.clip}</span>
+            <span class="st-ic">${A.icon(s)}</span>
+            <b>${esc(s)}</b><small>${esc(DESC[s] || "")}</small>
+            <span class="count">${count(s)} pengajar</span>
+          </button>`).join("")}
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap sec">
+      <div class="sec-head"><h2>Guru pilihan</h2><a class="btn ghost sm" href="#cari">Semua guru ${ic("arrow", 16)}</a></div>
+      <div class="grid3">${list.slice(0, 3).map(teacherCard).join("") || `<div class="empty">Belum ada pengajar yang tampil. Jadilah yang pertama mendaftar.</div>`}</div>
+    </section>
+
+    <section class="wrap sec" id="cara">
+      <div class="sec-head"><h2>Tiga langkah menemukan guru</h2></div>
+      <ol class="steps">
+        <li>${A.starBadge("١")}<h3>Cari guru</h3><p>Pilih kota, jenis belajar, ustadz atau ustadzah, tatap muka atau online.</p></li>
+        <li>${A.starBadge("٢")}<h3>Kenali profilnya</h3><p>Baca pendidikan, pengalaman, sanad atau ijazah, jadwal, dan usia murid.</p></li>
+        <li>${A.starBadge("٣")}<h3>Ngobrol lewat WhatsApp</h3><p>Sepakati jadwal, tempat, dan biaya langsung dengan pengajar.</p></li>
+      </ol>
+    </section>
+
+    <section class="band">
+      <div class="wrap band-grid">
+        <div>
+          <span class="pill">Untuk pengajar</span>
+          <h2>Mengajar ngaji? Tampilkan profilmu, <mark>gratis</mark>.</h2>
+          <ul class="checks">
+            <li>${ic("check", 18)} Profil rapi berisi pendidikan, sanad, dan jadwal</li>
+            <li>${ic("check", 18)} Nomor WhatsApp hanya terlihat oleh orang tua yang sudah masuk</li>
+            <li>${ic("check", 18)} Badge Terverifikasi setelah admin memeriksa ijazah</li>
+          </ul>
+          <a class="btn dark" href="#daftar-pengajar">Daftar sebagai pengajar ${ic("arrow", 18)}</a>
+        </div>
+        <div class="band-art">${A.mascot("band-mascot")}</div>
+      </div>
+    </section>
+
+    <section class="wrap sec">
+      <div class="safety">
+        <span class="safety-ic">${ic("shield", 28)}</span>
+        <div><h2>Keselamatan anak nomor satu</h2>
+        <p>Pertemuan pertama sebaiknya didampingi orang tua atau di tempat umum. Minta pengajar menunjukkan ijazah atau sanad, dan jangan mengirim uang sebelum kesepakatan jelas. Setiap profil punya tombol laporkan.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap sec" id="faq">
+      <div class="sec-head"><h2>Pertanyaan yang sering ditanyakan</h2></div>
+      <div class="faq">
+        ${[
+          ["Berapa biaya memakai NGAJI KIDS?", "Gratis untuk orang tua dan pengajar. NGAJI KIDS tidak memproses pembayaran. Biaya belajar disepakati langsung dengan pengajar."],
+          ["Bagaimana cara menghubungi pengajar?", "Masuk atau buat akun orang tua, buka profil pengajar, lalu tekan Hubungi lewat WhatsApp. Nomor tidak ditampilkan di halaman publik."],
+          ["Apa arti badge Terverifikasi?", "Admin sudah memeriksa dokumen ijazah atau sanad yang dikirim pengajar. Badge ini bukan jaminan mutu, jadi orang tua tetap perlu menilai sendiri."],
+          ["Apakah data anak saya diminta?", "Tidak. Kami tidak meminta nama, foto, atau data pribadi anak. Akun dibuat oleh orang tua atau wali."],
+          ["Saya pengajar. Kapan profil saya tampil?", "Setelah Anda melengkapi profil dan admin menyetujuinya. Status persetujuan terlihat di halaman Profil pengajar."],
+        ].map(([q, a]) => `<details><summary>${esc(q)}<span class="plus">${ic("plus", 18)}</span></summary><p>${esc(a)}</p></details>`).join("")}
+      </div>
+    </section>
+
+    <section class="wrap sec">
+      <div class="cta pattern">
+        <div><p class="ar small" lang="ar" dir="rtl">رَبِّ زِدْنِي عِلْمًا</p><h2>Mulai perjalanan mengaji si kecil hari ini</h2></div>
+        <form class="cta-form" id="ctaSearch"><label class="sr" for="cta-kota">Kota</label><input id="cta-kota" placeholder="Ketik kotamu"><button class="btn gold" type="submit" aria-label="Cari">${ic("arrow", 20)}</button></form>
+      </div>
+    </section>`;
+  };
+
+  V.cari = async () => {
+    const f = st.filter;
+    const list = await D.teachers(f);
+    const subj = st.subjects.map((s) => s.name);
+    const seg = (name, opts) => `<div class="seg" role="group" aria-label="${name}">${opts.map(([v, l]) => `<button type="button" class="${(f[name] || "") === v ? "on" : ""}" data-seg="${name}" data-v="${v}">${l}</button>`).join("")}</div>`;
+    return `<main class="wrap page">
+      <div class="page-head"><h1>Cari guru ngaji</h1><p class="muted">${list.length} pengajar ditemukan${f.kota ? ` di sekitar <b>${esc(f.kota)}</b>` : ""}${f.mapel ? ` untuk <b>${esc(f.mapel)}</b>` : ""}.</p></div>
+      <form class="filters" id="filters" role="search">
+        <label class="sb-field">${ic("search", 18)}<span class="sr">Nama</span><input id="f-nama" name="nama" placeholder="Nama guru" value="${esc(f.nama)}"></label>
+        <label class="sb-field">${ic("pin", 18)}<span class="sr">Kota</span><input id="f-kota" name="kota" placeholder="Kota / kecamatan" value="${esc(f.kota)}"></label>
+        <button class="btn">Terapkan</button>
+      </form>
+      <div class="filter-row">
+        <div class="chips-scroll" role="group" aria-label="Jenis belajar">
+          <button class="chip ${!f.mapel ? "on" : ""}" data-mapelf="">Semua</button>
+          ${subj.map((s) => `<button class="chip ${f.mapel === s ? "on" : ""}" data-mapelf="${esc(s)}">${esc(s)}</button>`).join("")}
+        </div>
+        <div class="segs">${seg("gender", [["", "Semua"], ["L", "Ustadz"], ["P", "Ustadzah"]])}${seg("mode", [["", "Semua"], ["offline", "Tatap muka"], ["online", "Online"]])}</div>
+      </div>
+      <div class="grid3">${list.map(teacherCard).join("")}</div>
+      ${list.length ? "" : `<div class="empty">${A.mascot("empty-mascot")}<h3>Belum ada pengajar yang cocok</h3><p>Coba ubah kota, jenis belajar, atau pilih “Semua”.</p><button class="btn ghost" data-act="reset-filter">Hapus semua filter</button></div>`}
+    </main>`;
+  };
+
+  V.guru = async (id) => {
+    const t = await D.teacher(id);
+    if (!t) return `<main class="wrap page"><div class="empty">${A.mascot("empty-mascot")}<h3>Profil tidak ditemukan</h3><p>Profil mungkin belum disetujui atau sudah disembunyikan.</p><a class="btn" href="#cari">Kembali ke pencarian</a></div></main>`;
+    const fav = st.favs.has(t.id);
+    const rows = [["Mengajar", (t.subjects || []).join(", ")], ["Jadwal", t.schedule], ["Usia murid", t.age_range], ["Mode", (t.mode || []).map((m) => modeLabel[m]).join(" dan ")], ["Pendidikan", t.education], ["Pengalaman", t.experience], ["Sanad atau ijazah", t.sanad], ["Biaya", t.fee_note]];
+    return `<main class="wrap page">
+      <a class="back" href="#cari">← Kembali ke pencarian</a>
+      <div class="profile">
+        <aside class="p-side">
+          <div class="p-arch pattern">${avatarHTML(t, "lg")}</div>
+          <h1>${esc(t.full_name)}</h1>
+          <p class="loc">${ic("pin", 16)} ${t.district ? esc(t.district) + ", " : ""}${esc(t.city)}</p>
+          <div class="p-badges">${verBadge(t)}${(t.mode || []).map((m) => `<span class="chip">${modeLabel[m]}</span>`).join("")}</div>
+          <div class="tags">${tags(t.subjects)}</div>
+          <div class="p-actions">
+            <button class="btn wa" data-act="wa" data-id="${esc(t.id)}" data-name="${esc(t.full_name)}">${ic("wa", 20)} Hubungi lewat WhatsApp</button>
+            <div class="row2">
+              <button class="btn ghost" data-fav="${esc(t.id)}" aria-pressed="${fav}">${ic("heart", 18)} ${fav ? "Tersimpan" : "Simpan"}</button>
+              <button class="btn ghost" data-act="lapor" data-id="${esc(t.id)}">${ic("flag", 18)} Laporkan</button>
+            </div>
+          </div>
+        </aside>
+        <section class="p-main">
+          <div class="card"><h2>Cara mengajar</h2><p class="bio">${esc(t.bio || "Pengajar belum menulis deskripsi.")}</p></div>
+          <div class="card"><h2>Detail</h2><dl class="info">${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v || "—")}</dd></div>`).join("")}</dl></div>
+          <div class="safety sm"><span class="safety-ic">${ic("shield", 22)}</span><p><b>Tips keamanan.</b> Pertemuan pertama sebaiknya didampingi orang tua atau di tempat umum. Minta pengajar menunjukkan ijazah atau sanad. Badge Terverifikasi bukan jaminan mutu.</p></div>
+        </section>
+      </div>
+      <div class="sticky-cta"><button class="btn wa" data-act="wa" data-id="${esc(t.id)}" data-name="${esc(t.full_name)}">${ic("wa", 20)} Hubungi lewat WhatsApp</button></div>
+    </main>`;
+  };
+
+  function authShell(inner) {
+    return `<main class="auth">
+      <div class="auth-art pattern">
+        <div>${A.mascot("auth-mascot")}
+        <p class="ar" lang="ar" dir="rtl">طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ</p>
+        <p class="tr">“Menuntut ilmu itu wajib atas setiap muslim.” <span>HR. Ibnu Majah</span></p></div>
+      </div>
+      <div class="auth-form">${inner}</div>
+    </main>`;
+  }
+
+  V.masuk = async (mode = "masuk", peran = "parent") => {
+    if (st.me && mode !== "lupa") { go("akun"); return ""; }
+    const title = { masuk: "Assalamu’alaikum!", daftar: "Buat akun baru", lupa: "Atur ulang kata sandi" }[mode];
+    const sub = { masuk: "Masuk untuk menghubungi pengajar dan menyimpan favorit.", daftar: "Gratis. Pilih peran Anda terlebih dahulu.", lupa: "Kami kirim tautan atur ulang ke email Anda." }[mode];
+    const demo = D.mode === "demo" && mode === "masuk" ? `
+      <div class="demo-box"><p><b>Mode demo.</b> Coba langsung dengan akun contoh:</p>
+      ${D.demoAccounts.map((a) => `<button class="demo-acc" data-demo="${a.id}"><b>${a.label}</b><small>${a.desc}</small>${ic("arrow", 18)}</button>`).join("")}</div>` : "";
+    return authShell(`
+      ${mode !== "lupa" ? `<div class="tabs" role="tablist"><a role="tab" class="${mode === "masuk" ? "on" : ""}" href="#masuk">Masuk</a><a role="tab" class="${mode === "daftar" ? "on" : ""}" href="#daftar">Daftar</a></div>` : ""}
+      <h1>${title}</h1><p class="muted">${sub}</p>
+      <form id="authForm" class="form" data-mode="${mode}" novalidate>
+        ${mode === "daftar" ? `
+          <fieldset class="roles"><legend>Saya adalah</legend>
+            <label class="role"><input type="radio" name="peran" value="parent" ${peran === "parent" ? "checked" : ""}><span><b>Orang tua / wali</b><small>Mencari guru ngaji untuk anak</small></span></label>
+            <label class="role"><input type="radio" name="peran" value="teacher" ${peran === "teacher" ? "checked" : ""}><span><b>Pengajar</b><small>Ustadz atau ustadzah</small></span></label>
+          </fieldset>
+          <label class="fld"><span>Nama lengkap</span><input id="a-nama" name="nama" autocomplete="name" required></label>` : ""}
+        <label class="fld"><span>Email</span><input id="a-email" name="email" type="email" autocomplete="email" required></label>
+        ${mode !== "lupa" ? `<label class="fld"><span>Kata sandi</span><span class="pw"><input id="a-pw" name="password" type="password" minlength="8" autocomplete="${mode === "daftar" ? "new-password" : "current-password"}" placeholder="Minimal 8 karakter" required><button type="button" class="eye" data-act="pw" aria-label="Lihat kata sandi">${ic("eye", 18)}</button></span></label>` : ""}
+        ${mode === "daftar" ? `<label class="check"><input id="a-consent" type="checkbox" required> <span>Saya berusia 18 tahun ke atas dan setuju dengan <a href="#privasi">Kebijakan Privasi</a> dan <a href="#syarat">Syarat Penggunaan</a>.</span></label>` : ""}
+        <button class="btn block" type="submit">${mode === "masuk" ? "Masuk" : mode === "daftar" ? "Buat akun" : "Kirim tautan"}</button>
+        <p class="msg" role="status"></p>
+      </form>
+      <div class="auth-links">${mode === "masuk" ? `<a href="#lupa">Lupa kata sandi?</a>` : `<a href="#masuk">Sudah punya akun? Masuk</a>`}</div>
+      ${demo}`);
+  };
+  V.daftar = () => V.masuk("daftar");
+  V["daftar-pengajar"] = () => V.masuk("daftar", "teacher");
+  V.lupa = () => V.masuk("lupa");
+
+  V["atur-sandi"] = async () => {
+    let ok = false; try { ok = sessionStorage.getItem("nk-recovery") === "1"; } catch {}
+    if (!ok && D.mode !== "demo") return authShell(`<h1>Kata sandi baru</h1><p class="muted">Buka halaman ini dari tautan di email atur ulang kata sandi.</p><a class="btn" href="#lupa">Minta tautan baru</a>`);
+    return authShell(`<h1>Kata sandi baru</h1><form id="pwForm" class="form"><label class="fld"><span>Kata sandi baru</span><input id="np" name="password" type="password" minlength="8" autocomplete="new-password" required></label><button class="btn block">Simpan</button><p class="msg" role="status"></p></form>`);
+  };
+
+  function dashShell(active, inner) {
+    const r = st.me.role;
+    const items = [["akun", "user", "Akun saya"], ["favorit", "heart", "Guru favorit"]];
+    if (r === "teacher") items.splice(1, 0, ["profil", "edit", "Profil pengajar"]);
+    if (r === "admin") items.push(["admin", "grid", "Panel admin"]);
+    return `<main class="wrap dash">
+      <nav class="dash-nav" aria-label="Menu akun">
+        <div class="dash-me">${A.logo(36)}<div><b>${esc(st.me.full_name)}</b><small>${roleLabel[r]}</small></div></div>
+        ${items.map(([h, i, l]) => `<a href="#${h}" class="${active === h ? "on" : ""}">${ic(i, 18)} ${l}</a>`).join("")}
+        <button class="out" data-act="logout">${ic("out", 18)} Keluar</button>
+        <div class="dash-card pattern">${A.mascot("dash-mascot")}<p>“Sebaik-baik kalian adalah yang belajar Al-Qur'an dan mengajarkannya.”<small>HR. Bukhari</small></p></div>
+      </nav>
+      <section class="dash-main">${inner}</section>
+    </main>`;
+  }
+  const needLogin = () => { go("masuk"); return ""; };
+
+  V.akun = async () => {
+    if (!st.me) return needLogin();
+    const m = st.me;
+    const tp = m.role === "teacher" ? await D.myTeacher() : null;
+    return dashShell("akun", `
+      <div class="dash-head"><h1>Ahlan, ${esc(m.full_name.split(" ")[0])}!</h1><p class="muted">Hanya Anda yang dapat melihat dan mengubah data akun ini.</p></div>
+      ${m.role === "teacher" ? `<div class="status-card ${tp ? tp.status : "none"}">
+        <div><b>${!tp ? "Profil pengajar belum dibuat" : tp.status === "approved" ? "Profil tampil di pencarian" : tp.status === "rejected" ? "Profil ditolak admin" : "Menunggu verifikasi admin"}</b>
+        <small>${!tp ? "Buat profil agar orang tua bisa menemukan Anda." : "Lengkapi profil agar orang tua lebih yakin."}</small></div>
+        <a class="btn sm" href="#profil">${tp ? "Edit profil" : "Buat profil"}</a></div>` : ""}
+      <div class="cards2">
+        <form class="card form" id="nameForm"><h2>Data akun</h2>
+          <p class="kv"><span>Peran</span><b>${roleLabel[m.role]}</b></p><p class="kv"><span>Email</span><b>${esc(m.email)}</b></p>
+          <label class="fld"><span>Nama</span><input id="ak-nama" name="nama" value="${esc(m.full_name)}" required></label>
+          <button class="btn">Simpan nama</button></form>
+        <form class="card form" id="pwForm"><h2>Ganti kata sandi</h2>
+          <label class="fld"><span>Kata sandi baru</span><input id="ak-pw" name="password" type="password" minlength="8" autocomplete="new-password" required></label>
+          <button class="btn ghost">Ganti kata sandi</button><p class="msg" role="status"></p></form>
+      </div>
+      <div class="card danger-zone"><h2>Hapus akun</h2><p class="muted">Profil, foto, dokumen, dan favorit Anda akan dihapus permanen dan tidak bisa dikembalikan.</p>
+        <button class="btn danger" data-act="hapus-akun">${ic("trash", 18)} Hapus akun saya</button></div>
+      ${D.mode === "demo" ? `<p class="muted small">Mode demo: <button class="linkbtn" data-act="reset-demo">kembalikan data contoh</button>.</p>` : ""}`);
+  };
+
+  V.favorit = async () => {
+    if (!st.me) return needLogin();
+    const list = await D.favTeachers();
+    return dashShell("favorit", `<div class="dash-head"><h1>Guru favorit</h1><p class="muted">Pengajar yang Anda simpan untuk dihubungi nanti.</p></div>
+      <div class="grid2">${list.map(teacherCard).join("")}</div>
+      ${list.length ? "" : `<div class="empty">${A.mascot("empty-mascot")}<h3>Belum ada guru favorit</h3><p>Tekan ikon hati di kartu pengajar untuk menyimpannya.</p><a class="btn" href="#cari">Cari guru</a></div>`}`);
+  };
+
+  V.profil = async () => {
+    if (!st.me) return needLogin();
+    if (st.me.role !== "teacher") return dashShell("profil", `<div class="empty"><h3>Halaman ini untuk pengajar</h3><p>Akun Anda terdaftar sebagai ${roleLabel[st.me.role]}.</p></div>`);
+    const t = await D.myTeacher();
+    if (!t) return dashShell("profil", `<div class="dash-head"><h1>Buat profil pengajar</h1><p class="muted">Mulai dari kota tempat Anda mengajar. Detail lain bisa dilengkapi setelahnya.</p></div>
+      <form class="card form narrow" id="createForm"><label class="fld"><span>Kota tempat mengajar</span><input id="c-kota" name="city" required placeholder="mis. Jakarta Selatan"></label><button class="btn">Buat profil</button><p class="msg" role="status"></p></form>`);
+    const fields = ["photo_url", "gender", "city", "district", "bio", "education", "experience", "sanad", "schedule", "age_range", "whatsapp", "document_url"];
+    const done = fields.filter((k) => t[k]).length + ((t.mode || []).length ? 1 : 0) + (t.subject_ids.length ? 1 : 0);
+    const pct = Math.round((done / (fields.length + 2)) * 100);
+    const v = (k) => esc(t[k] ?? "");
+    const fld = (k, l, ph = "", type = "text") => `<label class="fld"><span>${l}</span><input id="p-${k}" name="${k}" type="${type}" value="${v(k)}" placeholder="${ph}"></label>`;
+    const statusTxt = t.status === "approved" ? "Tampil di pencarian" : t.status === "rejected" ? "Ditolak admin" : "Menunggu verifikasi";
+    return dashShell("profil", `
+      <div class="dash-head"><h1>Profil pengajar</h1>
+        <div class="progress-card"><div class="ring" style="--p:${pct}"><b>${pct}%</b></div><div><b>Kelengkapan profil</b><small>Status: <span class="st ${t.status}">${statusTxt}</span>${t.verified ? " · Terverifikasi" : ""}</small></div>
+        ${t.status === "approved" ? `<a class="btn ghost sm" href="#guru-${esc(t.id)}">Lihat profil publik</a>` : ""}</div></div>
+      <form id="profilForm" class="pform">
+        <div class="card"><h2>Foto dan identitas</h2>
+          <div class="photo-row"><div class="p-arch sm pattern" id="photoPrev">${avatarHTML({ ...t, full_name: st.me.full_name }, "lg")}</div>
+            <label class="upload">${ic("upload", 20)}<span><b>Unggah foto</b><small>JPG/PNG/WebP, maks 2 MB. Wajah jelas, berpakaian sopan.</small></span><input id="p-photo" name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label></div>
+          <div class="fgrid">
+            <label class="fld"><span>Jenis kelamin</span><select id="p-gender" name="gender"><option value="">Pilih</option><option value="L" ${t.gender === "L" ? "selected" : ""}>Laki-laki (Ustadz)</option><option value="P" ${t.gender === "P" ? "selected" : ""}>Perempuan (Ustadzah)</option></select></label>
+            ${fld("city", "Kota", "Jakarta Selatan")}${fld("district", "Kecamatan", "Tebet")}${fld("age_range", "Usia murid", "4–12 tahun")}
+          </div></div>
+        <div class="card"><h2>Yang diajarkan</h2>
+          <div class="chipset">${st.subjects.map((s) => `<label class="pick"><input type="checkbox" name="subj" value="${s.id}" ${t.subject_ids.includes(s.id) ? "checked" : ""}><span>${A.icon(s.name)}${esc(s.name)}</span></label>`).join("")}</div>
+          <h3 class="sub">Mode mengajar</h3>
+          <div class="chipset">${["offline", "online"].map((m) => `<label class="pick"><input type="checkbox" name="mode" value="${m}" ${(t.mode || []).includes(m) ? "checked" : ""}><span>${modeLabel[m]}</span></label>`).join("")}</div></div>
+        <div class="card"><h2>Latar belakang</h2><div class="fgrid">
+          ${fld("education", "Pendidikan", "S1 PAI / Pondok ...")}${fld("experience", "Pengalaman", "5 tahun di TPQ ...")}${fld("sanad", "Sanad atau ijazah", "Syahadah Metode Ummi")}${fld("schedule", "Jadwal tersedia", "Senin–Jumat ba'da Ashar")}${fld("fee_note", "Catatan biaya", "Dibicarakan langsung")}</div>
+          <label class="fld"><span>Cara Anda mengajar anak</span><textarea id="p-bio" name="bio" rows="4" placeholder="Ceritakan metode dan suasana belajar Anda">${v("bio")}</textarea></label></div>
+        <div class="card"><h2>Kontak <small class="muted">(hanya terlihat oleh pengguna yang sudah masuk)</small></h2><div class="fgrid">
+          ${fld("whatsapp", "WhatsApp", "6281234567890", "tel")}${fld("email", "Email kontak (opsional)", "", "email")}${fld("social_url", "Media sosial (opsional)", "https://instagram.com/...", "url")}</div></div>
+        <div class="card"><h2>Dokumen verifikasi</h2>
+          <label class="upload">${ic("doc", 20)}<span><b>${t.document_url ? "Ganti dokumen" : "Unggah ijazah atau sanad"}</b><small>Gambar atau PDF, maks 5 MB. Hanya dilihat admin, tidak pernah ditampilkan ke publik.</small></span><input id="p-doc" name="doc" type="file" accept="image/jpeg,image/png,image/webp,application/pdf"></label>
+          ${t.document_url ? `<p class="muted small">${ic("check", 14)} Dokumen sudah terunggah.</p>` : ""}</div>
+        <div class="savebar"><span class="msg" role="status"></span><button class="btn">Simpan profil</button></div>
+      </form>`);
+  };
+
+  V.admin = async () => {
+    if (!st.me) return needLogin();
+    if (st.me.role !== "admin") return dashShell("admin", `<div class="empty"><h3>Halaman ini hanya untuk admin</h3></div>`);
+    const [s, pend, reps] = await Promise.all([D.adminStats(), D.pending(), D.reports()]);
+    return dashShell("admin", `
+      <div class="dash-head"><h1>Panel admin</h1><p class="muted">Persetujuan pengajar dan laporan ditegakkan oleh aturan database, bukan hanya halaman ini.</p></div>
+      <div class="stats">
+        <div class="stat s0"><b>${s.pending}</b><span>Menunggu verifikasi</span></div>
+        <div class="stat s1"><b>${s.approved}</b><span>Pengajar tampil</span></div>
+        <div class="stat s2"><b>${s.reports}</b><span>Laporan terbuka</span></div>
+        <div class="stat s3"><b>${s.users}</b><span>Akun terdaftar</span></div>
+      </div>
+      <h2 class="sec-t">Menunggu verifikasi</h2>
+      ${pend.length ? pend.map((t) => `<div class="card arow">
+        ${avatarHTML(t)}<div class="arow-body"><b>${esc(t.full_name)}</b><small>${t.district ? esc(t.district) + ", " : ""}${esc(t.city)}</small>
+        <p>${esc(t.bio || "Belum ada deskripsi.")}</p><p class="muted small">Pendidikan: ${esc(t.education || "—")} · Sanad: ${esc(t.sanad || "—")}</p></div>
+        <div class="arow-act">
+          ${t.document_url ? `<button class="btn ghost sm" data-act="doc" data-path="${esc(t.document_url)}">${ic("doc", 16)} Dokumen</button>` : `<span class="muted small">Tanpa dokumen</span>`}
+          <button class="btn sm" data-act="approve" data-id="${esc(t.id)}">Setujui</button>
+          <button class="btn gold sm" data-act="verify" data-id="${esc(t.id)}">Setujui + Terverifikasi</button>
+          <button class="btn danger sm" data-act="reject" data-id="${esc(t.id)}">Tolak</button></div></div>`).join("") : `<div class="card muted">Tidak ada pendaftar baru.</div>`}
+      <h2 class="sec-t">Laporan terbuka</h2>
+      ${reps.length ? reps.map((r) => `<div class="card arow">
+        <span class="safety-ic">${ic("flag", 22)}</span><div class="arow-body"><b>${esc(r.teacher_name || "Profil")}</b><small>${new Date(r.created_at).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" })}</small><p>${esc(r.reason)}</p></div>
+        <div class="arow-act"><a class="btn ghost sm" href="#guru-${esc(r.teacher_id)}">Lihat profil</a>
+          <button class="btn danger sm" data-act="hide" data-id="${esc(r.teacher_id)}" data-rid="${esc(r.id)}">Sembunyikan profil</button>
+          <button class="btn ghost sm" data-act="close-report" data-rid="${esc(r.id)}">Tutup laporan</button></div></div>`).join("") : `<div class="card muted">Tidak ada laporan.</div>`}`);
+  };
+
+  let legalCache = null;
+  async function legalMD() {
+    if (legalCache) return legalCache;
+    if (window.NK_LEGAL_MD) return (legalCache = window.NK_LEGAL_MD);
+    try { legalCache = await (await fetch("content/hukum.md", { cache: "no-cache" })).text(); } catch { legalCache = ""; }
+    return legalCache;
+  }
+  async function legal(from, to, title, other) {
+    const md = await legalMD();
+    const a = md.indexOf(from), b = md.indexOf(to);
+    const body = a < 0 ? "" : md.slice(a, b > a ? b : undefined).split("\n").slice(1);
+    const inline = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\[([^\]]+)\]/g, '<mark class="todo" title="Perlu dilengkapi">[$1]</mark>');
+    let html = "", list = [], toc = [];
+    const flush = () => { if (list.length) { html += `<ul>${list.map((x) => `<li>${inline(x)}</li>`).join("")}</ul>`; list = []; } };
+    body.forEach((l) => {
+      if (l.startsWith("- ")) return list.push(l.slice(2));
+      flush();
+      if (l.startsWith("### ")) { const id = "s" + toc.length; toc.push([id, l.slice(4)]); html += `<h2 id="${id}">${inline(l.slice(4))}</h2>`; }
+      else if (l.trim()) html += `<p>${inline(l)}</p>`;
+    });
+    flush();
+    const intro = md.split("\n## ")[0].trim();
+    return `<main class="wrap page legal">
+      <div class="legal-head pattern"><h1>${title}</h1><p>${inline(intro && !intro.startsWith("##") ? intro : "")}</p><a class="chip" href="#${other[0]}">${other[1]} →</a></div>
+      <div class="legal-grid">
+        <nav class="toc" aria-label="Daftar isi">${toc.map(([id, t]) => `<a href="#${id}" data-scroll="${id}">${esc(t)}</a>`).join("")}</nav>
+        <article class="prose">${html || "<p>Isi halaman ini belum diisi.</p>"}</article>
+      </div></main>`;
+  }
+  V.privasi = () => legal("## Bagian A", "## Bagian B", "Kebijakan Privasi", ["syarat", "Syarat Penggunaan"]);
+  V.syarat = () => legal("## Bagian B", "## Bagian C", "Syarat Penggunaan", ["privasi", "Kebijakan Privasi"]);
+
+  // ---------- aksi ----------
+  async function hubungi(id, name) {
+    if (!st.me) { toast("Masuk dulu untuk melihat kontak pengajar.", "info"); return go("masuk"); }
+    const c = await D.contact(id);
+    const wa = String(c?.whatsapp || "").replace(/\D/g, "").replace(/^0/, "62");
+    if (!wa) return toast("Pengajar belum mencantumkan WhatsApp.", "err");
+    const text = encodeURIComponent(`Assalamu’alaikum ${name}, saya orang tua dari NGAJI KIDS. Saya ingin menanyakan jadwal mengaji untuk anak saya.`);
+    modal(`<h2>Hubungi ${esc(name)}</h2>
+      <p class="muted">Pesan pembuka sudah kami siapkan. Percakapan berlangsung di WhatsApp, di luar NGAJI KIDS.</p>
+      <p class="kv"><span>WhatsApp</span><b class="mono">+${esc(wa)}</b></p>
+      ${c.email ? `<p class="kv"><span>Email</span><b>${esc(c.email)}</b></p>` : ""}
+      <a class="btn wa block" href="https://wa.me/${esc(wa)}?text=${text}" target="_blank" rel="noopener">${ic("wa", 20)} Buka WhatsApp</a>
+      <button class="btn ghost block" data-copy="+${esc(wa)}">Salin nomor</button>`, (w) => {
+      w.querySelector("[data-copy]").addEventListener("click", (e) => {
+        navigator.clipboard?.writeText(e.currentTarget.dataset.copy).then(() => toast("Nomor disalin."), () => toast("Salin manual: " + e.currentTarget.dataset.copy, "info"));
+      });
+    });
+  }
+  function lapor(id) {
+    if (!st.me) { toast("Masuk dulu untuk melaporkan profil.", "info"); return go("masuk"); }
+    modal(`<h2>Laporkan profil</h2><p class="muted">Admin akan meninjau laporan Anda. Identitas pelapor tidak ditampilkan ke pengajar.</p>
+      <form id="repForm" class="form"><div class="chipset">${["Informasi palsu", "Perilaku tidak pantas", "Nomor tidak aktif", "Penipuan"].map((r) => `<button type="button" class="chip" data-r="${r}">${r}</button>`).join("")}</div>
+      <label class="fld"><span>Alasan</span><textarea id="rep-reason" rows="3" required></textarea></label><button class="btn danger block">Kirim laporan</button></form>`, (w, close) => {
+      w.querySelectorAll("[data-r]").forEach((b) => b.addEventListener("click", () => { w.querySelector("textarea").value = b.dataset.r + ". "; w.querySelector("textarea").focus(); }));
+      w.querySelector("form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const reason = w.querySelector("textarea").value.trim(); if (!reason) return;
+        const r = await D.report(id, reason);
+        close(); toast(r.error ? "Laporan gagal dikirim." : "Laporan diterima. Jazakallahu khairan.", r.error ? "err" : "ok");
+      });
+    });
+  }
+  function hapusAkun() {
+    modal(`<h2>Hapus akun permanen?</h2><p class="muted">Ketik <b>HAPUS</b> untuk konfirmasi. Tindakan ini tidak bisa dibatalkan.</p>
+      <form class="form"><input id="del-confirm" autocomplete="off" placeholder="HAPUS"><button class="btn danger block">Hapus akun saya</button><p class="msg" role="status"></p></form>`, (w, close) => {
+      w.querySelector("form").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if (w.querySelector("input").value.trim() !== "HAPUS") return (w.querySelector(".msg").textContent = "Ketik HAPUS dengan huruf besar.");
+        const r = await D.deleteAccount();
+        if (r.error) return (w.querySelector(".msg").textContent = r.error);
+        close(); st.me = null; toast("Akun dihapus. Semoga Allah memudahkan urusan Anda."); go("beranda");
+      });
+    });
+  }
+
+  document.addEventListener("click", async (e) => {
+    const t = e.target.closest("[data-fav],[data-act],[data-mapel],[data-city],[data-mapelf],[data-seg],[data-demo],[data-scroll]");
+    if (!t) return;
+    const d = t.dataset;
+    if (d.scroll) { e.preventDefault(); document.getElementById(d.scroll)?.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    if (d.fav) {
+      if (!st.me) { toast("Masuk dulu untuk menyimpan favorit.", "info"); return go("masuk"); }
+      const on = !st.favs.has(d.fav);
+      const r = await D.toggleFav(d.fav, on);
+      if (r && r.error) return toast("Gagal menyimpan favorit.", "err");
+      on ? st.favs.add(d.fav) : st.favs.delete(d.fav);
+      toast(on ? "Disimpan ke favorit." : "Dihapus dari favorit.");
+      return render(true);
+    }
+    if (d.mapel !== undefined && t.classList.contains("sticker")) { st.filter = { mapel: d.mapel }; return go("cari"); }
+    if (d.city) { st.filter = { kota: d.city }; return go("cari"); }
+    if (d.mapelf !== undefined) { st.filter.mapel = d.mapelf; return render(true); }
+    if (d.seg) { st.filter[d.seg] = d.v; return render(true); }
+    if (d.demo) { await D.demoLogin(d.demo); return; }
+    const act = d.act;
+    if (act === "wa") return hubungi(d.id, d.name);
+    if (act === "lapor") return lapor(d.id);
+    if (act === "logout") { await D.signOut(); toast("Sampai jumpa. Fii amanillah!"); return go("beranda"); }
+    if (act === "hapus-akun") return hapusAkun();
+    if (act === "reset-demo") { await D.resetDemo(); toast("Data contoh dikembalikan."); return go("beranda"); }
+    if (act === "reset-filter") { st.filter = {}; return render(true); }
+    if (act === "menu") return document.body.classList.toggle("menu-open");
+    if (act === "pw") { const inp = t.parentElement.querySelector("input"); inp.type = inp.type === "password" ? "text" : "password"; return; }
+    if (act === "doc") {
+      const url = await D.docLink(d.path);
+      if (!url) return toast(D.mode === "demo" ? "Mode demo: dokumen contoh tidak tersedia." : "Dokumen tidak bisa dibuka.", "info");
+      return modal(`<h2>Dokumen verifikasi</h2><p class="muted">Tautan berlaku 5 menit.</p><a class="btn block" href="${esc(url)}" target="_blank" rel="noopener">Buka dokumen</a>`);
+    }
+    const adminAct = { approve: { status: "approved" }, verify: { status: "approved", verified: true }, reject: { status: "rejected" } }[act];
+    if (adminAct) { const r = await D.setTeacher(d.id, adminAct); toast(r.error ? r.error : act === "reject" ? "Pendaftar ditolak." : "Pengajar disetujui.", r.error ? "err" : "ok"); return render(true); }
+    if (act === "hide") { await D.setTeacher(d.id, { status: "rejected" }); await D.closeReport(d.rid); toast("Profil disembunyikan."); return render(true); }
+    if (act === "close-report") { await D.closeReport(d.rid); toast("Laporan ditutup."); return render(true); }
+  });
+
+  document.addEventListener("submit", async (e) => {
+    const f = e.target, id = f.id;
+    const known = ["heroSearch", "ctaSearch", "filters", "authForm", "pwForm", "nameForm", "createForm", "profilForm"];
+    if (!known.includes(id)) return;
+    e.preventDefault();
+    const fd = new FormData(f), msg = f.querySelector(".msg");
+    const say = (t) => { if (msg) msg.textContent = t; };
+    const btn = f.querySelector("button[type=submit],button:not([type])");
+    if (id === "heroSearch") { st.filter = { kota: fd.get("kota").trim(), mapel: fd.get("mapel") }; return go("cari"); }
+    if (id === "ctaSearch") { st.filter = { kota: $("#cta-kota").value.trim() }; return go("cari"); }
+    if (id === "filters") { Object.assign(st.filter, { nama: fd.get("nama").trim(), kota: fd.get("kota").trim() }); return render(true); }
+    btn && (btn.disabled = true);
+    try {
+      if (id === "authForm") {
+        const mode = f.dataset.mode, email = String(fd.get("email") || "").trim(), password = String(fd.get("password") || "");
+        if (!f.checkValidity()) { f.reportValidity(); return; }
+        if (mode === "lupa") { await D.resetPassword(email); return say("Jika email terdaftar, tautan atur ulang sudah dikirim. Cek kotak masuk Anda."); }
+        if (mode === "masuk") { const r = await D.signIn(email, password); if (r.error) return say(r.error); toast("Assalamu’alaikum, selamat datang!"); return; }
+        const role = fd.get("peran") || "parent";
+        pendingRoute = role === "teacher" ? "profil" : "akun";
+        const r = await D.signUp({ email, password, name: String(fd.get("nama")).trim(), role });
+        if (r.error) return say(r.error);
+        if (r.needsConfirm) return say("Akun dibuat. Cek email Anda untuk konfirmasi, lalu masuk.");
+        toast("Akun berhasil dibuat. Barakallahu fiik!");
+        return;
+      }
+      if (id === "pwForm") {
+        const r = await D.updatePassword(String(fd.get("password")));
+        if (r.error) return say(r.error);
+        try { sessionStorage.removeItem("nk-recovery"); } catch {}
+        f.reset(); toast("Kata sandi diganti."); if (location.hash === "#atur-sandi") go("akun"); return;
+      }
+      if (id === "nameForm") { const r = await D.updateName(String(fd.get("nama")).trim()); if (!r.error) st.me.full_name = String(fd.get("nama")).trim(); toast(r.error ? "Gagal menyimpan." : "Nama disimpan.", r.error ? "err" : "ok"); return render(true); }
+      if (id === "createForm") {
+        try { await D.createTeacher(String(fd.get("city")).trim()); toast("Profil dibuat. Lengkapi detailnya ya."); return render(true); }
+        catch (err) { return say("Gagal: " + err.message); }
+      }
+      if (id === "profilForm") {
+        const t = await D.myTeacher();
+        const patch = {};
+        ["gender", "city", "district", "bio", "education", "experience", "sanad", "schedule", "age_range", "whatsapp", "email", "social_url", "fee_note"].forEach((k) => (patch[k] = String(fd.get(k) ?? "").trim() || null));
+        if (!patch.city) return say("Kota wajib diisi.");
+        if (patch.whatsapp) patch.whatsapp = patch.whatsapp.replace(/\D/g, "").replace(/^0/, "62");
+        patch.mode = fd.getAll("mode");
+        const photo = fd.get("photo"), doc = fd.get("doc");
+        if (photo && photo.size) {
+          if (photo.size > 2 * 1024 * 1024) return say("Foto maksimal 2 MB.");
+          say("Mengunggah foto…"); const u = await D.upload("photos", photo, "foto");
+          if (u.error) return say("Foto gagal diunggah: " + u.error); patch.photo_url = u.url;
+        }
+        if (doc && doc.size) {
+          if (doc.size > 5 * 1024 * 1024) return say("Dokumen maksimal 5 MB.");
+          say("Mengunggah dokumen…"); const u = await D.upload("documents", doc, "ijazah");
+          if (u.error) return say("Dokumen gagal diunggah: " + u.error); patch.document_url = u.path;
+        }
+        const r = await D.saveTeacher(t.id, patch, fd.getAll("subj").map(Number));
+        if (r.error) return say("Gagal menyimpan: " + r.error);
+        toast("Profil tersimpan. Barakallahu fiik!"); return render(true);
+      }
+    } finally { btn && (btn.disabled = false); }
+  });
+
+  document.addEventListener("change", (e) => {
+    if (e.target.id === "p-photo" && e.target.files[0]) {
+      const url = URL.createObjectURL(e.target.files[0]);
+      $("#photoPrev").innerHTML = `<img class="av lg" src="${url}" alt="Pratinjau foto">`;
+    }
+    if (e.target.type === "file") {
+      const s = e.target.closest(".upload")?.querySelector("small");
+      if (s && e.target.files[0]) s.textContent = "Dipilih: " + e.target.files[0].name;
+    }
+  });
+
+  // ---------- kerangka & router ----------
+  function chrome(route) {
+    const r = route.split("-")[0];
+    const logged = !!st.me;
+    $("#navlinks").innerHTML = `
+      <a href="#cari" class="${r === "cari" ? "on" : ""}">Cari guru</a>
+      <a href="#beranda" data-jump="jenis">Jenis belajar</a>
+      <a href="#beranda" data-jump="cara">Cara kerja</a>
+      ${logged ? "" : `<a href="#daftar-pengajar">Jadi pengajar</a>`}
+      ${st.me?.role === "admin" ? `<a href="#admin" class="${r === "admin" ? "on" : ""}">Admin</a>` : ""}`;
+    $("#navcta").innerHTML = logged
+      ? `<a class="btn sm" href="#akun">${ic("user", 16)} ${esc(st.me.full_name.split(" ")[0])}</a>`
+      : `<a class="btn ghost sm hide-sm" href="#daftar">Daftar</a><a class="btn sm" href="#masuk">Masuk</a>`;
+    const tab = (h, i, l, on) => `<a href="#${h}" class="${on ? "on" : ""}">${ic(i, 22)}<span>${l}</span></a>`;
+    $("#tabbar").innerHTML = tab("beranda", "home", "Beranda", r === "beranda") + tab("cari", "search", "Cari", r === "cari" || r === "guru") +
+      tab("favorit", "heart", "Favorit", r === "favorit") + tab(logged ? "akun" : "masuk", "user", logged ? "Akun" : "Masuk", ["akun", "profil", "admin", "masuk", "daftar"].includes(r));
+    $("#demoflag").hidden = D.mode !== "demo";
+  }
+
+  let pendingRoute = null, renderSeq = 0, jumpTo = null;
+  async function render(keepScroll) {
+    const seq = ++renderSeq;
+    let h = decodeURIComponent(location.hash.slice(1)) || "beranda";
+    if (/^s\d+$/.test(h)) return; // anchor daftar isi halaman hukum
+    let view, arg;
+    if (h.startsWith("guru-")) { view = V.guru; arg = h.slice(5); }
+    else view = V[h] || V.beranda;
+    chrome(h);
+    document.body.classList.remove("menu-open");
+    if (!keepScroll) app.classList.add("loading");
+    const y = scrollY;
+    let html;
+    try { html = await view(arg); } catch (err) { console.error(err); html = `<main class="wrap page"><div class="empty"><h3>Terjadi kendala</h3><p>${esc(err.message)}</p><button class="btn" onclick="location.reload()">Muat ulang</button></div></main>`; }
+    if (seq !== renderSeq || html === "") return;
+    app.innerHTML = html;
+    app.classList.remove("loading");
+    const titles = { cari: "Cari guru", masuk: "Masuk", daftar: "Daftar", akun: "Akun saya", profil: "Profil pengajar", admin: "Panel admin", favorit: "Guru favorit", privasi: "Kebijakan Privasi", syarat: "Syarat Penggunaan" };
+    document.title = (titles[h] ? titles[h] + " · " : "") + "NGAJI KIDS";
+    if (jumpTo) { document.getElementById(jumpTo)?.scrollIntoView({ block: "start" }); jumpTo = null; }
+    else if (keepScroll) scrollTo(0, y); else scrollTo(0, 0);
+  }
+
+  document.addEventListener("click", (e) => {
+    const j = e.target.closest("[data-jump]");
+    if (!j) return;
+    if ((location.hash.slice(1) || "beranda") === "beranda") { e.preventDefault(); document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: "smooth" }); }
+    else jumpTo = j.dataset.jump;
+  }, true);
+
+  async function refreshMe() {
+    st.me = (await D.session()) ? await D.me() : null;
+    st.favs = st.me ? await D.favIds() : new Set();
+  }
+
+  async function start() {
+    $("#brand").innerHTML = A.logo(38) + `<span>NGAJI<b>KIDS</b></span>`;
+    st.subjects = await D.subjects();
+    await refreshMe();
+    D.onAuth(async () => {
+      const was = st.me?.id;
+      await refreshMe();
+      const h = location.hash.slice(1);
+      if (st.me && st.me.id !== was && ["masuk", "daftar", "daftar-pengajar", ""].includes(h)) { const r = pendingRoute || "akun"; pendingRoute = null; return go(r); }
+      pendingRoute = null;
+      render(true);
+    });
+    addEventListener("hashchange", () => render());
+    render();
+  }
+  start();
+})();
+</script>

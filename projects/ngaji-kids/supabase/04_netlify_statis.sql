@@ -23,7 +23,6 @@ create policy "hapus foto sendiri" on storage.objects for delete to authenticate
   using (bucket_id = 'photos' and (storage.foldername(name))[1] = auth.uid()::text);
 create policy "hapus dokumen sendiri" on storage.objects for delete to authenticated
   using (bucket_id = 'documents' and (storage.foldername(name))[1] = auth.uid()::text);
--- Pemilik perlu bisa melihat daftar fotonya sendiri untuk dihapus (bucket publik tetap terbaca semua).
 
 -- 3. Batas file: foto maks 2 MB (gambar), dokumen maks 5 MB (gambar atau PDF)
 update storage.buckets set file_size_limit = 2097152,

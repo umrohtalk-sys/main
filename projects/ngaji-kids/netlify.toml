@@ -1,0 +1,4 @@
+# Netlify: folder yang dipublikasikan adalah "netlify/" (tanpa langkah build).
+[build]
+  publish = "netlify"
+  command = ""
