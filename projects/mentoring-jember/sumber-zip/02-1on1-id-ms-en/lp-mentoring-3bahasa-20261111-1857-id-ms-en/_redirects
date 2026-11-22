@@ -1,0 +1,13 @@
+# Satu situs, tiga bahasa (11 Nov 2026): /id/ /ms/ /en/
+# "/" ikut negara: Indonesia -> /id/, Malaysia & Brunei -> /ms/, Singapura & negara lain -> /en/
+# Link lama ?lang=xx tetap jalan.
+/  lang=id  /id/  302!
+/  lang=ms  /ms/  302!
+/  lang=en  /en/  302!
+/  /id/  302!  Country=id
+/  /ms/  302!  Country=my,bn
+/  /en/  302!
+# Aset dipakai bersama: /id/aset/x -> /aset/x
+/id/*  /:splat  200
+/ms/*  /:splat  200
+/en/*  /:splat  200

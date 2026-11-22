@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<link href="favicon.svg" rel="icon"/>
+<title>Mentoring Claude Jember</title>
+<meta content="Mentoring Claude 1-on-1 di Jember bersama Auzan Hasfi. Belajar bikin app, website, video dan carousel dengan Claude. Ketemu di cafe atau Zoom, materi custom sesuai minatmu. Mulai Rp 200.000." name="description"/>
+<meta property="og:title" content="Mentoring Claude 1-on-1 Jember · Cafe atau Zoom"/>
+<meta property="og:description" content="Satu Claude untuk app, website, video dan carousel. Praktik langsung, materi custom. Mulai Rp 200.000."/>
+<meta property="og:image" content="assets/auzan-hasfi.jpg"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=DM+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/hasil.css" rel="stylesheet"/>
+<link href="css/jember.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="bar">
+<div class="wrap bar-in">
+<a aria-label="Ke atas" class="logo" href="#mula"><span class="foto-k"><img alt="" height="38" src="assets/auzan-hasfi.jpg" width="38"/></span><span><b>Mentoring Claude</b><small>1-ON-1 · JEMBER · CAFE ATAU ZOOM</small></span></a>
+<nav aria-label="Bagian" class="navb"><a href="#claude">Claude bisa apa</a><a href="#minat">Materi custom</a><a href="#ketemu">Peta</a><a href="#sesi">Dalam sesi</a><a href="#hasil">Bukti</a><a href="#harga">Harga</a><a href="#soalan">Tanya jawab</a></nav>
+<a class="bar-cta" data-wa="Umum" href="#" rel="noopener" target="_blank"><span class="ic"><i data-lucide="message-circle"></i></span><span class="tx">Tanya dulu</span></a>
+<button aria-label="Ganti mode gelap / terang" class="tema" id="temaBt"><span data-m="light"><i data-lucide="sun"></i></span><span data-m="dark"><i data-lucide="moon"></i></span></button>
+</div>
+<div class="prog" id="prog"></div>
+</header>
+<main>
+<!-- HERO -->
+<section class="hero" id="mula">
+<div class="wrap hero-grid">
+<div class="r">
+<span class="eyebrow">Mentoring Claude 1-on-1 · Jember</span>
+<h1>Belajar Claude, <span class="o">pulang bawa karya.</span></h1>
+<p class="lead">Praktik langsung bikin app, website, video dan carousel. Ketemu di cafe Jember atau Zoom.</p>
+<div class="hero-tag"><span><i data-lucide="smartphone"></i>App</span><span><i data-lucide="globe"></i>Website</span><span><i data-lucide="clapperboard"></i>Video</span><span><i data-lucide="layout-template"></i>Carousel</span></div>
+<div class="hero-mentor"><img alt="" height="44" src="assets/auzan-hasfi.jpg" width="44"/><span><b>Auzan Hasfi</b>Mentor · orang Jember</span></div>
+<div class="hero-bt">
+<a class="btn btn-wa" data-wa="Umum" href="#" rel="noopener" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.5 3.9 1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z" fill="currentColor"></path></svg>Atur jadwal via WhatsApp</a>
+<a class="btn btn-b" href="#harga">Lihat harga<span class="ic"><i data-lucide="arrow-down"></i></span></a>
+</div>
+<p class="hero-wa"><span class="ic"><i data-lucide="phone"></i></span>WhatsApp <b class="no-tampil">+62 857-0497-3827</b><button class="salin-kecil" data-salin type="button"><i data-lucide="copy"></i>Salin</button></p>
+<p class="hero-nota">Mulai Rp 200.000 · sekali bayar</p>
+</div>
+<div class="panggung r">
+<div class="foto-wrap"><div aria-hidden="true" class="cincin"></div><div class="foto-besar"><img alt="Auzan Hasfi, mentor" height="320" src="assets/auzan-hasfi.jpg" width="320"/></div></div>
+<div aria-label="Contoh percakapan di sesi" class="sesi">
+<div class="sesi-atas"><i class="hidup"></i>SESI CLAUDE · CAFE JEMBER<span class="masa" id="masaSesi">00:14:32</span></div>
+<div class="chat" id="chatHero"></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CLAUDE BISA APA -->
+<section class="sek" id="claude" style="padding-top:clamp(24px,3vw,40px)">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Satu Claude, empat hasil</span>
+<h2>Kebanyakan orang pakai Claude cuma untuk bertanya. <span class="o">Padahal Claude bisa membuatkan karya.</span></h2>
+<p>Di mentoring ini kamu belajar memakai Claude secara keseluruhan. Empat jenis karya ini yang paling sering kita praktikkan.</p>
+</div>
+<div class="empat-grid">
+<div class="em r"><div class="em-lyr" aria-hidden="true"><div class="em-app"><b>Kuis Pecahan</b><i></i><i></i><i></i><span>Mulai main</span></div></div><span class="ic"><i data-lucide="smartphone"></i></span><h3>App</h3><p>Game kuis, kalkulator, app booking, kartu member. Dibuka lewat satu link di HP.</p></div>
+<div class="em r"><div class="em-lyr" aria-hidden="true"><div class="em-web"><span class="bar3"><i></i><i></i><i></i></span><b>Kopi Kita Jember</b><i></i><i class="p"></i><span>Pesan</span></div></div><span class="ic"><i data-lucide="globe"></i></span><h3>Website</h3><p>Profil usaha, portofolio, landing page jualan. Online gratis dengan alamat sendiri.</p></div>
+<div class="em r"><div class="em-lyr" aria-hidden="true"><div class="em-vid"><span class="play"><i data-lucide="play"></i></span><span class="cap">3 tips hemat pupuk</span><i class="prog"></i></div></div><span class="ic"><i data-lucide="clapperboard"></i></span><h3>Video</h3><p>Video animasi untuk Reels dan TikTok, lengkap dengan takarir. Tanpa tampil di kamera.</p></div>
+<div class="em r"><div class="em-lyr" aria-hidden="true"><div class="em-car"><span><b>7</b>tanda</span><span></span><span></span></div></div><span class="ic"><i data-lucide="layout-template"></i></span><h3>Carousel</h3><p>Carousel edukasi dan promosi untuk Instagram dan TikTok, siap diunduh sebagai gambar.</p></div>
+</div>
+</div>
+</section>
+
+<!-- KELEBIHAN -->
+<section class="sek" id="lebih" style="background:var(--soft2)">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Kenapa 1-on-1</span>
+<h2>Tiga hal yang tidak kamu dapat <span class="o">dari tutorial Claude di YouTube.</span></h2>
+<p>Tutorial Claude bisa ditonton siapa saja. Masalahnya, tutorial tidak tahu kamu siapa, bidangmu apa, dan di langkah mana kamu macet.</p>
+</div>
+<div class="lebih-grid">
+<div class="lb r"><span class="lb-no">Praktik</span><span class="ic"><i data-lucide="laptop"></i></span><h3>Langsung praktik, bukan cuma dengar</h3><p>Kamu yang mengetik di Claude dari laptopmu sendiri. Aku dampingi di sebelahmu. Pulang dari sesi, app, website, video atau carousel-mu sudah jadi.</p></div>
+<div class="lb r"><span class="lb-no">Custom</span><span class="ic"><i data-lucide="compass"></i></span><h3>Materi ikut minatmu</h3><p>Guru pakai Claude untuk game kuis dan video materi. Petani untuk kalkulator pupuk. Pemilik warung untuk website menu dan carousel promo. Contohnya dari duniamu sendiri.</p></div>
+<div class="lb r"><span class="lb-no">Dekat</span><span class="ic"><i data-lucide="map-pin"></i></span><h3>Ketemu langsung di Jember</h3><p>Pilih cafe yang dekat denganmu, atau Zoom kalau lebih praktis. Tanya apa saja saat itu juga, tidak perlu menunggu balasan komentar.</p></div>
+</div>
+</div>
+</section>
+
+<!-- MINAT -->
+<section class="sek" id="minat">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Materi custom</span>
+<h2>Pilih minatmu, <span class="o">lihat apa yang Claude bikin.</span></h2>
+<p>Satu Claude, banyak bidang. Tekan salah satu minat untuk melihat app, website, video dan carousel yang bisa jadi di sesimu.</p>
+</div>
+<div class="minat-tab r" id="minatTab" role="tablist" aria-label="Pilih minat"></div>
+<div class="minat-panggung r">
+<div class="minat-hp" aria-hidden="true"><div class="mh-l" id="minatHp"></div></div>
+<div class="minat-isi" id="minatIsi" aria-live="polite"></div>
+</div>
+<p class="jambatan r" style="margin-top:28px"><span class="ic"><i data-lucide="arrow-right"></i></span>Minatmu tidak ada di daftar? Ceritakan lewat WhatsApp. Materinya aku susun khusus untukmu.</p>
+</div>
+</section>
+
+<!-- KETEMU DI MANA -->
+<section class="sek" id="ketemu" style="background:var(--soft2)">
+<div class="wrap">
+<div class="kepala tgh r">
+<span class="eyebrow">Tempat sesi</span>
+<h2>Dari Kencong sampai Kalisat, <span class="o">semua bisa ikut.</span></h2>
+<p>Di Jember kota kita ketemu di cafe. Dari kecamatan lain, sesi lewat Zoom. Harganya sama.</p>
+</div>
+<div class="peta r" id="peta">
+<div class="peta-kanvas"><svg class="peta-svg" viewBox="40 30 760 560" role="img" aria-label="Peta Kabupaten Jember: sesi tatap muka di cafe Sumbersari, Kaliwates, Patrang; kecamatan lain lewat Zoom"><defs><pattern id="ombak" width="28" height="12" patternUnits="userSpaceOnUse"><path d="M0 8 Q7 2 14 8 T28 8" class="pt-ombak"/></pattern><mask id="laut"><rect x="0" y="0" width="840" height="620" fill="#fff"/><path d="M176.0 140.5 C201.5 121.4 244.0 97.3 278.0 85.3 C312.0 73.2 344.6 68.9 380.0 68.2 C415.4 67.5 457.9 77.5 490.5 81.0 C523.1 84.5 547.2 81.0 575.5 89.5 C603.8 98.0 635.0 116.4 660.5 132.0 C686.0 147.6 712.9 160.3 728.5 183.0 C744.1 205.7 759.7 239.7 754.0 268.0 C748.3 296.3 712.9 324.7 694.5 353.0 C676.1 381.3 663.3 414.6 643.5 438.0 C623.7 461.4 601.0 488.9 575.5 493.2 C550.0 497.4 518.8 471.3 490.5 463.5 C462.2 455.7 432.4 450.8 405.5 446.5 C378.6 442.2 354.5 443.7 329.0 438.0 C303.5 432.3 278.0 421.7 252.5 412.5 C227.0 403.3 200.1 392.7 176.0 382.8 C151.9 372.9 123.6 369.3 108.0 353.0 C92.4 336.7 79.7 310.5 82.5 285.0 C85.3 259.5 109.4 224.1 125.0 200.0 C140.6 175.9 150.5 159.6 176.0 140.5Z" fill="#000"/></mask></defs><rect x="0" y="380" width="840" height="240" fill="url(#ombak)" mask="url(#laut)"/><path class="pt-darat" d="M176.0 140.5 C201.5 121.4 244.0 97.3 278.0 85.3 C312.0 73.2 344.6 68.9 380.0 68.2 C415.4 67.5 457.9 77.5 490.5 81.0 C523.1 84.5 547.2 81.0 575.5 89.5 C603.8 98.0 635.0 116.4 660.5 132.0 C686.0 147.6 712.9 160.3 728.5 183.0 C744.1 205.7 759.7 239.7 754.0 268.0 C748.3 296.3 712.9 324.7 694.5 353.0 C676.1 381.3 663.3 414.6 643.5 438.0 C623.7 461.4 601.0 488.9 575.5 493.2 C550.0 497.4 518.8 471.3 490.5 463.5 C462.2 455.7 432.4 450.8 405.5 446.5 C378.6 442.2 354.5 443.7 329.0 438.0 C303.5 432.3 278.0 421.7 252.5 412.5 C227.0 403.3 200.1 392.7 176.0 382.8 C151.9 372.9 123.6 369.3 108.0 353.0 C92.4 336.7 79.7 310.5 82.5 285.0 C85.3 259.5 109.4 224.1 125.0 200.0 C140.6 175.9 150.5 159.6 176.0 140.5Z"/><ellipse class="pt-darat" cx="286.5" cy="523.0" rx="34" ry="12"/><text class="pt-kecil" x="286.5" y="557.0" text-anchor="middle">Nusa Barong</text><text class="pt-laut" x="600" y="555" text-anchor="middle">SAMUDRA HINDIA</text><path class="pt-gunung" d="M326.0 118.8 L341.0 96.8 L351.0 109.8 L358.0 102.8 L371.0 118.8Z"/><text class="pt-kecil" x="346.0" y="140.8" text-anchor="middle">Pegunungan Hyang</text><path class="pt-gunung" d="M683.0 208.0 L698.0 186.0 L708.0 199.0 L715.0 192.0 L728.0 208.0Z"/><text class="pt-kecil" x="703.0" y="230.0" text-anchor="middle">Raung</text><circle class="pt-pantai" cx="324.8" cy="459.3" r="5"/><text class="pt-kecil" x="334.8" y="479.3">Pantai Papuma</text><path class="pt-jalan" pathLength="1" d="M167.5 336.0 L235.5 229.7 L303.5 263.8 L363.0 272.3 L437.8 252.7 L471.8 240.8 L541.5 204.3 L618.0 293.5"/><g class="pin-l" tabindex="0" role="button" data-n="Kencong" aria-label="Kencong: sesi lewat Zoom"><circle cx="167.5" cy="336.0" r="6"/><text x="167.5" y="365.0" text-anchor="middle">Kencong</text></g><g class="pin-l" tabindex="0" role="button" data-n="Tanggul" aria-label="Tanggul: sesi lewat Zoom"><circle cx="235.5" cy="229.7" r="6"/><text x="235.5" y="216.7" text-anchor="middle">Tanggul</text></g><g class="pin-l" tabindex="0" role="button" data-n="Puger" aria-label="Puger: sesi lewat Zoom"><circle cx="252.5" cy="399.8" r="6"/><text x="252.5" y="428.8" text-anchor="middle">Puger</text></g><g class="pin-l" tabindex="0" role="button" data-n="Ambulu" aria-label="Ambulu: sesi lewat Zoom"><circle cx="375.7" cy="391.3" r="6"/><text x="375.7" y="420.3" text-anchor="middle">Ambulu</text></g><g class="pin-l" tabindex="0" role="button" data-n="Balung" aria-label="Balung: sesi lewat Zoom"><circle cx="303.5" cy="327.5" r="6"/><text x="303.5" y="356.5" text-anchor="middle">Balung</text></g><g class="pin-l" tabindex="0" role="button" data-n="Rambipuji" aria-label="Rambipuji: sesi lewat Zoom"><circle cx="363.0" cy="272.3" r="6"/><text x="351.0" y="278.3" text-anchor="end">Rambipuji</text></g><g class="pin-l" tabindex="0" role="button" data-n="Arjasa" aria-label="Arjasa: sesi lewat Zoom"><circle cx="477.8" cy="187.3" r="6"/><text x="477.8" y="174.3" text-anchor="middle">Arjasa</text></g><g class="pin-l" tabindex="0" role="button" data-n="Kalisat" aria-label="Kalisat: sesi lewat Zoom"><circle cx="541.5" cy="204.3" r="6"/><text x="553.5" y="210.3" text-anchor="start">Kalisat</text></g><g class="pin-l" tabindex="0" role="button" data-n="Mayang" aria-label="Mayang: sesi lewat Zoom"><circle cx="550.0" cy="259.5" r="6"/><text x="550.0" y="288.5" text-anchor="middle">Mayang</text></g><g class="pin-l" tabindex="0" role="button" data-n="Jenggawah" aria-label="Jenggawah: sesi lewat Zoom"><circle cx="409.8" cy="327.5" r="6"/><text x="409.8" y="356.5" text-anchor="middle">Jenggawah</text></g><g class="pin-l" tabindex="0" role="button" data-n="Silo" aria-label="Silo: sesi lewat Zoom"><circle cx="618.0" cy="293.5" r="6"/><text x="618.0" y="322.5" text-anchor="middle">Silo</text></g><g class="pin-l" tabindex="0" role="button" data-n="Sukowono" aria-label="Sukowono: sesi lewat Zoom"><circle cx="575.5" cy="157.5" r="6"/><text x="575.5" y="144.5" text-anchor="middle">Sukowono</text></g><g class="pin-l" tabindex="0" role="button" data-n="Bangsalsari" aria-label="Bangsalsari: sesi lewat Zoom"><circle cx="303.5" cy="263.8" r="6"/><text x="303.5" y="250.8" text-anchor="middle">Bangsalsari</text></g><g class="pin-l" tabindex="0" role="button" data-n="Wuluhan" aria-label="Wuluhan: sesi lewat Zoom"><circle cx="316.3" cy="374.2" r="6"/><text x="328.3" y="380.2" text-anchor="start">Wuluhan</text></g><circle class="pt-kota-zona" cx="456.5" cy="238.2" r="56"/><circle class="pt-kota-nadi" cx="456.5" cy="238.2" r="56"/><g class="pin-k" tabindex="0" role="button" data-k="sumbersari" data-n="Sumbersari" data-d="Dekat kampus UNEJ. Banyak cafe mahasiswa dengan Wi-Fi kencang." aria-label="Sumbersari: ketemu di cafe"><circle class="pk-c" cx="471.8" cy="240.8" r="10"/><path class="pk-i" d="M468.3 238.8 h7 v3.2 a3.5 3.5 0 0 1 -7 0z M475.3 239.8 h1.6 a1.4 1.4 0 0 1 0 2.8 h-1.6"/><text x="488.6" y="247.8" text-anchor="start">Sumbersari</text></g><g class="pin-k" tabindex="0" role="button" data-k="kaliwates" data-n="Kaliwates" data-d="Pusat kota dan alun-alun. Gampang dijangkau dari mana saja." aria-label="Kaliwates: ketemu di cafe"><circle class="pk-c" cx="437.8" cy="252.7" r="10"/><path class="pk-i" d="M434.3 250.7 h7 v3.2 a3.5 3.5 0 0 1 -7 0z M441.3 251.7 h1.6 a1.4 1.4 0 0 1 0 2.8 h-1.6"/><text x="437.8" y="286.04999999999995" text-anchor="middle">Kaliwates</text></g><g class="pin-k" tabindex="0" role="button" data-k="patrang" data-n="Patrang" data-d="Utara kota. Cafe yang lebih tenang untuk fokus belajar." aria-label="Patrang: ketemu di cafe"><circle class="pk-c" cx="458.2" cy="217.0" r="10"/><path class="pk-i" d="M454.7 215.0 h7 v3.2 a3.5 3.5 0 0 1 -7 0z M461.7 216.0 h1.6 a1.4 1.4 0 0 1 0 2.8 h-1.6"/><text x="441.4" y="224.0" text-anchor="end">Patrang</text></g></svg></div>
+<aside class="peta-info" aria-live="polite">
+<div class="pi-leg"><span><i class="lg-k"></i>Ketemu di cafe</span><span><i class="lg-l"></i>Lewat Zoom</span></div>
+<div id="petaKad" class="pi-kad"></div>
+<p class="pi-nota">Tekan titik di peta untuk melihat cara sesi di daerahmu.</p>
+</aside>
+</div>
+<div class="ketemu-grid">
+<article class="kt r">
+<div class="kt-atas"><span class="ic"><i data-lucide="coffee"></i></span><div><small>Tatap muka</small><h3>Ketemuan di cafe Jember</h3></div></div>
+<p>Duduk sebelahan, layar laptopmu kelihatan jelas, dan kamu bisa tanya sambil menunjuk. Paling cocok kalau baru pertama kali belajar.</p>
+<ul class="kt-l">
+<li><span class="ic"><i data-lucide="map-pin"></i></span>Cafe di Jember kota: sekitar Sumbersari, Kaliwates atau Patrang</li>
+<li><span class="ic"><i data-lucide="laptop"></i></span>Bawa laptop dan charger. HP untuk cek hasil</li>
+<li><span class="ic"><i data-lucide="wifi"></i></span>Pilih cafe yang Wi-Fi-nya stabil, aku bantu carikan</li>
+<li><span class="ic"><i data-lucide="cup-soda"></i></span>Pesan minum masing-masing</li>
+</ul>
+</article>
+<article class="kt r">
+<div class="kt-atas"><span class="ic"><i data-lucide="video"></i></span><div><small>Online</small><h3>Lewat Zoom</h3></div></div>
+<p>Kamu share screen, aku pandu langkah demi langkah. Cocok kalau jadwalmu padat atau tinggal di luar kota Jember seperti Ambulu, Kencong atau Kalisat.</p>
+<ul class="kt-l">
+<li><span class="ic"><i data-lucide="monitor-up"></i></span>Share screen dari laptop atau komputer</li>
+<li><span class="ic"><i data-lucide="clock"></i></span>Jam fleksibel, bisa malam atau akhir pekan</li>
+<li><span class="ic"><i data-lucide="house"></i></span>Belajar dari rumah, sekolah atau kantor</li>
+<li><span class="ic"><i data-lucide="headphones"></i></span>Pakai headset supaya suara jelas</li>
+</ul>
+</article>
+</div>
+</div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sek" id="beza">
+<div class="wrap">
+<div class="kepala tgh r">
+<span class="eyebrow">Apa bedanya</span>
+<h2>Mentoring Claude 1-on-1 vs cara lain</h2>
+<p>Belajar Claude sendiri dan ikut kelas ramai sama-sama ada tempatnya. Kalau kamu mau karya jadi dan paham caranya, ini bedanya.</p>
+</div>
+<div class="banding r" id="banding">
+<table>
+<thead><tr><th>Hal</th><th>Belajar sendiri<small>YouTube &amp; coba-coba</small></th><th>Kelas / seminar<small>Puluhan peserta</small></th><th class="mt">Mentoring Claude<small>Bersama Auzan Hasfi</small></th></tr></thead>
+<tbody>
+<tr><td>Materi sesuai bidangmu</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Cari contoh sendiri</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Sama untuk semua</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Disusun khusus untukmu</span></td></tr>
+<tr><td>Praktik di laptop sendiri</td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Kalau sempat</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Sering cuma menonton</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Kamu yang mengetik</span></td></tr>
+<tr><td>Tanya saat macet</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Tidak ada yang ditanya</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Antre dengan peserta lain</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Langsung dijawab</span></td></tr>
+<tr><td>Proyek jadi di hari itu</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Sering berhenti di tengah</span></td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Jarang</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Online sebelum pulang</span></td></tr>
+<tr><td>Tempat &amp; waktu</td><td><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Bebas</span></td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Jadwal penyelenggara</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Cafe pilihanmu atau Zoom</span></td></tr>
+<tr><td>Biaya</td><td><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Gratis, tapi makan waktu</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Ratusan ribu, tanpa alat</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Mulai Rp 200 ribu + bonus alat</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- KENAPA HARGANYA -->
+<section class="sek" id="harga">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Kenapa harganya segini</span>
+<h2>Rp 200.000, <span class="o">pulang bawa alatnya juga.</span></h2>
+<p>Bukan cuma ngobrol. Kamu praktik sampai jadi, lalu pulang membawa prompt dan panduan untuk dipakai lagi di rumah.</p>
+</div>
+<div class="harga-grid">
+<div class="struk r" aria-label="Rincian Paket Praktik">
+<div class="st-kep"><b>MENTORING CLAUDE</b><small>JEMBER · CAFE / ZOOM</small><small>PAKET PRAKTIK</small></div>
+<ul class="st-l">
+<li><span class="ic"><i data-lucide="check"></i></span><span><b>Mentoring 1-on-1</b>Praktik di laptopmu sampai karya jadi</span></li>
+<li><span class="ic"><i data-lucide="check"></i></span><span><b>Materi custom</b>Contoh dari bidangmu sendiri</span></li>
+<li><span class="ic"><i data-lucide="check"></i></span><span><b>Kumpulan prompt umum</b>Siap pakai untuk app, website, video, carousel</span></li>
+<li><span class="ic"><i data-lucide="check"></i></span><span><b>Panduan langkah demi langkah</b>App Fundamental untuk mengulang di rumah</span></li>
+</ul>
+<div class="st-tot"><span>TOTAL</span><b>Rp 200.000</b></div>
+<p class="st-kaki">SEKALI BAYAR · TERIMA KASIH</p>
+</div>
+<div class="upg-l">
+<div class="upg r"><span class="upg-h">+ Rp 50.000</span><div><small>Paket Builder · Rp 250.000</small><h3>Prompt Generator, akses selamanya</h3><p>Bayar sekali, pakai seterusnya. Bikin app dan website kapan saja tanpa batas waktu.</p><p class="hitung"><i data-lucide="calculator"></i>Dipakai untuk 50 karya = <b>Rp 5.000 per karya</b></p></div></div>
+<div class="upg r"><span class="upg-h">+ Rp 50.000</span><div><small>Paket All in · Rp 300.000</small><h3>Prompt Generator Video</h3><p>49 gaya video animasi untuk Reels dan TikTok. Satu ide jadi video promosi tanpa tampil di kamera.</p></div></div>
+<p class="harga-n r"><span class="ic"><i data-lucide="users"></i></span>Datang berdua atau lebih? Harga per orang lebih murah, tanya lewat DM.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- DALAM SESI -->
+<section class="sek" id="sesi">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Apa yang terjadi di sesi</span>
+<h2>Enam langkah, <span class="o">dari ide sampai karya jadi dengan Claude.</span></h2>
+<p>Scroll untuk melihat setiap langkah terjadi di layar sesi. Di cafe atau di Zoom, urutannya sama.</p>
+</div>
+<div class="proses-grid">
+<div id="senaraiLangkah"></div>
+<div aria-hidden="true" class="lekat">
+<div class="zoom">
+<div class="zoom-atas"><i class="hidup"></i>SESI CLAUDE · JEMBER<span class="lb" id="zoomLb">LANGKAH 1 / 6</span></div>
+<div class="tile">
+<div class="t-foto" id="tMentor"><img alt="" height="320" src="assets/auzan-hasfi.jpg" width="320"/></div>
+<div class="t-anda" id="tAnda"><span class="sb" data-b="blob" data-sb="happy" data-w="green"></span><span class="nm">Kamu</span></div>
+</div>
+<div class="kongsi" id="kongsi"></div>
+<div class="titik-l" id="titikL"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ALAT -->
+<section class="sek" id="alat" style="background:var(--soft2)">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Alat yang kamu dapat</span>
+<h2>Bukan cuma sesi. <span class="o">Kamu pulang bawa alatnya.</span></h2>
+<p>Kita praktik di Claude, dibantu alat-alat ini, jadi apa yang kamu pelajari bisa kamu ulang sendiri di rumah.</p>
+</div>
+<div class="alat-grid">
+<article class="alat r">
+<div aria-hidden="true" class="layar">
+<div class="slaid-tumpuk">
+<div class="slaid s1"><b>Modul 1</b><i></i><i style="width:70%"></i></div>
+<div class="slaid s2"><span class="ang">38</span><b>Modul belajar AI</b></div>
+<div class="slaid s3"><span class="ik-s"><i data-lucide="check"></i></span><i></i><i style="width:80%"></i><i style="width:60%"></i></div>
+</div>
+</div>
+<div class="isi">
+<small>Gratis di semua paket</small>
+<h3>App Fundamental</h3>
+<p>App belajar Claude dari nol, langkah demi langkah. Pakai untuk mengulang materi sesi kapan saja, dari HP atau laptop.</p>
+<div class="dlm"><span>Claude dari nol</span><span>Bahasa Indonesia</span><span>Buka di HP</span></div>
+</div>
+</article>
+<article class="alat r">
+<div aria-hidden="true" class="layar">
+<div class="hp"><div class="hp-l">
+<b>Prompt Generator</b><small>Pilih jenis app</small>
+<div class="hp-r"><span class="ic"><i data-lucide="gamepad-2"></i></span>Game kuis</div>
+<div class="hp-r"><span class="ic"><i data-lucide="calculator"></i></span>Kalkulator</div>
+<div class="hp-r"><span class="ic"><i data-lucide="store"></i></span>Menu &amp; katalog</div>
+<div class="hp-t">Salin prompt</div>
+</div></div>
+</div>
+<div class="isi">
+<small>Paket Builder &amp; All in · akses selamanya</small>
+<h3>Prompt Generator app &amp; website</h3>
+<p>Pilih jenis app atau website, isi kebutuhanmu, dan dapat prompt lengkap yang tinggal ditempel ke Claude. Ini alat utama yang kita pakai di sesi.</p>
+<div class="dlm"><span>Tanpa coding</span><span>Puluhan template</span><span>5 bahasa</span></div>
+</div>
+</article>
+<article class="alat r">
+<div aria-hidden="true" class="layar">
+<div class="vid-gaya"><i></i><i></i><i></i></div>
+<div class="vid"><div class="main"><span><i data-lucide="play"></i></span></div><div class="pil b">Pupuk jagung pas?</div><div class="pil">3 langkah hitung takaran</div></div>
+<div class="vid-gaya-k"><i></i><i></i></div>
+</div>
+<div class="isi">
+<small>Khusus paket All in</small>
+<h3>Prompt Generator Video</h3>
+<p>Prompt siap pakai supaya Claude membuat video animasi untuk Reels dan TikTok: promosi produk, materi pelajaran, tanpa tampil di kamera.</p>
+<div class="dlm"><span>49 gaya video</span><span>Naskah + takarir</span><span>Format vertikal</span></div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- HASIL -->
+<section class="sek bukti" id="hasil">
+<div class="wrap">
+<div class="kepala r">
+<span class="eyebrow">Bukti, bukan teori</span>
+<h2>Semua ini aku buat dengan Claude, <span class="o">sebelum aku ajarkan.</span></h2>
+<p>Video, carousel, app dan website di akunku dibuat dengan Claude, memakai cara kerja yang sama dengan yang kamu pelajari di sesi.</p>
+</div>
+<div class="statgrid">
+<div class="stat r" data-plat="tiktok">
+<div class="stat-atas"><span class="plat"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 3c.4 2.2 1.9 3.8 4.1 4v3.1c-1.5 0-2.9-.4-4.1-1.2v6.3a6 6 0 1 1-6-6c.3 0 .6 0 .9.1v3.2a2.9 2.9 0 1 0 2 2.7V3h3.1Z"/></svg>TikTok</span><span class="naik"><i data-lucide="trending-up"></i></span></div>
+<b class="angka" data-ke="3000" data-plus="+">3.000+</b>
+<span class="lbl-s">followers dari konten edukasi</span>
+<svg class="garis" viewBox="0 0 200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 46 C30 44 50 40 70 36 S110 30 130 22 S170 10 200 4"/></svg>
+</div>
+<div class="stat r unggul" data-plat="tiktok">
+<div class="stat-atas"><span class="plat"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 3c.4 2.2 1.9 3.8 4.1 4v3.1c-1.5 0-2.9-.4-4.1-1.2v6.3a6 6 0 1 1-6-6c.3 0 .6 0 .9.1v3.2a2.9 2.9 0 1 0 2 2.7V3h3.1Z"/></svg>TikTok</span><span class="naik"><i data-lucide="flame"></i></span></div>
+<b class="angka" data-ke="300000" data-plus="+">300.000+</b>
+<span class="lbl-s">views di satu konten</span>
+<svg class="garis" viewBox="0 0 200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 48 C40 47 70 46 90 44 S120 40 135 28 S160 6 200 2"/></svg>
+</div>
+<div class="stat r" data-plat="ig">
+<div class="stat-atas"><span class="plat"><i data-lucide="instagram"></i>Instagram pribadi</span><span class="naik"><i data-lucide="globe"></i></span></div>
+<b class="angka" data-ke="2000000" data-plus="+">2.000.000+</b>
+<span class="lbl-s">views dari pasar luar negeri</span>
+<svg class="garis" viewBox="0 0 200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 47 C30 45 60 41 85 34 S125 24 150 15 S180 6 200 3"/></svg>
+</div>
+</div>
+<div class="sub-h r"><span class="ic"><i data-lucide="clapperboard"></i></span><div><h3>Video yang dibuat dengan Claude</h3><p>Edukasi kesehatan, konten bidan di Jember, sampai video untuk pasar Malaysia. Geser untuk melihat.</p></div></div>
+<div class="vidwall" id="vidwall">
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v1-pijat-bobo-pulas.jpg" data-src="assets/hasil/v1-pijat-bobo-pulas.mp4"></video><figcaption><b>Pijat bayi, caption lucu</b><span>Bidan · Jember</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v2-pijat-caption-hijau.jpg" data-src="assets/hasil/v2-pijat-caption-hijau.mp4"></video><figcaption><b>Pijat bayi + voice over</b><span>Bidan · homecare</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v3-janin-266-hari.jpg" data-src="assets/hasil/v3-janin-266-hari.mp4"></video><figcaption><b>266 hari janin, animasi 3D</b><span>Edukasi kesehatan</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v4-sains-ibu-hamil.jpg" data-src="assets/hasil/v4-sains-ibu-hamil.mp4"></video><figcaption><b>Sains tubuh ibu hamil</b><span>Edukasi kesehatan</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v5-terakhir-menggendong.jpg" data-src="assets/hasil/v5-terakhir-menggendong.mp4"></video><figcaption><b>Terakhir kali menggendong</b><span>Video cerita</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v6-cikgu-tertidur.jpg" data-src="assets/hasil/v6-cikgu-tertidur.mp4"></video><figcaption><b>Cikgu tertidur</b><span>Pasar Malaysia · edukasi</span></figcaption></figure>
+<figure class="vk"><video muted loop playsinline preload="none" poster="assets/hasil/v7-beban-gaji-guru.jpg" data-src="assets/hasil/v7-beban-gaji-guru.mp4"></video><figcaption><b>Beban vs gaji guru</b><span>Pasar Malaysia · edukasi</span></figcaption></figure>
+</div>
+</div>
+</section>
+
+<!-- MENTOR -->
+<section class="sek" id="mentor" style="background:var(--soft2)">
+<div class="wrap">
+<div class="mentor-kad r">
+<div class="mentor-foto"><div class="f"><img alt="Auzan Hasfi" height="320" src="assets/auzan-hasfi.jpg" width="320"/></div></div>
+<div>
+<span class="peranan">Mentormu · orang Jember</span>
+<h2>Auzan Hasfi</h2>
+<p class="bio">Pembuat produk digital di EduGame Labs, tinggal di Jember. Aku membuat puluhan game edukasi untuk guru, app hitung pupuk jagung untuk petani, app layanan untuk bidan, sampai landing page untuk usaha di Jember. Semua dikerjakan dengan Claude, termasuk video animasi dan carousel untuk promosinya, tanpa latar belakang programmer atau desainer. Cara kerja itu yang aku buka di sesi, disesuaikan dengan bidangmu.</p>
+<div class="fakta">
+<div><b>30+</b><small>app, game &amp; website dibuat dengan Claude</small></div>
+<div><b>300 rb+</b><small>views di satu konten TikTok</small></div>
+<div><b>2 jt+</b><small>views di Instagram pribadi, pasar luar negeri</small></div>
+</div>
+<p class="petik">“Aku tidak mau kamu sekadar ikut. Aku mau kamu paham, supaya besok kamu bisa bikin sendiri.”</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PAKEJ -->
+<section class="sek" id="pakej">
+<div class="wrap">
+<div class="kepala tgh r">
+<span class="eyebrow">Pilih paketmu</span>
+<h2>Tiga paket, <span class="o">sekali bayar.</span></h2>
+<p>Harga per orang. Semua paket termasuk mentoring Claude di cafe Jember atau Zoom, materi custom, dan bonus app Fundamental. Ajak teman, harganya lebih murah.</p>
+</div>
+<div class="gratis r"><span class="ic"><i data-lucide="gift"></i></span><div><b>Termasuk di semua paket</b><span>Kumpulan prompt umum · panduan app Fundamental · bantuan pasang online</span></div></div>
+<div class="pakej-grid tiga" id="pakejGrid"></div>
+<div class="grup r" id="grup">
+<div class="grup-kiri">
+<span class="eyebrow">Ajak teman, lebih murah</span>
+<h3>Datang berdua atau lebih? <span class="o">Harga per orang turun.</span></h3>
+<p>Ajak rekan guru, teman kampus, atau sesama pemilik usaha. Kalian duduk satu meja di cafe, praktik bareng, dan masing-masing tetap dapat alat sesuai paket.</p>
+<div class="grup-pilih" role="radiogroup" aria-label="Jumlah orang" id="grupPilih">
+<button type="button" role="radio" data-n="1">1 orang</button><button type="button" role="radio" data-n="2">2 orang</button><button type="button" role="radio" data-n="3">3 orang</button><button type="button" role="radio" data-n="4">4 orang</button><button type="button" role="radio" data-n="5">5 orang</button>
+</div>
+</div>
+<div class="grup-kanan">
+<div class="meja" id="grupMeja" aria-hidden="true"></div>
+<div class="grup-hasil" id="grupHasil" aria-live="polite"></div>
+</div>
+</div>
+<p class="pakej-nota r">Belum yakin paket mana yang cocok? Chat WhatsApp dulu. Aku bantu pilih, tanpa paksaan.</p>
+</div>
+</section>
+
+<!-- SOALAN -->
+<section class="sek" id="soalan" style="background:var(--soft2)">
+<div class="wrap">
+<div class="kepala tgh r"><span class="eyebrow">Tanya jawab</span><h2>Sebelum kamu pesan</h2></div>
+<div class="faq r">
+<details open=""><summary>Aku belum pernah pakai Claude dan tidak bisa coding. Bisa ikut?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Bisa. Mentoring ini dibuat untuk pemula. Kamu belajar menulis perintah ke Claude, mengecek hasilnya, lalu memakainya: app dan website dipasang online, video dan carousel diunduh lalu diunggah. Semua dipraktikkan di laptopmu sendiri.</p></details>
+<details><summary>Claude bisa bikin apa saja?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">App (kuis, kalkulator, booking, katalog), website (profil usaha, portofolio, landing page), video animasi untuk Reels dan TikTok, dan carousel untuk Instagram. Di sesi kita fokus ke yang paling kamu butuhkan dulu.</p></details>
+<details><summary>Perlu langganan Claude berbayar?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Tidak wajib. Kita bisa mulai dengan akun Claude gratis. Kalau nanti kamu ingin membuat lebih banyak dan lebih panjang, aku jelaskan kapan langganan berbayar layak diambil.</p></details>
+<details><summary>Ketemuannya di cafe mana?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Kita pilih bareng lewat WhatsApp, biasanya cafe di Jember kota yang dekat denganmu, misalnya sekitar Sumbersari, Kaliwates atau Patrang, dengan Wi-Fi stabil dan colokan. Minum dipesan masing-masing.</p></details>
+<details><summary>Kalau aku di luar kota Jember?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Pilih sesi lewat Zoom. Harganya sama, isi materinya sama. Kamu share screen dan aku pandu langsung.</p></details>
+<details><summary>Materinya bisa disesuaikan dengan bidangku?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Bisa, itu kelebihan utama mentoring 1-on-1. Saat chat WhatsApp, ceritakan bidang dan tujuanmu. Guru, dosen, petani, penyuluh, pemilik UMKM, bidan, mahasiswa, atau kreator konten: contoh dan proyeknya aku siapkan dari bidangmu.</p></details>
+<details><summary>Ajak teman bisa lebih murah?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Bisa. Mulai 2 orang, harga per orang lebih murah dari harga normal. Makin banyak teman yang ikut, makin hemat. Harga khusus grup hanya diberikan lewat DM WhatsApp, jadi tekan tombol "Tanya harga grup" dan sebutkan jumlah orangnya.</p></details>
+<details><summary>Perlu bawa apa?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Laptop (Windows atau Mac) dengan charger, HP untuk mengecek hasil, dan email aktif untuk akun Claude. Kalau ada, bawa juga bahan dari bidangmu: daftar soal, menu, data lahan, atau daftar layanan.</p></details>
+<details><summary>Apa beda ketiga paket?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Paket Praktik (Rp 200.000): mentoring, materi custom, kumpulan prompt umum dan panduan app Fundamental. Paket Builder (Rp 250.000): ditambah Prompt Generator dengan akses selamanya untuk bikin app dan website sendiri dengan Claude. Paket All in (Rp 300.000): ditambah Prompt Generator Video supaya Claude membuatkan video promosi.</p></details>
+<details><summary>Bagaimana cara bayar dan pesan?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Tekan tombol di paket yang kamu pilih. Pesan WhatsApp-nya sudah tertulis, kamu tinggal kirim ke +62 857-0497-3827. Aku balas dengan cara bayar, pilihan cafe atau Zoom, dan jadwal sesi.</p></details>
+</div>
+</div>
+</section>
+
+<!-- AJAKAN -->
+<section class="sek akhir">
+<div class="wrap akhir-grid r">
+<div class="f"><img alt="Auzan Hasfi" height="320" src="assets/auzan-hasfi.jpg" width="320"/></div>
+<div>
+<span class="eyebrow">Langkah berikutnya</span>
+<h2>Ngopi sambil bikin karya pertamamu dengan Claude. <span>Yuk atur jadwalnya.</span></h2>
+<p>Kirim pesan, ceritakan minatmu dan apa yang ingin kamu buat: app, website, video atau carousel. Aku bantu pilih paket, lalu kita tentukan cafe atau Zoom.</p>
+<div class="akhir-bt">
+<a class="btn btn-wa" data-wa="Umum" href="#" rel="noopener" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.5 3.9 1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z" fill="currentColor"></path></svg>Chat WhatsApp sekarang</a>
+<span class="no-wa">+62 857-0497-3827<button aria-label="Salin nomor WhatsApp" class="salin-no" data-salin type="button"><i data-lucide="copy"></i></button></span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<p class="kaki">MENTORING CLAUDE 1-ON-1 · JEMBER · CAFE ATAU ZOOM · EDUGAME LABS</p>
+<a aria-label="WhatsApp untuk pesan mentoring" class="wa-apung" data-wa="Umum" href="#" id="waApung" rel="noopener" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.5 3.9 1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z" fill="currentColor"></path></svg></a>
+<div class="toast" id="toast" role="status"><span class="ic"><i data-lucide="check"></i></span><span>Nomor WhatsApp disalin</span></div>
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/jember.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

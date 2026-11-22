@@ -4,6 +4,7 @@
 
 | Folder | Isi |
 |---|---|
+| [`projects/mentoring-jember/`](projects/mentoring-jember/) | **SOP funnel, closing WA, pelaksanaan sesi, materi 6 modul, kalender konten 30 hari, riset pasar Jember** + salinan data LP Mentoring Claude Jember & 1-on-1 |
 | [`projects/gemi-referensi-remake/`](projects/gemi-referensi-remake/) | **Video jadi**: [`out/gemi-referensi-remake.mp4`](projects/gemi-referensi-remake/out/gemi-referensi-remake.mp4). 1920×1080 landscape, 30 fps, 93,5 detik, Bahasa Melayu, suara saja tanpa musik, −16 LUFS |
 | [`.claude/skills/video-tipografi-melayu/`](.claude/skills/video-tipografi-melayu/) | **Skill Claude**: engine tipografi kinetik, maskot Si Bulat, script render MP4, dan panduan gaya. Otomatis aktif di setiap sesi Claude Code dalam repo ini |
 | [`dist/video-tipografi-melayu.zip`](dist/video-tipografi-melayu.zip) | Skill yang sama dalam bentuk zip, untuk diunggah ke claude.ai (Settings → Capabilities → Skills) |

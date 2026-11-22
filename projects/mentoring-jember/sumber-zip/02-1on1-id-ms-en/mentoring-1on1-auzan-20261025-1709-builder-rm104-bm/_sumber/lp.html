@@ -1,0 +1,804 @@
+<title>Mentoring 1-on-1 Auzan Hasfi</title>
+<meta name="description" content="Mentoring 1-on-1 bina app dan game pendidikan dengan AI bersama Auzan Hasfi. Dipandu terus, step by step, terus praktik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Mono:wght@500&display=swap">
+<style>
+/* Susun atur: hero (foto mentor + sesi hidup) → masalah → perbandingan → timbangan nilai → apa berlaku dalam sesi (panel melekat ikut skrol)
+   → peti rahsia workflow → tentang mentor → pakej RM → soalan lazim → ajakan WhatsApp. Kulit ikut prompt1 (krem, oren, Si Bulat). */
+:root{
+  --bg:#FBF7EE; --surf:#FFFFFF; --soft:#FDEADB; --soft2:#F6EEDD; --line:#EADFC8;
+  --ink:#191512; --body:#4A4136; --muted:#6E6353; --dim:#A39780;
+  --acc:#F05323; --accDeep:#C23A12; --mango:#F8A81B; --hijau:#12946A; --ungu:#8B7BE8; --merah:#E2453C; --wa:#25D366;
+  --band:#191512; --bandText:#FBF7EE; --bandMuted:#B9AC98;
+  --sh:0 24px 50px -30px rgba(120,52,18,.45);
+  --d:'Outfit','Plus Jakarta Sans',system-ui,sans-serif;
+  --f:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --mono:'DM Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15110E; --surf:#211B16; --soft:#3A2216; --soft2:#2A221C; --line:#3B3129;
+  --ink:#F6EEE2; --body:#DCCFBE; --muted:#AA9C89; --dim:#7D705F; --acc:#FF6A3B; --accDeep:#FF8E64;
+  --band:#0C0907; --bandText:#F6EEE2; --bandMuted:#9C8F7C;
+  --sh:0 24px 50px -30px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#15110E; --surf:#211B16; --soft:#3A2216; --soft2:#2A221C; --line:#3B3129;
+  --ink:#F6EEE2; --body:#DCCFBE; --muted:#AA9C89; --dim:#7D705F; --acc:#FF6A3B; --accDeep:#FF8E64;
+  --band:#0C0907; --bandText:#F6EEE2; --bandMuted:#9C8F7C;
+  --sh:0 24px 50px -30px rgba(0,0,0,.8); color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 17px/1.6 var(--f);-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2,h3,h4,p,ul,ol{margin:0}
+ul,ol{padding:0;list-style:none}
+button{font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:10px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:var(--gut)}
+svg.lucide{width:1em;height:1em;stroke-width:1.9;flex:none}
+.ic{display:inline-flex;align-items:center;justify-content:center}
+html.tukar-tema *,html.tukar-tema *::before,html.tukar-tema *::after{transition:background-color .45s ease,color .45s ease,border-color .45s ease,box-shadow .45s ease!important}
+
+/* bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar-in{display:flex;align-items:center;gap:12px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.logo .foto-k{width:38px;height:38px;border-radius:50%;overflow:hidden;flex:none;box-shadow:0 0 0 2px var(--acc)}
+.logo .foto-k img{width:100%;height:100%;object-fit:cover;transform:scale(1.08)}
+.logo b{display:block;font:700 17px/1.1 var(--d);letter-spacing:-.02em;white-space:nowrap}
+.logo small{display:block;font:500 10.5px/1.3 var(--mono);letter-spacing:.12em;color:var(--muted);white-space:nowrap}
+.navb{margin-left:auto;display:flex;gap:2px}
+.navb a{display:inline-flex;align-items:center;height:38px;padding:0 13px;border-radius:99px;font:700 14px/1 var(--f);color:var(--muted);text-decoration:none;transition:background .2s,color .2s}
+.navb a:hover{color:var(--ink);background:var(--soft2)}
+.navb a.on{background:var(--ink);color:var(--bg)}
+.tema{flex:none;display:inline-flex;align-items:center;gap:4px;height:38px;padding:4px;border-radius:99px;border:0;background:var(--soft2);box-shadow:inset 0 0 0 1px var(--line)}
+.tema span{display:grid;place-items:center;width:30px;height:30px;border-radius:99px;font-size:16px;color:var(--muted);transition:background .3s,color .3s,transform .4s cubic-bezier(.3,1.6,.5,1)}
+.tema span.on{background:var(--ink);color:var(--bg);transform:rotate(-20deg)}
+.bar-cta{flex:none;display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 14px;border-radius:99px;background:var(--acc);color:#fff;text-decoration:none;font:700 13.5px/1 var(--f);box-shadow:0 10px 20px -12px var(--acc)}
+.prog{position:absolute;left:0;bottom:-1px;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(var(--p,0));background:linear-gradient(90deg,var(--acc),var(--mango),var(--ungu))}
+@media (max-width:980px){.navb{display:none}.bar-cta{margin-left:auto}}
+@media (max-width:520px){.bar-cta .tx{display:none}.bar-cta{width:38px;padding:0;justify-content:center}.logo small{display:none}}
+
+/* reveal klip */
+.r{transition:clip-path .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.r.pre{clip-path:inset(0 0 100% 0);transform:translateY(28px)}
+.r:not(.pre){clip-path:inset(-60px -60px -60px -60px)}
+.lukis svg.lucide>[style*="--L"]{animation:lukis 1.1s cubic-bezier(.3,.7,.2,1) backwards}
+@keyframes lukis{from{stroke-dasharray:var(--L);stroke-dashoffset:var(--L)}to{stroke-dasharray:var(--L);stroke-dashoffset:0}}
+
+/* Si Bulat */
+.sb{position:relative;display:block;padding:0;border:0;background:none;aspect-ratio:1;flex:none}
+.sb svg{display:block;width:100%;height:100%;overflow:visible}
+.sb .sb-muka{transform:translate(var(--lx,0px),var(--ly,0px));transition:transform .2s ease-out}
+.sb .sb-mata{transform-box:fill-box;transform-origin:center}
+.sb.kedip .sb-mata{animation:kedip .24s ease-in-out}
+@keyframes kedip{0%,100%{transform:scaleY(1)}45%,55%{transform:scaleY(.08)}}
+
+/* umum */
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:500 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px color-mix(in srgb,var(--acc) 18%,transparent)}
+.grad{background:linear-gradient(95deg,var(--acc) 0%,var(--mango) 55%,var(--ungu) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sek{padding-block:clamp(64px,8vw,112px);scroll-margin-top:64px}
+.kepala{max-width:760px}
+.kepala.tgh{margin-inline:auto;text-align:center}
+.kepala h2{margin-top:14px;font:700 clamp(32px,4.6vw,56px)/1.04 var(--d);letter-spacing:-.04em;text-wrap:balance}
+.kepala h2 .o{color:var(--acc)}
+.kepala p{margin-top:14px;font:600 18px/1.55 var(--f);color:var(--muted);text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;gap:10px;height:56px;padding:0 24px;border-radius:99px;border:0;text-decoration:none;font:700 16.5px/1 var(--f);transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#06371A;box-shadow:0 16px 30px -14px var(--wa)}
+.btn-wa svg{width:22px;height:22px}
+.btn-b{background:var(--surf);color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn-a{background:var(--acc);color:#fff;box-shadow:0 16px 30px -14px var(--acc)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding-block:clamp(44px,6vw,80px) clamp(56px,7vw,96px);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-30% -10% auto 45%;height:130%;background:radial-gradient(closest-side,color-mix(in srgb,var(--acc) 22%,transparent),transparent);z-index:-1}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(28px,5vw,64px);align-items:center}
+.hero h1{margin-top:18px;font:700 clamp(40px,5.8vw,74px)/1 var(--d);letter-spacing:-.045em;text-wrap:balance}
+.hero h1 .o{color:var(--acc)}
+.hero .lead{margin-top:20px;font:600 clamp(17px,1.6vw,19.5px)/1.55 var(--f);color:var(--body);max-width:56ch}
+.hero-poin{display:grid;gap:10px;margin-top:22px}
+.hero-poin li{display:flex;align-items:center;gap:12px;font:600 17px/1.35 var(--f);color:var(--body)}
+.hero-poin .ic{width:36px;height:36px;border-radius:12px;background:var(--soft);color:var(--acc);font-size:18px}
+.hero-bt{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero-nota{margin-top:14px;font:500 12.5px/1.4 var(--mono);color:var(--muted);letter-spacing:.04em}
+
+.panggung{position:relative;width:min(440px,100%);margin-inline:auto;display:grid;gap:clamp(28px,4vw,40px)}
+.foto-wrap{position:relative;width:78%;margin-inline:auto;aspect-ratio:1}
+.cincin{position:absolute;inset:-7%;border-radius:50%;border:1.5px dashed var(--line);animation:putar 50s linear infinite}
+@keyframes putar{to{transform:rotate(360deg)}}
+.foto-besar{position:absolute;inset:0;border-radius:50%;overflow:hidden;box-shadow:0 0 0 10px var(--surf),0 40px 70px -30px rgba(58,29,14,.7);background:#1F5FD6}
+.foto-besar img{width:100%;height:100%;object-fit:cover;transform:scale(1.07)}
+.lencana-m{position:absolute;display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:99px;background:var(--surf);box-shadow:var(--sh),inset 0 0 0 1px var(--line);font:700 13.5px/1 var(--f);white-space:nowrap;animation:apung 5s ease-in-out infinite}
+.lencana-m .ic{width:26px;height:26px;border-radius:50%;background:var(--soft);color:var(--acc);font-size:14px}
+.lencana-m.a{left:-2%;top:12%}
+.lencana-m.b{right:-3%;top:30%;animation-delay:-1.4s}
+.lencana-m.c{left:0;top:58%;animation-delay:-2.6s}
+@keyframes apung{50%{transform:translateY(-8px)}}
+.sesi{position:relative;padding:14px;border-radius:22px;background:var(--band);color:var(--bandText);box-shadow:0 30px 50px -24px rgba(0,0,0,.6)}
+.sesi-atas{display:flex;align-items:center;gap:8px;font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--bandMuted)}
+.sesi-atas i.hidup{width:8px;height:8px;border-radius:50%;background:#FF4D4D;animation:kelip 1.2s steps(1) infinite}
+@keyframes kelip{50%{opacity:0}}
+.sesi-atas .masa{margin-left:auto;font-variant-numeric:tabular-nums}
+.chat{display:grid;gap:8px;margin-top:10px;min-height:118px;align-content:end}
+.bub{max-width:88%;padding:9px 12px;border-radius:16px;font:600 13.5px/1.4 var(--f);animation:masuk .4s cubic-bezier(.3,1.5,.5,1)}
+.bub.u{justify-self:end;background:color-mix(in srgb,var(--bandText) 12%,transparent);border-bottom-right-radius:5px}
+.bub.m{justify-self:start;background:var(--acc);color:#fff;border-bottom-left-radius:5px}
+.bub.taip{display:inline-flex;gap:4px;padding:12px}
+.bub.taip i{width:6px;height:6px;border-radius:50%;background:#fff;animation:titik 1s infinite}
+.bub.taip i:nth-child(2){animation-delay:.15s}.bub.taip i:nth-child(3){animation-delay:.3s}
+@keyframes titik{50%{transform:translateY(-4px);opacity:.5}}
+@keyframes masuk{from{transform:translateY(10px) scale(.94);opacity:0}to{transform:none;opacity:1}}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}.panggung{width:min(400px,100%)}}
+
+/* ---------- masalah ---------- */
+.masalah-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:36px}
+.mk{position:relative;padding:20px;border-radius:24px;background:var(--surf);box-shadow:inset 0 0 0 1px var(--line);transition:transform .3s,box-shadow .3s}
+.mk:hover{transform:translateY(-4px) rotate(-.6deg);box-shadow:var(--sh),inset 0 0 0 1px var(--line)}
+.mk .ic{width:44px;height:44px;border-radius:14px;background:color-mix(in srgb,var(--merah) 14%,transparent);color:var(--merah);font-size:22px}
+.mk h3{margin-top:14px;font:700 19px/1.25 var(--d);letter-spacing:-.02em}
+.mk p{margin-top:8px;font:500 15px/1.5 var(--f);color:var(--muted)}
+.mk .kata{display:block;margin-top:12px;padding:8px 10px;border-radius:12px;background:var(--soft2);font:600 13.5px/1.4 var(--f);color:var(--body);font-style:italic}
+.jambatan{margin-top:28px;display:flex;align-items:center;gap:14px;padding:18px 20px;border-radius:22px;background:var(--soft);font:700 clamp(17px,1.8vw,20px)/1.4 var(--d);letter-spacing:-.01em}
+.jambatan .ic{width:44px;height:44px;border-radius:50%;background:var(--acc);color:#fff;font-size:22px}
+@media (max-width:980px){.masalah-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.masalah-grid{grid-template-columns:1fr}}
+
+/* ---------- perbandingan ---------- */
+.banding{margin-top:36px;border-radius:28px;background:var(--surf);box-shadow:var(--sh),inset 0 0 0 1px var(--line);overflow-x:auto}
+.banding table{width:100%;min-width:680px;border-collapse:collapse}
+.banding th,.banding td{padding:16px 18px;text-align:left;vertical-align:middle;border-bottom:1px solid var(--line)}
+.banding tr:last-child td{border-bottom:0}
+.banding thead th{font:700 15px/1.25 var(--d);background:var(--soft2)}
+.banding thead th small{display:block;font:500 11px/1.3 var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:4px;text-transform:uppercase}
+.banding th.mt,.banding td.mt{background:color-mix(in srgb,var(--acc) 9%,var(--surf));box-shadow:inset 2px 0 0 var(--acc),inset -2px 0 0 var(--acc)}
+.banding thead th.mt{background:var(--acc);color:#fff;box-shadow:none}
+.banding thead th.mt small{color:rgba(255,255,255,.85)}
+.banding td:first-child{font:700 15px/1.35 var(--f);color:var(--ink);width:34%}
+.banding td{font:600 14.5px/1.4 var(--f);color:var(--body)}
+.banding tbody tr{transition:background .2s}
+.banding tbody tr:hover td{background:var(--soft2)}
+.banding tbody tr:hover td.mt{background:color-mix(in srgb,var(--acc) 16%,var(--surf))}
+.tanda{display:inline-flex;align-items:center;gap:8px}
+.tanda .ic{width:26px;height:26px;border-radius:50%;font-size:15px;flex:none;transform:scale(0);transition:transform .45s cubic-bezier(.3,1.7,.5,1)}
+.banding.hidup .tanda .ic{transform:none}
+.tanda.y .ic{background:var(--hijau);color:#fff}
+.tanda.n .ic{background:color-mix(in srgb,var(--merah) 16%,transparent);color:var(--merah)}
+.tanda.s .ic{background:color-mix(in srgb,var(--mango) 26%,transparent);color:#9A5B00}
+
+/* ---------- timbangan ---------- */
+.nilai{background:var(--band);color:var(--bandText)}
+.nilai .kepala p{color:var(--bandMuted)}
+.nilai .eyebrow{color:var(--mango)}
+.nilai-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,5vw,56px);align-items:center;margin-top:40px}
+.timbang{position:relative;aspect-ratio:1.25;max-width:100%}
+.timbang svg{width:100%;height:100%;overflow:visible}
+.timbang .rasuk{transform-origin:300px 120px;transition:transform .25s ease-out}
+.timbang .piring-k,.timbang .piring-n{transition:transform .25s ease-out}
+.timbang text{font-family:var(--f);font-weight:700}
+.berat{opacity:0;transform:translateY(-40px);transition:opacity .4s,transform .5s cubic-bezier(.3,1.6,.5,1)}
+.berat.on{opacity:1;transform:none}
+.nilai-senarai{display:grid;gap:12px}
+.ns{display:flex;gap:14px;align-items:flex-start;padding:16px;border-radius:20px;background:color-mix(in srgb,var(--bandText) 6%,transparent);transition:background .4s,transform .4s}
+.ns.on{background:color-mix(in srgb,var(--acc) 22%,transparent);transform:translateX(6px)}
+.ns .ic{width:40px;height:40px;border-radius:12px;background:color-mix(in srgb,var(--bandText) 10%,transparent);color:var(--mango);font-size:20px}
+.ns b{display:block;font:700 17px/1.3 var(--d)}
+.ns span.t{display:block;margin-top:4px;font:500 14.5px/1.5 var(--f);color:var(--bandMuted)}
+.kesimpulan{margin-top:28px;padding:20px 22px;border-radius:22px;background:var(--acc);color:#fff;font:700 clamp(18px,2vw,22px)/1.4 var(--d);letter-spacing:-.01em}
+@media (max-width:900px){.nilai-grid{grid-template-columns:1fr}}
+
+/* ---------- proses (panel melekat) ---------- */
+.proses-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);margin-top:28px}
+.langkah{min-height:62vh;display:flex;flex-direction:column;justify-content:center;padding-block:24px;opacity:.35;transition:opacity .4s}
+.langkah.on{opacity:1}
+.langkah .no{font:800 clamp(56px,7vw,88px)/.8 var(--d);letter-spacing:-.06em;background:linear-gradient(180deg,var(--acc),color-mix(in srgb,var(--mango) 40%,transparent) 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.langkah h3{margin-top:14px;font:700 clamp(26px,3vw,36px)/1.08 var(--d);letter-spacing:-.03em}
+.langkah ul{display:grid;gap:10px;margin-top:16px}
+.langkah li{display:flex;gap:10px;align-items:flex-start;font:600 16.5px/1.45 var(--f);color:var(--body)}
+.langkah li .ic{width:30px;height:30px;border-radius:10px;background:var(--soft);color:var(--acc);font-size:16px;margin-top:-3px}
+.lekat{position:sticky;top:96px;align-self:start}
+.zoom{border-radius:26px;background:var(--band);color:var(--bandText);padding:12px;box-shadow:var(--sh)}
+.zoom-atas{display:flex;align-items:center;gap:8px;padding:4px 6px 10px;font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--bandMuted)}
+.zoom-atas i.hidup{width:8px;height:8px;border-radius:50%;background:#FF4D4D;animation:kelip 1.2s steps(1) infinite}
+.zoom-atas .lb{margin-left:auto;color:var(--mango)}
+.tile{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tile div{position:relative;aspect-ratio:16/10;border-radius:16px;overflow:hidden;background:#2A211B;display:grid;place-items:center}
+.tile .t-foto img{width:62%;aspect-ratio:1;border-radius:50%;object-fit:cover;transform:scale(1.04)}
+.tile .t-anda .sb{width:46%}
+.tile span.nm{position:absolute;left:8px;bottom:8px;padding:4px 8px;border-radius:7px;background:rgba(0,0,0,.5);font:600 11px/1 var(--f);color:#fff}
+.tile .bercakap{box-shadow:inset 0 0 0 3px var(--hijau)}
+.kongsi{position:relative;margin-top:8px;border-radius:16px;background:#FBF7EE;color:#191512;min-height:270px;padding:16px;overflow:hidden}
+.kongsi-isi{animation:skrin .5s cubic-bezier(.2,.8,.2,1)}
+@keyframes skrin{from{clip-path:inset(0 0 100% 0);transform:translateY(12px)}to{clip-path:inset(0 0 0 0);transform:none}}
+.ks-tj{display:flex;align-items:center;gap:8px;font:500 11px/1 var(--mono);letter-spacing:.1em;color:#C23A12;text-transform:uppercase}
+.ks-h{margin-top:8px;font:700 19px/1.2 var(--d);letter-spacing:-.02em}
+.cek{display:grid;gap:7px;margin-top:12px}
+.cek div{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:12px;background:#fff;box-shadow:inset 0 0 0 1px #EADFC8;font:600 13px/1.3 var(--f);animation:masuk .4s both}
+.cek div:nth-child(2){animation-delay:.12s}.cek div:nth-child(3){animation-delay:.24s}.cek div:nth-child(4){animation-delay:.36s}
+.cek .ic{width:22px;height:22px;border-radius:7px;background:#12946A;color:#fff;font-size:13px}
+.kod{margin-top:12px;padding:12px;border-radius:12px;background:#191512;color:#F3E9DA;font:500 12.5px/1.6 var(--mono);white-space:pre-wrap;min-height:96px}
+.kod .k{display:inline-block;width:7px;height:14px;background:#F3E9DA;vertical-align:-2px;animation:kelip 1s steps(1) infinite}
+.mini-game{display:flex;gap:6px;margin-top:10px}
+.mini-game i{flex:1;height:34px;border-radius:9px;background:#EADFC8;transform:scaleY(0);transform-origin:bottom;animation:tumbuh .5s cubic-bezier(.3,1.5,.5,1) forwards}
+.mini-game i:nth-child(1){background:#F05323;animation-delay:.9s}.mini-game i:nth-child(2){background:#F8A81B;animation-delay:1.1s}.mini-game i:nth-child(3){background:#8B7BE8;animation-delay:1.3s}.mini-game i:nth-child(4){background:#12946A;animation-delay:1.5s}
+@keyframes tumbuh{to{transform:none}}
+.cc{display:grid;gap:8px;margin-top:12px}
+.cc .bub{font-size:12.5px;max-width:92%}
+.cc .bub.u{background:#EFE3CC;color:#191512}
+.alir{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:16px}
+.alir span{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 11px;border-radius:99px;background:#fff;box-shadow:inset 0 0 0 1px #EADFC8;font:700 12px/1 var(--f);animation:masuk .4s both}
+.alir span.k{background:#191512;color:#FBF7EE}
+.alir .pa{background:none;box-shadow:none;padding:0;color:#A39780}
+.mangga{margin-top:14px;display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;background:#FDEADB;font:700 13px/1.3 var(--f)}
+.mangga .ic{font-size:20px;color:#C23A12}
+.ss{position:relative;margin-top:12px;height:150px;border-radius:14px;overflow:hidden}
+.ss .sb4,.ss .sl4{position:absolute;inset:0;display:grid;place-items:center;align-content:center;gap:6px;font:700 13px/1 var(--f)}
+.ss .sb4{background:repeating-linear-gradient(45deg,#E7DCC6 0 10px,#EFE6D3 10px 20px);color:#6E6353}
+.ss .sl4{background:linear-gradient(135deg,#FDEADB,#FFD3C2);color:#191512;clip-path:inset(0 0 0 var(--x,50%));animation:sapu 3s ease-in-out infinite alternate}
+@keyframes sapu{from{--x:85%}to{--x:15%}}
+@property --x{syntax:'<percentage>';inherits:false;initial-value:50%}
+.ss .bar4{display:flex;gap:4px}.ss .bar4 i{width:26px;height:26px;border-radius:8px;background:#F05323}.ss .bar4 i:nth-child(2){background:#F8A81B}.ss .bar4 i:nth-child(3){background:#8B7BE8}
+.fail{display:grid;gap:7px;margin-top:12px}
+.fail div{display:flex;align-items:center;gap:10px;padding:10px;border-radius:12px;background:#fff;box-shadow:inset 0 0 0 1px #EADFC8;font:600 13px/1.3 var(--f);animation:masuk .4s both}
+.fail div:nth-child(2){animation-delay:.12s}.fail div:nth-child(3){animation-delay:.24s}.fail div:nth-child(4){animation-delay:.36s}
+.fail .ic{width:30px;height:30px;border-radius:9px;background:#FDEADB;color:#C23A12;font-size:15px}
+.titik-l{display:flex;gap:6px;justify-content:center;margin-top:10px}
+.titik-l i{width:8px;height:8px;border-radius:99px;background:color-mix(in srgb,var(--bandText) 25%,transparent);transition:width .3s,background .3s}
+.titik-l i.on{width:24px;background:var(--acc)}
+.zoom-m{display:none}
+@media (max-width:900px){.proses-grid{grid-template-columns:1fr}.lekat{display:none}.langkah{min-height:auto;opacity:1;padding-block:20px;border-top:1px solid var(--line)}.zoom-m{display:block;margin-top:16px}}
+
+/* ---------- rahsia ---------- */
+.peti-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:36px}
+.peti{position:relative;min-height:190px;padding:20px;border-radius:24px;border:0;text-align:left;background:var(--surf);box-shadow:inset 0 0 0 1px var(--line);overflow:hidden;display:flex;flex-direction:column;gap:10px;transition:transform .3s,box-shadow .3s}
+.peti:hover{transform:translateY(-3px);box-shadow:var(--sh),inset 0 0 0 1px var(--line)}
+.peti .kunci{width:44px;height:44px;border-radius:14px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:20px;transition:background .3s,transform .5s cubic-bezier(.3,1.6,.5,1)}
+.peti b{font:700 18px/1.3 var(--d);letter-spacing:-.02em}
+.peti .kabur{font:500 14.5px/1.5 var(--f);color:var(--muted);filter:blur(5px);user-select:none;transition:filter .5s}
+.peti .lbl{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font:500 11px/1 var(--mono);letter-spacing:.1em;color:var(--acc);text-transform:uppercase}
+.peti.buka .kunci{background:var(--acc);transform:rotate(-12deg) scale(1.08)}
+.peti.buka .kabur{filter:blur(2.6px)}
+.peti-nota{margin-top:20px;display:flex;align-items:center;gap:12px;padding:16px 18px;border-radius:20px;background:var(--soft2);font:600 15.5px/1.5 var(--f);color:var(--body)}
+.peti-nota .ic{font-size:22px;color:var(--acc)}
+@media (max-width:900px){.peti-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.peti-grid{grid-template-columns:1fr}}
+
+/* ---------- mentor ---------- */
+.mentor-kad{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:center;padding:clamp(22px,3.4vw,40px);border-radius:32px;background:var(--surf);box-shadow:var(--sh),inset 0 0 0 1px var(--line)}
+.mentor-foto{position:relative;width:clamp(180px,24vw,280px)}
+.mentor-foto .f{aspect-ratio:1;border-radius:50%;overflow:hidden;background:#1F5FD6;box-shadow:0 0 0 8px var(--soft)}
+.mentor-foto img{width:100%;height:100%;object-fit:cover;transform:scale(1.07)}
+.mentor-foto .sb{position:absolute;right:-10px;bottom:-6px;width:32%}
+.mentor-kad h2{font:700 clamp(30px,4vw,46px)/1.05 var(--d);letter-spacing:-.04em}
+.mentor-kad .peranan{margin-top:6px;font:500 12.5px/1.4 var(--mono);letter-spacing:.1em;color:var(--acc);text-transform:uppercase}
+.mentor-kad p.bio{margin-top:14px;font:500 16.5px/1.65 var(--f);color:var(--body);max-width:62ch}
+.fakta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:20px}
+.fakta div{padding:14px;border-radius:18px;background:var(--soft2)}
+.fakta b{display:block;font:700 28px/1 var(--d);letter-spacing:-.03em;color:var(--acc);font-variant-numeric:tabular-nums}
+.fakta small{display:block;margin-top:6px;font:600 13px/1.35 var(--f);color:var(--muted)}
+.petik{margin-top:18px;padding:14px 16px;border-radius:16px;border-left:4px solid var(--acc);background:var(--soft2);font:600 italic 16px/1.5 var(--f);color:var(--ink)}
+@media (max-width:760px){.mentor-kad{grid-template-columns:1fr}.mentor-foto{margin-inline:auto}.fakta{grid-template-columns:1fr}}
+
+/* ---------- pakej ---------- */
+.pakej-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:36px;align-items:stretch}
+.pk{position:relative;display:flex;flex-direction:column;padding:22px 18px 18px;border-radius:26px;background:var(--surf);box-shadow:inset 0 0 0 1px var(--line);transition:transform .3s,box-shadow .3s}
+.pk:hover{transform:translateY(-4px);box-shadow:var(--sh),inset 0 0 0 1px var(--line)}
+.pk.pop{background:var(--band);color:var(--bandText);box-shadow:var(--sh),0 0 0 2px var(--acc)}
+.pk .tag-pop{position:absolute;top:-12px;left:18px;height:26px;padding:0 12px;border-radius:99px;background:var(--acc);color:#fff;font:700 12px/26px var(--f)}
+.pk small.nm{font:500 11.5px/1 var(--mono);letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.pk.pop small.nm,.pk.pop .untuk,.pk.pop li{color:var(--bandMuted)}
+.pk h3{margin-top:8px;font:700 22px/1.1 var(--d);letter-spacing:-.02em}
+.harga{display:flex;align-items:baseline;gap:6px;margin-top:12px}
+.harga b{font:800 40px/1 var(--d);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.harga span{font:600 13px/1 var(--f);color:var(--muted)}
+.pk .untuk{margin-top:8px;font:600 14px/1.45 var(--f);color:var(--body)}
+.pk ul{display:grid;gap:8px;margin-top:14px;margin-bottom:18px}
+.pk li{display:flex;gap:8px;align-items:flex-start;font:600 13.5px/1.4 var(--f);color:var(--body)}
+.pk li .ic{width:20px;height:20px;border-radius:50%;background:color-mix(in srgb,var(--hijau) 18%,transparent);color:var(--hijau);font-size:12px;margin-top:1px}
+.pk.pop li .ic{background:var(--acc);color:#fff}
+.pk .btn{margin-top:auto;height:48px;justify-content:center;font-size:14.5px;padding:0 14px}
+.pk .hasil{margin-bottom:14px;padding:10px 12px;border-radius:14px;background:var(--soft2);font:700 13px/1.4 var(--f);color:var(--ink)}
+.pk.pop .hasil{background:color-mix(in srgb,var(--bandText) 9%,transparent);color:var(--bandText)}
+.pakej-satu{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px;margin-top:36px;max-width:1000px;margin-inline:auto;align-items:stretch}
+.pakej-satu .pk{padding:30px 26px 24px}
+.pakej-satu .harga b{font-size:56px}
+.bonus{display:flex;flex-direction:column;gap:12px;padding:26px 22px;border-radius:26px;background:var(--surf);box-shadow:inset 0 0 0 1px var(--line)}
+.bonus>small{font:500 11.5px/1 var(--mono);letter-spacing:.1em;color:var(--acc);text-transform:uppercase}
+.bonus h3{font:700 22px/1.2 var(--d);letter-spacing:-.02em}
+.bonus>p{font:600 14.5px/1.5 var(--f);color:var(--body)}
+.akses{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start;padding:16px;border-radius:20px;background:var(--soft2)}
+.akses .ik{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:var(--acc);color:#fff}
+.akses .ik svg{width:24px;height:24px}
+.akses b{display:block;font:700 16.5px/1.25 var(--d);color:var(--ink)}
+.akses span{display:block;margin-top:4px;font:600 13.5px/1.45 var(--f);color:var(--body)}
+.akses em{display:inline-block;margin-top:8px;padding:3px 9px;border-radius:99px;background:color-mix(in srgb,var(--hijau) 16%,transparent);color:var(--hijau);font:700 11.5px/1.4 var(--f);font-style:normal}
+.bonus .nota-guna{margin-top:auto;padding:12px 14px;border-radius:14px;border-left:4px solid var(--acc);background:color-mix(in srgb,var(--acc) 8%,transparent);font:700 13.5px/1.45 var(--f);color:var(--ink)}
+@media (max-width:860px){.pakej-satu{grid-template-columns:1fr}}
+.pakej-nota{margin-top:20px;text-align:center;font:600 15px/1.5 var(--f);color:var(--muted)}
+@media (max-width:1060px){.pakej-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.pakej-grid{grid-template-columns:1fr}}
+
+/* ---------- soalan ---------- */
+.faq{display:grid;gap:10px;margin-top:32px;max-width:820px;margin-inline:auto}
+.faq details{border-radius:20px;background:var(--surf);box-shadow:inset 0 0 0 1px var(--line);overflow:hidden}
+.faq summary{list-style:none;display:flex;align-items:center;gap:12px;padding:18px 20px;font:700 17px/1.35 var(--d);cursor:pointer}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .ic{margin-left:auto;width:32px;height:32px;border-radius:50%;background:var(--soft2);font-size:16px;transition:transform .3s,background .3s}
+.faq details[open] summary .ic{transform:rotate(45deg);background:var(--acc);color:#fff}
+.faq .jw{padding:0 20px 18px;font:500 15.5px/1.6 var(--f);color:var(--body)}
+
+/* ---------- ajakan ---------- */
+.akhir{background:var(--band);color:var(--bandText);position:relative;overflow:hidden}
+.akhir::before{content:"";position:absolute;right:-10%;top:-40%;width:60%;aspect-ratio:1;border-radius:50%;background:radial-gradient(closest-side,color-mix(in srgb,var(--acc) 35%,transparent),transparent)}
+.akhir-grid{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center}
+.akhir .f{width:clamp(140px,18vw,220px);aspect-ratio:1;border-radius:50%;overflow:hidden;background:#1F5FD6;box-shadow:0 0 0 8px color-mix(in srgb,var(--bandText) 10%,transparent)}
+.akhir .f img{width:100%;height:100%;object-fit:cover;transform:scale(1.07)}
+.akhir .eyebrow{color:var(--mango)}
+.akhir h2{margin-top:12px;font:700 clamp(32px,4.8vw,58px)/1.03 var(--d);letter-spacing:-.04em;text-wrap:balance}
+.akhir h2 span{color:var(--acc)}
+.akhir p{margin-top:14px;font:600 17.5px/1.55 var(--f);color:var(--bandMuted);max-width:60ch}
+.akhir-bt{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:26px}
+.no-wa{display:flex;align-items:center;gap:8px;font:500 14px/1 var(--mono);letter-spacing:.04em;color:var(--bandText)}
+.salin-no{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:9px;border:0;background:color-mix(in srgb,var(--bandText) 12%,transparent);color:var(--bandText);font-size:15px}
+@media (max-width:640px){.akhir-grid{grid-template-columns:1fr}}
+.kaki{padding-block:22px;font:500 12px/1.5 var(--mono);color:var(--muted);text-align:center;letter-spacing:.06em}
+
+.wa-apung{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#06371A;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.45);text-decoration:none;transform:scale(0);transition:transform .4s cubic-bezier(.3,1.6,.5,1)}
+.wa-apung.on{transform:none}
+.wa-apung svg{width:28px;height:28px}
+.wa-apung::after{content:"";position:absolute;inset:0;border-radius:50%;animation:nadi 2.4s ease-out infinite}
+@keyframes nadi{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}100%{box-shadow:0 0 0 18px rgba(37,211,102,0)}}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;align-items:center;gap:10px;max-width:calc(100% - 32px);padding:10px 16px 10px 10px;border-radius:99px;background:var(--ink);color:var(--bg);font:700 14.5px/1.3 var(--f);box-shadow:0 20px 40px -20px rgba(0,0,0,.6);transform:translate(-50%,140%);transition:transform .45s cubic-bezier(.3,1.5,.5,1)}
+.toast.on{transform:translate(-50%,0)}
+.toast .ic{width:32px;height:32px;border-radius:50%;background:var(--hijau);color:#fff;font-size:17px}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+}
+</style>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="logo" href="#mula" aria-label="Ke atas"><span class="foto-k"><img src="__FOTO__" alt="" width="38" height="38"></span><span><b>Mentoring 1-on-1</b><small>BERSAMA AUZAN HASFI</small></span></a>
+    <nav class="navb" aria-label="Bahagian">
+      <a href="#beza">Bezanya</a><a href="#sesi">Dalam sesi</a><a href="#rahsia">Rahsia workflow</a><a href="#pakej">Pakej</a><a href="#soalan">Soalan</a>
+    </nav>
+    <a class="bar-cta" data-wa="Umum" href="#" target="_blank" rel="noopener"><span class="ic"><i data-lucide="message-circle"></i></span><span class="tx">Tempah sesi</span></a>
+    <button class="tema" id="temaBt" aria-label="Tukar mod gelap / terang"><span data-m="light"><i data-lucide="sun"></i></span><span data-m="dark"><i data-lucide="moon"></i></span></button>
+  </div>
+  <div class="prog" id="prog"></div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="mula">
+  <div class="wrap hero-grid">
+    <div class="r">
+      <span class="eyebrow">Mentoring 1-on-1 · Bina app &amp; game dengan AI</span>
+      <h1>Belajar sendiri boleh. <span class="o">Dipandu terus</span> <span class="grad">jauh lebih cepat.</span></h1>
+      <p class="lead">Anda sudah tonton tutorial, salin prompt, cuba sendiri. Tapi masih tersekat di tempat yang sama. Dalam mentoring 1-on-1, saya duduk bersama anda, lihat skrin anda, dan bimbing setiap langkah sehingga app atau game anda benar-benar siap.</p>
+      <ul class="hero-poin">
+        <li><span class="ic"><i data-lucide="messages-square"></i></span><span>Tanya apa sahaja, terus dijawab</span></li>
+        <li><span class="ic"><i data-lucide="footprints"></i></span><span>Step by step, ikut tahap anda</span></li>
+        <li><span class="ic"><i data-lucide="key-round"></i></span><span>Workflow yang tak saya kongsi di Threads</span></li>
+      </ul>
+      <div class="hero-bt">
+        <a class="btn btn-wa" data-wa="Umum" href="#" target="_blank" rel="noopener">__WA__Tempah sesi via WhatsApp</a>
+        <a class="btn btn-b" href="#pakej">Lihat pakej<span class="ic"><i data-lucide="arrow-down"></i></span></a>
+      </div>
+      <p class="hero-nota">RM104 sekali bayar · Termasuk akses Prompt Generator &amp; app Fundamental · Online melalui Zoom</p>
+    </div>
+    <div class="panggung r">
+      <div class="foto-wrap"><div class="cincin" aria-hidden="true"></div><div class="foto-besar"><img src="__FOTO__" alt="Auzan Hasfi, mentor" width="320" height="320"></div></div>
+      <div class="sesi" aria-label="Contoh perbualan dalam sesi">
+        <div class="sesi-atas"><i class="hidup"></i>SESI HIDUP · 1-ON-1<span class="masa" id="masaSesi">00:14:32</span></div>
+        <div class="chat" id="chatHero"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MASALAH -->
+<section class="sek" id="masalah" style="padding-top:clamp(24px,3vw,40px)">
+  <div class="wrap">
+    <div class="kepala r">
+      <span class="eyebrow">Kenapa ramai berhenti separuh jalan</span>
+      <h2>Masalahnya bukan anda tak pandai. <span class="o">Anda belajar sendirian.</span></h2>
+      <p>Ini empat tempat paling kerap pemula tersekat. Kalau salah satu terasa dekat, mentoring dibina untuk anda.</p>
+    </div>
+    <div class="masalah-grid">
+      <div class="mk r"><span class="ic"><i data-lucide="video-off"></i></span><h3>Tutorial terlalu umum</h3><p>Contohnya bukan topik anda, bukan murid anda, bukan masalah anda.</p><span class="kata">“Dalam video jadi, kenapa saya tak jadi?”</span></div>
+      <div class="mk r"><span class="ic"><i data-lucide="circle-help"></i></span><h3>Tersekat, tiada tempat bertanya</h3><p>Satu ralat kecil boleh makan masa berjam-jam. Komen di media sosial jarang dibalas dengan terperinci.</p><span class="kata">“Saya dah cuba 10 kali, masih sama.”</span></div>
+      <div class="mk r"><span class="ic"><i data-lucide="copy-x"></i></span><h3>Salin prompt, hasil lain</h3><p>Prompt yang sama memberi hasil berbeza kalau urutan dan konteksnya salah.</p><span class="kata">“Prompt orang lain cantik, saya punya lari.”</span></div>
+      <div class="mk r"><span class="ic"><i data-lucide="shuffle"></i></span><h3>Ilmu berselerak</h3><p>Sedikit di Threads, sedikit di TikTok, sedikit di YouTube. Tiada satu aliran yang lengkap dari awal hingga siap.</p><span class="kata">“Saya tak tahu langkah seterusnya apa.”</span></div>
+    </div>
+    <div class="jambatan r"><span class="ic"><i data-lucide="arrow-right"></i></span>Mentoring 1-on-1 menutup jurang ini: satu orang yang tahu jalannya, berjalan bersama anda.</div>
+  </div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sek" id="beza" style="background:var(--soft2)">
+  <div class="wrap">
+    <div class="kepala tgh r">
+      <span class="eyebrow">Apa bezanya</span>
+      <h2>Mentoring 1-on-1 vs cara lain</h2>
+      <p>Belajar sendiri dan kelas berkumpulan ada tempatnya. Tapi bila anda mahu hasil yang cepat dan tepat untuk keperluan anda, ini perbezaannya.</p>
+    </div>
+    <div class="banding r" id="banding">
+      <table>
+        <thead><tr><th>Perkara</th><th>Belajar sendiri<small>Tutorial &amp; media sosial</small></th><th>Kelas berkumpulan<small>Ramai peserta</small></th><th class="mt">Mentoring 1-on-1<small>Bersama Auzan Hasfi</small></th></tr></thead>
+        <tbody>
+          <tr><td>Soalan anda sendiri dijawab</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Cari sendiri</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Masa terhad</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Tanya apa sahaja</span></td></tr>
+          <tr><td>Ikut topik &amp; tahap anda</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Contoh umum</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Satu silibus untuk semua</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Projek anda sendiri</span></td></tr>
+          <tr><td>Dipandu step by step di skrin anda</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Tiada</span></td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Jarang sempat</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Kongsi skrin, terus betulkan</span></td></tr>
+          <tr><td>Workflow hasil ngulik sendiri</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Tak dikongsi</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Versi ringkas</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Dibuka penuh</span></td></tr>
+          <tr><td>Hasil anda disemak</td><td><span class="tanda n"><span class="ic"><i data-lucide="x"></i></span>Tiada</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Kadang-kadang</span></td><td class="mt"><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Semak &amp; perbaiki bersama</span></td></tr>
+          <tr><td>Kos</td><td><span class="tanda y"><span class="ic"><i data-lucide="check"></i></span>Percuma, tapi makan masa</span></td><td><span class="tanda s"><span class="ic"><i data-lucide="minus"></i></span>Sederhana</span></td><td class="mt"><span class="tanda s"><span class="ic"><i data-lucide="plus"></i></span>Lebih tinggi, hasil lebih cepat</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- NILAI / TIMBANGAN -->
+<section class="sek nilai" id="nilai">
+  <div class="wrap">
+    <div class="kepala r">
+      <span class="eyebrow">Jujur tentang harga</span>
+      <h2>Ya, lebih mahal. Tapi anda sedang membeli <span style="color:var(--acc)">masa</span>, bukan sekadar sesi.</h2>
+      <p>Skrol perlahan dan lihat timbangan ini berubah. Di satu sisi harga. Di sisi lain, apa yang anda dapat.</p>
+    </div>
+    <div class="nilai-grid">
+      <div class="timbang r" id="timbang" aria-hidden="true">
+        <svg viewBox="0 0 600 480">
+          <rect x="285" y="120" width="30" height="300" rx="10" fill="#3A2E26"/>
+          <rect x="200" y="410" width="200" height="34" rx="17" fill="#3A2E26"/>
+          <g class="rasuk" id="rasuk">
+            <rect x="60" y="110" width="480" height="20" rx="10" fill="#F8A81B"/>
+            <circle cx="300" cy="120" r="20" fill="#F05323"/>
+            <g class="piring-k" id="piringK">
+              <line x1="100" y1="120" x2="60" y2="250" stroke="#B9AC98" stroke-width="3"/><line x1="100" y1="120" x2="140" y2="250" stroke="#B9AC98" stroke-width="3"/>
+              <path d="M30 250 h140 a70 30 0 0 1 -140 0z" fill="#B9AC98"/>
+              <rect x="62" y="196" width="76" height="54" rx="12" fill="#E2453C"/>
+              <text x="100" y="231" text-anchor="middle" font-size="20" fill="#fff">RM</text>
+              <text x="100" y="312" text-anchor="middle" font-size="17" fill="#B9AC98">Harga</text>
+            </g>
+            <g class="piring-n" id="piringN">
+              <line x1="500" y1="120" x2="460" y2="250" stroke="#B9AC98" stroke-width="3"/><line x1="500" y1="120" x2="540" y2="250" stroke="#B9AC98" stroke-width="3"/>
+              <path d="M430 250 h140 a70 30 0 0 1 -140 0z" fill="#B9AC98"/>
+              <g class="berat" data-b="0"><rect x="438" y="214" width="58" height="36" rx="10" fill="#12946A"/><text x="467" y="238" text-anchor="middle" font-size="13" fill="#fff">Masa</text></g>
+              <g class="berat" data-b="1"><rect x="502" y="214" width="62" height="36" rx="10" fill="#8B7BE8"/><text x="533" y="238" text-anchor="middle" font-size="13" fill="#fff">Fokus</text></g>
+              <g class="berat" data-b="2"><rect x="446" y="176" width="66" height="36" rx="10" fill="#F05323"/><text x="479" y="200" text-anchor="middle" font-size="13" fill="#fff">Rahsia</text></g>
+              <g class="berat" data-b="3"><rect x="514" y="176" width="52" height="36" rx="10" fill="#F8A81B"/><text x="540" y="200" text-anchor="middle" font-size="13" fill="#3A2600">Yakin</text></g>
+              <g class="berat" data-b="4"><rect x="470" y="138" width="70" height="36" rx="10" fill="#FBF7EE"/><text x="505" y="162" text-anchor="middle" font-size="13" fill="#191512">App siap</text></g>
+              <text x="500" y="312" text-anchor="middle" font-size="17" fill="#B9AC98">Nilai</text>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <div class="nilai-senarai" id="nilaiSenarai">
+          <div class="ns" data-b="0"><span class="ic"><i data-lucide="hourglass"></i></span><span><b>Berjam-jam mencuba jadi beberapa minit</b><span class="t">Ralat yang biasanya makan satu malam, kita selesaikan bersama dalam sesi.</span></span></div>
+          <div class="ns" data-b="1"><span class="ic"><i data-lucide="crosshair"></i></span><span><b>Fokus pada projek anda</b><span class="t">Bukan contoh orang lain. Topik, murid dan matlamat anda sendiri.</span></span></div>
+          <div class="ns" data-b="2"><span class="ic"><i data-lucide="key-round"></i></span><span><b>Workflow yang tak dijual di mana-mana</b><span class="t">Cara kerja yang saya temui sendiri selepas banyak kali mencuba.</span></span></div>
+          <div class="ns" data-b="3"><span class="ic"><i data-lucide="shield-check"></i></span><span><b>Yakin bina sendiri selepas ini</b><span class="t">Anda faham sebab setiap langkah, jadi boleh ulang tanpa saya.</span></span></div>
+          <div class="ns" data-b="4"><span class="ic"><i data-lucide="rocket"></i></span><span><b>App atau game yang benar-benar siap</b><span class="t">Keluar dari sesi dengan hasil, bukan sekadar nota.</span></span></div>
+        </div>
+      </div>
+    </div>
+    <p class="kesimpulan r">Harga dibayar sekali. Kemahiran yang anda bawa pulang boleh digunakan bertahun-tahun.</p>
+  </div>
+</section>
+
+<!-- DALAM SESI -->
+<section class="sek" id="sesi">
+  <div class="wrap">
+    <div class="kepala r">
+      <span class="eyebrow">Apa berlaku dalam sesi</span>
+      <h2>Enam langkah, <span class="o">dari bingung ke siap.</span></h2>
+      <p>Skrol untuk melihat setiap langkah berlaku di skrin sesi.</p>
+    </div>
+    <div class="proses-grid">
+      <div id="senaraiLangkah"></div>
+      <div class="lekat" aria-hidden="true">
+        <div class="zoom">
+          <div class="zoom-atas"><i class="hidup"></i>ZOOM · SESI 1-ON-1<span class="lb" id="zoomLb">LANGKAH 1 / 6</span></div>
+          <div class="tile">
+            <div class="t-foto" id="tMentor"><img src="__FOTO__" alt="" width="320" height="320"></div>
+            <div class="t-anda" id="tAnda"><span class="sb" data-sb="happy" data-w="orange" data-b="blob"></span><span class="nm">Anda</span></div>
+          </div>
+          <div class="kongsi" id="kongsi"></div>
+          <div class="titik-l" id="titikL"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RAHSIA -->
+<section class="sek" id="rahsia" style="background:var(--soft2)">
+  <div class="wrap">
+    <div class="kepala r">
+      <span class="eyebrow">Hanya dalam sesi</span>
+      <h2>Rahsia workflow yang <span class="o">jarang dibahas.</span></h2>
+      <p>Di Threads saya kongsi hasilnya. Cara di sebaliknya saya simpan untuk mentoring, kerana ia perlu ditunjuk terus, bukan sekadar ditulis. Tekan peti untuk mengintai.</p>
+    </div>
+    <div class="peti-grid" id="peti">
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>Brief satu halaman sebelum prompt pertama</b><span class="kabur">Susunan soalan yang membuat AI faham projek dari awal sehingga hasil tak lari topik.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>Urutan prompt berperingkat untuk game</b><span class="kabur">Kenapa satu prompt panjang selalu gagal dan susunan yang lebih stabil.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>Baiki ralat tanpa tahu coding</b><span class="kabur">Cara menerangkan masalah kepada AI supaya pembetulan tepat kali pertama.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>UI kemas daripada rujukan</b><span class="kabur">Dari tangkapan skrin rujukan ke sistem warna, fon dan komponen yang konsisten.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>Satu game jadi sepuluh topik</b><span class="kabur">Struktur data yang membolehkan anda tukar kandungan tanpa bina semula.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+      <button class="peti r"><span class="kunci"><i data-lucide="lock"></i></span><b>Dari fail ke satu link online</b><span class="kabur">Aliran terbit yang pantas supaya murid boleh buka dari telefon.</span><span class="lbl"><i data-lucide="eye"></i>Intai</span></button>
+    </div>
+    <p class="peti-nota r"><span class="ic"><i data-lucide="lock-keyhole"></i></span>Butiran penuh setiap peti dibuka dan dipraktikkan bersama dalam sesi mentoring.</p>
+  </div>
+</section>
+
+<!-- MENTOR -->
+<section class="sek" id="mentor">
+  <div class="wrap">
+    <div class="mentor-kad r">
+      <div class="mentor-foto"><div class="f"><img src="__FOTO__" alt="Auzan Hasfi" width="320" height="320"></div></div>
+      <div>
+        <span class="peranan">Mentor anda</span>
+        <h2>Auzan Hasfi</h2>
+        <p class="bio">Pembina app dan game pendidikan di EduGame Labs. Setiap hari saya bina, uji dan perbaiki app untuk cikgu dan murid dengan bantuan AI. Banyak cara kerja yang saya guna hari ini datang daripada mencuba sendiri, gagal, dan mencuba lagi. Dalam mentoring, saya kongsikan jalan pintas itu supaya anda tak perlu melalui semua kesilapan yang sama.</p>
+        <div class="fakta">
+          <div><b>29</b><small>game pendidikan siap dimainkan di portfolio</small></div>
+          <div><b>203</b><small>pelajaran dalam app panduan bina app</small></div>
+          <div><b>BM + ID</b><small>bahan untuk cikgu Malaysia &amp; Indonesia</small></div>
+        </div>
+        <p class="petik">“Saya tak mahu anda sekadar ikut. Saya mahu anda faham, supaya esok anda boleh bina sendiri.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAKEJ -->
+<section class="sek" id="pakej" style="background:var(--soft2)">
+  <div class="wrap">
+    <div class="kepala tgh r">
+      <span class="eyebrow">Satu pakej, lengkap</span>
+      <h2>Mentoring Builder, terus dengan alatnya</h2>
+      <p>Tak perlu pening memilih. Satu pakej yang merangkumi bimbingan live, bahan, dan akses ke dua alat yang saya sendiri guna untuk membina app.</p>
+    </div>
+    <div class="pakej-satu">
+      <div class="pakej-grid" id="pakejGrid" style="display:contents"></div>
+      <div class="bonus r">
+        <small>Termasuk dalam RM104</small>
+        <h3>Akses ke dua alat saya</h3>
+        <p>Mentoring dijalankan terus di dalam alat ini. Apa yang anda belajar dalam sesi, anda boleh ulang sendiri selepas itu.</p>
+        <div class="akses"><span class="ik"><i data-lucide="wand-sparkles"></i></span><div><b>Prompt Generator</b><span>Pilih jenis game, isi topik dan tahun, terus dapat prompt lengkap untuk bina game kelas anda.</span><em>Akses penuh</em></div></div>
+        <div class="akses"><span class="ik"><i data-lucide="graduation-cap"></i></span><div><b>App Fundamental Claude No Code</b><span>Asas bina app dengan AI, langkah demi langkah. Rujukan anda sebelum dan selepas sesi.</span><em>Akses penuh</em></div></div>
+        <p class="nota-guna">Dalam sesi, kita guna kedua-dua alat ini bersama-sama di skrin anda. Jadi anda bukan sekadar faham, anda tahu cara menggunakannya sendiri.</p>
+      </div>
+    </div>
+    <p class="pakej-nota r">Ada soalan dulu sebelum tempah? Chat WhatsApp. Saya jawab, tanpa paksaan.</p>
+  </div>
+</section>
+
+<!-- SOALAN -->
+<section class="sek" id="soalan">
+  <div class="wrap">
+    <div class="kepala tgh r"><span class="eyebrow">Soalan lazim</span><h2>Sebelum anda tempah</h2></div>
+    <div class="faq r">
+      <details open><summary>Saya langsung tak reti coding. Boleh ikut?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Boleh. Pakej Builder sesuai walaupun anda bermula dari sifar, kerana kita mula dari asas di app Fundamental. Anda tak perlu tulis kod. Anda belajar cara memberi arahan kepada AI, menyemak hasil dan memperbaikinya.</p></details>
+      <details><summary>Sesi dibuat bagaimana?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Online melalui Zoom. Anda kongsi skrin, saya bimbing terus. Anda praktik di komputer anda sendiri, jadi apa yang dibina kekal milik anda.</p></details>
+      <details><summary>Bagaimana saya dapat akses Prompt Generator dan app Fundamental?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Selepas bayaran disahkan, saya hantar akses kedua-duanya melalui WhatsApp sebelum sesi pertama. Kita guna terus dalam sesi.</p></details>
+      <details><summary>Bila tarikh sesinya?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Tiada tarikh tetap. Kita tetapkan masa yang sesuai untuk anda melalui WhatsApp.</p></details>
+      <details><summary>Apa beza mentoring dengan tempah game custom?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Mentoring mengajar anda membina sendiri, jadi lebih jimat jika anda kerap perlukan game baharu. Tempahan custom sesuai jika jadual anda padat. Dengan Prompt Generator yang anda dapat, game baharu boleh dibina sendiri bila-bila masa.</p></details>
+      <details><summary>Bagaimana cara bayar dan tempah?<span class="ic"><i data-lucide="plus"></i></span></summary><p class="jw">Tekan butang WhatsApp pada pakej Builder. Mesej sudah tertulis, anda cuma hantar. Saya balas dengan cara bayaran dan pilihan masa.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- AJAKAN -->
+<section class="sek akhir">
+  <div class="wrap akhir-grid r">
+    <div class="f"><img src="__FOTO__" alt="Auzan Hasfi" width="320" height="320"></div>
+    <div>
+      <span class="eyebrow">Langkah seterusnya</span>
+      <h2>Berhenti tersekat sendirian. <span>Jom bina bersama.</span></h2>
+      <p>Hantar mesej, ceritakan app atau game yang anda mahu bina. Saya terangkan pakej Builder dan kita tetapkan masa sesi.</p>
+      <div class="akhir-bt">
+        <a class="btn btn-wa" data-wa="Umum" href="#" target="_blank" rel="noopener">__WA__Chat WhatsApp sekarang</a>
+        <span class="no-wa"><span id="noWa">+62 857-0497-3827</span><button class="salin-no" id="salinNo" aria-label="Salin nombor WhatsApp"><i data-lucide="copy"></i></button></span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<p class="kaki">MENTORING 1-ON-1 · AUZAN HASFI · EDUGAME LABS</p>
+<a class="wa-apung" id="waApung" data-wa="Umum" href="#" target="_blank" rel="noopener" aria-label="WhatsApp untuk tempah mentoring">__WA__</a>
+<div class="toast" id="toast" role="status" aria-live="polite"><span class="ic"><i data-lucide="check"></i></span><span id="toastT">Disalin.</span></div>
+
+<script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<script>
+(function(){
+'use strict';
+var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var FOTO=$('.foto-besar img').src;
+
+/* ---------- WhatsApp ---------- */
+var NO='6285704973827';
+function waLink(pakej){
+  var t=pakej==='Umum'?'Assalamualaikum Cikgu Auzan, saya berminat dengan mentoring 1-on-1 pakej Builder (RM104). Boleh terangkan lebih lanjut?'
+    :'Assalamualaikum Cikgu Auzan, saya berminat dengan pakej mentoring '+pakej+'. Boleh saya tahu cara tempah dan masa yang ada?';
+  return 'https://wa.me/'+NO+'?text='+encodeURIComponent(t);
+}
+function pasangWa(root){ $$('[data-wa]',root).forEach(function(a){a.href=waLink(a.dataset.wa)}); }
+
+/* ---------- Si Bulat ---------- */
+var SB_PAL={orange:{b:'#F05323',i:'#5E1B08'},mango:{b:'#F8A81B',i:'#7A4A00'},green:{b:'#12946A',i:'#06412E'},purple:{b:'#8B7BE8',i:'#2E2470'}};
+var SB_BENTUK={blob:'<path d="M104 12 C156 6 192 50 186 100 C180 152 146 190 96 188 C46 186 10 148 12 96 C14 46 52 18 104 12 Z" fill="{B}"/>',round:'<circle cx="100" cy="100" r="88" fill="{B}"/>'};
+var SB_MUKA={happy:['<path d="M58 84 Q74 66 90 84"/><path d="M110 84 Q126 66 142 84"/>','<path d="M52 100 Q100 154 148 100"/>'],
+  wink:['<path d="M60 88 Q75 71 90 88"/><path d="M124 84 L124 84" stroke-width="17"/>','<path d="M58 106 Q100 144 142 106"/>'],
+  thinking:['<path d="M76 82 L76 82" stroke-width="17"/><path d="M124 82 L124 82" stroke-width="17"/>','<path d="M86 116 Q99 125 113 119"/>'],
+  cheer:['<path d="M56 82 Q74 62 92 82"/><path d="M108 82 Q126 62 144 82"/>','<path d="M62 102 Q100 152 138 102 Z" fill="{I}" stroke="none"/>'],
+  oops:['<path d="M72 80 L72 80" stroke-width="16"/><path d="M128 80 L128 80" stroke-width="16"/>','<path d="M78 122 Q88 110 100 122 Q112 134 122 122" stroke-width="6"/>']};
+function sbSVG(pose,bentuk,warna){
+  var p=SB_PAL[warna]||SB_PAL.orange,m=SB_MUKA[pose]||SB_MUKA.happy,I=p.i;
+  var h='<svg viewBox="-12 -12 224 224" aria-hidden="true" focusable="false">'+(SB_BENTUK[bentuk]||SB_BENTUK.blob).replace('{B}',p.b);
+  h+='<g fill="'+I+'" opacity=".16"><ellipse cx="46" cy="110" rx="13" ry="8"/><ellipse cx="154" cy="110" rx="13" ry="8"/></g>';
+  h+='<g class="sb-muka" stroke="'+I+'" stroke-width="7" stroke-linecap="round" fill="none"><g class="sb-mata">'+m[0]+'</g><g class="sb-mulut">'+m[1].replace('{I}',I)+'</g></g>';
+  if(pose==='thinking') h+='<text x="158" y="42" font-size="42" font-family="Outfit,system-ui,sans-serif" font-weight="700" fill="'+I+'" opacity=".65">?</text>';
+  if(pose==='cheer') h+='<g fill="'+I+'" opacity=".55"><path d="M22 24 L27 38 L41 43 L27 48 L22 62 L17 48 L3 43 L17 38 Z"/><path d="M180 18 L184 28 L194 32 L184 36 L180 46 L176 36 L166 32 L176 28 Z"/></g>';
+  return h+'</svg>';
+}
+function lukisSB(el,pose){ if(pose) el.dataset.sb=pose; el.innerHTML=sbSVG(el.dataset.sb,el.dataset.b,el.dataset.w); }
+function semuaSB(root){ $$('.sb',root).forEach(function(el){lukisSB(el)}); }
+semuaSB();
+setInterval(function(){ $$('.sb').forEach(function(el){ if(Math.random()<.4){el.classList.add('kedip');setTimeout(function(){el.classList.remove('kedip')},260)} }) },2600);
+document.addEventListener('pointermove',function(e){
+  $$('.sb').forEach(function(el){
+    var r=el.getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight) return;
+    var dx=e.clientX-(r.left+r.width/2),dy=e.clientY-(r.top+r.height/2),d=Math.max(1,Math.hypot(dx,dy)),k=Math.min(8,d/40),m=el.querySelector('.sb-muka'); if(!m) return;
+    m.style.setProperty('--lx',(dx/d*k).toFixed(1)+'px'); m.style.setProperty('--ly',(dy/d*k*.7).toFixed(1)+'px');
+  });
+},{passive:true});
+
+/* ---------- hero: perbualan sesi ---------- */
+var CHAT=[['u','Game kuiz saya tak keluar skor di hujung. Kenapa ya?'],['m','Jom kongsi skrin. Saya tunjuk satu baris arahan yang selalu terlepas.'],['u','Oh! Jadi kena minta AI simpan markah dulu?'],['m','Betul. Sekarang cuba tambah tahap kedua pula.'],['u','Jadi! Murid boleh main malam ni 🎉']];
+var ci=0,detik=14*60+32;
+function chatSeterusnya(){
+  var box=$('#chatHero'); if(!box) return;
+  if(ci>=CHAT.length){ ci=0; box.innerHTML=''; }
+  var c=CHAT[ci++];
+  if(c[0]==='m'){ var t=document.createElement('div'); t.className='bub m taip'; t.innerHTML='<i></i><i></i><i></i>'; box.appendChild(t); setTimeout(function(){ t.className='bub m'; t.textContent=c[1]; },900); }
+  else { var b=document.createElement('div'); b.className='bub u'; b.textContent=c[1]; box.appendChild(b); }
+  while(box.children.length>3) box.removeChild(box.firstChild);
+}
+chatSeterusnya(); chatSeterusnya();
+if(!RM){ setInterval(chatSeterusnya,2600); setInterval(function(){ detik++; var h=Math.floor(detik/3600),m=Math.floor(detik/60)%60,s=detik%60; $('#masaSesi').textContent=[h,m,s].map(function(x){return String(x).padStart(2,'0')}).join(':'); },1000); }
+
+/* ---------- langkah sesi ---------- */
+var LANGKAH=[
+ {h:'Kenal pasti matlamat',p:[['target','Apa yang anda mahu bina, untuk siapa, topik apa'],['gauge','Tahap anda sekarang, supaya kita tak terlalu laju atau perlahan'],['list-checks','Senarai hasil yang mesti siap hujung sesi']],
+  s:'<span class="ks-tj">Diagnosis</span><p class="ks-h">Matlamat sesi hari ini</p><div class="cek"><div><span class="ic"><i data-lucide="check"></i></span>Game kuiz Sains · Tahun 4</div><div><span class="ic"><i data-lucide="check"></i></span>Tahap: belum pernah coding</div><div><span class="ic"><i data-lucide="check"></i></span>Hasil: game boleh dimain di telefon</div><div><span class="ic"><i data-lucide="check"></i></span>Masa: satu sesi</div></div>',m:'tMentor'},
+ {h:'Bina bersama, step by step',p:[['monitor-play','Anda kongsi skrin, saya pandu setiap klik'],['footprints','Satu langkah selesai, baru ke langkah seterusnya'],['hand','Anda yang menaip, jadi tangan anda yang belajar']],
+  s:'<span class="ks-tj">Bina</span><p class="ks-h">Prompt pertama anda</p><div class="kod" data-taip="Bina game kuiz Sains Tahun 4.\\n3 tahap, 5 soalan setiap tahap.\\nSimpan markah, papar di hujung."></div><div class="mini-game"><i></i><i></i><i></i><i></i></div>',m:'tAnda'},
+ {h:'Tanya apa sahaja',p:[['messages-square','Soalan kecil atau besar, semua dijawab terus'],['lightbulb','Saya terangkan kenapa, bukan sekadar caranya'],['repeat','Tak faham? Kita ulang dengan contoh lain']],
+  s:'<span class="ks-tj">Soal jawab</span><p class="ks-h">Tiada soalan yang terlalu asas</p><div class="cc"><div class="bub u">Boleh ke game ni guna gambar saya sendiri?</div><div class="bub m">Boleh. Saya tunjuk cara masukkan gambar dan pastikan ia tak berat.</div><div class="bub u">Kalau murid guna telefon lama?</div></div>',m:'tAnda'},
+ {h:'Workflow rahsia dibuka',p:[['key-round','Cara kerja hasil ngulik sendiri, tak dikongsi di Threads'],['git-branch','Urutan yang membuat hasil AI lebih stabil'],['zap','Jalan pintas yang menjimatkan berjam-jam']],
+  s:'<span class="ks-tj">Workflow</span><p class="ks-h">Aliran kerja yang anda bawa pulang</p><div class="alir"><span>Brief</span><span class="pa"><i data-lucide="chevron-right"></i></span><span>Rujukan</span><span class="pa"><i data-lucide="chevron-right"></i></span><span class="k">Prompt berperingkat</span><span class="pa"><i data-lucide="chevron-right"></i></span><span>Uji</span><span class="pa"><i data-lucide="chevron-right"></i></span><span>Terbit</span></div><div class="mangga"><span class="ic"><i data-lucide="lock-open"></i></span>3 langkah tersembunyi kini dibuka</div>',m:'tMentor'},
+ {h:'Semak & perbaiki',p:[['scan-search','Kita uji bersama seperti murid akan guna'],['wand-sparkles','Perbaiki rupa, kelajuan dan ralat'],['thumbs-up','Hasil cukup kemas untuk dibawa ke kelas']],
+  s:'<span class="ks-tj">Semakan</span><p class="ks-h">Sebelum dan selepas</p><div class="ss"><div class="sb4">Versi pertama · bersepah</div><div class="sl4"><div class="bar4"><i></i><i></i><i></i></div>Versi kemas · sedia kelas</div></div>',m:'tMentor'},
+ {h:'Bawa pulang hasilnya',p:[['package-check','App atau game yang siap digunakan'],['file-text','Langkah dan prompt yang dipakai, untuk diulang'],['route','Pelan langkah seterusnya, ikut matlamat anda']],
+  s:'<span class="ks-tj">Selesai</span><p class="ks-h">Yang anda bawa pulang</p><div class="fail"><div><span class="ic"><i data-lucide="gamepad-2"></i></span>Game kuiz Sains · siap dimain</div><div><span class="ic"><i data-lucide="file-text"></i></span>Prompt &amp; langkah yang dipakai</div><div><span class="ic"><i data-lucide="link"></i></span>Satu link untuk murid</div><div><span class="ic"><i data-lucide="route"></i></span>Pelan app seterusnya</div></div>',m:'tAnda'}
+];
+var sl=$('#senaraiLangkah');
+LANGKAH.forEach(function(L,i){
+  var d=document.createElement('div'); d.className='langkah'; d.dataset.i=i;
+  d.innerHTML='<span class="no">0'+(i+1)+'</span><h3>'+L.h+'</h3><ul>'+L.p.map(function(p){return '<li><span class="ic"><i data-lucide="'+p[0]+'"></i></span><span>'+p[1]+'</span></li>'}).join('')+'</ul><div class="zoom-m"><div class="kongsi"><div class="kongsi-isi">'+L.s.replace(/<div class="kod" data-taip="([^"]*)"><\/div>/,function(_,t){return '<div class="kod">'+t.replace(/\\n/g,'\n')+'</div>'})+'</div></div></div>';
+  sl.appendChild(d);
+});
+var kini=-1,taipT=null;
+function tunjukLangkah(i){
+  if(i===kini) return; kini=i; var L=LANGKAH[i],k=$('#kongsi');
+  $$('.langkah',sl).forEach(function(d,j){d.classList.toggle('on',j===i)});
+  $('#zoomLb').textContent='LANGKAH '+(i+1)+' / 6';
+  $$('#titikL i').forEach(function(t,j){t.classList.toggle('on',j===i)});
+  $('#tMentor').classList.toggle('bercakap',L.m==='tMentor'); $('#tAnda').classList.toggle('bercakap',L.m==='tAnda');
+  lukisSB($('#tAnda .sb'),['thinking','happy','thinking','wink','happy','cheer'][i]);
+  k.innerHTML='<div class="kongsi-isi">'+L.s+'</div>'; ikon(k);
+  clearInterval(taipT);
+  var kd=$('[data-taip]',k);
+  if(kd){ var t=kd.dataset.taip.replace(/\\n/g,'\n'),n=0; if(RM){kd.textContent=t;} else taipT=setInterval(function(){ n+=2; kd.innerHTML=t.slice(0,n).replace(/&/g,'&amp;').replace(/</g,'&lt;')+'<span class="k"></span>'; if(n>=t.length) clearInterval(taipT); },35); }
+}
+tunjukLangkah(0);
+
+/* ---------- pakej (harga ikut EduGame Labs Malaysia) ---------- */
+var PAKEJ=[
+ {n:'Mentoring 1-on-1',h:'Builder',rm:104,pop:1,u:'Untuk yang mahu bina app dan game sendiri dengan yakin, dibimbing terus dan lengkap dengan alatnya.',
+  i:['2× sesi Zoom mentoring 1-on-1','Asas bina app dengan AI + formula prompt','Bina app pertama bersama mentor, di skrin anda','10 prompt premium + 5 templat HTML game sedia guna','Ubah suai UI & tukar topik lebih pantas','Akses Prompt Generator','Akses app Fundamental Claude No Code','Sokongan WhatsApp 7 hari'],hs:'Satu app hari ini. App kedua minggu depan, dengan alat yang sama.'}
+];
+var pg=$('#pakejGrid');
+PAKEJ.forEach(function(p){
+  var d=document.createElement('div'); d.className='pk r'+(p.pop?' pop':'');
+  d.innerHTML=(p.pop?'<span class="tag-pop">Pakej mentoring</span>':'')+'<small class="nm">'+p.n+'</small><h3>'+p.h+'</h3><div class="harga"><b data-rm="'+p.rm+'">RM'+p.rm+'</b><span>sekali bayar</span></div><p class="untuk">'+p.u+'</p>'+
+   '<ul>'+p.i.map(function(x){return '<li><span class="ic"><i data-lucide="check"></i></span><span>'+x+'</span></li>'}).join('')+'</ul><p class="hasil">'+p.hs+'</p>'+
+   '<a class="btn '+(p.pop?'btn-a':'btn-wa')+'" data-wa="'+p.h+' (RM'+p.rm+')" href="#" target="_blank" rel="noopener">Pilih '+p.h+' · RM'+p.rm+'</a>';
+  pg.appendChild(d);
+});
+pasangWa();
+
+/* ---------- peti rahsia ---------- */
+$('#peti').addEventListener('click',function(e){
+  var b=e.target.closest('.peti'); if(!b) return;
+  var on=!b.classList.contains('buka'); b.classList.toggle('buka',on);
+  var k=$('.kunci',b); k.innerHTML='<i data-lucide="'+(on?'lock-open':'lock')+'"></i>'; ikon(k);
+  var l=$('.lbl',b); l.innerHTML=on?'<i data-lucide="calendar-check"></i>Dibuka penuh dalam sesi':'<i data-lucide="eye"></i>Intai'; ikon(l);
+});
+
+/* ---------- salin nombor ---------- */
+var toastT=null;
+function toast(m){ $('#toastT').textContent=m; var t=$('#toast'); t.classList.add('on'); clearTimeout(toastT); toastT=setTimeout(function(){t.classList.remove('on')},2400); }
+$('#salinNo').addEventListener('click',function(){
+  var n='+6285704973827';
+  function pilih(){ var r=document.createRange(); r.selectNodeContents($('#noWa')); var s=getSelection(); s.removeAllRanges(); s.addRange(r); toast('Nombor dipilih. Tekan Ctrl/Cmd + C.'); }
+  try{ navigator.clipboard.writeText(n).then(function(){toast('Nombor WhatsApp disalin.')},pilih); }catch(e){ pilih(); }
+});
+
+/* ---------- ikon ---------- */
+function ikon(root){
+  if(!window.lucide) return;
+  lucide.createIcons({attrs:{'stroke-width':1.9}});
+  $$('svg.lucide > *',root||document).forEach(function(p){
+    if(p.style.getPropertyValue('--L')||!p.getTotalLength) return;
+    try{ var L=p.getTotalLength(); if(L>0) p.style.setProperty('--L',(L+1).toFixed(1)); }catch(e){}
+  });
+}
+ikon();
+
+/* ---------- tema ---------- */
+var akar=document.documentElement,mq=window.matchMedia?matchMedia('(prefers-color-scheme: dark)'):null;
+function temaKini(){ return akar.dataset.theme||(mq&&mq.matches?'dark':'light'); }
+function paparTema(){ var t=temaKini(); $$('#temaBt span').forEach(function(s){s.classList.toggle('on',s.dataset.m===t)}); $('#temaBt').setAttribute('aria-pressed',t==='dark'); }
+try{ var st=localStorage.getItem('m1-tema'); if(st==='dark'||st==='light') akar.dataset.theme=st; }catch(e){}
+paparTema(); if(mq&&mq.addEventListener) mq.addEventListener('change',paparTema);
+$('#temaBt').addEventListener('click',function(){
+  var baru=temaKini()==='dark'?'light':'dark'; akar.classList.add('tukar-tema'); akar.dataset.theme=baru; paparTema();
+  setTimeout(function(){akar.classList.remove('tukar-tema')},500); try{localStorage.setItem('m1-tema',baru)}catch(e){}
+});
+
+/* ---------- reveal & interaksi skrol ---------- */
+var rv=$$('.r');
+if('IntersectionObserver' in window && !RM){
+  rv.forEach(function(el){ var r=el.getBoundingClientRect(); if(r.top>innerHeight*.95) el.classList.add('pre'); else el.classList.add('lukis'); });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.remove('pre'); e.target.classList.add('lukis'); io.unobserve(e.target); } })},{rootMargin:'0px 0px -10% 0px'});
+  rv.forEach(function(el){ if(el.classList.contains('pre')) io.observe(el); });
+  /* tanda perbandingan muncul satu-satu */
+  var iob=new IntersectionObserver(function(es){ if(es[0].isIntersecting){ $$('#banding .tanda .ic').forEach(function(t,i){ t.style.transitionDelay=(i*.06)+'s'; }); $('#banding').classList.add('hidup'); iob.disconnect(); } },{threshold:.3});
+  iob.observe($('#banding'));
+} else { $('#banding').classList.add('hidup'); }
+
+/* langkah aktif ikut skrol */
+var langkahEl=$$('.langkah',sl);
+var sek=['beza','sesi','rahsia','pakej','soalan'].map(function(id){return document.getElementById(id)}),navA=$$('.navb a');
+function kemas(){
+  var h=document.documentElement; $('#prog').style.setProperty('--p',(h.scrollTop/Math.max(1,h.scrollHeight-innerHeight)).toFixed(4));
+  /* timbangan: condong ikut kemajuan skrol bahagian nilai */
+  var nl=$('#nilai').getBoundingClientRect(),p=Math.max(0,Math.min(1,(innerHeight*.75-nl.top)/(nl.height*.7)));
+  if(RM) p=1;
+  var sudut=-12+p*28; $('#rasuk').style.transform='rotate('+sudut.toFixed(2)+'deg)';
+  var lawan='rotate('+(-sudut).toFixed(2)+'deg)';
+  $('#piringK').style.transform=lawan; $('#piringK').style.transformOrigin='100px 120px';
+  $('#piringN').style.transform=lawan; $('#piringN').style.transformOrigin='500px 120px';
+  var nb=Math.round(p*5.4);
+  $$('.berat').forEach(function(b){b.classList.toggle('on',+b.dataset.b<nb)});
+  $$('.ns').forEach(function(b){b.classList.toggle('on',+b.dataset.b===nb-1)});
+  /* langkah sesi */
+  var a=0; langkahEl.forEach(function(d,i){ if(d.getBoundingClientRect().top<innerHeight*.55) a=i; }); tunjukLangkah(a);
+  var k=-1; sek.forEach(function(s,i){ if(s.getBoundingClientRect().top<innerHeight*.4) k=i; }); navA.forEach(function(x,i){x.classList.toggle('on',i===k)});
+  $('#waApung').classList.toggle('on',scrollY>innerHeight*.8);
+}
+addEventListener('scroll',kemas,{passive:true}); addEventListener('resize',kemas); kemas();
+})();
+</script>
