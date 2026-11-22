@@ -89,5 +89,5 @@ Aturan internal:
 | Mahasiswa | Portofolio | | |
 | Kreator | Video edukasi 9:16 | `sumber-zip/01-jember/...materi-video-edukasi/assets/hasil/` | milik sendiri |
 
-## 8. Sertifikat/kenang-kenangan (opsional)
-Minta Claude: "Buatkan sertifikat apresiasi HTML A4 landscape: 'Telah menyelesaikan Mentoring Claude 1-on-1 · Jember', nama [..], karya [..], tanggal [..], tanda tangan Auzan Hasfi · EduGame Labs." Sebut sebagai **sertifikat apresiasi**, bukan sertifikat resmi/terakreditasi.
+## 8. Sertifikat apresiasi
+Template siap pakai: [`sertifikat/index.html`](sertifikat/index.html) (panduan di [`sertifikat/BACA-SAYA.md`](sertifikat/BACA-SAYA.md)). Isi formulir → Cetak/Simpan PDF (A4 lanskap) → kirim ke peserta di H+0. Memuat nama, bidang & asal, paket, karya, modul yang diselesaikan, tanggal, tempat, durasi, nomor `MCJ-tahun-urut`, tanda tangan mentor, dan QR ke link karya. Selalu disebut **sertifikat apresiasi**, bukan sertifikat resmi/terakreditasi.

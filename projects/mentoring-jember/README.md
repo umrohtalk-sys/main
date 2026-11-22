@@ -11,6 +11,7 @@ Paket kerja lengkap untuk menjual dan menjalankan **Mentoring Claude 1-on-1 di J
 | [05-KALENDER-KONTEN.md](05-KALENDER-KONTEN.md) | Rencana konten 30 hari (23 Nov–22 Des 2026) + kampanye libur semester, bank hook, caption |
 | [06-RISET-PASAR-JEMBER.md](06-RISET-PASAR-JEMBER.md) | Data Jember, kampus, mapel Koding & KA, medsos, Claude/Netlify, QRIS, UU PDP — semua bertaut sumber |
 | [07-TEMPLATE-TRACKER.md](07-TEMPLATE-TRACKER.md) | Formulir pra-sesi, lembar rencana, testimoni, umpan balik, persetujuan data, sertifikat |
+| [sertifikat/](sertifikat/) | Template **Sertifikat Apresiasi** A4 lanskap: isi formulir → cetak/simpan PDF, QR ke karya, mode banyak peserta |
 | [tracker-leads.csv](tracker-leads.csv) | Tracker lead siap impor ke Google Sheets |
 | [sumber-zip/](sumber-zip/) | Salinan utuh isi zip: LP Jember (5 versi), kisi-kisi materi, LP 1-on-1 ID/MS/EN, catatan proyek |
 
