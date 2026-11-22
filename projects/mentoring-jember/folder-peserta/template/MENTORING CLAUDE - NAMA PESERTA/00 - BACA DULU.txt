@@ -1,0 +1,21 @@
+MENTORING CLAUDE 1-ON-1 · JEMBER
+================================
+Peserta : {{NAMA}}
+Paket   : {{PAKET}}
+Tanggal : {{TANGGAL}}
+Mentor  : Auzan Hasfi · WA +62 857-0497-3827
+
+Isi folder:
+  01 - Materi Dasar Claude.pdf          Modul 0: akun, rumus prompt, Artifacts, revisi, cek hasil
+  02 - Template Prompt                  Rumus 4 bagian + template App/Website/Video/Carousel + contoh per bidang
+  03 - App Blueprint                    Lembar kerja sebelum membuat app/website berikutnya
+  04 - Hasil Project Peserta            Karya dari sesi + prompt yang dipakai + sertifikat
+  05 - Panduan Publish Netlify.pdf      Cara meng-online-kan app/website gratis & mengubahnya
+  06 - Kumpulan Prompt                  24 prompt umum siap pakai
+  07 - Rencana Belajar Selanjutnya.pdf  3 karya berikutnya + kalender konten
+
+Akses alat sesuai paket:
+{{AKSES}}
+
+Dukungan tanya jawab WhatsApp: sampai {{DUKUNGAN}}
+Kirim tangkapan layar + pertanyaan singkat. Jam balas 07.00–21.00 WIB.

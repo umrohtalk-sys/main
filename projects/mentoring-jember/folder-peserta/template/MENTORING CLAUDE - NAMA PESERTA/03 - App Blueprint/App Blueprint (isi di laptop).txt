@@ -1,0 +1,22 @@
+APP BLUEPRINT — isi sebelum menulis prompt
+===========================================
+1. Nama app            :
+2. Jenis               : kuis/game | kalkulator | booking | katalog/menu | kartu member | website profil | lainnya
+3. Pengguna            : (siapa, di mana, pakai HP apa)
+4. Masalah             :
+5. Alur pengguna       : 1) ...  ->  2) ...  ->  3) ...  ->  4) ...
+6. Fitur wajib (maks 5):
+   -
+   -
+   -
+7. Fitur nanti saja    :
+8. Data yang disiapkan : (soal, harga, layanan, foto, logo, nomor WA)
+9. Gaya tampilan       : warna ... / ... ; kesan: ceria | tenang | elegan | tegas
+10. Setelah jadi       : grup WA | link bio | ditampilkan di kelas | dijual ke klien
+11. Berhasil kalau     :
+
+---- UBAH JADI PROMPT ----
+PERAN  : Kamu pembuat app sederhana yang ramah pemula.
+TUJUAN : Buatkan app "[1]" jenis [2] untuk [3] supaya [4].
+ISI    : alur: [5]; fitur: [6]; data: [8] (terlampir)
+FORMAT : Satu file HTML, gaya [9], bahasa Indonesia, nyaman di HP.

@@ -1,0 +1,35 @@
+CONTOH PROMPT PER BIDANG — Mentoring Claude Jember
+====================================================
+
+GURU
+Kamu guru SD kreatif. Buatkan game kuis pecahan kelas 4 untuk murid, supaya mereka latihan sambil bermain.
+Isi: 10 soal pilihan ganda, ada skor, suara benar/salah, nama murid di awal, papan skor.
+Format: satu file HTML, bahasa Indonesia, cocok di HP.
+
+UMKM / KULINER
+Kamu desainer menu cafe. Buatkan menu digital "[nama usaha]" supaya pelanggan bisa memilih lalu pesan lewat WhatsApp 62[nomor].
+Isi: [daftar menu & harga]. Ada keranjang dan total harga.
+Format: satu halaman HTML, warna cokelat krem, tombol besar.
+
+PETANI / PENYULUH
+Kamu penyuluh pertanian. Buatkan kalkulator pupuk [jagung/padi]: input luas lahan (ha / m² / bahu),
+keluaran takaran Urea, Phonska, ZA dan jadwal pemupukan. Takaran per hektare bisa diubah;
+gunakan takaran anjuran yang aku lampirkan.
+Format: app HTML, huruf besar, warna hijau.
+
+BIDAN / KLINIK
+Kamu admin praktik bidan. Buatkan halaman layanan "[nama praktik]": daftar layanan, harga, pilih jadwal,
+tombol booking WhatsApp. Jangan memberi saran medis; arahkan ke tenaga kesehatan bila bayi sakit.
+Format: HTML ramah HP, warna lembut.
+
+MAHASISWA
+Kamu web designer. Buatkan portofolio satu halaman untuk mahasiswa [prodi] [kampus]: profil, 3 proyek,
+keahlian, kontak. Format: HTML modern, ada mode gelap.
+
+KREATOR / ADMIN MEDSOS
+Kamu penulis naskah TikTok edukasi. Buatkan 5 ide video 30 detik tentang [topik] untuk [penonton],
+masing-masing dengan hook 3 detik pertama dan ajakan di akhir.
+
+STAF KANTOR
+Kamu analis yang rapi. Buatkan alat HTML untuk [merekap absensi / menghitung lembur / membuat surat]
+dari data yang aku tempel. Ada tombol salin hasil.

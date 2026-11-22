@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portofolio Karya Claude</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23F9F3E5'/%3E%3Ccircle cx='50' cy='50' r='26' fill='%23FD5E2B'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<!-- Portofolio demonstrasi untuk ditunjukkan ke calon peserta (di cafe, Zoom, atau dikirim lewat WA).
+     Semua karya di folder ini dibuat dengan Claude. Usaha di contoh website bersifat fiktif. -->
+<style>
+:root{--bg:#FBF7EE;--surf:#fff;--soft:#FDEADB;--line:#EADFC8;--ink:#191512;--body:#4A4136;--muted:#6E6353;--acc:#F05323;--accDeep:#C23A12;--mango:#F8A81B}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15110E;--surf:#211B16;--soft:#3A2216;--line:#3B3129;--ink:#F6EEE2;--body:#DCCFBE;--muted:#AA9C89;--acc:#FF6A3B;--accDeep:#FF8E64;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15110E;--surf:#211B16;--soft:#3A2216;--line:#3B3129;--ink:#F6EEE2;--body:#DCCFBE;--muted:#AA9C89;--acc:#FF6A3B;--accDeep:#FF8E64;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font:16px/1.55 'Plus Jakarta Sans',system-ui,sans-serif}
+.w{max-width:1120px;margin:auto;padding:0 16px}
+header{padding:40px 0 18px}
+.k{font:500 12px 'DM Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+h1{font:900 clamp(34px,6vw,58px)/1.02 'Outfit',sans-serif;color:var(--ink);margin:10px 0 12px;letter-spacing:-.02em}
+h1 span{color:var(--acc)}
+.lead{font-size:18px;max-width:640px;margin:0}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin-top:20px}
+.stat b{font:900 34px 'Outfit';color:var(--ink);display:block;line-height:1}.stat span{font-size:13px;color:var(--muted)}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-top:22px}
+nav .w{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px}
+nav a{flex:none;text-decoration:none;font-weight:700;color:var(--ink);border:1px solid var(--line);background:var(--surf);padding:8px 16px;border-radius:99px;font-size:14px}
+nav a:hover{border-color:var(--acc)}
+section{padding:34px 0 10px}
+h2{font:800 32px 'Outfit';color:var(--ink);margin:0}
+.sub{margin:4px 0 18px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.shot{aspect-ratio:390/560;background:var(--soft);overflow:hidden;display:block}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.shot.v{aspect-ratio:9/16}
+.shot.c{aspect-ratio:4/5}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.body b{font:800 18px 'Outfit';color:var(--ink)}
+.tag{font-size:12px;font-weight:700;color:var(--accDeep);background:var(--soft);padding:3px 9px;border-radius:99px;align-self:flex-start}
+.body p{margin:0;font-size:14px}
+.go{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;padding-top:8px}
+.go a{font-weight:700;font-size:14px;text-decoration:none;padding:8px 12px;border-radius:12px;background:var(--ink);color:var(--bg)}
+.go a.l{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.strip figure{flex:none;width:170px;margin:0;scroll-snap-align:start}
+.strip img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
+.strip figcaption{font-size:13px;margin-top:6px;color:var(--ink);font-weight:600}
+.strip figcaption span{display:block;color:var(--muted);font-weight:500;font-size:12px}
+.car{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.car img{flex:none;width:260px;aspect-ratio:4/5;border-radius:14px;border:1px solid var(--line);scroll-snap-align:start}
+.cara{background:var(--surf);border:1px solid var(--line);border-radius:20px;padding:20px;margin:30px 0}
+.cara ol{margin:8px 0 0;padding-left:20px}
+footer{padding:30px 0 50px;font-size:13px;color:var(--muted)}
+.wa{display:inline-block;margin-top:14px;background:#25D366;color:#fff;font-weight:800;text-decoration:none;padding:13px 18px;border-radius:14px}
+video{width:100%;height:100%;object-fit:cover;display:block;background:#000}
+</style>
+</head>
+<body>
+<header class="w">
+  <span class="k">Portofolio · Mentoring Claude 1-on-1 · Jember</span>
+  <h1>Bukan teori. <span>Ini hasil yang dibuat dengan Claude.</span></h1>
+  <p class="lead">App, website, video dan carousel di halaman ini dibuat dengan Claude, dengan cara yang sama seperti yang kamu praktikkan di sesi. Tekan "Coba" untuk membukanya.</p>
+  <div class="stat"><div><b>4</b><span>jenis karya</span></div><div><b>8</b><span>contoh siap dicoba</span></div><div><b>10</b><span>video edukasi</span></div><div><b>8</b><span>slide carousel</span></div></div>
+</header>
+<nav><div class="w"><a href="#app">📱 App</a><a href="#website">🌐 Website</a><a href="#video">🎬 Video</a><a href="#carousel">🖼️ Carousel</a><a href="#cara">Cara pakai</a></div></nav>
+
+<main class="w">
+<section id="app"><h2>App</h2><p class="sub">Kuis, kalkulator, game edukasi. Dibuka lewat satu link di HP.</p>
+<div class="grid">
+  <article class="card"><a class="shot" href="app/kuis-pecahan.html"><img src="thumbs/kuis.png" alt="Tampilan kuis pecahan" loading="lazy"></a><div class="body"><span class="tag">Guru · Edukasi</span><b>Kuis Pecahan Kelas 4</b><p>10 soal bergambar, suara benar/salah, bintang, papan skor kelas.</p><div class="go"><a href="app/kuis-pecahan.html">Coba</a><a class="l" href="PROMPT-KARYA.md#1-kuis-pecahan-kelas-4">Lihat prompt</a></div></div></article>
+  <article class="card"><a class="shot" href="app/hitung-pupuk.html"><img src="thumbs/pupuk.png" alt="Tampilan kalkulator pupuk" loading="lazy"></a><div class="body"><span class="tag">Petani · Pertanian</span><b>Hitung Pupuk Jagung</b><p>Isi luas lahan, keluar takaran Urea, Phonska, ZA, jumlah karung dan jadwal.</p><div class="go"><a href="app/hitung-pupuk.html">Coba</a><a class="l" href="PROMPT-KARYA.md#2-hitung-pupuk-jagung">Lihat prompt</a></div></div></article>
+</div></section>
+
+<section id="website"><h2>Website</h2><p class="sub">Profil usaha dan landing page, dengan tombol pesan ke WhatsApp.</p>
+<div class="grid">
+  <article class="card"><a class="shot" href="website/kopi-kita.html"><img src="thumbs/kopi.png" alt="Website menu Kopi Kita" loading="lazy"></a><div class="body"><span class="tag">UMKM · Kuliner</span><b>Kopi Kita Jember</b><p>Menu digital + keranjang, pesanan langsung terkirim ke WA. Usaha fiktif.</p><div class="go"><a href="website/kopi-kita.html">Coba</a><a class="l" href="PROMPT-KARYA.md#3-website-kopi-kita">Lihat prompt</a></div></div></article>
+  <article class="card"><a class="shot" href="website/baby-spa-bunda.html"><img src="thumbs/babyspa.png" alt="Website Baby Spa Bunda" loading="lazy"></a><div class="body"><span class="tag">Bidan · Kesehatan</span><b>Baby Spa & Homecare Bunda</b><p>Pilih layanan, hari dan jam, lalu booking via WA. Usaha fiktif.</p><div class="go"><a href="website/baby-spa-bunda.html">Coba</a><a class="l" href="PROMPT-KARYA.md#4-website-baby-spa-bunda">Lihat prompt</a></div></div></article>
+  <article class="card"><a class="shot" href="https://mentoring-claude-jember.netlify.app"><img src="thumbs/lp-jember.png" alt="Landing page Mentoring Claude Jember" loading="lazy"></a><div class="body"><span class="tag">Landing page · live</span><b>LP Mentoring Claude Jember</b><p>Landing page jualan dengan peta Jember, struk harga, dan video. Online.</p><div class="go"><a href="https://mentoring-claude-jember.netlify.app">Buka</a></div></div></article>
+  <article class="card"><a class="shot" href="https://mentoring1on1.edugamelabs.com"><img src="thumbs/lp-1on1.png" alt="Landing page Mentoring 1-on-1 tiga bahasa" loading="lazy"></a><div class="body"><span class="tag">Landing page · 3 bahasa</span><b>LP Mentoring 1-on-1 (ID·MS·EN)</b><p>Satu situs, bahasa mengikuti negara pengunjung. Online.</p><div class="go"><a href="https://mentoring1on1.edugamelabs.com">Buka</a></div></div></article>
+</div></section>
+
+<section id="video"><h2>Video</h2><p class="sub">Animasi dan video edukasi vertikal untuk Reels & TikTok, tanpa tampil di kamera.</p>
+<div class="grid">
+  <article class="card"><div class="shot v"><video src="video/tips-pupuk.mp4" poster="thumbs/video.png" controls muted playsinline preload="none"></video></div><div class="body"><span class="tag">Petani · Edukasi</span><b>3 Cara Hemat Pupuk</b><p>15 detik, 9:16. Animasi dibuat dari kode oleh Claude, lalu direkam jadi MP4.</p><div class="go"><a href="video/tips-pupuk.html">Lihat animasi</a><a class="l" href="PROMPT-KARYA.md#5-video-3-cara-hemat-pupuk">Lihat prompt</a></div></div></article>
+</div>
+<h3 style="font:800 20px Outfit;color:var(--ink);margin:24px 0 10px">Video edukasi di akun Auzan</h3>
+<div class="strip">
+  <figure><img src="video/poster/v1-pijat-bobo-pulas.jpg" alt="" loading="lazy"><figcaption>Pijat bayi, caption lucu<span>Bidan · Jember</span></figcaption></figure>
+  <figure><img src="video/poster/v2-pijat-caption-hijau.jpg" alt="" loading="lazy"><figcaption>Pijat bayi + voice over<span>Bidan · homecare</span></figcaption></figure>
+  <figure><img src="video/poster/v5-otak-100-persen.jpg" alt="" loading="lazy"><figcaption>Otak 100%? Animasi 3D<span>Edukasi sains</span></figcaption></figure>
+  <figure><img src="video/poster/v6-habuk-mata-3d.jpg" alt="" loading="lazy"><figcaption>Masuk habuk? Jangan gosok<span>Kesehatan · 3D</span></figcaption></figure>
+  <figure><img src="video/poster/v8-kata-id-vs-my.jpg" alt="" loading="lazy"><figcaption>Kata sama, maksud terbalik<span>Bahasa · ID vs MY</span></figcaption></figure>
+  <figure><img src="video/poster/v7-ai-matematik.jpg" alt="" loading="lazy"><figcaption>AI perlu matematik?<span>Edukasi · infografik</span></figcaption></figure>
+  <figure><img src="video/poster/v9-duduk-depan-belakang.jpg" alt="" loading="lazy"><figcaption>Duduk depan vs belakang<span>Kelas · infografik</span></figcaption></figure>
+  <figure><img src="video/poster/v3-janin-266-hari.jpg" alt="" loading="lazy"><figcaption>266 hari janin<span>Kesehatan · 3D</span></figcaption></figure>
+  <figure><img src="video/poster/v4-sains-ibu-hamil.jpg" alt="" loading="lazy"><figcaption>Sains tubuh ibu hamil<span>Kesehatan</span></figcaption></figure>
+</div>
+<p class="sub" style="margin-top:6px">Video penuh bisa diputar di <a href="https://mentoring-claude-jember.netlify.app/#hasil">LP Jember</a>. Simpan file MP4-nya di <code>video/poster/</code> dengan nama yang sama kalau ingin diputar dari folder ini.</p>
+</section>
+
+<section id="carousel"><h2>Carousel</h2><p class="sub">Konten edukasi dan promosi, 8 slide 1080×1350 siap unggah ke Instagram & TikTok.</p>
+<div class="car">
+  <img src="carousel/slide-1.png" alt="Slide 1" loading="lazy"><img src="carousel/slide-2.png" alt="Slide 2" loading="lazy"><img src="carousel/slide-3.png" alt="Slide 3" loading="lazy"><img src="carousel/slide-4.png" alt="Slide 4" loading="lazy"><img src="carousel/slide-5.png" alt="Slide 5" loading="lazy"><img src="carousel/slide-6.png" alt="Slide 6" loading="lazy"><img src="carousel/slide-7.png" alt="Slide 7" loading="lazy"><img src="carousel/slide-8.png" alt="Slide 8" loading="lazy">
+</div>
+<div class="go" style="margin-top:10px"><a href="carousel/guru-5-app.html" style="background:var(--ink);color:var(--bg);font-weight:700;text-decoration:none;padding:9px 14px;border-radius:12px">Buka template</a><a class="l" href="PROMPT-KARYA.md#6-carousel-5-app-untuk-guru" style="font-weight:700;text-decoration:none;padding:9px 14px;border-radius:12px;border:1px solid var(--line);color:var(--ink)">Lihat prompt</a></div>
+</section>
+
+<section id="cara"><div class="cara"><h2 style="font-size:24px">Cara memakai portofolio ini saat menawarkan mentoring</h2>
+<ol>
+<li><b>Tanya bidangnya dulu</b>, lalu tunjukkan 1 karya yang paling dekat (guru → kuis, UMKM → Kopi Kita, bidan → Baby Spa, petani → pupuk).</li>
+<li><b>Biarkan mereka mencoba</b> di HP-nya sendiri: buka link, tekan tombol, kirim pesanan contoh.</li>
+<li><b>Tunjukkan promptnya</b>: "Ini yang aku ketik. Di sesi, kamu yang mengetik versi untuk usahamu."</li>
+<li><b>Tutup dengan pertanyaan</b>: "Kalau kamu, mau bikin yang mana dulu?" → lanjut SOP closing WA.</li>
+</ol>
+<a class="wa" href="https://wa.me/6285704973827?text=Halo%20Kak%20Auzan%2C%20saya%20sudah%20lihat%20portofolio%20dan%20mau%20tanya%20mentoring%20Claude.">Tanya mentoring via WhatsApp</a></div></section>
+</main>
+<footer class="w">Portofolio Mentoring Claude 1-on-1 · Jember · EduGame Labs. Usaha "Kopi Kita" dan "Baby Spa Bunda" adalah contoh fiktif; nomor WA di contoh itu bukan nomor asli. Takaran pupuk adalah contoh, ikuti anjuran penyuluh.</footer>
+</body>
+</html>

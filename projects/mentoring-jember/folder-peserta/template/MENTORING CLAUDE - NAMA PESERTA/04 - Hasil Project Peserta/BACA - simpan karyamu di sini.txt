@@ -1,0 +1,18 @@
+SIMPAN KARYAMU DI FOLDER INI
+============================
+
+Karya       : [diisi mentor di akhir sesi]
+Link online : [https://....netlify.app]
+Tanggal     : [..]
+
+Isi folder ini (diisi di akhir sesi):
+  - index.html               -> file karya terakhir (app / website)
+  - tangkapan-layar.png      -> gambar karya di HP
+  - prompt-yang-dipakai.txt  -> semua prompt dari sesi, urut
+  - video / carousel         -> file MP4 atau PNG per slide
+  - Sertifikat-Apresiasi.pdf -> sertifikat sesi
+
+Cara mengubah karya nanti:
+  1. Buka claude.ai, lampirkan index.html
+  2. Tulis: "Ubah hanya [bagian]. Tampilkan file lengkap."
+  3. Unduh file baru, ganti file lama, publish ulang (lihat 05 - Panduan Publish Netlify.pdf)

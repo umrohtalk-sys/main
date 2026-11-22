@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hitung Pupuk Jagung</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+<!-- Contoh karya App · dibuat dengan Claude. Takaran default = CONTOH yang bisa diubah; ikuti anjuran PPL/penyuluh setempat. -->
+<style>
+:root{--bg:#F2F6E9;--card:#fff;--ink:#1F2A16;--muted:#5B6B4C;--g:#3E8E2F;--gd:#2A6B1E;--y:#F5C84B;--line:#DCE6CB}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.5 'Plus Jakarta Sans',system-ui,sans-serif;display:flex;justify-content:center;padding:16px}
+.app{width:100%;max-width:460px}
+.top{background:var(--g);color:#fff;border-radius:22px;padding:20px}
+.top h1{font:800 28px/1.1 'Outfit',sans-serif;margin:0}.top p{margin:6px 0 0;opacity:.9;font-size:15px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:18px;margin-top:14px}
+label{display:block;font-weight:700;margin-bottom:6px}
+.luas{display:flex;gap:8px;align-items:center}
+.luas input{flex:1;font:800 28px 'Outfit',sans-serif;padding:10px 14px;border-radius:14px;border:2px solid var(--line);width:100%}
+.luas select{font:700 18px inherit;padding:14px;border-radius:14px;border:2px solid var(--line);background:#fff}
+.cepat{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.cepat button{font:700 15px inherit;border:2px solid var(--line);background:#fff;border-radius:99px;padding:8px 14px;cursor:pointer}
+.hasil{display:grid;gap:10px;margin-top:4px}
+.p{display:grid;grid-template-columns:1fr auto;align-items:center;padding:14px;border-radius:16px;background:#F7FAF1;border:2px solid var(--line)}
+.p b{font:800 20px 'Outfit',sans-serif}.p small{display:block;color:var(--muted);font-size:14px}
+.p .kg{font:800 30px 'Outfit',sans-serif;color:var(--gd);text-align:right}.p .kg span{display:block;font:600 14px 'Plus Jakarta Sans';color:var(--muted)}
+h2{font:800 22px 'Outfit',sans-serif;margin:0 0 10px}
+.jad{border-left:4px solid var(--y);padding:4px 0 4px 14px;margin:10px 0}
+.jad b{display:block}.jad span{color:var(--muted);font-size:16px}
+details{margin-top:8px}summary{font-weight:700;cursor:pointer;color:var(--gd)}
+.dosis{display:grid;grid-template-columns:1fr 110px;gap:6px 10px;margin-top:10px;align-items:center;font-size:16px}
+.dosis input{font:700 18px inherit;padding:8px;border-radius:10px;border:2px solid var(--line);width:100%}
+.note{font-size:14px;color:var(--muted);background:#FFF8E1;border-radius:14px;padding:12px;margin-top:14px}
+.wa{display:block;text-align:center;margin-top:14px;background:#25D366;color:#fff;font-weight:800;text-decoration:none;padding:15px;border-radius:16px}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top"><h1>🌽 Hitung Pupuk Jagung</h1><p>Isi luas lahan, takaran keluar otomatis. Untuk petani & kelompok tani.</p></div>
+  <div class="card">
+    <label for="l">Luas lahan</label>
+    <div class="luas"><input id="l" type="number" inputmode="decimal" min="0" step="0.05" value="0.5"><select id="u"><option value="ha">hektare</option><option value="m2">m²</option><option value="bahu">bahu (±0,7 ha)</option></select></div>
+    <div class="cepat"><button data-v="0.25">¼ ha</button><button data-v="0.5">½ ha</button><button data-v="1">1 ha</button><button data-v="2">2 ha</button></div>
+  </div>
+  <div class="card"><h2>Kebutuhan pupuk</h2><div class="hasil" id="h"></div>
+    <details><summary>Ubah takaran per hektare</summary>
+      <div class="dosis"><span>Urea (kg/ha)</span><input id="du" type="number" value="350"><span>Phonska (kg/ha)</span><input id="dp" type="number" value="300"><span>ZA (kg/ha)</span><input id="dz" type="number" value="100"></div>
+    </details>
+  </div>
+  <div class="card"><h2>Jadwal pemupukan</h2><div id="j"></div></div>
+  <div class="note">⚠️ Angka takaran di atas hanya <b>contoh</b> yang bisa diubah. Sesuaikan dengan hasil uji tanah dan anjuran penyuluh (PPL) atau dinas pertanian setempat.</div>
+  <a class="wa" id="wa" href="#" target="_blank" rel="noopener">Kirim hasil ke WhatsApp</a>
+</div>
+<script>
+var $=function(i){return document.getElementById(i)};
+function ha(){var v=parseFloat($('l').value)||0,u=$('u').value;return u==='m2'?v/10000:u==='bahu'?v*0.7:v}
+function f(n){return n.toLocaleString('id-ID',{maximumFractionDigits:1})}
+function karung(kg){return f(kg/50)+' karung 50 kg'}
+function hitung(){var h=ha(),U=(+$('du').value||0)*h,P=(+$('dp').value||0)*h,Z=(+$('dz').value||0)*h;
+ $('h').innerHTML=[['Urea','Nitrogen, pertumbuhan daun',U],['Phonska','NPK, akar & tongkol',P],['ZA','Nitrogen + belerang',Z]].map(function(x){return '<div class="p"><div><b>'+x[0]+'</b><small>'+x[1]+'</small></div><div class="kg">'+f(x[2])+' kg<span>'+karung(x[2])+'</span></div></div>'}).join('');
+ var J=[['Pupuk dasar · 0–7 HST','Phonska '+f(P)+' kg + Urea '+f(U/3)+' kg'],['Susulan 1 · 21–25 HST','Urea '+f(U/3)+' kg + ZA '+f(Z)+' kg'],['Susulan 2 · 40–45 HST','Urea '+f(U/3)+' kg']];
+ $('j').innerHTML=J.map(function(x){return '<div class="jad"><b>'+x[0]+'</b><span>'+x[1]+'</span></div>'}).join('');
+ var t='Hitung pupuk jagung, lahan '+f(h)+' ha:%0AUrea '+f(U)+' kg%0APhonska '+f(P)+' kg%0AZA '+f(Z)+' kg%0A%0A'+J.map(function(x){return x[0]+': '+x[1]}).join('%0A');
+ $('wa').href='https://wa.me/?text='+t.replace(/ /g,'%20')}
+['l','u','du','dp','dz'].forEach(function(i){$(i).addEventListener('input',hitung)});
+[].forEach.call(document.querySelectorAll('.cepat button'),function(b){b.onclick=function(){$('u').value='ha';$('l').value=b.dataset.v;hitung()}});
+hitung();
+</script>
+</body>
+</html>

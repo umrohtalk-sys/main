@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kopi Kita Jember</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+<!-- Contoh karya Website (UMKM fiktif) · dibuat dengan Claude · nomor WA contoh -->
+<style>
+:root{--bg:#F6EFE4;--ink:#2B1B12;--body:#5A4334;--acc:#B5532B;--card:#FFFBF4;--line:#E6D6BF;--dark:#2B1B12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--body);font:16px/1.6 'Plus Jakarta Sans',system-ui,sans-serif}
+a{color:inherit}
+nav{position:sticky;top:0;z-index:5;background:rgba(246,239,228,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .in{max-width:1000px;margin:auto;padding:12px 16px;display:flex;justify-content:space-between;align-items:center}
+.logo{font:900 22px 'Fraunces',serif;color:var(--ink);text-decoration:none}
+.links{display:flex;gap:18px;font-weight:700;font-size:14px}.links a{text-decoration:none}
+@media(max-width:600px){.links a:not(.pesan){display:none}}
+.pesan{background:var(--acc);color:#fff!important;padding:8px 14px;border-radius:99px}
+.hero{max-width:1000px;margin:auto;padding:48px 16px 32px;display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:28px}}
+.hero small{font-weight:700;letter-spacing:.12em;color:var(--acc);text-transform:uppercase;font-size:12px}
+h1{font:900 clamp(36px,7vw,60px)/1.02 'Fraunces',serif;color:var(--ink);margin:10px 0 14px}
+.hero p{font-size:18px;max-width:460px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-block;padding:14px 20px;border-radius:14px;font-weight:700;text-decoration:none}
+.b1{background:var(--ink);color:#fff}.b2{border:2px solid var(--ink);color:var(--ink)}
+.cup{aspect-ratio:1;border-radius:32px;background:radial-gradient(circle at 50% 45%,#C98B5A 0 30%,#7A4A2C 31% 40%,#F6EFE4 41% 43%,#EAD8BE 44%);position:relative;box-shadow:0 30px 60px -30px rgba(43,27,18,.5)}
+.cup::after{content:"Es Kopi Susu\A Rp15.000";white-space:pre;position:absolute;left:18px;bottom:18px;background:var(--card);padding:10px 14px;border-radius:14px;font-weight:700;color:var(--ink)}
+section{max-width:1000px;margin:auto;padding:40px 16px}
+h2{font:900 34px/1.1 'Fraunces',serif;color:var(--ink);margin:0 0 6px}
+.sub{margin:0 0 20px}
+.tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tabs button{font:700 14px inherit;border:2px solid var(--line);background:var(--card);border-radius:99px;padding:8px 16px;cursor:pointer;color:var(--ink)}
+.tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.menu{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.item .em{font-size:34px}.item b{color:var(--ink);font-size:17px}.item .h{font-weight:800;color:var(--acc)}
+.item button{margin-top:auto;font:700 14px inherit;border:0;background:var(--ink);color:#fff;border-radius:12px;padding:10px;cursor:pointer}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:700px){.why{grid-template-columns:1fr}}
+.why div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.why b{display:block;color:var(--ink);font-size:18px}
+.testi{background:var(--dark);color:#EAD8BE;border-radius:24px;padding:28px}.testi q{font:700 22px/1.35 'Fraunces',serif;color:#fff;display:block}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.info{grid-template-columns:1fr}}
+.map{border-radius:18px;min-height:220px;background:repeating-linear-gradient(45deg,#E9DCC7 0 12px,#EFE4D2 12px 24px);display:grid;place-items:center;font-weight:700;color:var(--ink);border:1px solid var(--line)}
+footer{text-align:center;padding:24px 16px 110px;font-size:13px}
+.cart{position:fixed;left:50%;transform:translateX(-50%);bottom:16px;width:min(560px,calc(100% - 32px));background:var(--ink);color:#fff;border-radius:18px;padding:12px 12px 12px 18px;display:none;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 20px 40px -20px #000}
+.cart.on{display:flex}.cart a{background:#25D366;color:#fff;text-decoration:none;font-weight:800;padding:11px 16px;border-radius:12px;white-space:nowrap}
+</style>
+</head>
+<body>
+<nav><div class="in"><a class="logo" href="#">Kopi Kita.</a><div class="links"><a href="#menu">Menu</a><a href="#lokasi">Lokasi</a><a class="pesan" href="#menu">Pesan</a></div></div></nav>
+<header class="hero">
+  <div><small>Kaliwates · Jember</small><h1>Kopi lokal, harga teman.</h1><p>Biji kopi dari lereng Argopuro, diseduh tiap pagi. Pesan dari HP, ambil tanpa antre atau diantar sekitar kota.</p>
+  <div class="cta"><a class="btn b1" href="#menu">Lihat menu</a><a class="btn b2" href="#lokasi">Lokasi & jam buka</a></div></div>
+  <div class="cup" role="img" aria-label="Ilustrasi es kopi susu"></div>
+</header>
+<section id="menu"><h2>Menu hari ini</h2><p class="sub">Tekan "+ Tambah", lalu kirim pesanan ke WhatsApp.</p>
+  <div class="tabs" id="tabs"></div><div class="menu" id="m"></div></section>
+<section><div class="why">
+  <div><b>☕ Kopi Jember asli</b>Dari petani kopi lokal, disangrai sendiri.</div>
+  <div><b>📱 Pesan dari HP</b>Tidak perlu antre, tinggal ambil.</div>
+  <div><b>🛵 Antar sekitar kota</b>Sumbersari, Kaliwates, Patrang.</div></div></section>
+<section><div class="testi"><q>Es kopi susunya pas, nggak kemanisan. Pesan lewat WA cepat banget.</q><p>— Dinda, mahasiswa (contoh testimoni)</p></div></section>
+<section id="lokasi"><h2>Lokasi & jam buka</h2><div class="info"><div><p><b>Alamat:</b> Jl. Contoh No. 12, Kaliwates, Jember<br><b>Buka:</b> Setiap hari 07.00–22.00<br><b>Wi-Fi:</b> ada, colokan di setiap meja</p><a class="btn b1" href="https://wa.me/6280000000000?text=Halo%20Kopi%20Kita" target="_blank" rel="noopener">Chat WhatsApp</a></div><div class="map">📍 Peta Google Maps disematkan di sini</div></div></section>
+<footer>© Kopi Kita Jember · usaha fiktif untuk contoh karya Mentoring Claude</footer>
+<div class="cart" id="cart"><span id="ci"></span><a id="kirim" href="#" target="_blank" rel="noopener">Pesan via WhatsApp</a></div>
+<script>
+var MENU={Kopi:[['☕','Es Kopi Susu',15000],['🥛','Kopi Susu Panas',13000],['🧊','Americano',12000],['🍯','Kopi Gula Aren',17000]],'Non-kopi':[['🍵','Matcha Latte',18000],['🍫','Cokelat',16000],['🍋','Lemon Tea',10000]],Makanan:[['🍞','Roti Bakar',12000],['🍟','Kentang Goreng',14000],['🍜','Mie Goreng Telur',15000]]};
+var kat='Kopi',kr={};function rp(n){return 'Rp'+n.toLocaleString('id-ID')}
+function tabs(){document.getElementById('tabs').innerHTML=Object.keys(MENU).map(function(k){return '<button class="'+(k===kat?'on':'')+'">'+k+'</button>'}).join('');[].forEach.call(document.querySelectorAll('#tabs button'),function(b){b.onclick=function(){kat=b.textContent;tabs();menu()}})}
+function menu(){document.getElementById('m').innerHTML=MENU[kat].map(function(x,i){return '<div class="item"><span class="em">'+x[0]+'</span><b>'+x[1]+'</b><span class="h">'+rp(x[2])+'</span><button data-i="'+i+'">+ Tambah'+(kr[x[1]]?' ('+kr[x[1]].q+')':'')+'</button></div>'}).join('');
+ [].forEach.call(document.querySelectorAll('#m button'),function(b){b.onclick=function(){var x=MENU[kat][+b.dataset.i];kr[x[1]]=kr[x[1]]||{q:0,h:x[2]};kr[x[1]].q++;menu();cart()}})}
+function cart(){var n=0,t=0,l=[];for(var k in kr){n+=kr[k].q;t+=kr[k].q*kr[k].h;l.push(kr[k].q+'x '+k)}
+ document.getElementById('cart').classList.toggle('on',n>0);document.getElementById('ci').innerHTML='<b>'+n+' item</b> · '+rp(t);
+ document.getElementById('kirim').href='https://wa.me/6280000000000?text='+encodeURIComponent('Halo Kopi Kita, saya mau pesan:\n'+l.join('\n')+'\nTotal: '+rp(t)+'\nAmbil / antar ke: ...')}
+tabs();menu();
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video 3 Tips Hemat Pupuk</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&display=swap" rel="stylesheet">
+<!-- Contoh karya Video · animasi 9:16 dari kode Canvas, dibuat dengan Claude.
+     Buka di browser: video berputar otomatis. Untuk MP4: render.js (Playwright + ffmpeg) menangkap tiap frame lewat window.gambar(t). -->
+<style>
+html,body{margin:0;height:100%;background:#111;display:grid;place-items:center}
+canvas{height:100vh;max-width:100vw;aspect-ratio:9/16;background:#F2F6E9}
+</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script>
+var c=document.getElementById('c'),x=c.getContext('2d'),W=1080,H=1920,DUR=15;
+var G='#3E8E2F',GD='#1F4D17',Y='#F5C84B',INK='#1F2A16',BG='#F2F6E9',O='#F05323';
+function e(t){t=Math.max(0,Math.min(1,t));return 1-Math.pow(1-t,3)}
+function pop(t){t=Math.max(0,Math.min(1,t));var s=1.70158;return 1+(s+1)*Math.pow(t-1,3)+s*Math.pow(t-1,2)}
+function txt(s,X,Y2,size,col,al,w){x.font=(w||900)+' '+size+'px Outfit, sans-serif';x.fillStyle=col;x.textAlign=al||'center';x.textBaseline='middle';x.fillText(s,X,Y2)}
+function rr(X,Y2,w,h,r,f){x.beginPath();x.roundRect(X,Y2,w,h,r);x.fillStyle=f;x.fill()}
+function jagung(cx,cy,s,a){x.save();x.translate(cx,cy);x.rotate(a||0);x.scale(s,s);
+ x.fillStyle='#6FB34F';x.beginPath();x.ellipse(-40,40,40,140,-.4,0,7);x.fill();x.beginPath();x.ellipse(40,40,40,140,.4,0,7);x.fill();
+ x.fillStyle=Y;x.beginPath();x.ellipse(0,-20,62,150,0,0,7);x.fill();x.fillStyle='#E0A92B';
+ for(var r=-5;r<6;r++)for(var k=-2;k<3;k++){x.beginPath();x.arc(k*22,r*24-20,8,0,7);x.fill()}x.restore()}
+function karung(cx,cy,s,lbl,col){x.save();x.translate(cx,cy);x.scale(s,s);rr(-110,-140,220,280,40,col);rr(-80,-40,160,80,18,'#fff');txt(lbl,0,2,46,INK);x.restore()}
+function gambar(t){
+ x.fillStyle=BG;x.fillRect(0,0,W,H);
+ // progress bar
+ rr(60,60,W-120,16,8,'#DCE6CB');rr(60,60,(W-120)*Math.min(1,t/DUR),16,8,G);
+ if(t<3){ // HOOK
+  var a=e(t/0.6);x.globalAlpha=a;txt('PETANI JEMBER',W/2,330,54,O,'center',700);
+  txt('Pupuk mahal?',W/2,560-60*(1-a),150,INK);x.globalAlpha=e((t-.6)/.6);txt('3 cara hemat',W/2,760,130,G);txt('tanpa kurangi hasil',W/2,900,74,GD,'center',700);x.globalAlpha=1;
+  jagung(W/2,1360,pop((t-1)/0.7)*1.6,Math.sin(t*3)*.08);
+ } else if(t<12){ // 3 TIPS
+  var i=Math.floor((t-3)/3),lt=(t-3)%3,T=[['Hitung sesuai luas','Jangan kira-kira. Pakai','kalkulator di HP.'],['Bagi jadi 3 kali','Dasar, 21 HST, 40 HST.','Lebih sedikit terbuang.'],['Benamkan ke tanah','Jangan ditabur di atas,','pupuk tidak menguap.']][i];
+  var sx=(1-e(lt/.5))*W;x.save();x.translate(sx,0);
+  x.beginPath();x.arc(W/2,520,170*pop(lt/.6),0,7);x.fillStyle=O;x.fill();txt(String(i+1),W/2,530,220,'#fff');
+  txt(T[0],W/2,860,96,INK);txt(T[1],W/2,990,56,GD,'center',700);txt(T[2],W/2,1065,56,GD,'center',700);
+  if(i===0){rr(290,1200,500,520,50,'#fff');txt('Luas 0,5 ha',W/2,1290,52,INK,'center',700);var n=Math.round(175*e((lt-.6)/1.2));txt('Urea '+n+' kg',W/2,1430,72,G);txt('Phonska '+Math.round(150*e((lt-.8)/1.2))+' kg',W/2,1540,72,G);}
+  if(i===1){[0,1,2].forEach(function(k){var p=e((lt-.5-k*.35)/.5);karung(240+k*300,1460-30*(1-p),p*1.1,['0 HST','21 HST','40 HST'][k],[G,Y,O][k])});}
+  if(i===2){rr(140,1440,800,280,30,'#8A5A33');for(var k=0;k<5;k++){var yy=1200+260*e((lt-.5-k*.15)/.6);x.beginPath();x.arc(260+k*140,Math.min(yy,1520),24,0,7);x.fillStyle='#fff';x.fill()}jagung(W/2,1280,.9,0)}
+  x.restore();
+ } else { // CTA
+  var a=e((t-12)/.6);x.globalAlpha=a;rr(80,300,W-160,1300,70,G);txt('Simpan video ini',W/2,520,90,'#fff');txt('& bagikan ke',W/2,650,70,'#DFF1D4','center',700);txt('kelompok tanimu',W/2,740,70,'#DFF1D4','center',700);
+  jagung(W/2,1100,1.3*pop((t-12.3)/.7),0);rr(200,1380,680,140,70,Y);txt('Ketik TANI',W/2,1452,70,INK);x.globalAlpha=1;
+ }
+ txt('Contoh video · dibuat dengan Claude · Mentoring Claude Jember',W/2,H-80,30,'#7C8B6B','center',700);
+}
+window.gambar=gambar;window.DUR=DUR;
+if(!/render/.test(location.search)){var t0=null;(function loop(ts){if(t0===null)t0=ts;gambar(((ts-t0)/1000)%DUR);requestAnimationFrame(loop)})(0)}
+else gambar(0);
+</script>
+</body>
+</html>

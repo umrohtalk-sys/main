@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kuis Pecahan Kelas 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+<!-- Contoh karya App · dibuat dengan Claude · prompt ada di portofolio/PROMPT-KARYA.md -->
+<style>
+:root{--bg:#FFF6E3;--card:#fff;--ink:#1D2340;--muted:#5D6485;--a:#3B6CF6;--ok:#12946A;--no:#E2453C;--y:#F8A81B;--line:#EEE2C6}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font:16px/1.5 'Plus Jakarta Sans',system-ui,sans-serif;display:flex;justify-content:center;padding:16px}
+.app{width:100%;max-width:440px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+h1{font:800 22px 'Outfit',sans-serif;margin:0}
+.skor{background:var(--ink);color:#fff;border-radius:99px;padding:6px 14px;font-weight:700}
+.card{background:var(--card);border:2px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 14px 30px -20px rgba(29,35,64,.4)}
+.bar{height:10px;background:#F1E8D3;border-radius:9px;overflow:hidden;margin-bottom:16px}.bar i{display:block;height:100%;background:var(--y);transition:width .3s}
+.no{color:var(--muted);font-weight:700;font-size:13px}
+.q{font:800 24px/1.25 'Outfit',sans-serif;margin:6px 0 14px}
+.pie{display:flex;justify-content:center;margin:4px 0 14px}
+.ops{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ops button{font:800 22px 'Outfit',sans-serif;padding:16px 8px;border-radius:16px;border:2px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;min-height:64px}
+.ops button.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.ops button.no{background:var(--no);border-color:var(--no);color:#fff}
+.msg{min-height:26px;font-weight:700;text-align:center;margin-top:12px}
+.big{width:100%;font:800 18px 'Outfit',sans-serif;padding:15px;border-radius:16px;border:0;background:var(--a);color:#fff;cursor:pointer;margin-top:12px}
+input{width:100%;font:inherit;font-size:18px;padding:13px;border-radius:14px;border:2px solid var(--line);margin:8px 0}
+.center{text-align:center}
+.bintang{font-size:44px;letter-spacing:6px}
+.papan{text-align:left;margin-top:14px;border-top:2px dashed var(--line);padding-top:10px}
+.papan div{display:flex;justify-content:space-between;padding:4px 0}
+.foot{font-size:12px;color:var(--muted);text-align:center;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="app">
+  <header><h1>🍕 Kuis Pecahan</h1><span class="skor" id="skor">0 poin</span></header>
+  <div class="card" id="c"></div>
+  <p class="foot">Matematika kelas 4 · Dibuat dengan Claude · Mentoring Claude Jember</p>
+</div>
+<script>
+var SOAL=[
+ {q:'Bagian yang diwarnai adalah…',p:[1,4],o:['1/4','1/2','3/4','4/1'],a:0},
+ {q:'Bagian yang diwarnai adalah…',p:[3,8],o:['3/5','3/8','5/8','8/3'],a:1},
+ {q:'1/2 sama dengan…',o:['2/4','1/4','2/3','3/2'],a:0},
+ {q:'Mana yang lebih besar?',o:['1/3','1/5','1/8','1/10'],a:0},
+ {q:'2/5 + 1/5 = …',o:['3/10','3/5','2/5','1/5'],a:1},
+ {q:'Bagian yang diwarnai adalah…',p:[2,3],o:['1/3','3/2','2/3','2/6'],a:2},
+ {q:'3/4 − 1/4 = …',o:['2/4','1/4','4/4','3/8'],a:0},
+ {q:'Ibu memotong kue jadi 6. Adik makan 2. Sisanya…',o:['2/6','4/6','6/4','4/2'],a:1},
+ {q:'Pecahan senilai dengan 3/6 adalah…',o:['1/3','1/2','2/3','3/3'],a:1},
+ {q:'Urutkan dari terkecil: yang PALING kecil…',o:['1/2','1/4','3/4','2/4'],a:1}
+];
+var i=0,poin=0,nama='',c=document.getElementById('c');
+var AC=window.AudioContext||window.webkitAudioContext,ac;
+function bunyi(ok){try{ac=ac||new AC();var o=ac.createOscillator(),g=ac.createGain();o.connect(g);g.connect(ac.destination);o.frequency.value=ok?880:220;g.gain.setValueAtTime(.15,ac.currentTime);g.gain.exponentialRampToValueAtTime(.001,ac.currentTime+.35);o.start();o.stop(ac.currentTime+.35)}catch(e){}}
+function pie(n,d){var s='<svg width="130" height="130" viewBox="-1 -1 2 2" style="transform:rotate(-90deg)">';for(var k=0;k<d;k++){var a0=2*Math.PI*k/d,a1=2*Math.PI*(k+1)/d,l=(a1-a0)>Math.PI?1:0;s+='<path d="M0 0L'+Math.cos(a0)+' '+Math.sin(a0)+'A1 1 0 '+l+' 1 '+Math.cos(a1)+' '+Math.sin(a1)+'Z" fill="'+(k<n?'#F8A81B':'#FFF')+'" stroke="#1D2340" stroke-width=".03"/>'}return s+'</svg>'}
+function awal(){c.innerHTML='<div class="center"><div style="font-size:56px">🧒</div><p class="q">Siap latihan pecahan?</p><p class="no">10 soal · tiap benar 10 poin</p><input id="nm" placeholder="Tulis namamu" maxlength="20"><button class="big" id="go">Mulai main</button></div>';document.getElementById('go').onclick=function(){nama=document.getElementById('nm').value.trim()||'Murid hebat';tampil()}}
+function tampil(){var s=SOAL[i];c.innerHTML='<div class="bar"><i style="width:'+(i*10)+'%"></i></div><div class="no">Soal '+(i+1)+' dari '+SOAL.length+'</div><p class="q">'+s.q+'</p>'+(s.p?'<div class="pie">'+pie(s.p[0],s.p[1])+'</div>':'')+'<div class="ops">'+s.o.map(function(o,k){return '<button data-k="'+k+'">'+o+'</button>'}).join('')+'</div><div class="msg" id="m"></div>';
+ [].forEach.call(c.querySelectorAll('.ops button'),function(b){b.onclick=function(){jawab(+b.dataset.k)}})}
+function jawab(k){var s=SOAL[i],bs=c.querySelectorAll('.ops button'),m=document.getElementById('m');[].forEach.call(bs,function(b){b.disabled=true});
+ if(k===s.a){poin+=10;bs[k].className='ok';m.textContent='Hebat! Benar 🎉';m.style.color='#12946A';bunyi(1)}else{bs[k].className='no';bs[s.a].className='ok';m.textContent='Belum tepat, jawabannya '+s.o[s.a];m.style.color='#E2453C';bunyi(0)}
+ document.getElementById('skor').textContent=poin+' poin';setTimeout(function(){i++;i<SOAL.length?tampil():selesai()},1100)}
+function selesai(){var b=poin>=80?3:poin>=50?2:1,p=[];try{p=JSON.parse(localStorage.getItem('kuisPecahan')||'[]')}catch(e){}p.push({n:nama,s:poin});p.sort(function(a,b){return b.s-a.s});p=p.slice(0,5);try{localStorage.setItem('kuisPecahan',JSON.stringify(p))}catch(e){}
+ c.innerHTML='<div class="center"><div class="bintang">'+'⭐'.repeat(b)+'</div><p class="q">'+nama+', skormu '+poin+'!</p><p class="no">'+(b==3?'Luar biasa, kamu jago pecahan!':b==2?'Bagus, sedikit lagi sempurna!':'Ayo coba lagi, pasti bisa!')+'</p><div class="papan"><b>🏆 Papan skor</b>'+p.map(function(x,k){return '<div><span>'+(k+1)+'. '+x.n.replace(/</g,'')+'</span><b>'+x.s+'</b></div>'}).join('')+'</div><button class="big" id="ul">Main lagi</button></div>';
+ document.getElementById('ul').onclick=function(){i=0;poin=0;document.getElementById('skor').textContent='0 poin';awal()}}
+awal();
+</script>
+</body>
+</html>

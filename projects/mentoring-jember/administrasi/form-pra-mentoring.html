@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Form Pra-Mentoring Claude</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<!--
+  FORM PRA-MENTORING (dikirim ke peserta setelah DP, paling lambat H-3)
+  Berisi 4 bagian: A. Pendaftaran · B. Identifikasi kebutuhan · C. Pilihan materi · D. Checklist laptop.
+  Tidak ada server: jawaban dikirim peserta sendiri lewat tombol WhatsApp (atau disalin / dicetak).
+  Data tidak disimpan di mana pun kecuali draf di browser peserta sendiri.
+  Ganti nomor tujuan di variabel WA di bawah kalau perlu.
+-->
+<style>
+:root{--bg:#FBF7EE;--surf:#fff;--soft:#FDEADB;--line:#EADFC8;--ink:#191512;--body:#4A4136;--muted:#6E6353;--acc:#F05323;--deep:#C23A12;--ok:#12946A}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15110E;--surf:#211B16;--soft:#3A2216;--line:#3B3129;--ink:#F6EEE2;--body:#DCCFBE;--muted:#AA9C89;--acc:#FF6A3B;--deep:#FF8E64;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15110E;--surf:#211B16;--soft:#3A2216;--line:#3B3129;--ink:#F6EEE2;--body:#DCCFBE;--muted:#AA9C89;--acc:#FF6A3B;--deep:#FF8E64;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font:16px/1.55 'Plus Jakarta Sans',system-ui,sans-serif}
+.w{max-width:720px;margin:auto;padding:24px 16px 120px}
+.k{font:500 12px 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+h1{font:900 clamp(30px,6vw,42px)/1.05 'Outfit';color:var(--ink);margin:8px 0 10px}
+.lead{margin:0 0 6px}
+.prog{position:sticky;top:0;z-index:4;background:var(--bg);padding:10px 0;display:flex;gap:6px}
+.prog a{flex:1;text-align:center;text-decoration:none;font:700 12px 'Plus Jakarta Sans';color:var(--muted);border-bottom:3px solid var(--line);padding:6px 2px}
+.prog a.on{color:var(--ink);border-color:var(--acc)}
+fieldset{border:1px solid var(--line);background:var(--surf);border-radius:20px;padding:18px 18px 8px;margin:18px 0}
+legend{font:800 20px 'Outfit';color:var(--ink);padding:0 6px}
+legend small{display:block;font:600 13px 'Plus Jakarta Sans';color:var(--muted)}
+label.q{display:block;font-weight:700;color:var(--ink);margin:14px 0 6px}
+label.q i{font-style:normal;color:var(--acc)}
+.hint{font-size:13px;color:var(--muted);margin:-2px 0 6px}
+input[type=text],input[type=tel],input[type=email],input[type=date],select,textarea{width:100%;font:inherit;font-size:16px;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+textarea{min-height:76px;resize:vertical}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{display:flex;gap:8px;align-items:center;border:1px solid var(--line);background:var(--bg);padding:9px 12px;border-radius:12px;cursor:pointer;font-weight:600;color:var(--ink)}
+.opts label:has(input:checked){border-color:var(--acc);background:var(--soft)}
+.opts.col{flex-direction:column}.opts.col label{align-items:flex-start}
+.opts.col label span small{display:block;font-weight:500;color:var(--muted);font-size:13px}
+.lvl label{flex:1 1 140px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:560px){.row{grid-template-columns:1fr}}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--surf);border-top:1px solid var(--line);padding:12px 16px;z-index:5}
+.bar .in{max-width:720px;margin:auto;display:flex;gap:8px;align-items:center}
+.bar .st{flex:1;font-size:13px;color:var(--muted)}
+@media(max-width:560px){.bar .in{flex-wrap:wrap}.bar .st{flex-basis:100%}.bar .wa{flex:1}}
+button{font:800 15px 'Plus Jakarta Sans';border:0;border-radius:12px;padding:12px 16px;cursor:pointer}
+.wa{background:#25D366;color:#fff}.b2{background:var(--soft);color:var(--deep)}
+.err{color:#E2453C;font-size:13px;font-weight:700;display:none}
+.invalid{border-color:#E2453C!important}
+.priv{font-size:13px;color:var(--muted);background:var(--surf);border:1px dashed var(--line);border-radius:14px;padding:12px 14px}
+@media print{.prog,.bar,.noprint{display:none!important}body{background:#fff}fieldset{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="w">
+  <span class="k">Mentoring Claude 1-on-1 · Jember</span>
+  <h1>Form pra-mentoring</h1>
+  <p class="lead">Isi ±5 menit, paling lambat <b>3 hari sebelum sesi</b>. Jawabanmu dipakai untuk menyusun materi custom dan contoh dari bidangmu sendiri.</p>
+  <nav class="prog noprint"><a href="#a" class="on">A. Data diri</a><a href="#b">B. Kebutuhan</a><a href="#c">C. Materi</a><a href="#d">D. Laptop</a></nav>
+
+<form id="f" onsubmit="return false" novalidate>
+<fieldset id="a"><legend>A. Pendaftaran<small>Data dasar peserta</small></legend>
+  <label class="q" for="nama">Nama lengkap <i>*</i></label><input type="text" id="nama" name="Nama" required autocomplete="name">
+  <div class="row">
+    <div><label class="q" for="panggilan">Nama panggilan</label><input type="text" id="panggilan" name="Panggilan"></div>
+    <div><label class="q" for="hp">Nomor WhatsApp <i>*</i></label><input type="tel" id="hp" name="WhatsApp" required inputmode="tel" autocomplete="tel" placeholder="08xx"></div>
+  </div>
+  <label class="q" for="email">Email (untuk akun Claude & Netlify) <i>*</i></label><input type="email" id="email" name="Email" required autocomplete="email">
+  <div class="row">
+    <div><label class="q" for="profesi">Pekerjaan / bidang <i>*</i></label>
+      <select id="profesi" name="Bidang" required><option value="">Pilih…</option><option>Guru / dosen / tentor</option><option>Mahasiswa / pelajar</option><option>UMKM / kuliner / toko</option><option>Petani / penyuluh / toko tani</option><option>Bidan / perawat / klinik</option><option>Kreator / admin medsos</option><option>Karyawan / staf kantor</option><option>Lainnya</option></select></div>
+    <div><label class="q" for="kec">Kecamatan</label><input type="text" id="kec" name="Kecamatan" placeholder="mis. Sumbersari"></div>
+  </div>
+  <label class="q" for="instansi">Nama sekolah / usaha / kampus (opsional)</label><input type="text" id="instansi" name="Instansi/usaha">
+  <div class="row">
+    <div><label class="q">Paket <i>*</i></label><div class="opts" data-name="Paket" data-req><label><input type="radio" name="paket" value="Praktik Rp200.000">Praktik</label><label><input type="radio" name="paket" value="Builder Rp250.000">Builder</label><label><input type="radio" name="paket" value="All in Rp300.000">All in</label></div></div>
+    <div><label class="q">Tempat <i>*</i></label><div class="opts" data-name="Tempat" data-req><label><input type="radio" name="tempat" value="Cafe Jember">Cafe Jember</label><label><input type="radio" name="tempat" value="Zoom">Zoom</label></div></div>
+  </div>
+  <div class="row">
+    <div><label class="q" for="tgl">Tanggal sesi (kalau sudah ditentukan)</label><input type="date" id="tgl" name="Tanggal sesi"></div>
+    <div><label class="q" for="teman">Datang berapa orang?</label><select id="teman" name="Jumlah orang"><option>1 (sendiri)</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div>
+  </div>
+  <label class="q" for="namateman">Nama teman yang ikut (kalau grup)</label><input type="text" id="namateman" name="Nama teman">
+</fieldset>
+
+<fieldset id="b"><legend>B. Identifikasi kebutuhan<small>Tiga pertanyaan terpenting sebelum sesi</small></legend>
+  <label class="q">1. Sudah sejauh mana kamu mengenal AI? <i>*</i></label>
+  <div class="opts col lvl" data-name="Level AI" data-req>
+    <label><input type="radio" name="level" value="0 - Belum pernah pakai AI"><span>Belum pernah pakai AI<small>Baru dengar ChatGPT/Claude</small></span></label>
+    <label><input type="radio" name="level" value="1 - Pernah tanya-jawab"><span>Pernah tanya-jawab<small>Pakai AI untuk bertanya atau menulis teks</small></span></label>
+    <label><input type="radio" name="level" value="2 - Pernah pakai Claude"><span>Pernah pakai Claude<small>Sudah punya akun, pernah coba Artifacts</small></span></label>
+    <label><input type="radio" name="level" value="3 - Sudah bikin karya"><span>Sudah bikin karya dengan AI<small>App/web/video, mau lebih rapi & cepat</small></span></label>
+  </div>
+  <label class="q">AI yang pernah dipakai</label>
+  <div class="opts" data-name="AI dipakai"><label><input type="checkbox" value="ChatGPT">ChatGPT</label><label><input type="checkbox" value="Claude">Claude</label><label><input type="checkbox" value="Gemini">Gemini</label><label><input type="checkbox" value="Meta AI / WA">Meta AI</label><label><input type="checkbox" value="Canva AI">Canva AI</label><label><input type="checkbox" value="CapCut">CapCut</label><label><input type="checkbox" value="Belum ada">Belum ada</label></div>
+  <label class="q" for="ingin">2. Kamu ingin belajar apa? Masalah apa yang mau dibantu Claude? <i>*</i></label>
+  <p class="hint">Contoh: "Murid kelas 4 cepat bosan saat latihan pecahan" · "Pesanan warung masih dicatat manual"</p>
+  <textarea id="ingin" name="Ingin belajar / masalah" required></textarea>
+  <label class="q" for="karya">3. Karya apa yang ingin kamu bawa pulang dari sesi? <i>*</i></label>
+  <p class="hint">Contoh: "Game kuis pecahan yang bisa dibuka murid di HP" · "Website menu dengan tombol pesan WA"</p>
+  <textarea id="karya" name="Karya dibawa pulang" required></textarea>
+  <label class="q" for="pengguna">Karya itu nanti dipakai siapa?</label><input type="text" id="pengguna" name="Pengguna karya" placeholder="mis. murid kelas 4B, pelanggan warung">
+  <label class="q" for="contoh">Contoh yang kamu suka (link app/web/akun medsos)</label><input type="text" id="contoh" name="Contoh referensi">
+  <label class="q">Bahan yang bisa kamu bawa</label>
+  <div class="opts" data-name="Bahan"><label><input type="checkbox" value="Daftar soal/materi">Daftar soal / materi</label><label><input type="checkbox" value="Menu & harga">Menu & harga</label><label><input type="checkbox" value="Foto produk">Foto produk</label><label><input type="checkbox" value="Logo">Logo</label><label><input type="checkbox" value="Data angka">Data / angka</label><label><input type="checkbox" value="Belum ada">Belum ada</label></div>
+  <label class="q">Setelah sesi, kamu ingin…</label>
+  <div class="opts" data-name="Tujuan lanjut"><label><input type="checkbox" value="Pakai untuk kerja sendiri">Pakai untuk kerja sendiri</label><label><input type="checkbox" value="Promosi usaha">Promosi usaha</label><label><input type="checkbox" value="Jual jasa ke orang lain">Jual jasa</label><label><input type="checkbox" value="Portofolio">Portofolio</label></div>
+</fieldset>
+
+<fieldset id="c"><legend>C. Pilihan materi<small>Modul 0 (Dasar Claude) wajib untuk semua</small></legend>
+  <label class="q">Modul karya utama untuk sesi ini (pilih satu) <i>*</i></label>
+  <div class="opts col" data-name="Modul utama" data-req>
+    <label><input type="radio" name="modul" value="Modul 1 App"><span>📱 App<small>Kuis, kalkulator, booking, katalog, kartu member</small></span></label>
+    <label><input type="radio" name="modul" value="Modul 2 Website"><span>🌐 Website<small>Profil usaha, portofolio, landing page dengan tombol WA</small></span></label>
+    <label><input type="radio" name="modul" value="Modul 3 Video"><span>🎬 Video<small>Animasi vertikal untuk Reels & TikTok (paling cocok paket All in)</small></span></label>
+    <label><input type="radio" name="modul" value="Modul 4 Carousel"><span>🖼️ Carousel<small>Konten edukasi / promosi 7–10 slide</small></span></label>
+    <label><input type="radio" name="modul" value="Belum tahu, minta saran"><span>🤔 Belum tahu<small>Bantu aku memilih yang paling cocok</small></span></label>
+  </div>
+  <label class="q">Topik tambahan yang ingin disinggung (boleh lebih dari satu)</label>
+  <div class="opts" data-name="Topik tambahan">
+    <label><input type="checkbox" value="Rumus prompt">Rumus prompt</label><label><input type="checkbox" value="Lampirkan file/foto">Lampirkan file & foto</label><label><input type="checkbox" value="Tombol WhatsApp">Tombol WhatsApp</label><label><input type="checkbox" value="Publish Netlify">Publish online</label><label><input type="checkbox" value="Nama domain sendiri">Domain sendiri</label><label><input type="checkbox" value="Caption & hook">Caption & hook</label><label><input type="checkbox" value="Kalender konten">Kalender konten</label><label><input type="checkbox" value="Jual jasa">Jual jasa ke UMKM</label><label><input type="checkbox" value="Claude gratis vs Pro">Claude gratis vs Pro</label>
+  </div>
+  <label class="q">Gaya belajar yang paling nyaman</label>
+  <div class="opts" data-name="Gaya belajar"><label><input type="radio" name="gaya" value="Langsung praktik">Langsung praktik</label><label><input type="radio" name="gaya" value="Dijelaskan dulu baru praktik">Dijelaskan dulu, baru praktik</label><label><input type="radio" name="gaya" value="Pelan-pelan step by step">Pelan-pelan, step by step</label></div>
+</fieldset>
+
+<fieldset id="d"><legend>D. Checklist persiapan laptop<small>Centang yang sudah siap. Yang belum, kita bantu di awal sesi.</small></legend>
+  <div class="row">
+    <div><label class="q" for="os">Laptop</label><select id="os" name="Laptop"><option value="">Pilih…</option><option>Windows</option><option>Mac</option><option>Chromebook</option><option>Belum punya / pinjam</option></select></div>
+    <div><label class="q" for="browser">Browser</label><select id="browser" name="Browser"><option>Google Chrome</option><option>Microsoft Edge</option><option>Safari</option><option>Firefox</option><option>Belum tahu</option></select></div>
+  </div>
+  <label class="q">Sudah siap</label>
+  <div class="opts col" data-name="Checklist laptop">
+    <label><input type="checkbox" value="Laptop bisa menyala & charger dibawa"><span>Laptop menyala normal & charger ikut dibawa</span></label>
+    <label><input type="checkbox" value="Browser Chrome/Edge versi terbaru"><span>Chrome / Edge versi terbaru</span></label>
+    <label><input type="checkbox" value="Akun Claude dibuat & bisa login"><span>Akun Claude dibuat di claude.ai & bisa login</span></label>
+    <label><input type="checkbox" value="Fitur code execution & file creation aktif"><span>Settings Claude: fitur <b>code execution & file creation</b> aktif<small>Kalau bingung, kita aktifkan bareng</small></span></label>
+    <label><input type="checkbox" value="Akun Netlify dibuat"><span>Akun Netlify dibuat (app.netlify.com)</span></label>
+    <label><input type="checkbox" value="Ruang penyimpanan ≥2 GB"><span>Sisa penyimpanan laptop ≥ 2 GB</span></label>
+    <label><input type="checkbox" value="Bahan sudah di laptop"><span>Bahan (soal/menu/foto/logo) sudah ada di laptop</span></label>
+    <label><input type="checkbox" value="Kuota/hotspot cadangan"><span>Kuota HP untuk hotspot cadangan</span></label>
+    <label><input type="checkbox" value="Zoom terpasang & headset"><span>(Zoom) aplikasi Zoom terpasang, headset/earphone siap</span></label>
+    <label><input type="checkbox" value="Tidak pakai Claude berat sebelum sesi"><span>Tidak memakai Claude berat-berat beberapa jam sebelum sesi<small>Supaya kuota gratis masih penuh saat praktik</small></span></label>
+  </div>
+  <label class="q" for="khusus">Ada kebutuhan khusus? (waktu sholat, aksesibilitas, jam pulang, dll.)</label><textarea id="khusus" name="Kebutuhan khusus" style="min-height:56px"></textarea>
+  <label class="opts" style="display:flex;margin:14px 0 10px"><input type="checkbox" id="setuju" style="margin-top:4px"><span style="font-weight:600;color:var(--ink)">Saya setuju data ini dipakai hanya untuk menyiapkan dan menjalankan mentoring. Foto/karya/testimoni hanya ditampilkan jika saya izinkan, dan saya bisa minta data dihapus kapan saja. <i style="color:var(--acc)">*</i></span></label>
+</fieldset>
+<p class="priv">🔒 Form ini tidak menyimpan data di server. Jawabanmu hanya terkirim saat kamu menekan tombol WhatsApp di bawah.</p>
+</form>
+</div>
+
+<div class="bar noprint"><div class="in">
+  <span class="st" id="st">Lengkapi kolom bertanda *</span>
+  <button type="button" class="b2" id="salin">Salin</button>
+  <button type="button" class="b2" onclick="window.print()">Cetak</button>
+  <button type="button" class="wa" id="kirim">Kirim ke WhatsApp</button>
+</div></div>
+
+<script>
+(function(){
+  var WA='6285704973827', KEY='mk-form-pra-mentoring';
+  var f=document.getElementById('f'), st=document.getElementById('st');
+  function grupNilai(g){var v=[].filter.call(g.querySelectorAll('input'),function(i){return i.checked}).map(function(i){return i.value});return v.join(', ')}
+  function kumpul(){
+    var out=[], kurang=[];
+    [].forEach.call(f.querySelectorAll('fieldset'),function(fs){
+      out.push('\n*'+fs.querySelector('legend').firstChild.textContent.trim()+'*');
+      [].forEach.call(fs.querySelectorAll('input[type=text],input[type=tel],input[type=email],input[type=date],select,textarea,.opts[data-name]'),function(el){
+        var nama=el.dataset.name||el.name, val=el.classList.contains('opts')?grupNilai(el):el.value.trim();
+        var wajib=el.hasAttribute('required')||el.hasAttribute('data-req');
+        el.classList.toggle('invalid',wajib&&!val&&el.dataset.touched==='1');
+        if(wajib&&!val)kurang.push(nama);
+        if(val)out.push('• '+nama+': '+val);
+      });
+    });
+    if(!document.getElementById('setuju').checked)kurang.push('Persetujuan data');
+    return {teks:'Form Pra-Mentoring Claude Jember'+out.join('\n'),kurang:kurang};
+  }
+  function simpan(){try{var d={};[].forEach.call(f.elements,function(e){if(!e.name&&!e.id)return;var k=(e.id||'')+'|'+e.name+'|'+e.value;if(e.type==='checkbox'||e.type==='radio')d[k]=e.checked;else d[e.id]=e.value});localStorage.setItem(KEY,JSON.stringify(d))}catch(e){}}
+  function muat(){try{var d=JSON.parse(localStorage.getItem(KEY)||'{}');[].forEach.call(f.elements,function(e){var k=(e.id||'')+'|'+e.name+'|'+e.value;if((e.type==='checkbox'||e.type==='radio')&&k in d)e.checked=d[k];else if(e.id&&e.id in d&&e.type!=='checkbox'&&e.type!=='radio')e.value=d[e.id]})}catch(e){}}
+  function status(){var k=kumpul().kurang;st.textContent=k.length?('Belum diisi: '+k.slice(0,3).join(', ')+(k.length>3?' +'+(k.length-3):'')):'✅ Siap dikirim';}
+  f.addEventListener('input',function(e){if(e.target)(e.target.closest('.opts')||e.target).dataset.touched='1';simpan();status()});
+  f.addEventListener('change',function(){simpan();status()});
+  document.getElementById('kirim').onclick=function(){
+    var r=kumpul();
+    if(r.kurang.length){[].forEach.call(f.querySelectorAll('[required],[data-req]'),function(el){el.dataset.touched='1'});kumpul();status();
+      var first=f.querySelector('.invalid');if(first)first.scrollIntoView({behavior:'smooth',block:'center'});
+      if(r.kurang.indexOf('Persetujuan data')>-1&&!first)document.getElementById('setuju').scrollIntoView({behavior:'smooth',block:'center'});return}
+    window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(r.teks),'_blank');
+  };
+  document.getElementById('salin').onclick=function(){var t=kumpul().teks,b=this;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Tersalin ✓';setTimeout(function(){b.textContent='Salin'},1500)},function(){prompt('Salin teks ini:',t)})};
+  // nav aktif
+  var links=[].slice.call(document.querySelectorAll('.prog a'));
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting)links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+en.target.id)})})},{rootMargin:'-40% 0px -55% 0px'});[].forEach.call(f.querySelectorAll('fieldset'),function(s){io.observe(s)})}
+  // isi otomatis dari link: ?nama=..&paket=Builder&tgl=2026-11-28
+  try{var u=new URLSearchParams(location.search);if(u.get('nama'))document.getElementById('nama').value=u.get('nama');if(u.get('tgl'))document.getElementById('tgl').value=u.get('tgl');
+    if(u.get('paket'))[].forEach.call(document.querySelectorAll('input[name=paket]'),function(i){if(i.value.toLowerCase().indexOf(u.get('paket').toLowerCase())===0)i.checked=true});}catch(e){}
+  muat();status();
+})();
+</script>
+</body>
+</html>

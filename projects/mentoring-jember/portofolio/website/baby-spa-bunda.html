@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Baby Spa Bunda</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+<!-- Contoh karya Website + booking (usaha fiktif) · dibuat dengan Claude · tanpa saran medis -->
+<style>
+:root{--bg:#FFF7F4;--ink:#3A2A3F;--body:#6A5870;--pink:#F58BA6;--mint:#7FCBB6;--card:#fff;--line:#F4DDE2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font:17px/1.55 'Nunito',system-ui,sans-serif}
+.w{max-width:960px;margin:auto;padding:0 16px}
+header{padding:36px 0 24px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+@media(max-width:700px){header{grid-template-columns:1fr}}
+.tag{display:inline-block;background:#FFE3EA;color:#C2486A;font-weight:800;font-size:13px;padding:6px 12px;border-radius:99px}
+h1{font:900 clamp(34px,6vw,52px)/1.05 'Nunito',sans-serif;color:var(--ink);margin:10px 0}
+.bubble{width:220px;height:220px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#FFD1DC,#F58BA6);display:grid;place-items:center;font-size:96px;box-shadow:0 30px 60px -30px #F58BA6}
+@media(max-width:700px){.bubble{display:none}}
+h2{font:900 30px 'Nunito',sans-serif;color:var(--ink);margin:36px 0 12px}
+.lay{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.l{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:16px;cursor:pointer;transition:.15s}
+.l:hover{transform:translateY(-2px)}.l.on{border-color:var(--pink);background:#FFF0F4}
+.l .e{font-size:34px}.l b{display:block;color:var(--ink);font-size:18px}.l .h{font-weight:900;color:#C2486A}.l small{display:block}
+.book{background:var(--card);border:2px solid var(--line);border-radius:24px;padding:20px;margin-top:8px}
+.days,.slots{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 14px}
+.days button,.slots button{font:800 15px 'Nunito';border:2px solid var(--line);background:#fff;border-radius:14px;padding:10px 12px;cursor:pointer;color:var(--ink);min-width:70px}
+.days button.on,.slots button.on{background:var(--mint);border-color:var(--mint);color:#fff}
+.slots button:disabled{opacity:.35;text-decoration:line-through;cursor:not-allowed}
+input,select{width:100%;font:inherit;padding:12px;border-radius:14px;border:2px solid var(--line);margin:6px 0 10px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}@media(max-width:520px){.row{grid-template-columns:1fr}}
+.go{width:100%;border:0;background:#25D366;color:#fff;font:900 18px 'Nunito';padding:16px;border-radius:16px;cursor:pointer}
+.ring{background:#F0FAF7;border-radius:16px;padding:12px 14px;margin-bottom:14px;color:var(--ink)}
+.faq details{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px 16px;margin-bottom:8px}.faq summary{font-weight:800;color:var(--ink);cursor:pointer}
+footer{text-align:center;font-size:13px;padding:30px 0}
+</style>
+</head>
+<body>
+<div class="w">
+<header><div><span class="tag">Bidan · Kaliwates, Jember</span><h1>Baby Spa & Homecare Bunda</h1><p>Pijat bayi, baby spa, dan perawatan ibu nifas oleh bidan. Bisa di tempat atau kami yang datang ke rumah.</p></div><div class="bubble">👶</div></header>
+
+<h2>1. Pilih layanan</h2><div class="lay" id="lay"></div>
+<h2>2. Pilih jadwal</h2>
+<div class="book">
+  <b>Hari</b><div class="days" id="days"></div>
+  <b>Jam</b><div class="slots" id="slots"></div>
+  <div class="row"><div><b>Nama bunda</b><input id="nb" placeholder="Nama"></div><div><b>Nama & usia bayi</b><input id="by" placeholder="Contoh: Alya, 4 bulan"></div></div>
+  <b>Tempat</b><select id="tp"><option>Datang ke klinik</option><option>Homecare (bidan ke rumah)</option></select>
+  <div class="ring" id="ring">Pilih layanan dan jam dulu ya, Bunda.</div>
+  <button class="go" id="go">Booking via WhatsApp</button>
+</div>
+
+<h2>Tanya jawab</h2><div class="faq">
+<details><summary>Mulai usia berapa bayi boleh pijat?</summary>Silakan konsultasikan dulu dengan bidan kami saat booking; bidan akan menanyakan kondisi bayi sebelum layanan.</details>
+<details><summary>Bayi sedang demam, boleh?</summary>Untuk bayi yang sedang sakit, layanan ditunda dan bunda dianjurkan memeriksakan ke tenaga kesehatan.</details>
+<details><summary>Area homecare sampai mana?</summary>Sumbersari, Kaliwates, Patrang. Di luar itu tanya dulu lewat WhatsApp.</details>
+</div>
+<footer>Usaha fiktif · contoh karya Mentoring Claude Jember · nomor WA contoh</footer>
+</div>
+<script>
+var L=[['🤲','Pijat Bayi','45 menit',75000],['🛁','Baby Spa (pijat + berenang)','60 menit',110000],['🤱','Pijat Ibu Nifas','60 menit',120000],['🏠','Homecare Pijat Bayi','ke rumah',100000]];
+var pil=-1,hari=0,jam='';function rp(n){return 'Rp'+n.toLocaleString('id-ID')}
+function lay(){document.getElementById('lay').innerHTML=L.map(function(x,i){return '<div class="l'+(i===pil?' on':'')+'" data-i="'+i+'"><span class="e">'+x[0]+'</span><b>'+x[1]+'</b><small>'+x[2]+'</small><span class="h">'+rp(x[3])+'</span></div>'}).join('');[].forEach.call(document.querySelectorAll('.l'),function(d){d.onclick=function(){pil=+d.dataset.i;lay();ring()}})}
+var HR=['Min','Sen','Sel','Rab','Kam','Jum','Sab'];
+function days(){var h='';for(var k=0;k<6;k++){var d=new Date();d.setDate(d.getDate()+k);h+='<button class="'+(k===hari?'on':'')+'" data-k="'+k+'">'+(k===0?'Hari ini':HR[d.getDay()])+'<br>'+d.getDate()+'/'+(d.getMonth()+1)+'</button>'}document.getElementById('days').innerHTML=h;[].forEach.call(document.querySelectorAll('#days button'),function(b){b.onclick=function(){hari=+b.dataset.k;jam='';days();slots();ring()}})}
+function slots(){var S=['08.00','09.30','11.00','13.00','14.30','16.00','19.00'];document.getElementById('slots').innerHTML=S.map(function(s,i){var penuh=((hari*3+i)%4===1);return '<button '+(penuh?'disabled':'')+' class="'+(s===jam?'on':'')+'">'+s+'</button>'}).join('');[].forEach.call(document.querySelectorAll('#slots button'),function(b){b.onclick=function(){jam=b.textContent;slots();ring()}})}
+function tgl(){var d=new Date();d.setDate(d.getDate()+hari);return HR[d.getDay()]+', '+d.getDate()+'/'+(d.getMonth()+1)}
+function ring(){var r=document.getElementById('ring');if(pil<0||!jam){r.textContent='Pilih layanan dan jam dulu ya, Bunda.';return}r.innerHTML='✅ <b>'+L[pil][1]+'</b> · '+tgl()+' jam '+jam+' · '+rp(L[pil][3])}
+document.getElementById('go').onclick=function(){if(pil<0||!jam){alert('Pilih layanan dan jam dulu ya, Bunda.');return}
+ var t='Halo Bidan, saya mau booking:\nLayanan: '+L[pil][1]+'\nJadwal: '+tgl()+' jam '+jam+'\nTempat: '+document.getElementById('tp').value+'\nNama bunda: '+(document.getElementById('nb').value||'-')+'\nBayi: '+(document.getElementById('by').value||'-');
+ window.open('https://wa.me/6280000000000?text='+encodeURIComponent(t),'_blank')};
+lay();days();slots();
+</script>
+</body>
+</html>

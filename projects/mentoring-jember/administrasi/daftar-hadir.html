@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daftar Hadir Mentoring</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800;900&family=Plus+Jakarta+Sans:wght@500;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<!-- DAFTAR HADIR · A4 lanskap. Isi tanggal, tempat dan jumlah baris, lalu cetak. Kolom bisa diketik langsung sebelum dicetak. -->
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#DDD3C1;font:10pt/1.4 'Plus Jakarta Sans',system-ui,sans-serif;color:#2E2720;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.tool{max-width:297mm;margin:12px auto;display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:0 12px;font-size:14px}
+.tool input,.tool select{font:inherit;padding:7px 9px;border-radius:8px;border:1px solid #C9BB9F}
+.tool button{font:700 14px inherit;border:0;border-radius:8px;padding:9px 14px;background:#F05323;color:#fff;cursor:pointer}
+.page{width:297mm;min-height:210mm;margin:0 auto 12px;background:#fff;padding:12mm 14mm;position:relative}
+@page{size:A4 landscape;margin:0}
+@media print{body{background:#fff}.tool{display:none}.page{margin:0}}
+.hd{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2px solid #191512;padding-bottom:3mm}
+.hd h1{font:900 20pt 'Outfit';margin:0;color:#191512}.hd h1 span{color:#F05323}
+.k{font:500 8pt 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#C23A12}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin:4mm 0}
+.meta div{border:1px solid #E3D5BC;border-radius:2mm;padding:2mm 3mm;font-size:8.5pt;color:#6E6353}
+.meta b{display:block;color:#191512;font-size:10pt;min-height:5mm}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #CDBFA3;padding:0 2mm;height:11mm;text-align:left}
+th{background:#F6EEDD;font-size:8.5pt;height:8mm;color:#191512}
+td[contenteditable]:focus{outline:2px solid #F05323}
+.c{text-align:center}
+.foot{display:flex;justify-content:space-between;margin-top:6mm;font-size:8.5pt;color:#6E6353}
+.ttd{width:60mm;text-align:center}.ttd .ln{border-top:1px solid #191512;margin-top:16mm;padding-top:1mm;color:#191512;font-weight:700}
+</style>
+</head>
+<body>
+<div class="tool">
+  Tanggal <input type="date" id="tgl" value="2026-11-28">
+  Tempat <input id="tmp" value="Cafe ________, Sumbersari" size="26">
+  Jam <input id="jam" value="09.00–12.00" size="10">
+  Baris <select id="n"><option>5</option><option selected>8</option><option>10</option><option>12</option></select>
+  <button onclick="window.print()">Cetak / Simpan PDF</button>
+</div>
+<section class="page">
+  <div class="hd"><div><span class="k">Mentoring Claude 1-on-1 · Jember · EduGame Labs</span><h1>Daftar <span>Hadir</span></h1></div><span class="k" id="kode"></span></div>
+  <div class="meta"><div>Tanggal<b id="mt"></b></div><div>Tempat / Zoom<b id="mp"></b></div><div>Jam<b id="mj"></b></div><div>Mentor<b>Auzan Hasfi</b></div></div>
+  <table>
+    <thead><tr><th style="width:9mm" class="c">No</th><th style="width:52mm">Nama</th><th style="width:34mm">No. WhatsApp</th><th style="width:34mm">Bidang / asal</th><th style="width:22mm">Paket</th><th style="width:17mm" class="c">Jam datang</th><th style="width:44mm">Karya yang jadi</th><th style="width:22mm" class="c">Izin foto*</th><th>Tanda tangan</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table>
+  <div class="foot"><div>* Izin foto/karya ditampilkan di medsos/LP: tulis Y (ya), N (tidak), atau TN (ya, tanpa nama).<br>Data hanya dipakai untuk administrasi mentoring dan tidak dibagikan ke pihak lain.</div><div class="ttd"><div class="ln">Auzan Hasfi · Mentor</div></div></div>
+</section>
+<script>
+(function(){
+  var B=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
+  function r(){var t=document.getElementById('tgl').value.split('-');document.getElementById('mt').textContent=t.length===3?(+t[2])+' '+B[t[1]-1]+' '+t[0]:'';
+    document.getElementById('mp').textContent=document.getElementById('tmp').value;document.getElementById('mj').textContent=document.getElementById('jam').value;
+    document.getElementById('kode').textContent='DH-'+t.join('');
+    var n=+document.getElementById('n').value,h='';for(var i=1;i<=n;i++)h+='<tr><td class="c">'+i+'</td>'+'<td contenteditable></td>'.repeat(5)+'<td contenteditable></td><td contenteditable class="c"></td><td></td></tr>';
+    var tb=document.getElementById('tb');if(tb.rows.length!==n)tb.innerHTML=h;}
+  ['tgl','tmp','jam','n'].forEach(function(i){document.getElementById(i).addEventListener('input',r)});r();
+})();
+</script>
+</body>
+</html>

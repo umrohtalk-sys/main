@@ -1,0 +1,45 @@
+KUMPULAN PROMPT UMUM — Mentoring Claude Jember
+================================================
+Salin sesuai kebutuhan. Ganti bagian [dalam kurung].
+
+--- MEMULAI ---
+1.  Buatkan [karya] untuk [pengguna]. Sebelum membuat, tanyakan dulu 5 hal yang perlu kamu ketahui.
+2.  Ini bahanku (terlampir). Pakai data ini apa adanya, jangan mengarang data baru.
+3.  Buat versi paling sederhana dulu. Nanti aku minta tambahan fitur satu per satu.
+
+--- MEREVISI ---
+4.  Ubah hanya [bagian]. Bagian lain jangan disentuh. Tampilkan file lengkap.
+5.  Tombol [nama tombol] buat lebih besar dan warnanya [warna].
+6.  Ganti semua teks jadi bahasa Indonesia sehari-hari yang sopan.
+7.  Kembalikan ke versi sebelumnya, perubahan terakhir kurang cocok.
+
+--- MEMPERBAIKI ERROR ---
+8.  Ada error: [tempel pesan error / jelaskan apa yang terjadi]. Perbaiki tanpa mengubah bagian lain.
+9.  Tombol [..] tidak berfungsi saat ditekan. Cari penyebabnya dan perbaiki.
+10. Jelaskan dalam 5 poin untuk orang awam apa yang kamu ubah.
+
+--- TAMPILAN HP ---
+11. Buat nyaman di HP: huruf minimal 16px, tombol besar, tidak ada yang terpotong atau perlu geser ke samping.
+12. Cek tampilan di layar lebar 360px dan perbaiki yang berantakan.
+
+--- WHATSAPP & ONLINE ---
+13. Tambahkan tombol WhatsApp ke 62[nomor] dengan pesan otomatis: "[pesan]".
+14. Buat semua jadi satu file index.html supaya mudah diunggah ke Netlify.
+15. Tambahkan judul halaman, deskripsi singkat dan ikon supaya rapi saat link dibagikan.
+
+--- MELANJUTKAN DI CHAT BARU ---
+16. Ini file terakhirku (terlampir). Lanjutkan dari sini: [permintaan]. Jangan ubah yang sudah jalan.
+
+--- KONTEN ---
+17. Buat naskah video 30 detik tentang [topik] untuk [penonton]: hook 3 detik, 3 poin, ajakan.
+18. Buat 8 slide carousel tentang [topik] untuk [penonton]; tiap slide maks. 20 kata.
+19. Buat 3 pilihan caption pendek + 5 tagar lokal Jember.
+20. Buat kalender konten 2 minggu untuk [usaha/bidang]: 3 posting per minggu, campur video & carousel.
+
+--- CEK FAKTA & AMAN ---
+21. Daftar semua klaim fakta di teks ini yang perlu aku cek ke sumber resmi.
+22. Apakah ada bagian yang bisa disalahpahami sebagai saran medis / keuangan / hukum? Tandai dan sarankan kalimat yang lebih aman.
+
+--- JUAL JASA ---
+23. Buat penawaran jasa singkat untuk [jenis usaha] di Jember: masalah mereka, solusi, contoh hasil, harga mulai, ajakan chat.
+24. Buat 3 paket jasa (dasar, standar, lengkap) untuk [jasa], dengan isi yang jelas dan tidak tumpang tindih.

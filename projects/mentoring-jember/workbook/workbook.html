@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Workbook Mentoring Claude</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<!--
+  WORKBOOK MENTORING CLAUDE 1-on-1 · JEMBER (A4 potret)
+  Satu sumber untuk beberapa PDF. Tambahkan ?only=<bagian> untuk mencetak sebagian:
+    ?only=dasar      -> "01 - Materi Dasar Claude.pdf"
+    ?only=blueprint  -> "03 - App Blueprint.pdf"
+    ?only=netlify    -> "05 - Panduan Publish Netlify.pdf"
+    ?only=rencana    -> "07 - Rencana Belajar Selanjutnya.pdf"
+  Tanpa parameter = workbook lengkap. Cetak: Chrome -> Simpan sebagai PDF, A4, margin default, centang grafik latar.
+  ?nama=Rina  -> nama peserta tercetak di sampul.
+-->
+<style>
+:root{--bg:#FBF7EE;--ink:#191512;--body:#3F372D;--muted:#6E6353;--line:#E3D5BC;--soft:#FDEADB;--acc:#F05323;--deep:#C23A12;--mango:#F8A81B;--hijau:#12946A}
+*{box-sizing:border-box}
+html{background:#DDD3C1}
+body{margin:0;font:9.8pt/1.48 'Plus Jakarta Sans',system-ui,sans-serif;color:var(--body);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;min-height:297mm;margin:10mm auto;background:#fff;padding:13mm 15mm 15mm;position:relative;box-shadow:0 10px 30px -15px rgba(0,0,0,.4)}
+@page{size:A4;margin:0}
+@media print{html{background:#fff}.page{margin:0;box-shadow:none;page-break-after:always;break-after:page}.page:last-child{page-break-after:auto}}
+.hd{display:flex;justify-content:space-between;font:500 7.5pt 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:3mm;margin-bottom:5mm}
+.hd b{color:var(--acc);font-weight:500}
+.pn{position:absolute;bottom:9mm;right:16mm;font:500 8pt 'DM Mono';color:var(--muted)}
+h1{font:900 25pt/1.02 'Outfit';color:var(--ink);margin:0 0 3mm;letter-spacing:-.02em}
+h2{font:800 15pt/1.15 'Outfit';color:var(--ink);margin:5mm 0 2mm}
+h3{font:800 11pt 'Outfit';color:var(--ink);margin:3.5mm 0 1.2mm}
+p{margin:0 0 2.5mm}
+.lbl{font:500 8pt 'DM Mono';letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+.tujuan{background:var(--soft);border-radius:4mm;padding:4mm 5mm;margin:3mm 0}
+.tujuan b{color:var(--deep)}
+table{width:100%;border-collapse:collapse;margin:2mm 0 3mm;font-size:9.5pt}
+th,td{border:1px solid var(--line);padding:1.5mm 2.5mm;text-align:left;vertical-align:top}
+th{background:#F6EEDD;color:var(--ink);font-weight:700}
+.box{border:1.2px solid var(--ink);border-radius:3mm;padding:2.5mm 4mm;margin:2mm 0}
+.box .t{font:800 10.5pt 'Outfit';color:var(--ink);margin-bottom:1.5mm}
+.lines{background-image:repeating-linear-gradient(transparent 0 6.8mm,var(--line) 6.8mm 7mm);min-height:20mm}
+.lines.l2{min-height:14mm}.lines.l4{min-height:27mm}.lines.l6{min-height:40mm}
+.code{font:500 9pt/1.5 'DM Mono',monospace;background:#1C1714;color:#F6EEE2;border-radius:3mm;padding:3.5mm 4mm;white-space:pre-wrap;margin:2mm 0 3mm}
+.code i{color:var(--mango);font-style:normal}
+.cek{list-style:none;padding:0;margin:1mm 0 3mm}
+.cek li{padding-left:7mm;position:relative;margin:1mm 0}
+.cek li::before{content:"";position:absolute;left:0;top:.6mm;width:3.6mm;height:3.6mm;border:1.2px solid var(--ink);border-radius:1mm}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.steps{counter-reset:s;list-style:none;padding:0;margin:2mm 0}
+.steps li{counter-increment:s;padding-left:10mm;position:relative;margin:1.8mm 0}
+.steps li::before{content:counter(s);position:absolute;left:0;top:-.3mm;width:6.5mm;height:6.5mm;border-radius:50%;background:var(--acc);color:#fff;font:800 9pt/6.5mm 'Outfit';text-align:center}
+.warn{border-left:1.2mm solid var(--mango);background:#FFF8E6;padding:3mm 4mm;border-radius:0 3mm 3mm 0;margin:3mm 0;font-size:9.5pt}
+.cover{background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.cover .o{position:absolute;width:150mm;height:150mm;border-radius:50%;background:var(--acc);right:-60mm;top:-55mm}
+.cover .y{position:absolute;width:60mm;height:60mm;border-radius:50%;background:var(--mango);right:55mm;top:-25mm}
+.cover h1{font-size:46pt;margin-top:70mm;position:relative}
+.cover h1 span{color:var(--acc)}
+.cover .id{margin-top:auto;border:1.2px solid var(--ink);border-radius:4mm;padding:5mm;background:#fff;position:relative}
+.cover .id div{display:grid;grid-template-columns:32mm 1fr;border-bottom:1px solid var(--line);padding:2.5mm 0}
+.cover .id div:last-child{border:0}
+.cover .id b{color:var(--ink)}
+.toc li{margin:1.2mm 0}
+.score{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm;text-align:center;font-size:8.5pt}
+.score span{border:1px solid var(--line);border-radius:2mm;padding:1.5mm}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<!-- ========== SAMPUL ========== -->
+<section class="page cover" data-part="full">
+  <div class="o"></div><div class="y"></div>
+  <span class="lbl" style="position:relative">EduGame Labs · Mentoring Claude 1-on-1 · Jember</span>
+  <h1>Workbook<br><span>Mentoring Claude</span></h1>
+  <p style="font-size:13pt;max-width:130mm;position:relative">Panduan praktik dari Modul 0 sampai 5. Isi selama sesi, simpan, dan pakai lagi di rumah untuk karya berikutnya.</p>
+  <div class="id">
+    <div><span>Nama</span><b data-nama>&nbsp;</b></div>
+    <div><span>Bidang</span><b>&nbsp;</b></div>
+    <div><span>Tanggal sesi</span><b>&nbsp;</b></div>
+    <div><span>Paket</span><b>☐ Praktik &nbsp; ☐ Builder &nbsp; ☐ All in</b></div>
+    <div><span>Target karya</span><b>☐ App &nbsp; ☐ Website &nbsp; ☐ Video &nbsp; ☐ Carousel</b></div>
+    <div><span>Mentor</span><b>Auzan Hasfi · WA +62 857-0497-3827</b></div>
+  </div>
+</section>
+
+<!-- ========== CARA PAKAI ========== -->
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Workbook Mentoring Claude</span><span>Cara pakai</span></div>
+  <h1>Cara memakai workbook ini</h1>
+  <ol class="steps">
+    <li><b>Modul 0 wajib.</b> Semua peserta mulai dari Dasar Claude (±35 menit).</li>
+    <li><b>Pilih satu modul karya</b> untuk sesi ini: App, Website, Video, atau Carousel (±70 menit). Modul lain bisa dikerjakan sendiri di rumah dengan halaman yang sama.</li>
+    <li><b>Kamu yang mengetik.</b> Mentor mendampingi. Tulis prompt dan catatanmu langsung di kotak yang tersedia.</li>
+    <li><b>Centang setiap langkah</b> yang sudah selesai. Kalau macet, tulis di "Catatan macet" dan tanyakan saat itu juga.</li>
+    <li><b>Tutup dengan Modul 5</b>: rencana 3 karya berikutnya, supaya ilmunya terpakai.</li>
+  </ol>
+  <h2>Isi</h2>
+  <table>
+    <tr><th>Modul</th><th>Judul</th><th>Hasil di akhir modul</th><th>Alat</th></tr>
+    <tr><td>0</td><td>Kenalan dengan Claude</td><td>Bisa menulis prompt yang menghasilkan karya</td><td>App Fundamental</td></tr>
+    <tr><td>1</td><td>Bikin app tanpa coding</td><td>Satu app online, link siap dibagikan</td><td>Prompt Generator app</td></tr>
+    <tr><td>2</td><td>Website usaha & profil</td><td>Website online dengan tombol WA</td><td>Prompt Generator app & website</td></tr>
+    <tr><td>3</td><td>Video animasi Reels & TikTok</td><td>Satu video vertikal siap unggah</td><td>Prompt Generator Video</td></tr>
+    <tr><td>4</td><td>Carousel Instagram & TikTok</td><td>Satu set carousel + caption</td><td>Template carousel</td></tr>
+    <tr><td>5</td><td>Setelah sesi: jalan sendiri</td><td>Rencana karya berikutnya</td><td>WhatsApp</td></tr>
+  </table>
+  <h2>Target sesi hari ini</h2>
+  <div class="two">
+    <div class="box"><div class="t">Bidang / pekerjaanku</div><div class="lines l2"></div></div>
+    <div class="box"><div class="t">Masalah yang ingin dibantu</div><div class="lines l2"></div></div>
+    <div class="box"><div class="t">Karya yang jadi hari ini</div><div class="lines l2"></div></div>
+    <div class="box"><div class="t">Dipakai oleh / untuk siapa</div><div class="lines l2"></div></div>
+  </div>
+  <span class="pn">2</span>
+</section>
+
+<!-- ========== MODUL 0 ========== -->
+<section class="page" data-part="full dasar">
+  <div class="hd"><span><b>●</b> Modul 0 · Dasar</span><span>±35 menit · wajib</span></div>
+  <span class="lbl">Modul 0</span>
+  <h1>Kenalan dengan Claude</h1>
+  <div class="tujuan"><b>Tujuan:</b> menulis prompt yang menghasilkan <b>karya</b> (app, halaman, naskah, slide), bukan sekadar jawaban.</div>
+
+  <h3>0.1 Akun & tampilan</h3>
+  <ul class="cek">
+    <li>Masuk ke <b>claude.ai</b> dengan email sendiri (versi gratis cukup untuk mulai)</li>
+    <li>Settings → aktifkan fitur <b>code execution & file creation</b> (agar Artifacts muncul)</li>
+    <li>Kenali: kolom chat · tombol lampiran (📎) · riwayat chat · Projects</li>
+  </ul>
+  <table>
+    <tr><th></th><th>Gratis</th><th>Pro (opsional)</th></tr>
+    <tr><td>Biaya</td><td>Rp0</td><td>±US$20/bulan (cek claude.com/pricing)</td></tr>
+    <tr><td>Artifacts</td><td>Ya (aktifkan di Settings)</td><td>Ya</td></tr>
+    <tr><td>Batas pemakaian</td><td>Lebih kecil, reset bergulir ±5 jam</td><td>Lebih besar</td></tr>
+    <tr><td>Kapan perlu</td><td>Belajar & karya sesekali</td><td>Bikin karya setiap hari / jual jasa</td></tr>
+  </table>
+
+  <h3>0.2 Rumus prompt 4 bagian</h3>
+  <div class="code"><i>PERAN </i>  Kamu adalah [ahli/peran], membantu [siapa aku].
+<i>TUJUAN</i>  Buatkan [jenis karya] untuk [pengguna] supaya [hasil].
+<i>ISI   </i>  - [data 1]  - [data 2]  - [aturan khusus]
+<i>FORMAT</i>  [satu file HTML / naskah 30 detik / 8 slide], bahasa Indonesia, cocok di HP.</div>
+  <div class="box"><div class="t">Latihan: tulis prompt pertamamu</div>
+    <p style="margin:0"><b>PERAN</b></p><div class="lines l2" style="min-height:8mm"></div>
+    <p style="margin:0"><b>TUJUAN</b></p><div class="lines l2" style="min-height:8mm"></div>
+    <p style="margin:0"><b>ISI</b></p><div class="lines l2"></div>
+    <p style="margin:0"><b>FORMAT</b></p><div class="lines l2" style="min-height:8mm"></div>
+  </div>
+  <span class="pn">3</span>
+</section>
+
+<section class="page" data-part="full dasar">
+  <div class="hd"><span><b>●</b> Modul 0 · Dasar</span><span>lanjutan</span></div>
+  <h3>0.3 Artifacts: hasil langsung tampil</h3>
+  <p>Kalau hasilnya berupa app/halaman, Claude menampilkannya di panel samping. Kamu bisa mencoba tombolnya, lalu mengunduh filenya.</p>
+  <ul class="cek"><li>Minta: "Buatkan kartu ucapan interaktif untuk [acara], ada tombol yang memunculkan pesan."</li><li>Coba tombolnya di panel Artifact</li><li>Temukan tombol <b>unduh/salin</b></li></ul>
+
+  <h3>0.4 Revisi bertahap</h3>
+  <p>Satu perubahan per pesan. Sebut bagian yang diubah dengan jelas.</p>
+  <table><tr><th>Kurang jelas ✗</th><th>Jelas ✓</th></tr>
+  <tr><td>"Bagusin lagi"</td><td>"Tombol 'Mulai' di bawah judul jadi hijau dan lebih besar"</td></tr>
+  <tr><td>"Ganti semua"</td><td>"Ubah hanya harga es kopi jadi 17rb, bagian lain jangan diubah"</td></tr></table>
+  <div class="box"><div class="t">Latihan: 3 revisi kecil yang aku minta</div><div class="lines l4" style="min-height:23mm"></div></div>
+
+  <h3>0.5 Lampirkan bahanmu</h3>
+  <p>Foto, PDF, daftar soal, menu, logo. Hasil jadi sesuai datamu, bukan data karangan. Maks. 20 file per chat.</p>
+  <div class="box"><div class="t">Bahan yang aku punya untuk karyaku</div><div class="lines l2"></div></div>
+
+  <h3>0.6 Cek hasil & batasnya</h3>
+  <ul class="cek">
+    <li>Cek ulang fakta, angka, nama, harga. Claude bisa salah.</li>
+    <li>Data kesehatan, dosis, takaran pupuk: ambil dari sumber resmi lalu lampirkan.</li>
+    <li>Chat terlalu panjang dan hasil mulai kacau → buka chat baru, lampirkan file terakhir.</li>
+    <li>Batas pemakaian habis → tunggu reset, kerjakan bagian lain dulu.</li>
+  </ul>
+  <div class="tujuan"><b>Cek pemahaman:</b> ☐ Aku bisa menulis prompt 4 bagian &nbsp; ☐ Aku bisa merevisi satu bagian &nbsp; ☐ Aku tahu kapan buka chat baru</div>
+  <span class="pn">4</span>
+</section>
+
+<!-- ========== MODUL 1 ========== -->
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Modul 1 · App</span><span>±70 menit</span></div>
+  <span class="lbl">Modul 1</span><h1>Bikin app tanpa coding</h1>
+  <div class="tujuan"><b>Hasil:</b> satu app online, dibuka lewat link di HP. <b>Alat:</b> Prompt Generator app (Builder & All in) / prompt umum (Praktik).</div>
+  <h3>1.1 Pilih app dari masalah</h3>
+  <table><tr><th>Pola</th><th>Contoh</th><th>Pilih</th></tr>
+  <tr><td>Kuis / game</td><td>Kuis pecahan, tebak kata, flashcard</td><td>☐</td></tr>
+  <tr><td>Kalkulator</td><td>Pupuk, HPP, IPK, HPL</td><td>☐</td></tr>
+  <tr><td>Booking</td><td>Jadwal pijat bayi, servis, les</td><td>☐</td></tr>
+  <tr><td>Katalog / menu</td><td>Menu cafe, produk toko</td><td>☐</td></tr>
+  <tr><td>Kartu member</td><td>Stempel pelanggan, absensi</td><td>☐</td></tr></table>
+  <div class="box"><div class="t">Masalahku dalam satu kalimat → app yang aku buat</div><div class="lines l2"></div></div>
+  <h3>1.2–1.3 Prompt & coba di Artifact</h3>
+  <div class="box"><div class="t">Prompt app-ku (atau tempel dari Prompt Generator)</div><div class="lines l6"></div></div>
+  <div class="box"><div class="t">Uji seperti pengguna: 3 hal yang perlu diperbaiki</div><div class="lines l2"></div></div>
+  <span class="pn">5</span>
+</section>
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Modul 1 · App</span><span>lanjutan</span></div>
+  <h3>1.4 Rapikan tampilan & fitur</h3>
+  <ul class="cek"><li>Warna & logo (lampirkan logo)</li><li>Suara / papan skor (kalau game)</li><li>Tombol WhatsApp: <code>https://wa.me/62xxx?text=pesan</code></li><li>Nama app & teks bahasa Indonesia yang benar</li></ul>
+  <h3>1.5 Enak di HP</h3>
+  <ul class="cek"><li>Huruf minimal 16px, tombol besar</li><li>Tidak ada yang terpotong / perlu geser ke samping</li><li>Dicoba di HP sendiri</li></ul>
+  <h3>1.6 Unduh & online gratis</h3>
+  <p>Lihat <b>Panduan Publish Netlify</b> (halaman berikutnya).</p>
+  <div class="box"><div class="t">Link app-ku</div><div class="lines l2" style="min-height:8mm"></div></div>
+  <h3>Rubrik karya (lingkari)</h3>
+  <table><tr><th>Kriteria</th><th>1</th><th>3</th><th>5</th></tr>
+  <tr><td>Berfungsi</td><td>Banyak error</td><td>Sedikit kekurangan</td><td>Semua jalan</td></tr>
+  <tr><td>Sesuai tujuan</td><td>Belum jelas</td><td>Cukup jelas</td><td>Langsung bisa dipakai</td></tr>
+  <tr><td>Tampilan HP</td><td>Terpotong</td><td>Bisa dibaca</td><td>Nyaman</td></tr>
+  <tr><td>Online</td><td>Belum</td><td>File ada</td><td>Link dibagikan</td></tr>
+  <tr><td>Mandiri</td><td>Mentor mengetik</td><td>Setengah</td><td>Aku mengetik & paham</td></tr></table>
+  <div class="box"><div class="t">Catatan macet / pertanyaan</div><div class="lines l4"></div></div>
+  <span class="pn">6</span>
+</section>
+
+<!-- ========== PANDUAN NETLIFY ========== -->
+<section class="page" data-part="full netlify">
+  <div class="hd"><span><b>●</b> Panduan</span><span>Publish ke Netlify</span></div>
+  <span class="lbl">Panduan</span><h1>Publish app & website ke Netlify (gratis)</h1>
+  <div class="tujuan"><b>Hasil:</b> link <code>namamu.netlify.app</code> yang bisa dibuka siapa saja dari HP.</div>
+  <ol class="steps">
+    <li><b>Unduh file dari Claude.</b> Di panel Artifact, unduh file HTML. Ganti namanya menjadi <code>index.html</code>.</li>
+    <li><b>Buat folder</b> di laptop, mis. <code>kuis-pecahan</code>. Masukkan <code>index.html</code> (dan gambar/logo kalau ada) ke folder itu.</li>
+    <li><b>Masuk Netlify:</b> buka <code>app.netlify.com</code>, daftar/masuk dengan email atau akun GitHub/Google.</li>
+    <li><b>Seret folder</b> ke halaman <code>app.netlify.com/drop</code> (kotak "Drag and drop your site output folder"). Tunggu beberapa detik.</li>
+    <li><b>Link jadi.</b> Netlify memberi nama acak, mis. <code>jolly-cake-12ab.netlify.app</code>.</li>
+    <li><b>Ganti nama:</b> buka situsnya → Project configuration (dulu: Site configuration) → Change project name → mis. <code>kuis-pecahan-4b</code>. Link menjadi <code>kuis-pecahan-4b.netlify.app</code>.</li>
+    <li><b>Cek di HP</b>, lalu bagikan link ke murid / pelanggan / grup WA.</li>
+  </ol>
+  <h3>Mengubah isi setelah online</h3>
+  <ol class="steps">
+    <li>Lampirkan <code>index.html</code> ke Claude: "Ubah hanya [bagian]. Tampilkan file lengkap."</li>
+    <li>Unduh file baru, ganti file lama di folder yang sama.</li>
+    <li>Di Netlify: buka situsmu → <b>Deploys</b> → seret folder ke kotak unggah. Link tetap sama.</li>
+  </ol>
+  <div class="warn"><b>Hemat kuota.</b> Akun Netlify gratis (dibuat sejak Sep 2025) mendapat 300 kredit/bulan; satu kali publish produksi memakai 15 kredit (±20 kali per bulan). Kalau habis, situs berhenti sampai bulan berikutnya. <b>Kumpulkan beberapa revisi dulu, baru publish sekali.</b></div>
+  <h3>Masalah umum</h3>
+  <table><tr><th>Masalah</th><th>Solusi</th></tr>
+  <tr><td>Halaman kosong / "Page not found"</td><td>Pastikan nama file <code>index.html</code> dan ada langsung di dalam folder yang diseret</td></tr>
+  <tr><td>Gambar tidak muncul</td><td>Gambar harus ikut di folder; nama file di HTML harus sama persis (huruf besar-kecil)</td></tr>
+  <tr><td>Nama situs sudah dipakai</td><td>Tambah angka/kota: <code>kopikita-jember</code></td></tr>
+  <tr><td>Tampilan HP berantakan</td><td>Minta Claude: "Buat nyaman di HP, tidak ada yang terpotong"</td></tr></table>
+  <div class="box"><div class="t">Akun & situsku</div><p>Email Netlify: ______________________ &nbsp; Nama situs: ______________________.netlify.app</p></div>
+  <span class="pn">7</span>
+</section>
+
+<!-- ========== APP BLUEPRINT ========== -->
+<section class="page" data-part="full blueprint">
+  <div class="hd"><span><b>●</b> Lembar kerja</span><span>App Blueprint</span></div>
+  <span class="lbl">Lembar kerja</span><h1>App Blueprint</h1>
+  <p>Isi sebelum menulis prompt. Blueprint yang jelas = prompt yang jelas = app yang jadi lebih cepat.</p>
+  <div class="two">
+    <div class="box"><div class="t">1. Nama app</div><div class="lines l2" style="min-height:8mm"></div></div>
+    <div class="box"><div class="t">2. Jenis</div><p>☐ Kuis/game ☐ Kalkulator ☐ Booking ☐ Katalog/menu ☐ Kartu member ☐ Website profil ☐ Lainnya ____</p></div>
+  </div>
+  <div class="box"><div class="t">3. Pengguna: siapa yang memakai, di mana, pakai HP apa?</div><div class="lines l2" style="min-height:12mm"></div></div>
+  <div class="box"><div class="t">4. Masalah yang diselesaikan</div><div class="lines l2" style="min-height:12mm"></div></div>
+  <div class="box"><div class="t">5. Alur pemakaian (langkah pengguna dari buka sampai selesai)</div>
+    <p>① ____________________ → ② ____________________ → ③ ____________________ → ④ ____________________</p></div>
+  <div class="two">
+    <div class="box"><div class="t">6. Fitur wajib (maks. 5)</div><div class="lines l2" style="min-height:20mm"></div></div>
+    <div class="box"><div class="t">7. Fitur nanti saja</div><div class="lines l2" style="min-height:20mm"></div></div>
+  </div>
+  <div class="box"><div class="t">8. Data / isi yang harus aku siapkan (soal, harga, layanan, foto, logo, nomor WA)</div><div class="lines l2"></div></div>
+  <div class="two">
+    <div class="box"><div class="t">9. Gaya tampilan</div><p>Warna: ________ / ________ &nbsp; Kesan: ☐ ceria ☐ tenang ☐ elegan ☐ tegas</p></div>
+    <div class="box"><div class="t">10. Tujuan setelah jadi</div><p>☐ Dibagikan ke grup WA ☐ Link bio ☐ Ditampilkan di kelas ☐ Dijual ke klien</p></div>
+  </div>
+  <div class="box"><div class="t">11. Ukuran sukses: app ini berhasil kalau…</div><div class="lines l2" style="min-height:8mm"></div></div>
+  <span class="pn">8</span>
+</section>
+
+<!-- ========== MODUL 2 ========== -->
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Modul 2 · Website</span><span>±70 menit</span></div>
+  <span class="lbl">Modul 2</span><h1>Website usaha & profil</h1>
+  <div class="tujuan"><b>Hasil:</b> website online dengan tombol WhatsApp yang berfungsi.</div>
+  <h3>2.1 Susunan halaman yang menjual (centang yang dipakai)</h3>
+  <ul class="cek"><li>Judul utama: janji hasil dalam 1 kalimat</li><li>Layanan / produk + harga atau "mulai dari"</li><li>Bukti: foto asli, testimoni, angka</li><li>Tanya jawab (3–5 pertanyaan)</li><li>Kontak: tombol WA, lokasi/peta, jam buka</li></ul>
+  <h3>2.2 Data usahaku (untuk ditempel ke Claude)</h3>
+  <table><tr><td style="width:40mm">Nama usaha</td><td></td></tr><tr><td>Layanan/produk & harga</td><td style="height:22mm"></td></tr><tr><td>Keunggulan (3)</td><td style="height:14mm"></td></tr><tr><td>Alamat & jam</td><td></td></tr><tr><td>Nomor WA</td><td></td></tr></table>
+  <div class="warn">Minta bahasa yang <b>jujur dan sederhana</b>: hindari "terbaik / nomor 1" kalau tidak bisa dibuktikan.</div>
+  <h3>2.3–2.6 Checklist</h3>
+  <ul class="cek"><li>Gaya: 2 warna merek + 1 jenis huruf</li><li>Tombol WA dengan pesan otomatis berfungsi</li><li>Peta Google Maps tersemat (Bagikan → Sematkan peta)</li><li>Foto dikompres (tidak lambat dibuka)</li><li>Online di Netlify + nama situs diganti</li><li>Bisa mengubah harga lewat Claude lalu publish ulang</li></ul>
+  <div class="box"><div class="t">Link website-ku & catatan</div><div class="lines l4"></div></div>
+  <span class="pn">9</span>
+</section>
+
+<!-- ========== MODUL 3 ========== -->
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Modul 3 · Video</span><span>±70 menit</span></div>
+  <span class="lbl">Modul 3</span><h1>Video animasi Reels & TikTok</h1>
+  <div class="tujuan"><b>Hasil:</b> satu video vertikal 9:16 siap unggah, tanpa tampil di kamera. <b>Alat:</b> Prompt Generator Video (All in).</div>
+  <h3>3.1 Hook 3 detik pertama (pilih satu rumus)</h3>
+  <table><tr><th>Rumus</th><th>Contoh</th></tr><tr><td>Angka</td><td>"3 tanda pupukmu boros"</td></tr><tr><td>Salah kaprah</td><td>"Ternyata bikin app tidak perlu coding"</td></tr><tr><td>Pertanyaan</td><td>"Bunda, bayi rewel malam hari?"</td></tr><tr><td>Sebelum/sesudah</td><td>"Menu kertas → menu online 20 menit"</td></tr></table>
+  <div class="box"><div class="t">Hook-ku</div><div class="lines l2" style="min-height:8mm"></div></div>
+  <h3>3.2 Naskah 30–60 detik (±2 kata/detik)</h3>
+  <table><tr><th style="width:30mm">Bagian</th><th style="width:22mm">Detik</th><th>Teks</th></tr>
+  <tr><td>Hook</td><td>0–3</td><td style="height:10mm"></td></tr><tr><td>Masalah</td><td>3–8</td><td style="height:10mm"></td></tr>
+  <tr><td>Isi poin 1–3</td><td>8–40</td><td style="height:26mm"></td></tr><tr><td>Ajakan</td><td>40–45</td><td style="height:10mm"></td></tr></table>
+  <h3>3.3–3.6 Checklist produksi</h3>
+  <ul class="cek"><li>Gaya video dipilih: ☐ tipografi ☐ infografik ☐ karakter ☐ peta ☐ 3D</li><li>Pratinjau di Artifact, revisi per adegan</li><li>Takarir besar, maks. 2 baris, kontras</li><li>Suara: ☐ narasi sendiri ☐ text-to-speech ☐ musik pelan berlisensi</li><li>Direkam/ekspor jadi MP4 1080×1920</li><li>Fakta dicek; sumber ditulis di caption</li></ul>
+  <span class="pn">10</span>
+</section>
+
+<!-- ========== MODUL 4 ========== -->
+<section class="page" data-part="full">
+  <div class="hd"><span><b>●</b> Modul 4 · Carousel</span><span>±70 menit</span></div>
+  <span class="lbl">Modul 4</span><h1>Carousel Instagram & TikTok</h1>
+  <div class="tujuan"><b>Hasil:</b> satu set carousel 7–10 slide (1080×1350) + caption.</div>
+  <h3>4.1–4.2 Rancang slide</h3>
+  <table><tr><th style="width:16mm">Slide</th><th style="width:30mm">Peran</th><th>Isi (maks. 20 kata)</th></tr>
+  <tr><td>1</td><td>Cover</td><td style="height:11mm"></td></tr><tr><td>2</td><td>Masalah</td><td style="height:11mm"></td></tr>
+  <tr><td>3</td><td>Poin 1</td><td style="height:11mm"></td></tr><tr><td>4</td><td>Poin 2</td><td style="height:11mm"></td></tr>
+  <tr><td>5</td><td>Poin 3</td><td style="height:11mm"></td></tr><tr><td>6</td><td>Poin 4</td><td style="height:11mm"></td></tr>
+  <tr><td>7</td><td>Ringkasan</td><td style="height:11mm"></td></tr><tr><td>8</td><td>Ajakan</td><td style="height:11mm"></td></tr></table>
+  <h3>4.3–4.5 Checklist desain</h3>
+  <ul class="cek"><li>Satu template gaya untuk sebulan</li><li>Warna merek & foto sendiri / bebas pakai</li><li>Nomor slide & "geser →" di cover</li><li>Semua slide diunduh PNG 1080×1350</li></ul>
+  <h3>4.6 Caption</h3>
+  <div class="box"><div class="t">Kalimat pembuka · 2–3 baris nilai · ajakan · 3–5 tagar lokal</div><div class="lines l4"></div></div>
+  <span class="pn">11</span>
+</section>
+
+<!-- ========== MODUL 5 / RENCANA ========== -->
+<section class="page" data-part="full rencana">
+  <div class="hd"><span><b>●</b> Modul 5 · Lanjut</span><span>Rencana belajar selanjutnya</span></div>
+  <span class="lbl">Modul 5</span><h1>Rencana belajar selanjutnya</h1>
+  <div class="tujuan"><b>Tujuan:</b> ilmu dari sesi langsung terpakai minggu ini, bukan berhenti di hari mentoring.</div>
+  <h3>5.1 Tiga karya berikutnya</h3>
+  <table><tr><th>#</th><th>Karya</th><th>Untuk siapa</th><th>Modul</th><th>Target selesai</th><th>✓</th></tr>
+  <tr><td>1</td><td style="height:11mm"></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>2</td><td style="height:11mm"></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>3</td><td style="height:11mm"></td><td></td><td></td><td></td><td></td></tr></table>
+  <h3>5.2 Kalender konten mingguan</h3>
+  <table><tr><th>Sen</th><th>Sel</th><th>Rab</th><th>Kam</th><th>Jum</th><th>Sab</th><th>Min</th></tr><tr><td style="height:18mm">Carousel</td><td></td><td>Video</td><td></td><td>Karya / testimoni</td><td></td><td></td></tr></table>
+  <h3>5.3 Kalau mau jual jasa ke UMKM sekitar</h3>
+  <ul class="cek"><li>Buat 1 contoh gratis untuk usaha dekat rumah, minta izin dijadikan portofolio</li><li>Tentukan 1 paket jasa (mis. website menu + tombol WA)</li><li>Tawarkan ke 5 usaha dengan contoh di HP</li></ul>
+  <h3>5.4 Kalau macet di rumah</h3>
+  <p>Kirim <b>tangkapan layar + pertanyaan singkat</b> ke WA <b>+62 857-0497-3827</b> dalam masa dukungan paketmu.</p>
+  <h3>Prompt andalanku</h3>
+  <div class="box"><div class="lines l6"></div></div>
+  <h3>Umpan balik singkat</h3>
+  <div class="score"><span>Materi sesuai bidangku<br>1 2 3 4 5</span><span>Aku mengetik sendiri<br>1 2 3 4 5</span><span>Penjelasan jelas<br>1 2 3 4 5</span><span>Karya jadi di sesi<br>1 2 3 4 5</span><span>Rekomendasi (0–10)<br>____</span></div>
+  <span class="pn">12</span>
+</section>
+
+<script>
+(function(){
+  try{
+    var u=new URLSearchParams(location.search),only=u.get('only'),nama=u.get('nama');
+    if(only){[].forEach.call(document.querySelectorAll('[data-part]'),function(s){if(s.dataset.part.split(' ').indexOf(only)<0)s.hidden=true});
+      [].forEach.call(document.querySelectorAll('.pn'),function(p){p.hidden=true});}
+    if(nama)[].forEach.call(document.querySelectorAll('[data-nama]'),function(e){e.textContent=nama});
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

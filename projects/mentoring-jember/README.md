@@ -12,10 +12,17 @@ Paket kerja lengkap untuk menjual dan menjalankan **Mentoring Claude 1-on-1 di J
 | [06-RISET-PASAR-JEMBER.md](06-RISET-PASAR-JEMBER.md) | Data Jember, kampus, mapel Koding & KA, medsos, Claude/Netlify, QRIS, UU PDP — semua bertaut sumber |
 | [07-TEMPLATE-TRACKER.md](07-TEMPLATE-TRACKER.md) | Formulir pra-sesi, lembar rencana, testimoni, umpan balik, persetujuan data, sertifikat |
 | [sertifikat/](sertifikat/) | Template **Sertifikat Apresiasi** A4 lanskap: isi formulir → cetak/simpan PDF, QR ke karya, mode banyak peserta |
+| [09-PERSIAPAN-TEKNIS.md](09-PERSIAPAN-TEKNIS.md) | Checklist cafe & Zoom (tas mentor, tes share screen/audio) + panduan kendala teknis untuk peserta |
+| [10-KEBIJAKAN-PROGRAM.md](10-KEBIJAKAN-PROGRAM.md) | Usulan durasi, batas grup, konsultasi WA, rekaman, revisi/bantuan teknis + **checklist kesiapan 7 item** |
+| [portofolio/](portofolio/) | **Portofolio demonstrasi**: `index.html` galeri; 2 app (kuis pecahan, hitung pupuk), 2 website (Kopi Kita, Baby Spa), 2 LP live, video MP4 9:16 + 9 poster video edukasi, carousel 8 slide PNG, `PROMPT-KARYA.md` |
+| [workbook/](workbook/) | **Mentoring Workbook** Modul 0–5 (`Workbook-Mentoring-Claude.pdf`, 12 hlm A4) + sumber HTML yang juga mencetak PDF per bagian |
+| [administrasi/](administrasi/) | Form pra-mentoring (pendaftaran + kebutuhan + pilihan materi + checklist laptop), konfirmasi pembayaran, daftar hadir, form evaluasi, template pesan jadwal |
+| [folder-peserta/](folder-peserta/) | Template folder **MENTORING CLAUDE - NAMA PESERTA** (01–07) + `buat-folder-peserta.sh` + `AKSES-ALAT.md` |
 | [tracker-leads.csv](tracker-leads.csv) | Tracker lead siap impor ke Google Sheets |
 | [sumber-zip/](sumber-zip/) | Salinan utuh isi zip: LP Jember (5 versi), kisi-kisi materi, LP 1-on-1 ID/MS/EN, catatan proyek |
 
 ## Keputusan yang masih perlu Anda tetapkan
+(Usulan lengkap + konsultasi WA, rekaman, revisi: [10-KEBIJAKAN-PROGRAM.md](10-KEBIJAKAN-PROGRAM.md))
 1. **Durasi sesi** — usulan 180 menit (1 orang), 210 menit (grup).
 2. **Batas grup** — usulan maksimal 5 orang.
 3. **Harga grup** — tabel usulan di SOP 01 §2.1 (−10% / −15% / −20%).

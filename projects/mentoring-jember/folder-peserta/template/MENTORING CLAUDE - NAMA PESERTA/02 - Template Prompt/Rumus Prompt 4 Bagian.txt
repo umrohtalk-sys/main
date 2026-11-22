@@ -1,0 +1,50 @@
+RUMUS PROMPT 4 BAGIAN — Mentoring Claude Jember
+=================================================
+Salin, ganti isi dalam [kurung], tempel ke claude.ai.
+
+PERAN  : Kamu adalah [ahli/peran], membantu [siapa aku].
+TUJUAN : Buatkan [jenis karya] untuk [siapa penggunanya] supaya [hasil yang diinginkan].
+ISI    : - [data 1]
+         - [data 2]
+         - [aturan khusus]
+FORMAT : [satu file HTML / halaman web / naskah 30 detik / 8 slide carousel],
+         bahasa Indonesia sederhana, cocok dibuka di HP.
+
+-------------------------------------------------
+TEMPLATE PER JENIS KARYA
+-------------------------------------------------
+
+[APP]
+PERAN  : Kamu pembuat app sederhana yang ramah pemula.
+TUJUAN : Buatkan app [kuis / kalkulator / booking / katalog / kartu member] bernama "[nama app]"
+         untuk [pengguna] supaya [masalah] selesai.
+ISI    : - fitur 1: [...]
+         - fitur 2: [...]
+         - data: [lampirkan / tempel di sini]
+         - tombol WhatsApp ke 62[nomor] dengan pesan "[pesan]"
+FORMAT : Satu file HTML, tombol besar, huruf minimal 16px, warna [..], nyaman di HP.
+
+[WEBSITE]
+PERAN  : Kamu desainer web untuk usaha kecil.
+TUJUAN : Buatkan website satu halaman untuk "[nama usaha]" di [kecamatan], Jember,
+         supaya calon pelanggan [melihat layanan / memesan lewat WhatsApp].
+ISI    : - layanan & harga: [...]
+         - keunggulan: [...]
+         - alamat & jam buka: [...]
+         - bagian: judul utama, layanan, bukti/testimoni, harga, tanya jawab, kontak & peta
+         - bahasa jujur, tanpa kata "terbaik/nomor 1"
+FORMAT : Satu file HTML, gaya [hangat / modern / elegan], 2 warna merek [..], ramah HP.
+
+[VIDEO]
+PERAN  : Kamu animator video edukasi untuk TikTok/Reels.
+TUJUAN : Buatkan animasi vertikal [15/30] detik tentang [topik] untuk [penonton].
+ISI    : - 0–3 dtk hook: "[kalimat hook]"
+         - isi: [poin 1], [poin 2], [poin 3]
+         - ajakan: "[simpan / komentar / chat]"
+FORMAT : HTML Canvas 1080x1920, huruf besar tebal, takarir maks. 2 baris.
+
+[CAROUSEL]
+PERAN  : Kamu desainer konten Instagram edukasi.
+TUJUAN : Buatkan carousel [8] slide tentang [topik] untuk [penonton] supaya [disimpan/dibagikan/chat].
+ISI    : cover → masalah → poin 1..n → ringkasan → ajakan; tiap slide maks. 20 kata
+FORMAT : Satu HTML berisi [8] slide 1080x1350, warna [..], nomor slide di pojok.
