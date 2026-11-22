@@ -1,10 +1,10 @@
 # Caption & Jadwal Posting — 5 Carousel AI Sehari-hari
 
-Satu tema = satu carousel 10 slide (unggah 10 PNG sekaligus di Instagram / TikTok Photo Mode). Usulan jadwal: 1 carousel per minggu, Selasa atau Kamis pukul 19.00–21.00 WIB, lalu ukur simpan & bagikan.
+Satu tema = satu carousel 10 slide (unggah 10 JPG sekaligus di Instagram / TikTok Photo Mode). Usulan jadwal: 1 carousel per minggu, Selasa atau Kamis pukul 19.00–21.00 WIB, lalu ukur simpan & bagikan.
 
 ---
 
-## Tema 1 · AI Itu Apa Sih? (`png/tema-1-ai-itu-apa/`)
+## Tema 1 · AI Itu Apa Sih? (`slide/tema-1-ai-itu-apa/`)
 **Untuk:** orang yang penasaran, belum pernah / baru coba AI.
 ```
 AI itu bukan robot, bukan sihir. 🤖✨
@@ -23,7 +23,7 @@ Simpan dulu, coba 5 menit hari ini. Komentar MAU kalau ingin praktik bareng di J
 ```
 Sumber di slide: APJII 2026 (18,2% pengguna internet memakai AI); NBER WP 34255 "How People Use ChatGPT" (pembagian Bertanya ±49%, Mengerjakan ±40%, Bercerita ±11%).
 
-## Tema 2 · Owner Pintar Pakai AI (`png/tema-2-owner-pintar/`)
+## Tema 2 · Owner Pintar Pakai AI (`slide/tema-2-owner-pintar/`)
 **Untuk:** pemilik usaha, UMKM, toko, kuliner.
 ```
 Owner capek? Bagi tugasnya ke AI. ☕️📦
@@ -44,7 +44,7 @@ Mau bikin app & website usahamu sendiri dengan Claude? Ketik UMKM 👇
 ```
 Sumber di slide: Survei UMKM Lalamove 2026 (300+ responden pengguna Lalamove, bukan angka nasional); Survei Small Business Expo 2025 (145 pemilik usaha kecil di AS; 45,5% hemat 1–5 jam/minggu).
 
-## Tema 3 · AI di Hari-Hari (`png/tema-3-ai-di-rumah/`)
+## Tema 3 · AI di Hari-Hari (`slide/tema-3-ai-di-rumah/`)
 **Untuk:** ibu/bapak rumah tangga, karyawan, siapa saja.
 ```
 AI bukan cuma buat kerja kantoran. 🏠
@@ -58,7 +58,7 @@ Pilih 1 contoh, coba hari ini. Simpan & kirim ke keluarga yang perlu 👇
 ```
 Catatan: untuk PR anak, tekankan "minta dijelaskan, bukan minta jawaban".
 
-## Tema 4 · Prompt Itu Skill (`png/tema-4-prompt-itu-skill/`)
+## Tema 4 · Prompt Itu Skill (`slide/tema-4-prompt-itu-skill/`)
 **Untuk:** yang sudah coba AI tapi hasilnya biasa saja.
 ```
 Hasil AI jelek? Mungkin bukan AI-nya, tapi cara mintanya. ✍️
@@ -76,7 +76,7 @@ Mau latihan langsung di laptopmu? Komentar PROMPT 👇
 #PromptItuSkill #PromptEngineering #BelajarAI #ClaudeAI #Jember
 ```
 
-## Tema 5 · Bikin Sendiri dengan Claude (`png/tema-5-bikin-sendiri/`)
+## Tema 5 · Bikin Sendiri dengan Claude (`slide/tema-5-bikin-sendiri/`)
 **Untuk:** yang siap praktik → penawaran mentoring.
 ```
 Dari ide jadi karya, tanpa coding. 💻
