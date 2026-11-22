@@ -1,0 +1,1 @@
+Simpan PNG transparan di sini dengan nama <id>.png (contoh t2-01.png). Lihat ../PROMPT-GAMBAR.md

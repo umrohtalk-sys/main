@@ -18,6 +18,7 @@ Paket kerja lengkap untuk menjual dan menjalankan **Mentoring Claude 1-on-1 di J
 | [workbook/](workbook/) | **Mentoring Workbook** Modul 0–5 (`Workbook-Mentoring-Claude.pdf`, 12 hlm A4) + sumber HTML yang juga mencetak PDF per bagian |
 | [administrasi/](administrasi/) | Form pra-mentoring (pendaftaran + kebutuhan + pilihan materi + checklist laptop), konfirmasi pembayaran, daftar hadir, form evaluasi, template pesan jadwal |
 | [folder-peserta/](folder-peserta/) | Template folder **MENTORING CLAUDE - NAMA PESERTA** (01–07) + `buat-folder-peserta.sh` + `AKSES-ALAT.md` |
+| [carousel-ai/](carousel-ai/) | **50 carousel AI sehari-hari** (5 tema × 10 slide, PNG 1080×1350) gaya poster referensi dengan warna LP, + caption, sumber riset, prompt gambar |
 | [tracker-leads.csv](tracker-leads.csv) | Tracker lead siap impor ke Google Sheets |
 | [sumber-zip/](sumber-zip/) | Salinan utuh isi zip: LP Jember (5 versi), kisi-kisi materi, LP 1-on-1 ID/MS/EN, catatan proyek |
 
