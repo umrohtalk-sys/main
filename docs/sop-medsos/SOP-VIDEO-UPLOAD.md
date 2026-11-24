@@ -215,6 +215,7 @@ Sebut di bawahnya hanya yang penting: yang sempat gagal dan cara memperbaikinya,
 | 21 Nov | RM1 juta semua rakyat | TikTok @diarymalaysia, IG, 2 Threads | Threads caption singkat 1–2 ayat |
 | 22 Nov | Cikgu banyak cuti | IG, Pinterest, dll | |
 | 24 Nov 05:44 | Cikgu gelaran seumur hidup | IG, 2 Threads, LinkedIn, Pinterest, TikTok eduapp | Threads gagal dengan `topic`, berhasil tanpa `topic` |
+| 25 Nov 04:41 | Teknik mengajar #1 papan jawapan mini | IG, LinkedIn, TikTok eduapp success; Pinterest error | Dari cloud, file di raw.githubusercontent (tanpa Zernio). Pinterest menolak: "This site doesn't allow you to save Pins" |
 
 Tambahkan baris baru setiap selesai posting video.
 
@@ -228,3 +229,4 @@ Tambahkan baris baru setiap selesai posting video.
 6. **Caption generik**. Selalu baca naskah/takarir video dulu.
 7. **Copy dua akun Threads sama** → harus beda sudut.
 8. **Salah zona waktu**. User = WIB, Repliz = UTC.
+9. **Video Pinterest dari raw.githubusercontent.com** → error "This site doesn't allow you to save Pins". IG/LinkedIn/TikTok boleh pakai link GitHub raw, tapi Pinterest wajib file di Zernio (25 Nov).
