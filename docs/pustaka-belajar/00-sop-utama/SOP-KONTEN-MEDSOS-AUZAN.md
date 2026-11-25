@@ -332,3 +332,12 @@ Sebelum dipakai, cek link hidup: `curl -s -o /dev/null -w "%{http_code}" <url>` 
 | `lampiran/contoh-posting-terbit.md` | Semua posting yang sudah terbit via Repliz (thread, caption, prompt lampiran) sebagai contoh gaya |
 | `lampiran/bank-konten/` | Data bank konten (seed JS) + cara membacanya |
 | `lampiran/memori/` | Catatan memori Claude lokal yang relevan (akun, otomasi, aturan) |
+
+---
+
+## 17. Posting harian Threads @bidanvirdaa (diminta pemilik 26 Nov 2026)
+
+- Pemilik meminta posting promosi Bidan Virda (babycare & newborn care keliling Jember) **setiap hari jam 06:19 WIB** di Threads @bidanvirdaa. Untuk tugas ini, larangan "jangan pakai @bidanvirdaa" di bagian 2 tidak berlaku.
+- Media di-hosting permanen di `https://comment-center-edugamelabs.netlify.app/virda/` (6 foto + 1 video kompres). Kalau Comment Center di-deploy ulang, folder `virda/` WAJIB ikut, kalau tidak jadwal gagal.
+- Skrip: `tools/virda/virda.py` (10 caption bergilir + rotasi video/foto/album). `python3 virda.py days <YYYY-MM-DD> <n>` menjadwalkan n hari ke depan via Repliz.
+- Sudah terjadwal: 26 Nov (langsung) dan 27 Nov – 26 Des 2026. Perpanjang sebelum 26 Des.
