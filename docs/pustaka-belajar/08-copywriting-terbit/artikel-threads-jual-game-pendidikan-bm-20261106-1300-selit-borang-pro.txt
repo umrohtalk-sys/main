@@ -1,0 +1,215 @@
+POST UTAMA (tampal di ruang post Threads)
+
+Game pendidikan anda dah siap dan dah dicuba murid. Lepas ni macam mana nak jual?
+
+Ini tutorialnya, daripada muat naik ke Threads, bina landing page, bina personal branding, sampai contoh kapsyen yang boleh terus digunakan.
+
+Di setiap langkah, saya selitkan juga cara yang lebih cepat 👇
+
+
+==================================================
+ARTIKEL (tampal di lampiran teks / text attachment)
+==================================================
+
+Tutorial Jual Game Pendidikan, daripada Game Siap sampai Ada yang Beli
+
+
+Tulisan ini bermula pada saat game anda dah siap dan dah diuji pada murid. Jadi kita terus bincang cara jualnya.
+
+
+Langkah 1: Ambil bukti semasa murid bermain
+
+Bahan jualan terbaik anda ada pada saat ujian ini. Sebelum teruskan, kumpulkan tiga benda:
+
+• Video 15 hingga 30 saat semasa game dimainkan
+• Reaksi atau komen murid yang anda dengar
+• Pendapat 2 atau 3 orang cikgu yang dah mencuba
+
+Semasa merakam, cukup fokus pada skrin dan tangan murid, jadi wajah mereka tak kelihatan. Kalau wajah atau nama murid terpapar, minta izin dulu daripada ibu bapa dan sekolah. Testimoni cikgu juga perlu izin sebelum diposting.
+
+Lebih mudah dengan versi Pro:
+
+Kalau belum sempat merakam, atau rakaman kelas tak boleh dikongsi, Prompt Generator Pro ada borang video promosi dalam Marketing Kit. Isi nama game, topik, dan Tahun, pilih gaya videonya, kemudian prompt video lengkap disusunkan untuk anda. Ada 6 gaya, daripada tipografi kinetik sampai promo app dengan tutorial.
+
+
+Langkah 2: Muat naik game anda di Threads
+
+Mula dengan post biasa, belum perlu menawarkan apa-apa. Muat naik video tadi, kemudian ceritakan apa yang berlaku di kelas.
+
+Tujuan post pertama ini untuk lihat siapa yang berminat. Tutup dengan ajakan seperti "Komen GAME kalau nak cuba tahap percumanya". Kemudian hantar pautan satu per satu kepada yang komen.
+
+Satu jam pertama selepas posting, cuba bersedia untuk balas komen. Orang yang komen GAME itulah bakal pembeli pertama anda, jadi catat dan ajak berbual. Tanya mereka mengajar Tahun berapa dan topik apa yang paling susah. Jawapannya boleh digunakan untuk landing page.
+
+
+Langkah 3: Bina landing page
+
+Landing page ialah satu halaman khas untuk menerangkan dan menjual game anda. Anda boleh minta AI membinanya, kemudian terbitkan di Netlify macam game tadi.
+
+Urutan isinya dari atas ke bawah:
+
+• Tajuk: hasil yang cikgu dapat
+• Video demo game
+• Masalah yang selalu dialami cikgu
+• Isi pakej: game, panduan, dan bonus
+• Butang cuba tahap percuma
+• Testimoni asli
+• Harga dan butang beli
+• FAQ: boleh di telefon? perlu pasang? boleh guna untuk satu kelas?
+• Hubungi melalui WhatsApp untuk bertanya
+
+Contoh tajuknya:
+
+"Latihan sifir yang buat murid minta main lagi, sedia diguna di kelas tanpa semak manual."
+
+Prompt untuk membinanya:
+
+"Buatkan landing page satu halaman untuk menjual game pendidikan [nama game] kepada cikgu [subjek dan Tahun]. Masalah yang diselesaikan: [masalah]. Isi pakej: [isi]. Harga: [harga]. Pautan beli: [pautan]. Pautan tahap percuma: [pautan]. Testimoni asli: [testimoni]. Susun urutannya: tajuk hasil, video demo, masalah, isi pakej, cuba percuma, testimoni, harga, FAQ, dan hubungi WhatsApp. Gunakan Bahasa Melayu Malaysia yang mesra, selesa dibuka di telefon, jangan tambah testimoni atau angka yang tidak saya berikan."
+
+Untuk bayaran, buat produk di platform seperti Kliqoo, kemudian tampal pautannya pada butang beli. Selepas itu cuba beli sendiri untuk pastikan bayaran lancar dan pautan game sampai.
+
+Harga awalnya boleh bermula di bawah RM50 dengan sistem sekali bayar.
+
+Lebih mudah dengan versi Pro:
+
+Prompt di atas cukup untuk mula, tapi hasilnya bergantung pada AI yang meneka reka bentuk sendiri.
+
+Dalam Prompt Generator Pro ada borang landing page. Anda cuma isi kotak-kotaknya: nama game, untuk siapa, masalah, isi pakej, harga, pautan beli, dan testimoni. Prompt landing page lengkap terus disusunkan, siap dengan urutan seksyen, gaya reka bentuk, dan arahan supaya kemas di telefon.
+
+Ada juga contoh landing page dengan pratonton, jadi anda boleh pilih gaya dulu sebelum membinanya.
+
+
+Langkah 4: Kemaskan personal branding
+
+Orang akan buka profil anda sebelum percaya, jadi profil perlu terus menjawab: anda siapa, membantu siapa, dan perlu klik ke mana.
+
+Nama: guna nama dan bidang anda, contohnya "Cikgu Rani | Game Pendidikan SK".
+
+Foto: guna foto wajah yang cerah dan mesra. Kalau tak mahu tampil, guna maskot yang sama di semua platform.
+
+Bio: tulis 4 baris macam ini:
+
+"Bantu cikgu sekolah rendah hidupkan kelas dengan game pendidikan.
+Cikgu [subjek] [berapa] tahun, game saya dah dicuba di kelas sendiri.
+Kongsi game, idea mengajar, dan cerita kelas.
+Cuba tahap percuma di pautan bawah 👇"
+
+Pautan profil: letak landing page di urutan pertama, diikuti tahap percuma dan WhatsApp.
+
+Topik: pilih satu bidang dan konsisten selama 30 hari. Kalau hari ini bincang game matematik dan esok bincang benda yang jauh berbeza, orang susah nak ingat anda pakar dalam apa.
+
+Yang paling membina branding sebenarnya kandungan harian anda. Tunjukkan proses, cerita kelas, sampai kegagalan kecil. Orang lebih mudah percaya pada cikgu yang nampak betul-betul mengajar.
+
+
+Langkah 5: Guna kapsyen ini
+
+Satu post cukup ada hook, isi ringkas, dan satu ajakan atau soalan. Tukar bahagian dalam kurungan dengan cerita anda sendiri.
+
+Post yang ada video biasanya lebih mudah menarik perhatian berbanding teks sahaja. Video promosi daripada borang Pro tadi boleh terus dipasangkan dengan kapsyen demo game dan kapsyen jualan di bawah.
+
+Kapsyen cerita kelas:
+
+"Tadi saya cuba game buatan sendiri di kelas [Tahun].
+
+Biasanya topik [topik] buat budak-budak mengantuk. Tadi [kejadian sebenar di kelas].
+
+Rupanya mereka bukan malas. Mungkin cara latihannya saja yang perlu ditukar.
+
+Ada tak kelas cikgu macam ni juga?"
+
+Kapsyen demo game:
+
+"Ini game [topik] yang saya bina untuk kelas [Tahun].
+
+Jawapan betul bermaksud serangan pada bos. Kalau salah, keluar penerangan ringkas dan boleh cuba lagi.
+
+Nak cuba tahap pertama? Komen GAME, nanti saya hantar."
+
+Kapsyen tip:
+
+"Ramai yang sangka game pendidikan mesti penuh animasi. Padahal yang buat murid seronok selalunya benda ringkas: mereka terus tahu jawapan betul atau salah, dan boleh cuba lagi.
+
+Di kelas cikgu, apa yang paling buat murid bersemangat?"
+
+Kapsyen bukti:
+
+"Mesej daripada [Cikgu nama, dengan izin] selepas mencuba game ini:
+
+'[testimoni asli]'
+
+Seronok saya baca. Terima kasih sebab sudi mencuba."
+
+Kapsyen jualan:
+
+"Untuk cikgu [subjek] [Tahun] yang penat buat latihan setiap minggu.
+
+Game [nama] dah boleh dibeli. Cikgu dapat [isi pakej], boleh dibuka di telefon dan laptop tanpa pasang apa-apa.
+
+Harganya [harga] sekali bayar. Harga perkenalan sehingga [tarikh].
+
+Pautan ada di balasan pertama ya."
+
+
+Langkah 6: Atur jadual posting
+
+Mula dengan 3 hingga 4 post seminggu, kemudian tambah kalau dah biasa. Contoh satu minggu:
+
+• Isnin: cerita kelas
+• Selasa: tip mengajar
+• Khamis: demo game
+• Jumaat: testimoni atau bukti
+• Sabtu: soal jawab tentang cabaran mengajar
+
+Supaya bahan demo tak habis, bina game kedua dan ketiga untuk topik lain. Di versi Pro, borang game dan app membolehkan anda tukar topik, Tahun, dan bahasa daripada 100+ prompt, jadi satu game boleh jadi beberapa versi untuk kelas yang berbeza.
+
+Lebih kurang 2 minggu sekali, atau bila ada bukti baharu, selitkan kapsyen jualan. Kalau setiap hari menawarkan, akaun anda akan terasa macam risalah.
+
+Sediakan juga 20 minit sehari untuk balas komen dan ikut berbual di post cikgu lain. Jangan letak pautan jualan di post orang, cukup beri komen yang berguna. Nanti yang berminat akan buka profil anda.
+
+
+Langkah 7: Layan yang dah berminat
+
+Bila ada yang bertanya melalui DM atau WhatsApp, balas macam berbual biasa:
+
+"Hai cikgu, Tahun berapa nak guna game ini? Kalau sesuai, tahapnya boleh cikgu cuba dulu di pautan ini ya: [pautan]"
+
+Kalau ada yang kata mahal, jawab dengan santai:
+
+"Wajar cikgu, bandingkan dulu. Dalam harga itu dah termasuk [isi pakej]. Cuba tahap percuma dulu, lepas tu baru buat keputusan sesuai atau tak."
+
+Selepas membeli, hantar ucapan terima kasih dan panduan guna. Lebih kurang 3 hingga 7 hari kemudian, tanya bahagian mana yang paling membantu. Kalau jawapannya bagus, minta izin jadikannya testimoni. Testimoni itu boleh digunakan semula di Threads dan di landing page.
+
+
+Langkah 8: Tengok angka setiap minggu
+
+Catat tiga benda setiap minggu: jumlah komen, jumlah orang yang bertanya, dan jumlah yang membeli.
+
+Ramai komen tapi tiada yang klik? Baiki ajakan dalam kapsyen anda.
+
+Ramai klik tapi tiada yang beli? Baiki landing page, biasanya pada tajuk, bukti, atau kejelasan isi pakej.
+
+Ramai bertanya benda yang sama? Tambah jawapannya dalam FAQ dan jadikan bahan post seterusnya.
+
+Hasil setiap akaun tentu berbeza, jadi jangan janjikan pendapatan apa-apa kepada bakal pembeli. Yang boleh anda kawal ialah terus posting, balas orang, dan baiki apa yang kurang.
+
+
+Jadi alirannya:
+
+Game siap → ambil bukti → muat naik di Threads → landing page → kemaskan profil → posting rutin → layan pembeli → minta testimoni → ulang
+
+
+Semua langkah di atas boleh anda buat sendiri, secara manual.
+
+Tapi kalau nak lebih cepat, bahagian yang paling makan masa ialah menulis prompt landing page, menyediakan video promosi, dan membina game baharu. Ketiga-tiganya dah ada borangnya dalam Prompt Generator Pro:
+
+• Borang landing page: isi butiran game, dapat prompt landing page lengkap
+• Borang video promosi: 6 gaya video untuk post Threads
+• Borang game dan app: 100+ prompt, topik, Tahun, dan bahasa boleh diubah
+• Prompt Generator: tulis idea sendiri, prompt lengkap disusunkan
+• Hantar terus ke AI, tanpa salin tampal panjang
+
+Harganya RM29, sekali bayar, akses selamanya.
+
+Butirannya di sini 👇
+lptoolsmy.edugamelabs.com
+
+Cikgu dah sampai langkah yang mana? Tulis di komen ya 🙂

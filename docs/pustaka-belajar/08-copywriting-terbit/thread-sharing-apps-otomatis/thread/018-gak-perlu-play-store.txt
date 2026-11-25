@@ -1,0 +1,163 @@
+THREAD SERI #18
+Judul: "Aku adalah guru yang dulu mikir bikin aplikasi itu mahal dan ribet, ternyata gak harus masuk Play Store pun bisa 😭"
+Angle: cerita guru SD kelas 4 yang ngira bikin app itu harus lewat jalur developer dulu. Ternyata cukup satu link web app yang bisa dibuka dan disimpan ke layar HP murid.
+Contoh mapel/jenjang: Matematika SD kelas 4 (pecahan)
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah guru yang dulu mikir bikin aplikasi itu mahal dan ribet, ternyata gak harus masuk Play Store pun bisa 😭
+
+Dulu aku kira bikin app itu kayak bikin rumah. Harus ada tanah, izin, tukang, baru bisa ditempatin.
+
+Padahal yang aku mau cuma hal kecil: murid kelas 4 bisa latihan pecahan di HP mereka sendiri.
+
+Yuk cerita dari awal 🙏
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Tiap ngajar pecahan, aku selalu ngulang hal yang sama. Gambar pizza di papan, bagi jadi empat, terus tanya, "Sekarang yang kena berapa bagian?"
+
+Separuh murid ngangguk. Separuh lagi bengong sampai bel pulang 😭
+
+Aku mikir: andai mereka bisa main sendiri, pegang potongan pizzanya, sambil lihat sendiri hasilnya.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Aku sempat nyerah sebelum mulai. Kebayang harus daftar akun developer, bayar ini itu, nunggu review, ngurusin hal-hal yang aku gak ngerti.
+
+Jadi ide itu aku simpen aja di kepala. Mikirnya, "ah, ini buat orang IT, bukan buat guru kelas 4."
+
+Ada yang pernah ngerasain gini juga? 😭
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Sampai suatu malam, aku iseng nanya AI pakai bahasa biasa:
+
+"aku guru SD, gimana caranya murid bisa latihan pecahan di HP tanpa harus download apa-apa?"
+
+Jawabannya bikin aku melongo. Ternyata ada yang namanya web app, bisa dibuka lewat browser, terus disimpan ke layar utama HP.
+
+Gak ada Play Store. Gak ada antrian review 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Versi pertama? Ya ampun.
+
+Potongan pizzanya nyebrang keluar layar. Tombol "jawab" ketutup angka. Pas dipencet, malah muncul halaman kosong.
+
+Aku ketawa sendiri di meja guru jam sembilan malam. Tapi yang bikin aku diem: itu udah bisa dibuka di HP, cuma pakai satu link. 😭
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Dari versi jelek itu aku belajar: ruwet atau nggaknya bukan soal teknologinya, tapi soal seberapa jelas aku ngejelasin maunya apa.
+
+Aku gambar ulang pizzanya di kertas, tandain tiap potongan pakai warna. Terus aku ceritain ke AI: "tiap potong = seperempat, tombolnya gede biar gampang dipencet".
+
+Hasil kedua jauh lebih rapi. Dari sini aku mulai percaya diri 🙌
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Aku kirim link ke grup kelas, tanpa pengumuman panjang. Cuma: "coba ya, Ibu penasaran pendapat kalian".
+
+Ada yang bales cepet: "Bu, ini bisa dipencet bagian pizzanya??"
+
+Dalam sepuluh menit kelas udah rame, bukan karena disuruh, tapi karena pengen nebak. Murid yang biasanya diam malah nanya, "kalau dibagi enam jadinya gimana?" 😭
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Di situ aku sadar hal yang gak pernah kupikirin.
+
+Dulu aku nyuruh murid menyesuaikan diri sama bahan ajar. Sekarang bahan ajarnya yang nyesuaiin murid.
+
+Aku tambahin contoh pakai kue ulang tahun, pakai martabak. Murid langsung nyambung 😭
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Dua minggu kemudian, guru olahraga yang kebetulan lewat ruang kelas nanya:
+
+"Bu, itu buat pecahan ya? Anakku ngomongin terus di rumah."
+
+Aku kirim linknya. Besoknya dia bales, "Bu, anakku nemu sendiri bagian yang aku gak kepikiran."
+
+Itu bikin hatiku anget banget 🥹
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Pelan-pelan ada juga guru dari sekolah lain yang minta versinya buat kelas 5. Ada yang minta soal tambahan yang lebih panjang.
+
+Gak viral. Gak ada yang bilang aku bakal kaya. Tapi rasanya kayak ada yang nengok dan bilang, "kamu bisa kok."
+
+Aku gak niat jualan dari awal. Aku cuma pengen murid aku ngerti pecahan.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Ribet yang aku bayangin ternyata cuma ketakutan aku sendiri.
+
+Pas dicoba, langkahnya kecil-kecil: tulis, lihat, perbaiki, kirim. Yang berat itu di awal doang. Abis itu, tiap versi jadi makin gampang 😭
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Beberapa hal kecil yang aku pelajari (hasil salah, bukan teori):
+
+- Jelasin ke AI kayak lagi cerita ke temen, bukan kayak ngasih perintah teknis
+- Gambar dulu di kertas biar gambaran di kepala jelas
+- Coba ke satu-dua murid sebelum satu kelas
+- Jangan tambah tombol sebelum yang utama kepakai
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Yang sering bikin orang takut: "nanti salah", "nanti gak jalan di HP murid", "nanti ribet di urusan ini itu".
+
+Aku juga takut begitu. Tapi aku coba aja, dan ternyata banyak yang bisa dibereskan pelan-pelan.
+
+Ilmu guru itu yang paling mahal. Teknologinya cuma kendaraan. 😭
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Kalau kamu guru dan pernah mikir, "andai aku bisa bikin alat belajar sendiri", coba bayangin dulu satu hal kecil yang bikin muridmu paling susah.
+
+Kamu gak perlu paham coding. Kamu cuma perlu tahu apa yang mau kamu lihat terjadi.
+
+AI itu tangannya. Otaknya tetep kamu 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Jadi, kalau kamu lagi nunda-nunda mau nyoba, mulai dari satu kalimat aja:
+
+tulis satu bagian materi yang paling bikin muridmu bengong.
+
+Itu udah jadi bagian pertama app kamu.
+
+Kalau udah nulis, tulis di komentar ya, aku pengen baca 🙌

@@ -1,0 +1,16 @@
+[
+  {"nama": "menu-bm", "langkah": [
+    {"buka": "index.html"}, {"klik": "[data-uji=bm]"}, {"jangka": "document.documentElement.lang === 'ms'"}, {"tangkap": "01-menu"}
+  ]},
+  {"nama": "kalah-id", "langkah": [
+    {"buka": "index.html?benih=11"}, {"klik": "[data-uji=id]"}, {"jangka": "document.documentElement.lang === 'id'"},
+    {"klik": "[data-uji=tahap-3]"}, {"tunggu": 1400}, {"tangkap": "01-main-id"},
+    {"jawabSemua": "salah"}, {"tunggu": 700},
+    {"jangka": "window.__game.keadaan === 'hasil' && window.__game.nyawa === 0"}, {"tangkap": "02-hasil-kalah"}
+  ]},
+  {"nama": "menang-api", "langkah": [
+    {"buka": "index.html?benih=5"}, {"klik": "[data-uji=bm]"}, {"klik": "[data-uji=tahap-1]"}, {"tunggu": 1000},
+    {"jawabSemua": "betul"}, {"tunggu": 700},
+    {"jangka": "window.__game.keadaan === 'hasil' && window.__game.nyawa === 3"}, {"nilai": "window.__game.skor"}, {"tangkap": "01-hasil"}
+  ]}
+]

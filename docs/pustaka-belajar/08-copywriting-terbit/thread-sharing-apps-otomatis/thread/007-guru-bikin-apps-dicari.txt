@@ -1,0 +1,167 @@
+THREAD SERI #07 - 15 POST
+Judul: "Guru yang pakai AI itu bukan menggantikan guru, tapi guru yang bikin apps sendiri yang bakal paling dicari 😭"
+Angle: cerita guru honorer yang dulu membantah di ruang guru; jawaban muncul dari kelas sendiri (konteks murid = hal yang tak bisa diganti AI), lalu "dicari" sebagai akibat.
+Contoh mapel/jenjang: Bahasa Inggris SMK (Teknik Otomotif, procedure text ganti oli) + Tata Boga.
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Guru yang pakai AI itu bukan menggantikan guru, tapi guru yang bikin apps sendiri yang bakal paling dicari 😭
+
+kalimat ini dulu aku bantah keras-keras di ruang guru
+
+sekarang aku yang paling sering ditanyain soal ini 😭
+
+aku guru honorer Bahasa Inggris SMK, ini ceritaku
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Awalnya rapat guru. Ada yang nyeletuk: "Nanti juga guru diganti AI, murid tinggal nanya ke HP."
+
+Ruangan langsung panas. Aku ikut ngotot: "Gak mungkin lah, AI gak bisa marahin murid yang telat."
+
+Semua ketawa. Tapi pulangnya aku kepikiran: kalau aku gak bisa diganti, terus aku sebenarnya beda di mananya?
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Jujur waktu itu aku pakai AI cuma buat satu hal: bikin soal.
+
+Ketik "buatkan 20 soal pilihan ganda tentang procedure text", copy, print, selesai.
+
+Cepet sih. Tapi soalnya kayak soal buat siapa aja. Gak ada bau bengkel, gak ada bau dapur, padahal muridku anak Teknik Otomotif sama Tata Boga.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Suatu siang anak Otomotif kelas 11 nyeletuk pas pelajaran procedure text:
+
+"Miss, ngapain belajar how to make a cake, kita kan gak bikin kue."
+
+Aku jawab asal: "Ya udah, how to change the oil aja."
+
+Mata mereka langsung nyala. Satu kelas mendadak jago ngejelasin urutan ganti oli. Pakai Bahasa Inggris campur Jawa, tapi urutannya bener semua 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Malamnya aku buka AI lagi. Kali ini bukan minta soal.
+
+Aku cerita: "muridku anak otomotif, mereka hafal urutan servis motor tapi takut ngomong Inggris. Aku mau mereka nyusun langkah ganti oli dengan kartu yang bisa digeser, terus ada suaranya."
+
+Aku gambar dulu kasar di excalidraw.com: kartu langkah, tombol dengar, tombol cek urutan.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Versi pertama lucu banget. Gambarnya motor, tapi langkah pertamanya "preheat the oven" 😭
+
+Ternyata AI-nya kebawa contoh lama yang kutempel. Kubilang: "hapus semua yang soal kue, ini bengkel."
+
+Versi kedua beres. Kartunya bisa digeser, tiap kartu bisa dipencet buat dengar cara bacanya. Kubikin PWA biar bisa dipasang di HP murid kayak app beneran.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Di kelas, yang kusiapin buat 30 menit habis dalam 10 menit.
+
+Terus mereka minta: "Miss, bikin yang ganti ban dong." "Miss, yang setel rantai."
+
+Anak yang biasanya duduk paling belakang dan gak pernah ngomong Inggris, tiba-tiba rekam suara sendiri baca "loosen the drain bolt" sampai lima kali karena pengen logatnya pas.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Di situ aku ngerti jawaban dari pertanyaan rapat itu.
+
+AI bisa bikin soal procedure text. Ribuan malah.
+
+Tapi AI gak tau bahwa di kelasku ada anak yang tangannya selalu belepotan oli, yang baru berani ngomong kalau topiknya motor.
+
+Yang tau itu aku. Dan apps itu cuma jadi bagus karena aku yang tau.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Jadi bedanya bukan "pakai AI vs gak pakai AI."
+
+Guru yang pakai AI buat jalan pintas: hasilnya kayak semua guru lain.
+
+Guru yang pakai AI buat ngewujudin apa yang cuma dia lihat di kelasnya: hasilnya gak bisa dicontek siapa-siapa.
+
+Yang kedua itu yang gak tergantikan. Malah dicari.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Dan dicarinya beneran loh, gak cuma kiasan.
+
+Minggu depannya guru produktif Tata Boga nyamperin: "Miss, bisa gak bikin yang kayak gitu buat istilah dapur? Anak-anakku kalau magang ketemu chef bule pada beku."
+
+Aku gak pernah ngobrol sama dia sebelumnya. Sekarang kami bikin bareng.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Habis itu wakasek kurikulum minta aku sharing pas MGMP.
+
+Aku, guru honorer, yang biasanya duduk paling pojok pas rapat, disuruh maju 😭
+
+Tanganku gemeter pegang mic. Tapi pas kutunjukin murid geser kartu ganti oli, ruangan diem, terus banyak yang langsung buka HP minta link.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Yang bikin aku senyum: guru yang dulu nyeletuk "guru diganti AI" juga nanya.
+
+"Bu, ajarin dong, aku guru matematika, mau bikin yang kayak gitu buat anak Teknik Listrik."
+
+Ternyata ketakutannya sama kayak aku dulu. Bukan takut AI-nya. Takut gak tau harus mulai dari mana.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Beberapa hal kecil yang kupelajari (hasil salah semua):
+
+- AI paling pinter kalau kamu cerita tentang muridmu, bukan cuma tentang materinya
+- Hapus contoh yang gak nyambung sebelum minta revisi
+- Satu apps satu keterampilan, jangan semua bab dijejelin
+- Biarkan murid yang minta fitur berikutnya
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Sekarang kalau ada yang bilang "nanti guru diganti AI", aku gak ngotot lagi.
+
+Aku cuma bilang: guru yang cuma nyampein materi, mungkin iya, makin berat.
+
+Tapi guru yang ngerti muridnya, terus berani bikin alat sendiri dari pengertian itu? Itu justru makin langka. Dan yang langka selalu dicari 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Kalau kamu guru dan lagi khawatir soal AI, coba satu hal kecil ini:
+
+tulis satu kebiasaan unik muridmu yang gak ada di buku mana pun.
+
+Itu yang gak bisa ditiru AI, dan itu bahan apps pertamamu.
+
+Tulis di komentar ya, atau simpan thread ini buat dibaca lagi pas lagi ragu 🙌

@@ -1,0 +1,775 @@
+====================================================================
+DATA RISET PASAR MALAYSIA — RINGKASAN & SUMBER
+(Pendamping file 04-MALAYSIA-DIGITAL-MARKET-SYSTEM.txt)
+====================================================================
+
+====================================================================
+BAGIAN A — DATA & ANALISIS PASAR
+====================================================================
+
+   Sebelum belajar "cara jualan", kita lihat dulu PETA-nya.
+   Bagian ini adalah hasil riset dari ratusan halaman: statistik
+   pemerintah Malaysia (DOSM, KPM, Bank Negara, PayNet), laporan
+   industri (DataReportal, e-Conomy SEA oleh Google–Temasek–Bain),
+   dokumentasi platform (TikTok Seller Center, Shopee, Stripe, Xendit,
+   Lemon Squeezy, Payhip, Wise), dan media Malaysia (The Star, Malay
+   Mail, The Edge, Bernama, SoyaCincau, dll.).
+
+   Cara memakai bagian ini:
+   - Baca sekali untuk gambaran besar.
+   - Kembali ke sini setiap kali kamu butuh angka untuk landing page,
+     konten edukasi, atau keputusan harga.
+
+
+--------------------------------------------------------------------
+A1. MALAYSIA DALAM ANGKA (DASHBOARD)
+--------------------------------------------------------------------
+
+   PENDUDUK & DEMOGRAFI
+   ---------------------------------------------------------------
+   Populasi (DOSM, 2026) ..................... 34,4 juta [S3][S4]
+     - Warganegara ............................ 31,0 juta [S3]
+     - Bukan warganegara ...................... ±3,4 juta [S3]
+     - Pertumbuhan ............................ 0,5% per tahun [S3]
+     - Rasio jenis kelamin .................... 110 laki-laki : 100
+                                                perempuan [S3]
+   Populasi versi DataReportal (Okt 2025) .... 36,1 juta [S1]
+   Median umur ............................... 31,0 tahun [S1]
+   Urbanisasi ................................ 79,8% tinggal di kota [S1]
+   Komposisi etnis (warganegara) ............. Melayu ±58%,
+                                                Bumiputera lain ±12%,
+                                                Cina ±22%, India ±6,5%
+                                                [S132][S133]
+   Bahasa .................................... BM (bahasa kebangsaan),
+                                                Inggris (sangat luas),
+                                                Mandarin & dialek, Tamil
+                                                [S133]
+
+   INTERNET & MEDIA SOSIAL (DataReportal, Digital 2026) [S1]
+   ---------------------------------------------------------------
+   Pengguna internet ......................... 35,4 juta (98,0%)
+   Offline ................................... 714 ribu (2,0%)
+   Koneksi seluler ........................... 44,0 juta (122% populasi)
+   Kecepatan mobile (median) ................. 143,56 Mbps
+   Kecepatan fixed (median) .................. 154,03 Mbps
+   Identitas pengguna media sosial ........... 30,7 juta (85,0%)
+   Pertumbuhan pengguna medsos ............... +5,6 juta (+22,2%) YoY
+   Rata-rata waktu di medsos ................. ±3 jam/hari [S21]
+
+   JANGKAUAN IKLAN PER PLATFORM (perkiraan alat iklan, akhir 2025) [S1]
+   ---------------------------------------------------------------
+   TikTok .................. 30,7 juta usia 18+ (ad reach setara
+                             114,8% populasi dewasa — angka >100%
+                             karena akun ganda/perhitungan platform)
+   YouTube ................. 23,6 juta (65,4%)   turun 6,0% YoY
+   Facebook ................ 23,0 juta (63,7%)   naik 2,4% YoY
+   Instagram ............... 16,1 juta (44,6%)   naik 7,3% YoY
+   LinkedIn ................ 10,0 juta (27,7%)   naik 13,6% YoY
+   Messenger ............... 9,6 juta (26,6%)
+   X (Twitter) ............. 4,81 juta (13,3%)
+   Reddit .................. 4,30 juta (11,9%)
+   Threads ................. 3,60 juta (10,0%; 13,5% dari dewasa;
+                             51,4% perempuan) [S1][S23]
+   Snapchat ................ 1,69 juta (4,7%)
+   WhatsApp ................ dipakai >84–90% pengguna internet
+                             untuk pesan pribadi & bisnis [S21][S25]
+
+   Demografi iklan TikTok Malaysia 2026 [S20]:
+   - Perempuan 52,2% (±16,5 juta), laki-laki 47,8% (±15,1 juta)
+   - Usia 18–34 = 61,5% dari audiens (±19,4 juta)
+
+   EKONOMI & DAYA BELI
+   ---------------------------------------------------------------
+   PDB per kapita nominal 2025 ............... ±US$13.000–14.000
+                                                (IMF, berbagai rilis)
+                                                [S5][S6][S7]
+   PDB per kapita PPP ........................ ±US$38.779 [S5]
+   Median gaji bulanan warganegara (2025) .... RM2.940 (naik 5,3%)
+                                                [S14]
+     → setara ±Rp12,9 juta/bulan (kurs Rp4.374)
+   Median upah sektor formal (Des 2025) ...... RM3.167 [S15]
+   Rata-rata gaji tertinggi .................. Putrajaya RM5.417,
+                                                Kuala Lumpur RM4.955,
+                                                Selangor RM4.258 [S14]
+   Penerima gaji bulanan ..................... 12,01 juta orang [S14]
+   Upah minimum .............................. RM1.700/bulan (semua
+                                                pemberi kerja sejak
+                                                1 Agustus 2025) [S16]
+   Jumlah UMKM (MSME) ........................ ±1,3 juta (96% semua
+                                                usaha; 77% mikro)
+                                                [S17][S18]
+   Kontribusi UMKM ke PDB 2025 ............... RM689,8 miliar (39,7%)
+                                                [S17]
+
+   EKONOMI DIGITAL
+   ---------------------------------------------------------------
+   GMV ekonomi digital 2025 (e-Conomy SEA) ... ±US$39 miliar
+                                                (+19% YoY, tercepat
+                                                di Asia Tenggara) [S8][S10]
+   GMV e-commerce 2025 ....................... ±US$20 miliar (+21%) [S8]
+   Online travel ............................. +19% (tercepat di SEA) [S8]
+   Porsi pendanaan AI swasta SEA ............. 32% (US$759 juta,
+                                                H2 2024–H1 2025) [S8]
+   Target kontribusi ekonomi digital ke PDB .. 25,5% (target
+                                                pemerintah akhir 2025)
+                                                [S12]
+   Investasi digital disetujui 2024 .......... RM163,6 miliar [S13]
+   Belanja online via mobile ................. >54,7% transaksi
+                                                (sumber lain: hingga
+                                                73%) [S118]
+   Add-to-cart rate e-commerce ............... 9,0–9,5% [S118]
+   Cart abandonment .......................... 73,5–74,0% [S118]
+   Porsi warga yang belanja online ........... hampir dua pertiga
+                                                (survei Ipsos 2025) [S116]
+
+   PEMBAYARAN
+   ---------------------------------------------------------------
+   Transaksi diproses PayNet 2025 ............ 8,44 miliar [S26]
+   Transaksi DuitNow QR 2025 ................. 3 miliar (2x lipat
+                                                dari 1,5 miliar) [S27][S28]
+   Titik terima DuitNow QR ................... >3 juta [S26]
+   Transaksi QR lintas negara 2025 ........... 29,7 juta (2,5x) [S26]
+   Porsi FPX di e-commerce ................... ±45% (estimasi
+                                                penyedia pembayaran) [S29]
+   Cakupan FPX ............................... ±96% pemegang rekening
+                                                bank; batas per
+                                                transaksi RM30.000 [S29]
+   E-wallet teratas .......................... Touch 'n Go eWallet
+                                                (dipakai ±90% konsumen
+                                                e-wallet), lalu MAE
+                                                (Maybank), GrabPay,
+                                                Boost, ShopeePay,
+                                                BigPay [S31][S32]
+   Kartu kredit .............................. 59,7% nilai pembayaran
+                                                kartu (2024) [S34]
+   Porsi kartu di e-commerce 2026 ............ ±35% [S35]
+
+   PENDIDIKAN (relevan untuk contoh "AI untuk Cikgu")
+   ---------------------------------------------------------------
+   Jawatan guru KPM terisi ................... 416.096 dari 431.128
+                                                (96,51%, per 31 Ags
+                                                2025) [S94]
+   Guru baru ditempatkan 2025 ................ 20.141 orang [S95]
+   Sesi sekolah 2026 ......................... 11/12 Jan – 31 Des 2026
+                                                [S99][S100]
+   Sesi sekolah 2027 ......................... mulai 4 Jan 2027 [S99]
+   Kurikulum Persekolahan 2027 ............... mulai Tahun 1 &
+                                                Tingkatan 1 (2027);
+                                                subjek baru "Alam dan
+                                                Manusia" [S97][S98]
+   Platform DELIMa 3.0 ....................... diluncurkan 20 Jul 2026,
+                                                16 aplikasi AI; ChatGPT
+                                                208.836 penggunaan guru,
+                                                Gemini 175.765,
+                                                NotebookLM 130.099
+                                                (per 30 Jun 2026)
+                                                [S101][S102]
+   Canva for Education ....................... gratis versi premium
+                                                untuk guru sekolah
+                                                kerajaan via akun DELIMa
+                                                [S104]
+   Tarif tuisyen ............................. SR mulai ±RM30/jam;
+                                                SPM ±RM50–80/jam [S121]
+
+   PERILAKU & RISIKO
+   ---------------------------------------------------------------
+   Kerugian penipuan online 2025 ............. ±RM2,97 miliar
+                                                (IGP) [S110]
+   Kasus penipuan online 2025 ................ 74.744 kasus (naik dari
+                                                35.470) [S111]
+   Kasus penipuan e-commerce (Jan–Nov 2025) .. 14.881 kasus,
+                                                RM123,7 juta [S109]
+   Rata-rata buku dibaca/tahun ............... ±24 (16 cetak, 8 digital)
+                                                [S119][S120]
+   Minat cari "kerja dari rumah", "buat duit
+   online", "part time dari rumah" ........... dilaporkan naik tajam
+                                                sejak awal 2025 [S122]
+
+
+--------------------------------------------------------------------
+A2. INDONESIA vs MALAYSIA (TABEL PERBANDINGAN)
+--------------------------------------------------------------------
+
+   | Faktor                | Indonesia               | Malaysia                 |
+   |-----------------------|-------------------------|--------------------------|
+   | Populasi              | ±286 juta [S2]          | 34,4 juta [S3]           |
+   | Pengguna internet     | 230 juta (80,5%) [S2]   | 35,4 juta (98,0%) [S1]   |
+   | Identitas medsos      | 180 juta (62,9%) [S2]   | 30,7 juta (85,0%) [S1]   |
+   | PDB/kapita nominal    | ±US$5.060 [S5]          | ±US$13.125–13.949 [S5][S6]|
+   | Ekonomi digital GMV   | ±US$100 miliar,+14% [S11]| ±US$39 miliar,+19% [S8]  |
+   | E-commerce GMV        | ±US$71 miliar [S11]     | ±US$20 miliar [S8]       |
+   | Bahasa jualan         | Indonesia               | Melayu (+Inggris, dll.)  |
+   | Mata uang             | IDR                     | MYR (RM)                 |
+   | QR nasional           | QRIS                    | DuitNow QR               |
+   | Bayar online dominan  | VA bank, e-wallet, QRIS | FPX, e-wallet, kartu     |
+   | Pemain e-wallet       | GoPay, OVO, DANA, SPay  | TNG, MAE, GrabPay, Boost |
+   | Kurikulum sekolah     | Kurikulum Merdeka       | KSSR/KSSM → KP2027       |
+   | Istilah rencana ajar  | RPP / Modul Ajar        | RPH                      |
+   | Hari gaji umum        | akhir/awal bulan        | tgl 25 (PNS), akhir bln  |
+
+   CARA MEMBACA TABEL INI
+   1. Malaysia KECIL secara jumlah (±1/8 Indonesia), tetapi hampir
+      SEMUA orangnya online (98%) dan daya beli per orang ±2,6x
+      Indonesia (nominal).
+   2. Ekonomi digital Malaysia tumbuh PALING CEPAT di Asia Tenggara
+      pada 2025 (+19%) [S8].
+   3. Bahasa dan budaya dekat → biaya lokalisasi untuk orang
+      Indonesia jauh lebih murah dibanding masuk ke Thailand,
+      Vietnam, atau Filipina.
+   4. Sistem pembayaran QR kedua negara SUDAH TERHUBUNG (QRIS ↔
+      DuitNow) sejak peluncuran komersial 8 Mei 2023 [S59][S62].
+
+   PELAJARAN UTAMA
+      Tidak perlu memilih Indonesia ATAU Malaysia.
+      Indonesia = pasar utama (volume).
+      Malaysia  = pasar ekspansi (nilai per pembeli lebih tinggi,
+                  budaya & bahasa dekat).
+
+
+--------------------------------------------------------------------
+A3. PETA PEMBAYARAN MALAYSIA (RINGKAS — DETAIL DI MODUL 12)
+--------------------------------------------------------------------
+
+   METODE yang dipakai konsumen Malaysia:
+   1. FPX (online banking) — transfer langsung dari akun bank, dioperasikan
+      PayNet, didukung Bank Negara Malaysia, 21+ bank utama [S29][S30].
+   2. DuitNow QR — QR nasional, 3 miliar transaksi 2025 [S27].
+   3. DuitNow Transfer — transfer instan pakai nomor HP/IC/akaun.
+   4. E-wallet — Touch 'n Go eWallet, MAE, GrabPay, Boost, ShopeePay,
+      BigPay [S31][S32][S33].
+   5. Kartu debit/kredit — Visa, Mastercard, (juga AmEx) [S34].
+   6. BNPL — Atome, dll. [S36].
+   7. PayPal — dipakai sebagian pembeli, terutama yang terbiasa
+      belanja internasional.
+
+   GATEWAY LOKAL (untuk merchant ber-SSM/ber-rekening Malaysia):
+      ToyyibPay, Billplz, SenangPay, CHIP, Bizappay, iPay88, HitPay,
+      Xendit Malaysia, Stripe Malaysia [S39][S40][S41][S43][S45].
+
+   GATEWAY/PLATFORM YANG BISA DIPAKAI SELLER INDONESIA TANPA
+   PERUSAHAAN MALAYSIA (detail & batasannya di Modul 12):
+      - Platform Merchant of Record global: Lemon Squeezy, Paddle,
+        Gumroad (kartu & PayPal) [S48][S50][S53]
+      - Payhip + PayPal / Midtrans / Xendit [S51][S52]
+      - Platform Indonesia (Mayar, Lynk, Scalev, dll.) + QRIS yang
+        bisa di-scan aplikasi Malaysia via DuitNow lintas negara
+        [S58][S62][S67]
+      - Xendit (Global Account) untuk entitas bisnis — jalur lanjutan
+        [S37][S38]
+
+   DUA FAKTA YANG SERING TIDAK DIKETAHUI:
+   a) Wise: detail akun MYR (untuk menerima ringgit via transfer lokal)
+      hanya untuk RESIDEN Malaysia. Orang Indonesia bisa menyimpan
+      MYR lewat konversi, tetapi tidak bisa membuka "rekening MYR
+      lokal" untuk menerima FPX/DuitNow dari pembeli [S54][S55].
+   b) Stripe di Indonesia hanya "invite-only/preview" dan tidak
+      mendukung transaksi lintas negara dari akun Indonesia [S46].
+      FPX di Stripe hanya untuk bisnis berbasis Malaysia [S29].
+
+
+--------------------------------------------------------------------
+A4. PETA PLATFORM & MEDIA SOSIAL
+--------------------------------------------------------------------
+
+   | Platform   | Peran di sistem kita         | Catatan data                    |
+   |------------|------------------------------|---------------------------------|
+   | TikTok     | Mesin perhatian (awareness)  | Jangkauan iklan terbesar [S1]   |
+   | Facebook   | Grup komunitas, iklan, dewasa| 23 juta; grup guru/usahawan aktif|
+   | Instagram  | Reels, carousel, bukti visual| 16,1 juta, tumbuh 7,3% [S1]     |
+   | Threads    | Obrolan teks, "soft selling" | 3,6 juta; audiens niche aktif   |
+   | YouTube    | Tutorial panjang, SEO video  | 23,6 juta [S1]                  |
+   | WhatsApp   | Closing, follow-up, CS       | >84% pengguna internet [S25]    |
+   | Lemon8     | Tips visual (lifestyle)      | Populer di kalangan Melayu [S24]|
+   | LinkedIn   | B2B, profesional, HR         | 10 juta, tumbuh 13,6% [S1]      |
+   | Telegram   | Channel komunitas            | Termasuk platform berlisensi    |
+   |            |                              | MCMC 2026 [S83]                 |
+
+   PENTING — TIDAK BISA JUAL PRODUK DIGITAL DI MARKETPLACE BESAR
+   - TikTok Shop Malaysia: produk digital TIDAK diizinkan, kecuali
+     produk fisik yang menyertakan konten digital sebagai pelengkap
+     (misal buku fisik + kode akses). "Virtual goods" hanya untuk
+     seller undangan [S86][S87][S89].
+   - Shopee Malaysia: sebagian produk & layanan digital termasuk
+     "prohibited" [S88].
+   → Artinya: TikTok & Shopee dipakai untuk RISET dan KONTEN, lalu
+     pembeli diarahkan ke LANDING PAGE milik kamu (link di bio).
+
+
+--------------------------------------------------------------------
+A5. PETA ATURAN (MALAYSIA & INDONESIA) — RINGKAS
+--------------------------------------------------------------------
+
+   MALAYSIA
+   1. Consumer Protection (Electronic Trade Transaction) Regulations
+      2024 (CPETTR 2024) — berlaku 25 Des 2024. Penjual online yang
+      menjual ke konsumen Malaysia wajib menampilkan identitas &
+      kontak, informasi produk yang akurat, dan informasi dalam
+      BAHASA MELAYU [S74][S75][S76].
+   2. Personal Data Protection Act (PDPA) + Amendment Act 2024 —
+      berlaku bertahap 2025: kewajiban notifikasi kebocoran data,
+      aturan transfer data lintas negara, DPO [S72][S73].
+   3. Service Tax on Digital Services — penyedia jasa digital asing
+      wajib daftar kalau penjualan digital ke Malaysia > RM500.000
+      dalam 12 bulan; tarif 8% [S69][S70][S71].
+   4. Online Safety Act 2025 — platform besar berlisensi; ada aturan
+      pembatasan akses pengguna di bawah 16 tahun [S83][S84][S85].
+      → Jangan jadikan anak <16 tahun sebagai target iklan/konten
+        jualan. Targetkan guru, ibu bapa, tutor, orang dewasa.
+   5. Malaysian Code of Advertising Practice (ASA) — iklan harus
+      legal, sopan, jujur, dan benar; dilarang klaim menyesatkan
+      [S81][S82].
+   6. Copyright Act 1987 — hak cipta melekat otomatis pada karya
+      asli [S80]. Jangan jual ulang materi orang lain (termasuk
+      bahan KPM/buku teks) tanpa izin.
+
+   INDONESIA (untuk kamu sebagai penjual)
+   1. PPh Final UMKM 0,5% dari omzet untuk Wajib Pajak Orang Pribadi
+      dengan omzet ≤ Rp4,8 miliar/tahun; omzet Rp500 juta pertama
+      tidak dikenai PPh (PP 55/2022) [S78].
+   2. PP 20/2026 (berlaku 22 April 2026) — menghapus batas waktu
+      tarif 0,5% untuk WP Orang Pribadi & PT Perorangan [S77].
+   3. Ekspor jasa kena pajak oleh PKP bisa dikenai PPN 0% dengan
+      syarat tertentu [S79].
+   → Detail & batasan di Modul 12 dan Lampiran E.
+
+
+--------------------------------------------------------------------
+A6. 15 INSIGHT KUNCI DARI RISET
+--------------------------------------------------------------------
+
+   INSIGHT 1 — Malaysia "kecil tapi padat dan cepat".
+      98% online, ekonomi digital +19% (tercepat di SEA) [S1][S8].
+      Pasar yang lebih kecil = lebih cepat dikenal di niche-mu.
+
+   INSIGHT 2 — Daya beli per orang lebih tinggi.
+      Median gaji RM2.940 (±Rp12,9 juta) [S14]. Harga RM49 (±Rp214
+      ribu) = ±1,7% gaji median. Di Indonesia, Rp214 ribu terasa
+      "mahal" untuk ebook; di Malaysia RM49 adalah harga wajar untuk
+      toolkit yang jelas hasilnya.
+
+   INSIGHT 3 — TikTok adalah pintu depan, bukan kasir.
+      Jangkauan TikTok terbesar [S1], tapi TikTok Shop MY tidak
+      menerima produk digital [S86]. Pakai TikTok untuk perhatian,
+      landing page + WhatsApp untuk closing.
+
+   INSIGHT 4 — Orang Malaysia sangat waspada penipuan.
+      Kerugian penipuan online ±RM2,97 miliar pada 2025; kasus
+      penipuan online lebih dari dua kali lipat [S110][S111]. Hanya
+      ±32% responden survei merasa "cukup yakin" belanja lewat media
+      sosial; mayoritas "netral" (60,2%) [S123].
+      → KEPERCAYAAN adalah mata uang utama. Identitas jelas, preview,
+        testimoni asli, cara bayar yang familier, dan respons CS
+        cepat lebih penting daripada copywriting "bombastis".
+
+   INSIGHT 5 — Pembayaran lokal = konversi.
+      FPX dan e-wallet mendominasi; banyak orang Malaysia tidak mau
+      memasukkan kartu kredit ke situs yang tidak dikenal. Jalur
+      QRIS ↔ DuitNow memberi seller Indonesia "jembatan" ke aplikasi
+      bank/e-wallet Malaysia (MAE, TNG, CIMB, Public Bank, RHB, dll.)
+      [S62].
+
+   INSIGHT 6 — Guru Malaysia sudah punya AI, belum tentu punya "cara".
+      16 aplikasi AI ada di DELIMa 3.0 [S101]. Produk yang menjual
+      adalah WORKFLOW (prompt + contoh + template sesuai DSKP/RPH),
+      bukan "akses AI".
+
+   INSIGHT 7 — Kurikulum 2027 = gelombang permintaan baru.
+      Tahun 1 & Tingkatan 1 memakai kurikulum baru mulai 2027,
+      subjek baru "Alam dan Manusia", pendekatan terintegrasi, team
+      teaching [S97][S98]. Guru butuh bahan baru, cepat.
+
+   INSIGHT 8 — Kalender Malaysia berbeda dengan Indonesia.
+      Sekolah mulai Januari (kembali ke Jan sejak 2026) [S99]; gaji
+      PNS tanggal 25 (payday sale) [S114]; Raya, 9.9, 11.11, 12.12
+      adalah puncak belanja [S112][S113].
+
+   INSIGHT 9 — Bahasa mirip tapi "jebakan kata" banyak.
+      "Bisa" = racun, "butuh" = kata kasar, "percuma" = gratis,
+      "senang" = mudah, "pusing" = berputar [S126][S127][S128].
+      Satu kata salah bisa membuat brand terlihat amatir — atau
+      memalukan.
+
+   INSIGHT 10 — Harus pakai BM di halaman jualan.
+      CPETTR 2024 mewajibkan informasi penjual & produk dalam BM
+      untuk jualan online ke konsumen Malaysia [S74][S76]. BM bukan
+      hanya strategi marketing — ini soal kepatuhan.
+
+   INSIGHT 11 — Harga produk digital lokal sudah ada patokannya.
+      Contoh publik: set template dijual RM10–18; fail rekod
+      persediaan mengajar softcopy ±RM30 [S107][S108]; langganan
+      template RPH tahunan juga ada [S105][S106].
+      → Kamu tidak bersaing di "harga paling murah", tetapi di
+        "paling cepat memberi hasil".
+
+   INSIGHT 12 — Iklan Malaysia relatif terjangkau.
+      CPM Meta di Malaysia ±RM8–25, CPC ±RM0,50–3,00; iklan
+      click-to-WhatsApp sering konversi 2–3x lebih tinggi [S90].
+      Budget minimum realistis per ad set ±RM30/hari [S90].
+
+   INSIGHT 13 — Malaysia multi-bahasa.
+      ±58% Melayu, ±22% Cina, ±6,5% India [S132]. Produk BM
+      menjangkau mayoritas; produk bahasa Inggris membuka segmen
+      urban & non-Melayu. Mulailah dengan SATU bahasa dulu.
+
+   INSIGHT 14 — Sentimen Indonesia–Malaysia bisa sensitif.
+      Ada sejarah "perang komentar" soal klaim budaya [S124][S125].
+      → Jangan pernah membandingkan negara dengan nada merendahkan,
+        jangan membawa isu klaim budaya, tampil sebagai "teman
+        serumpun yang membantu".
+
+   INSIGHT 15 — Batas pajak Malaysia untuk seller kecil jauh.
+      Kewajiban daftar pajak jasa digital baru muncul di atas
+      RM500.000 penjualan/12 bulan [S69]. Untuk pemula, fokus dulu
+      di Indonesia: PPh Final 0,5% & Rp500 juta pertama bebas untuk
+      WP OP [S77][S78].
+
+
+--------------------------------------------------------------------
+A7. 7 MITOS YANG HARUS DIBUANG
+--------------------------------------------------------------------
+
+   MITOS 1: "Bahasa Melayu = Bahasa Indonesia, tinggal copy-paste."
+      FAKTA: Kosakata, ejaan serapan, dan nada berbeda. Ada kata yang
+      artinya berlawanan atau kasar (Lampiran B).
+
+   MITOS 2: "Jual saja di TikTok Shop Malaysia."
+      FAKTA: Produk digital tidak diizinkan di TikTok Shop MY [S86].
+
+   MITOS 3: "Pakai Wise, nanti pembeli transfer ke rekening MYR saya."
+      FAKTA: Detail akun MYR di Wise hanya untuk residen Malaysia [S54].
+
+   MITOS 4: "Harga RM = harga Rupiah dibagi kurs."
+      FAKTA: Harga ditentukan nilai, masalah, hasil, dan pasar (Modul 10).
+
+   MITOS 5: "Orang Malaysia pasti suka produk dari Indonesia."
+      FAKTA: Mereka membeli SOLUSI untuk masalah MEREKA. Asal negara
+      tidak penting — relevansi yang penting.
+
+   MITOS 6: "Harus bikin perusahaan Malaysia dulu."
+      FAKTA: Untuk validasi dan penjualan awal, ada jalur tanpa
+      perusahaan (Modul 12). Perusahaan baru dipikirkan saat volume
+      besar.
+
+   MITOS 7: "Iklan dulu, konten belakangan."
+      FAKTA: Iklan membesarkan sinyal yang sudah ada. Tanpa sinyal
+      organik, iklan hanya membakar uang (Modul 19).
+
+
+====================================================================
+LAMPIRAN Z — DAFTAR SUMBER DATA
+====================================================================
+
+   Metode riset: ±90 pencarian web (Bahasa Inggris, Indonesia, Melayu)
+   dengan ±850 tautan hasil pencarian yang ditelaah, lalu ±140 sumber
+   dipilih dan dikutip. Diakses sampai 24 September 2026. Kode [S#]
+   dipakai di seluruh materi.
+
+   A. DIGITAL, DEMOGRAFI & EKONOMI
+   [S1]   DataReportal — Digital 2026: Malaysia
+          https://datareportal.com/reports/digital-2026-malaysia
+   [S2]   DataReportal — Digital 2026: Indonesia
+          https://datareportal.com/reports/digital-2026-indonesia
+   [S3]   DOSM — Current Population Estimates 2026
+          https://www.dosm.gov.my/portal-main/release-content/current-population-estimates-2026
+   [S4]   Malay Mail — Malaysia's population rises to 34.4m (14 Mei 2026)
+          https://www.malaymail.com/news/malaysia/2026/05/14/malaysias-population-rises-to-344m-in-q1-2026-dosm-says-growth-slows-to-05pc-as-ageing-trend-accelerates/219922
+   [S5]   GeoRank — Economy of Indonesia vs Malaysia
+          https://georank.org/economy/indonesia/malaysia
+   [S6]   IMF — Malaysia country page
+          https://www.imf.org/en/countries/mys
+   [S7]   countryeconomy.com — Indonesia vs Malaysia 2026
+          https://countryeconomy.com/countries/compare/indonesia/malaysia
+   [S8]   Malaysiakini — e-Conomy SEA 2025: Malaysia fastest growing
+          https://www.malaysiakini.com/announcement/761669
+   [S9]   Bain & Company — e-Conomy SEA 2025 press release
+          https://www.bain.com/about/media-center/press-releases/sea/e-conomy-sea-2025/
+   [S10]  Techwire Asia — Malaysia leads region with 19% digital surge
+          https://techwireasia.com/2025/11/malaysia-digital-economy-leads-sea-growth-2025/
+   [S11]  Google Blog ID — e-Conomy SEA 2025: Indonesia mendekati US$100 miliar
+          https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/
+   [S12]  The Edge Malaysia — MDEC push for 25.5% digital economy
+          https://theedgemalaysia.com/node/744902
+   [S13]  MDEC — Digital economy & 5.1% GDP growth
+          https://www.mdec.my/media-release/news-press-release/377/digital-economy-set-to-further-strengthen-national-competitiveness-in-wake-of-5.1-gdp-growth
+   [S14]  The Sun — Median salaries up 5.3% to RM2,940 in 2025
+          https://thesun.my/news/dosm-median-monthly-salaries-and-wages-up-5-3-year-on-year-to-rm2940-in-2025/
+   [S15]  DOSM — Employee Wages Statistics (Formal Sector) Q4 2025
+          https://www.dosm.gov.my/portal-main/release-content/employee-wages-statistics-formal-sector-q42025
+   [S16]  Human Resources Online — RM1,700 minimum wage from 1 Aug 2025
+          https://www.humanresourcesonline.net/all-employers-in-malaysia-must-comply-with-rm1-700-minimum-wage-from-1-august-2025
+   [S17]  Business Today — MSME contributes RM689 billion (30 Jul 2026)
+          https://www.businesstoday.com.my/2026/07/30/msme-sector-outpaces-broader-economy-in-2025-contributes-rm689-billion-to-gdp/
+   [S18]  DOSM — MSMEs Performance 2025
+          https://www.dosm.gov.my/portal-main/release-content/micro-small--medium-enterprises-msmes-performance-2025
+   [S19]  Elite Asia — Digital & social media trends Malaysia 2026
+          https://www.eliteasia.co/digital-and-social-media-trends-in-malaysia-in-2026/
+   [S20]  Affect Group — Malaysia TikTok audience by age & gender 2026
+          https://affectgroup.com/blog/tiktok-ads-audience-in-malaysia-2026-breakdown/
+   [S21]  ZenWeb — Social media statistics Malaysia 2026
+          https://zenweb.my/blog/social-media-statistics-malaysia/
+   [S22]  NapoleonCat — Social media users in Malaysia 2026
+          https://stats.napoleoncat.com/social-media-users-in-malaysia/
+   [S23]  ZenWeb — Threads marketing Malaysia 2026
+          https://zenweb.my/blog/threads-marketing-malaysia/
+   [S24]  Silver Mouse — Xiaohongshu & Lemon8 in Malaysia
+          https://www.silvermouse.com.my/blog/how-popular-are-xiaohongshu-lemon8-in-malaysia/
+   [S25]  Raion Tech — WhatsApp Business statistics Malaysia 2026
+          https://raiontech.io/blog/whatsapp-business-statistics-malaysia
+
+   B. PEMBAYARAN
+   [S26]  PayNet — 8.44 billion transactions processed in 2025
+          https://www.paynet.my/about-us/media-centre/press-release/8-44-billion-transactions-processed-in-2025-as-digital-payments-become-malaysians-preferred-way-to-pay.html
+   [S27]  Fintech News Malaysia — DuitNow QR doubles to 3 billion
+          https://fintechnews.my/58266/payments-remittance-malaysia/qr-payments-malaysia/
+   [S28]  TNGlobal — DuitNow QR more than doubled in 2025
+          https://technode.global/2026/05/05/malaysias-duitnow-qr-more-than-doubled-in-2025-to-three-billion-transactions/
+   [S29]  Stripe — A guide to FPX payments in Malaysia
+          https://stripe.com/resources/more/fpx-an-in-depth-guide
+   [S30]  Billplz — FPX payment in Malaysia
+          https://main.billplz.com/blog/products/fpx-payment-malaysia-business-guide
+   [S31]  Ecommpay — Most popular payment methods in Malaysia
+          https://ecommpay.com/blog/the-most-popular-payment-methods-in-malaysia/
+   [S32]  Oppotus — Malaysia's e-wallet & digital banking usage 2024
+          https://www.oppotus.com/malaysias-e-wallet-and-digital-banking-usage-in-2024/
+   [S33]  StashAway — Top e-wallets Malaysia 2026
+          https://www.stashaway.my/r/top-e-wallets-malaysia
+   [S34]  GlobalData — Malaysia card payments market 2025
+          https://www.globaldata.com/media/banking/malaysia-credit-charge-card-payments-market-grow-6-8-2025-forecasts-globaldata/
+   [S35]  2C2P — Malaysia payment methods
+          https://2c2p.com/articles/malaysia-payment-methods/
+   [S36]  Xendit Malaysia — All payment methods
+          https://www.xendit.co/en-my/products/all-payment-methods/
+   [S37]  Xendit — Cross-border payment gateway SEA local QR
+          https://www.xendit.co/en-sg/blog/cross-border-payment-gateway-sea-local-qr-methods/
+   [S38]  Xendit — Cross-border payments
+          https://www.xendit.co/en/products/cross-border-payments/
+   [S39]  HitPay — Best FPX payment gateway Malaysia 2026
+          https://hitpayapp.com/blog/best-fpx-payment-gateway-malaysia
+   [S40]  Billplz — Toyyibpay vs Billplz
+          https://main.billplz.com/blog/products/toyyibpay-billplz-payment-gateway-comparison
+   [S41]  SenangPay — Required documents to register
+          https://guide.senangpay.com/required-documents-to-register
+   [S42]  CartDNA — ToyyibPay merchant guide
+          https://cartdna.com/en/resources/blog/toyyibpay-payment-gateway-in-malaysia-full-merchant-guide-for-online-and-offline-payments
+   [S43]  Baloot.my — Payment gateway Malaysia (FPX) 2026
+          https://www.baloot.my/blog/payment-gateway-malaysia-website
+   [S44]  OnPay — Onpay Solutions
+          https://onpay.my/
+   [S45]  CHIP — Digital finance platform for Malaysian businesses
+          https://www.chip-in.asia/
+   [S46]  Stripe Support — Indonesia FAQ
+          https://support.stripe.com/questions/indonesia-faq
+   [S47]  Stripe — Global availability
+          https://stripe.com/global
+   [S48]  Lemon Squeezy Docs — Fees
+          https://docs.lemonsqueezy.com/help/getting-started/fees
+   [S49]  Lemon Squeezy Docs — Supported countries
+          https://docs.lemonsqueezy.com/help/getting-started/supported-countries
+   [S50]  Swell — Gumroad pricing 2026
+          https://www.swell.is/content/gumroad-pricing
+   [S51]  Payhip — Payment gateways
+          https://payhip.com/payment-gateways
+   [S52]  Payhip Blog — 11 new payment gateways (Midtrans, Xendit)
+          https://payhip.com/blog/new-feature-payhip-integrates-with-11-new-payment-gateways/
+   [S53]  Dodo Payments — Paddle fees explained
+          https://dodopayments.com/blogs/paddle-fees-explained
+   [S54]  Wise Help — Which currencies can I add, keep and receive
+          https://wise.com/help/articles/2897238/which-currencies-can-i-add-keep-and-receive-in-my-wise-account
+   [S55]  Wise Help — Guide to MYR transfers
+          https://wise.com/help/articles/2932332/guide-to-myr-transfers
+   [S56]  Payoneer — Pricing
+          https://www.payoneer.com/pricing/
+   [S57]  PayPal ID — Biaya rekening PayPal
+          https://www.paypal.com/id/cshelp/article/biaya-apa-saja-yang-dikenakan-untuk-rekening-paypal--help383
+   [S58]  Bank Indonesia — QRIS Antarnegara
+          https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/qris-antarnegara/default.aspx
+   [S59]  SoyaCincau — Malaysian eWallet & bank app users can pay via QRIS (8 Mei 2023)
+          https://soyacincau.com/2023/05/08/malaysian-ewallet-and-bank-app-users-can-now-scan-and-pay-in-indonesia-via-qris-qr-codes/
+   [S60]  RinggitPlus — Malaysia, Indonesia launch cross-border QR linkage
+          https://ringgitplus.com/en/blog/banking-technology/malaysia-indonesia-launch-cross-border-qr-payment-linkage.html
+   [S61]  Maybank2u — Cross-border QR for MAE users
+          https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/cross-border-qr-for-mae-user.page
+   [S62]  qrisantarnegara.com — Apps for QRIS in Malaysia
+          https://qrisantarnegara.com/en/malaysia/
+   [S63]  Planet Doug — Touch 'n Go in Indonesia with QRIS (Des 2025)
+          https://planetdoug.life/2025/12/07/does-malaysias-touch-n-go-ewallet-work-in-indonesia-testing-it-with-qris/
+   [S64]  Kompas — QRIS lintas negara (20 Sep 2026)
+          https://biz.kompas.com/read/2026/09/20/222739728/qris-lintas-negara-cara-baru-bayar-saat-bepergian
+   [S65]  Pluang — MYR to IDR exchange rate (23 Sep 2026)
+          https://pluang.com/en/tools/currency-converter/myr-idr
+   [S66]  Bank Negara Malaysia — Exchange rates
+          https://www.bnm.gov.my/exchange-rates
+   [S67]  Ikhwan Alim — Lynk, Mayar, Scalev atau Clicky?
+          https://ikhwanalim.com/lynk-mayar-scalev-atau-clicky/
+   [S68]  Mayar — Terima pembayaran online
+          https://mayar.id/terima-pembayaran-online
+
+   C. HUKUM, PAJAK & REGULASI
+   [S69]  Royal Malaysian Customs — Guide on Digital Services by FSP
+          https://mystods.customs.gov.my/storage/app/media/pdf/guide/Guide%20on%20Digital%20Service_V2.1_01022021.pdf
+   [S70]  Avalara — Malaysia SST on e-services
+          https://www.avalara.com/us/en/vatlive/country-guides/asia/malaysia/malaysia-e-services-tax.html
+   [S71]  Kintsugi — Malaysia SST guide 2026
+          https://trykintsugi.com/sales-tax-guides/apac/malaysia
+   [S72]  PDP Malaysia — Personal Data Protection (Amendment) Act 2024
+          https://www.pdp.gov.my/ppdpv1/en/akta/personal-data-protection-amendment-act-2024/
+   [S73]  Mayer Brown — PDPA amendments & cross-border guidelines
+          https://www.mayerbrown.com/en/insights/publications/2025/07/from-legislative-reform-to-practical-guidance-key-amendments-to-malaysias-pdpa-and-the-launch-of-cross-border-transfer-guidelines
+   [S74]  Lexology — BM now required for online sales under CPETTR 2024
+          https://www.lexology.com/library/detail.aspx?g=a8ed5c4d-e4e6-4d44-b82c-0302682ee8af
+   [S75]  Kiizen — CPETTR 2024 implications for SMEs
+          https://www.kiizen.com.my/consumer-protection-electronic-trade-transaction-regulations-2024/
+   [S76]  Carousell Help — New e-commerce rules in Malaysia
+          https://support.carousell.com/hc/en-us/articles/48411607580441--Malaysia-New-e-commerce-rules-in-Malaysia-What-sellers-need-to-know
+   [S77]  DJP — PP 20/2026: Tarif PPh 0,5% UMKM OP berlaku selamanya
+          https://www.pajak.go.id/en/node/119950
+   [S78]  DDTC News — Skema PP 55/2022
+          https://news.ddtc.co.id/berita/nasional/1798923/pajak-final-umkm-05-dikali-apa-simak-lagi-skema-di-pp-552022
+   [S79]  Indonesia.go.id — Syarat ekspor jasa bebas PPN
+          https://indonesia.go.id/kategori/kepabeanan/540/syarat-ekspor-jasa-bebas-ppn
+   [S80]  WIPO Lex — Copyright Act 1987 (Malaysia)
+          https://www.wipo.int/wipolex/en/legislation/details/22674
+   [S81]  Advertising Standards Malaysia — The Code
+          https://asa.org.my/the-code/list-of-code/advertising-standards-malaysia/
+   [S82]  WJNT — Advertising compliance in Malaysia
+          https://www.wjnt-law.com/advertising-compliance-in-malaysia/
+   [S83]  SoyaCincau — Major platforms deemed licensed in 2026
+          https://soyacincau.com/2025/12/15/mcmc-social-media-instant-messaging-platforms-deemed-licensed-2026/
+   [S84]  Malay Mail — MCMC moves to bar under-16s (4 Des 2025)
+          https://malaymail.com/news/malaysia/2025/12/04/mcmc-moves-to-bar-under-16s-from-social-media-under-new-online-safety-act-subsidiary-laws/200748
+   [S85]  Rahmat Lim & Partners — Online Safety Act 2025
+          https://www.rahmatlim.com/perspectives/articles/32091/mykh-online-safety-in-malaysia-what-you-should-know-about-the-online-safety-act-2025-and-its-subsidiary-legislation
+
+   D. PLATFORM & IKLAN
+   [S86]  TikTok Shop Seller Center MY — Prohibited products guidelines
+          https://seller-my.tiktok.com/university/essay?knowledge_id=8927861016708866
+   [S87]  TikTok Shop Seller Center MY — Restricted & unsupported products
+          https://seller-my.tiktok.com/university/essay?knowledge_id=7753771480680193
+   [S88]  Shopee MY — Prohibited and restricted items policy
+          https://help.shopee.com.my/portal/4/article/77220-Prohibited-and-Restricted-Items-Policy
+   [S89]  Eva — Can you sell digital products on TikTok Shop? 2026
+          https://eva.guru/blog/how-to-sell-digital-products-on-tiktok-shop/
+   [S90]  ZenWeb — Meta Ads pricing Malaysia 2026
+          https://zenweb.my/services/meta-ads/pricing/
+   [S91]  OpenMinds — Digital ads cost in Malaysia 2026
+          https://www.openmindsresources.com/blog/digital-ads-cost-malaysia/
+   [S92]  AdManage — TikTok ads cost 2026
+          https://admanage.ai/blog/tiktok-ads-cost
+   [S93]  Adamigo — Meta ads CPM & CPC by country 2026
+          https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026
+
+   E. PENDIDIKAN MALAYSIA
+   [S94]  Berita RTM — 96.51% perjawatan guru telah diisi
+          https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/96-51-peratus-perjawatan-guru-telah-diisi/
+   [S95]  Buletin TV3 — 20,141 guru baharu
+          https://www.buletintv3.my/nasional/20141-guru-baharu-isi-kekosongan-di-seluruh-negara/
+   [S96]  KPM — Statistik bilangan sekolah, murid & guru
+          https://www.moe.gov.my/statistik-bilangan-sekolah-murid-guru
+   [S97]  Malaysia MADANI — Subjek Alam dan Manusia sesi 2027
+          https://malaysiamadani.gov.my/2025/11/kpm-perkenal-subjek-alam-dan-manusia-kepada-murid-tahap-1-sesi-2027/
+   [S98]  eCentral — Kurikulum Persekolahan 2027
+          https://ecentral.my/kurikulum-persekolahan-2027/
+   [S99]  SAYS — Kalendar akademik & sesi 2026 kembali ke Januari
+          https://says.com/my/berita/kpm-umum-kalendar-akademik-sesi-persekolahan-2026-bermula-kembali-ke-bulan-januari
+   [S100] KPM — Surat Siaran Kalendar Akademik 2026
+          https://www.moe.gov.my/storage/files/shares/pekeliling_dan_garis_panduan/surat_siaran/bahagian-pengurusan-sekolah-harian/Surat%20Siaran%20KPM%20Bil.%203%202025%20-%20Kalendar%20Akademik%202026.pdf
+   [S101] Newswav — KPM integrasi 16 aplikasi AI dalam DELIMa 3.0
+          https://newswav.com/article/kpm-integrasi-16-aplikasi-ai-dalam-delima-3-0-A2607_bkmLeY
+   [S102] Cikgu Hijau — DELIMa 3.0 sediakan 16 aplikasi AI (Jul 2026)
+          https://www.cikguhijau.com/2026/07/delima-30-sediakan-16-aplikasi.html
+   [S103] Google Blog — Gemini for Education across Malaysian public universities
+          https://blog.google/company-news/inside-google/around-the-globe/google-asia/gemini-malaysia-universities/
+   [S104] AI Smartboard — Canva for Education Malaysia via DELIMa
+          https://aismartboard.org/panduan/canva-for-education
+   [S105] RPH365
+          https://rph365.com/
+   [S106] SMART-RPH PRO
+          https://smartrph-pro.com/
+   [S107] CikguGrafik — Fail Rekod Persediaan Mengajar 2026
+          https://cikgugrafik.my/order/form/rpm2026
+   [S108] Lemon8 — Cara mudah jual template (Malaysia)
+          https://www.lemon8-app.com/@camimifazin/7520615280511304209?region=my
+
+   F. PERILAKU KONSUMEN, MUSIM & BUDAYA
+   [S109] Malay Mail — RM2.7b cyber scam losses in 11 months
+          https://www.malaymail.com/news/malaysia/2025/12/08/malaysians-swindled-out-of-rm27b-in-cyber-scams-in-just-11-months-police-data-reveals/201156
+   [S110] The Edge Malaysia — IGP: online scam losses RM2.97 bil in 2025
+          https://theedgemalaysia.com/node/807010
+   [S111] DayakDaily — Online scam cases 35,470 → 74,744
+          https://dayakdaily.com/online-scam-cases-more-than-double-from-35470-in-2024-to-74744-in-2025/
+   [S112] DHL — Key festive seasons in Malaysia e-commerce
+          https://www.dhl.com/discover/en-my/e-commerce-advice/e-commerce-best-practice/festive-campaigns-for-malaysia
+   [S113] Hansen Commerce — Malaysia mega sale calendar 2026
+          https://hansencommerce.com/insights-malaysia-mega-sale-calendar
+   [S114] iMoney — Which online sales should you prepare for?
+          https://www.imoney.my/articles/online-shopping-guide-malaysia/online-sales
+   [S115] Janio — When are Malaysia's hottest online sales periods?
+          https://www.janio.asia/resources/articles/when-do-malaysia-s-e-commerce-shopping-sales-take-place
+   [S116] Malay Mail — Nearly two-thirds of Malaysians buy online (Ipsos, Nov 2025)
+          https://www.malaymail.com/news/malaysia/2025/11/13/online-shopping-boom-nearly-two-thirds-of-malaysians-buy-online-as-e-commerce-grows-16pc-ipsos-finds/198210
+   [S117] Branch8 — SEA e-commerce conversion benchmarks 2026
+          https://branch8.com/posts/e-commerce-conversion-benchmarks-southeast-asia-2026
+   [S118] Anchanto — Malaysia e-commerce market insights
+          https://anchanto.com/malaysia-e-commerce-industry/
+   [S119] The Sun — Malaysians read 24 books a year
+          https://thesun.my/news/malaysians-read-24-books-a-year-on-average-new-study-shows/
+   [S120] FMT — Malaysians still prefer physical books (Feb 2026)
+          https://www.freemalaysiatoday.com/category/leisure/2026/02/10/malaysians-still-prefer-reading-physical-books-to-e-books
+   [S121] HomeTuitionNearMe — Tuition rates in Malaysia 2025
+          https://hometuitionnearme.com/post/tuition-rates-in-malaysia
+   [S122] Vixtech — Side income tanpa modal di Malaysia 2025
+          https://vixtech.com.my/5-cara-buat-side-income-tanpa-modal-di-malaysia-2025/
+   [S123] RSIS — Consumer trust & legal challenges in Malaysia's social commerce
+          https://rsisinternational.org/journals/ijriss/uploads/vol9-iss10-pg6299-6309-202511_pdf.pdf
+   [S124] Frontiers — Digital ethics & social media in Indonesia and Malaysia
+          https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2026.1745680/full
+   [S125] ResearchGate — Contestation of cultural claims ID–MY
+          https://www.researchgate.net/publication/342619980_The_contestation_of_cultural_claims_in_online_media_between_Malaysia_and_Indonesia
+
+   G. BAHASA
+   [S126] SAYS — 27 kata Indonesia & Malaysia serupa tapi tak sama
+          https://says.com/my/fun/27-kata-dalam-bahasa-indonesia-dan-bahasa-malaysia-yang-serupa-tapi-tak-sama
+   [S127] Liputan6 — 10 kata Indonesia & Malaysia mirip tapi beda makna
+          https://www.liputan6.com/citizen6/read/3417845/10-kata-indonesia-dan-malaysia-yang-mirip-tapi-maknanya-berbeda
+   [S128] UIN Suska — Perbedaan semantik Bahasa Indonesia & Malaysia
+          https://ejournal.uin-suska.ac.id/index.php/SosialBudaya/article/download/387/369/741
+   [S129] Wikipedia — Malaysian Malay
+          https://en.wikipedia.org/wiki/Malaysian_Malay
+   [S130] TheSmartLocal — Malaysian slang words
+          https://thesmartlocal.my/malaysian-slang-words/
+   [S131] Maukerja — 10 bahasa pasar paling popular
+          https://blog.maukerja.my/ms/14240/ini-antara-10-bahasa-pasar-paling-popular-dan-sering-digunakan-di-malaysia
+
+   H. LAIN-LAIN
+   [S132] DOSM — Demographic Statistics Q1 2025
+          https://www.dosm.gov.my/portal-main/release-content/demographic-statistics-first-quarter-2025
+   [S133] Wikipedia — Demographics of Malaysia
+          https://en.wikipedia.org/wiki/Demographics_of_Malaysia
+   [S134] MalaysiaCalendar — Public holidays 2027
+          https://malaysiacalendar.com/public-holiday-2027
+   [S135] LongWeekend.my — Malaysia public holidays 2027
+          https://longweekend.my/2027
+   [S136] Lemon Squeezy Blog — Bank payouts expanded
+          https://www.lemonsqueezy.com/blog/new-bank-payouts
+   [S137] Grey — Gumroad payout methods outside the US
+          https://grey.co/blog/how-to-receive-payments-from-gumroad-as-an-international-creator
+   [S138] Riwaya — Islamic digital product ideas
+          https://riwaya.co.uk/riwaya-blog/digital-product-ideas-to-sell-on-riwaya
+   [S139] Facebook Group — GURU MALAYSIA
+          https://www.facebook.com/groups/187837407906491/
+   [S140] Shareuhack — Platforms to sell digital products in Asia 2026
+          https://www.shareuhack.com/en/posts/digital-product-platform-comparison-asia-2026
+
+   CATATAN KEANDALAN SUMBER
+   - TINGGI  : statistik pemerintah (DOSM, KPM, BNM, PayNet, DJP, BI,
+               Kastam), dokumentasi resmi platform.
+   - SEDANG  : laporan industri (DataReportal, e-Conomy SEA), media
+               arus utama (The Star, Malay Mail, The Edge, Bernama).
+   - RENDAH–SEDANG: blog agensi/vendor (benchmark iklan, statistik
+               WhatsApp) — dipakai sebagai PANDUAN, bukan fakta mutlak.
+   Saat membuat konten edukasi untuk pembeli, utamakan sumber TINGGI.
+
+====================================================================
+AKHIR MATERI — MALAYSIA DIGITAL MARKET SYSTEM
+"Jangan menerjemahkan produk. Pindahkan produk ke rumah pembelinya."
+====================================================================

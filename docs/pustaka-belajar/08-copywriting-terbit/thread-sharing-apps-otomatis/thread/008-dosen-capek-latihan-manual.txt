@@ -1,0 +1,169 @@
+THREAD SERI #08 - 15 POST
+Judul: "Aku adalah dosen yang capek bikin latihan manual tiap semester, jadi kubikin apps sendiri pake AI 😭"
+Angle: cerita satu malam ganti semester; dosen yang tiap tahun ngetik ulang soal yang sama, sampai sadar yang capek bukan ngajarnya tapi ngulangnya. Apps latihan yang angkanya ganti sendiri, mahasiswa bisa coba berkali-kali.
+Contoh mapel/jenjang: Dosen Statistika Dasar, mahasiswa semester 1 (kampus swasta kecil)
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah dosen yang capek bikin latihan manual tiap semester, jadi kubikin apps sendiri pake AI 😭
+
+semuanya berawal dari satu folder di laptop yang namanya "LATIHAN FINAL FIX BANGET 3"
+
+kalau kamu dosen, kamu pasti tau rasanya 😭
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Aku ngajar Statistika Dasar buat mahasiswa semester 1. Tiap semester ritualnya sama.
+
+Buka file soal tahun lalu. Ganti angkanya biar gak bisa dicontek dari kakak tingkat. Hitung ulang kunci jawabannya pakai kalkulator. Cetak. Fotokopi.
+
+Terus semester depan, ulang lagi dari awal.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Yang paling nyebelin bukan ngetik soalnya.
+
+Tapi pas ganti satu angka di soal rata-rata, terus lupa ganti kuncinya. Mahasiswa protes satu kelas, dan mereka bener 😭
+
+Aku pernah minta maaf di depan 40 orang gara-gara salah ngitung median. Dosen statistik. Salah median. Sumpah malu banget.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Malam itu awal semester ganjil, jam 12 lewat, aku lagi ngetik soal varians untuk keempat kalinya dalam empat tahun.
+
+Terus aku berhenti dan mikir:
+
+"aku tuh sebenernya bukan capek ngajar. aku capek ngulang."
+
+Kalimat itu kayak lampu nyala di kepala.
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Iseng aku buka AI dan ngetik jujur aja:
+
+"aku dosen statistika, tiap semester bikin latihan rata-rata, median, modus manual. pengen sesuatu yang angkanya ganti sendiri tiap dibuka, dan kuncinya ngitung sendiri juga."
+
+Aku kira bakal dijawab panjang teori. Ternyata dikasih halaman latihan yang langsung bisa dibuka di browser.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Versi pertamanya lucu sih.
+
+Angkanya beneran random, tapi kadang muncul data tinggi badan mahasiswa 312 cm 😭
+
+Terus ada soal modus yang datanya gak punya modus sama sekali, dan kunci jawabannya bilang "modus: semua".
+
+Aku ketawa sampai istri kebangun.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Dari situ aku belajar: AI gak tau konteks kelasku kalau gak kuceritain.
+
+Jadi kutulis ulang: "datanya tinggi badan 145-185 cm, nilai ujian 40-100, uang jajan mingguan. pastikan selalu ada satu modus. angkanya bulat biar bisa dihitung manual."
+
+Versi kedua langsung masuk akal. Rasanya kayak ngajarin asisten baru.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Sebelum minta versi ketiga, aku coret-coret dulu di excalidraw.com.
+
+Satu kotak soal, satu kolom jawaban, tombol "cek", dan tombol "soal baru".
+
+Gambarnya jelek banget, kotak miring semua. Tapi pas kukirim ke AI, hasilnya rapi dan persis kayak yang di kepalaku.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Terus kubagi linknya ke grup kelas tanpa banyak penjelasan. Cuma: "ini buat latihan sebelum kuis ya."
+
+Besok paginya aku buka grup. Ada yang nulis:
+
+"Pak, aku udah ngerjain 27 soal tapi masih salah di kuartil 😭 soalnya gak abis-abis"
+
+Ya emang itu tujuannya, dek.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Ini bagian yang gak kuduga.
+
+Dulu latihan kertas cuma bisa dikerjain sekali. Udah tau jawabannya, ya selesai.
+
+Sekarang mahasiswa bisa salah, pencet "soal baru", coba lagi. Salah lagi, coba lagi. Gak ada yang liat mereka salah.
+
+Ternyata mereka butuh ruang buat salah tanpa malu.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Aku tambahin satu fitur kecil: kalau jawabannya salah, muncul langkah hitungnya satu per satu.
+
+Bukan cuma "salah". Tapi "kamu udah bener sampai jumlah datanya, cuma lupa dibagi n-1."
+
+Mahasiswa yang biasanya diem di kelas mulai DM: "Pak, kenapa varians sampel dibagi n-1?"
+
+Pertanyaan yang dulu gak pernah keluar.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Semester kemarin, buat pertama kalinya dalam empat tahun, aku gak buka folder "LATIHAN FINAL FIX BANGET 3".
+
+Waktu yang biasanya habis buat ngetik dan ngoreksi, kupakai buat ngobrol sama mahasiswa yang nilainya jeblok.
+
+Dan ternyata masalah mereka bukan rumus. Banyak yang takut sama angka dari SD 😭
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Beberapa hal yang kupelajari (hasil salah, bukan teori):
+
+- Kasih AI batas data yang masuk akal, jangan dibiarin random liar
+- Coba sendiri 10 soal dulu sebelum dibagi ke kelas
+- Langkah hitung saat salah jauh lebih penting dari skor
+- Satu topik dulu, jangan langsung satu semester
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Teman dosen di prodi sebelah sempat nanya, "emang gak takut mahasiswa jadi males mikir?"
+
+Justru kebalikannya. Mereka ngerjain lebih banyak soal dari sebelumnya.
+
+Yang hilang cuma kerjaan mengulangku. Mikirnya tetap punya mereka.
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Kalau kamu dosen atau guru yang tiap semester ngetik soal yang sama dengan angka beda, coba deh tanya ke diri sendiri:
+
+bagian mana dari kerjaanku yang sebenarnya cuma ngulang?
+
+Mungkin itu app pertamamu.
+
+Ceritain di komentar latihan apa yang paling kamu capek bikin ulang, atau simpan thread ini buat awal semester depan 🙌

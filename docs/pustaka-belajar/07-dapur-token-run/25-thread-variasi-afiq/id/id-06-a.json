@@ -1,0 +1,450 @@
+[
+  {
+    "id": "ti0251",
+    "judul": "Slide pembelajaran siap dalam 10 menit",
+    "hook": "Slide pembelajaran seperti ini sekarang bisa jadi dalam 10 menit saja. Caranya:",
+    "posts": [
+      "Slide pembelajaran seperti ini sekarang bisa jadi dalam 10 menit saja. Caranya:",
+      "1. Siapkan topik dan usia murid\n\nTulis topik, tingkat kelas, dan jumlah slide dalam satu kalimat. Makin spesifik informasinya, makin rapi slide yang keluar.",
+      "2. Buka Gemini Notebook atau NotebookLM\n\n“Create a 6-slide English teaching deck on [topic] for Grade [year]. One key idea per slide, simple examples, and a short quiz at the end.”\n\nUnggah catatan atau buku paket kalau ada, lalu tekan generate.",
+      "3. Cek dan perbaiki\n\nMinta AI mengubah tingkat bahasa atau menambah contoh jika perlu.\n\nTips akhir: coba dulu slide itu dengan rekan sebelum masuk kelas. Selamat mencoba."
+    ],
+    "cta": "",
+    "tags": [
+      "slide pembelajaran",
+      "notebooklm",
+      "guru bahasa Inggris",
+      "menit"
+    ]
+  },
+  {
+    "id": "ti0252",
+    "judul": "Mitos game kuis perlu bisa coding",
+    "hook": "“Mitos: perlu bisa coding untuk bikin game kuis kelas.” Bener nggak?",
+    "posts": [
+      "“Mitos: perlu bisa coding untuk bikin game kuis kelas.” Bener nggak?",
+      "Nggak bener. Guru pendidikan khusus pun bisa dapat game kuis yang rapi di Claude hanya dengan kalimat biasa.\n\nKuncinya ada di memberi tahu AI siapa muridnya dan apa tingkat kemampuan mereka.",
+      "1. Contoh kerja nyata\n\n“Create a single-file HTML quiz game for special needs students on [topic]. 8 questions, big buttons, one question per screen, simple colours, Indonesian language, encouraging feedback.”\n\nTempel di Claude, lalu tekan Preview.",
+      "2. Tambah sedikit untuk murid\n\n“Shorten each question, add a simple picture hint, and keep the text large and easy to read.”\n\nPernah nggak kalian coba game kuis untuk murid yang butuh bantuan lebih?"
+    ],
+    "cta": "",
+    "tags": [
+      "game kuis",
+      "claude",
+      "pendidikan khusus",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0253",
+    "judul": "Berhenti minta catatan ringkas tanpa arahan",
+    "hook": "Berhenti minta Gemini “buatkan catatan”. Ustaz dan ustazah TPQ bisa pakai kerangka prompt ini untuk bikin catatan ringkas yang lebih rapi.",
+    "posts": [
+      "Berhenti minta Gemini “buatkan catatan”. Ustaz dan ustazah TPQ bisa pakai kerangka prompt ini untuk bikin catatan ringkas yang lebih rapi.",
+      "1. Tetapkan ini dalam prompt:\n\n+ Mata pelajaran dan kelas\n+ Topik\n+ Jumlah poin\n+ Format (tabel atau daftar)\n+ Bahasa\n\nMakin jelas informasinya, makin rapi catatan yang keluar.",
+      "2. Catatan ringkas untuk kelas\n\n“Summarise [topic] for TPQ Grade [year] students in 8 short bullet points. Use simple Indonesian and one example per point.”\n\nSalin hasilnya ke dokumen, cek faktanya dulu sebelum dibagikan.",
+      "3. Kartu ulang belajar\n\n“Create 10 flashcards from [topic] with one term and a short definition each.”\n\nSimpan, dan ulangi saat perlu. Simpan dulu, nanti gampang dicari."
+    ],
+    "cta": "",
+    "tags": [
+      "catatan ringkas",
+      "gemini",
+      "TPQ",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0254",
+    "judul": "Lembar kerja jadi modul ajar dalam Canva AI",
+    "hook": "Saya coba ubah lembar kerja jadi modul ajar harian pakai Canva AI. Ini yang terjadi.",
+    "posts": [
+      "Saya coba ubah lembar kerja jadi modul ajar harian pakai Canva AI. Ini yang terjadi.",
+      "1. Langkah yang saya buat\n\nSaya ambil satu lembar kerja tentang siklus air untuk kursus metode pengajaran, buka Canva AI, unggah foto lembar itu, lalu minta dibuat jadi format modul ajar yang ringkas.",
+      "2. Yang terjadi, dan yang perlu diperbaiki\n\nHasil pertama oke, tapi tujuannya terlalu umum dan aktivitasnya tidak pas untuk 40 menit. Jujur, bagian penilaian masih perlu saya perbaiki sendiri.",
+      "3. Prompt akhir yang berhasil\n\n“Convert this worksheet into a 40-minute lesson plan for [subject] Grade [year]. Include 3 measurable objectives, timed activities, and a 5-question assessment.”\n\nCoba dulu dengan rekan sebelum dipakai. Gampang, kan?"
+    ],
+    "cta": "",
+    "tags": [
+      "modul ajar",
+      "canva ai",
+      "pembelajaran",
+      "eksperimen"
+    ]
+  },
+  {
+    "id": "ti0255",
+    "judul": "Game ular tangga digital tanpa coding",
+    "hook": "KAK, GIMANA CARANYA BIKIN GAME ULAR TANGGA DIGITAL TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN GAME ULAR TANGGA DIGITAL TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+      "1. Buka chat baru di ChatGPT\n\nTulis topik dan jumlah kotak supaya AI paham ukuran papan yang kita mau.",
+      "2. Tempel prompt utama\n\n“Create a single-file HTML snakes and ladders game for Grade [year] children on [topic]. 10x10 board, dice button, colourful tiles, Indonesian text.”\n\nTempel, lalu tunggu sampai jadi.",
+      "3. Tambah kartu soal\n\n“When a player lands on a card, show a question. Correct answer moves forward 2 tiles, wrong answer stays.”",
+      "4. Tekan Preview dan uji\n\n“Add a reset button and a score counter for two players.”\n\nBuka di HP dan komputer, pastikan oke. Komen GAME kalau mau saya bagikan template lengkapnya."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "ular tangga",
+      "chatgpt",
+      "guru SD",
+      "game"
+    ]
+  },
+  {
+    "id": "ti0256",
+    "judul": "Mitos AI mahal dan hasilnya semua sama",
+    "hook": "“Mitos: AI itu mahal dan hasilnya semua sama.” Bener nggak?",
+    "posts": [
+      "“Mitos: AI itu mahal dan hasilnya semua sama.” Bener nggak?",
+      "Nggak bener. Hasil AI jadi beda-beda sesuai perintah dan sumber yang kita kasih. Kalau sumbernya jelas, gampang dapat formulir yang cocok untuk murid kita.",
+      "1. Contoh kerja nyata\n\nUnggah topik ke Gemini Notebook atau NotebookLM, lalu tempel:\n\n“Create a 6-question feedback form for Grade [year] Indonesian students on [topic]. Use simple Indonesian, a 1 to 5 scale, and one open question.”",
+      "2. Perbaiki bahasanya untuk murid\n\n“Rewrite the form with words a Grade [year] child understands, and add a short example under each question.”\n\nCepat dapat hasilnya, bener nggak? Komen PROMPT, saya bagikan template lengkapnya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "formulir umpan balik",
+      "notebooklm",
+      "bahasa Indonesia",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0257",
+    "judul": "Framework escape room untuk PAUD/TK",
+    "hook": "KHUSUS UNTUK GURU PAUD/TK. Ini kerangka prompt untuk bikin game escape room yang pas untuk murid usia 4 sampai 6 tahun.",
+    "posts": [
+      "KHUSUS UNTUK GURU PAUD/TK. Ini kerangka prompt untuk bikin game escape room yang pas untuk murid usia 4 sampai 6 tahun.",
+      "1. Kerangka + yang perlu ada di prompt:\n\n+ Tema dan usia murid\n+ Jumlah ruangan dan kunci\n+ Jenis teka-teki (warna, bentuk, angka)\n+ Bahasa\n+ Tombol besar untuk jari kecil",
+      "2. Contoh prompt pertama\n\n“Create a single-file HTML escape room for 5-year-old children on [topic]. 3 rooms, each unlocked by a colour or shape puzzle, big tap targets, cheerful sounds, Indonesian language.”",
+      "3. Contoh prompt kedua\n\n“Add a helper character that gives one gentle hint after 20 seconds of no tap, and a reward page after the last room.”\n\nTempel di Claude, lalu uji pakai HP sendiri."
+    ],
+    "cta": "",
+    "tags": [
+      "escape room",
+      "claude",
+      "PAUD/TK",
+      "framework"
+    ]
+  },
+  {
+    "id": "ti0258",
+    "judul": "Kuis sejarah jalan di lapangan",
+    "hook": "Sebenarnya kita bisa pakai ChatGPT untuk bikin game sejarah berbasis permainan luar ruang, misalnya kuis jalan di lapangan. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai ChatGPT untuk bikin game sejarah berbasis permainan luar ruang, misalnya kuis jalan di lapangan. Ini caranya:",
+      "1. Pilih peristiwa dan tempat\n\nPilih satu peristiwa sejarah dan jumlah pos di lapangan atau aula. Tulis dalam satu kalimat supaya AI paham dengan jelas.",
+      "2. Tempel prompt ini\n\n“Create a 10-station history relay game on [event] for Grade [form] students. Each station has one question and one physical task. Keep the original content and dates accurate.”",
+      "3. Cek sebelum keluar lapangan\n\n“Check every date and name against the textbook I provide, and flag anything uncertain.”\n\nCek sendiri dulu, baru mainkan ya."
+    ],
+    "cta": "",
+    "tags": [
+      "game sejarah",
+      "chatgpt",
+      "pendidikan jasmani",
+      "estafet"
+    ]
+  },
+  {
+    "id": "ti0259",
+    "judul": "Shortcut prompt lomba jawab berkelompok",
+    "hook": "Coba deh shortcut prompt ini di Claude, ya. Untuk game lomba jawab berkelompok, guru SMP bisa langsung tempel.",
+    "posts": [
+      "Coba deh shortcut prompt ini di Claude, ya. Untuk game lomba jawab berkelompok, guru SMP bisa langsung tempel.",
+      "1. Shortcut lomba jawab\n\n1) “Quiz race for Grade [form] [subject], 2 teams, 10 questions.”\n2) “Add a buzzer button and a scoreboard.”\n3) “Questions on [topic] only, Indonesian language.”\n4) “Add a 30-second timer per question.”\n5) “Make the winning screen simple and celebratory.”\n6) “Output one HTML file that runs in the browser.”\n\nPilih yang paling pas, lalu uji."
+    ],
+    "cta": "",
+    "tags": [
+      "lomba jawab",
+      "claude",
+      "prompt",
+      "SMP"
+    ]
+  },
+  {
+    "id": "ti0260",
+    "judul": "Teka-teki silang Bahasa Inggris di Claude",
+    "hook": "KAK, GIMANA CARANYA BIKIN TEKA-TEKI SILANG BAHASA INGGRIS TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN TEKA-TEKI SILANG BAHASA INGGRIS TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+      "1. Siapkan 10 kata\n\nTulis kata dan kalimat petunjuk yang singkat. Makin pendek katanya, makin gampang murid mengisinya.",
+      "2. Buka Claude Artifacts\n\n“Create an interactive crossword puzzle as a single HTML artifact using these 10 English words and clues: [word list]. Show the grid, clue list, and a check answers button.”",
+      "3. Minta grid yang rapi\n\n“Make the grid 15 by 15, highlight the selected clue, and show a success message when all words are correct.”",
+      "4. Uji dan bagikan\n\n“Add a reset button and a hint button that reveals one letter.”\n\nTekan Preview, mainkan sekali sendiri, lalu bagikan ke kelas dengan yakin."
+    ],
+    "cta": "",
+    "tags": [
+      "teka-teki silang",
+      "claude artifacts",
+      "bahasa Inggris",
+      "guru"
+    ]
+  },
+  {
+    "id": "ti0261",
+    "judul": "Jadwal aktivitas kelas bisa diubah di Claude",
+    "hook": "KAK, GIMANA CARANYA BIKIN JADWAL AKTIVITAS KELAS YANG BISA DIUBAH TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN JADWAL AKTIVITAS KELAS YANG BISA DIUBAH TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+      "1. Tentukan waktu dan kelas\n\nTulis tanggal, waktu tiap sesi, nama kelas, dan aktivitas utama. Sebut juga berapa menit untuk tiap aktivitas.",
+      "2. Tempel prompt di Claude Artifacts\n\n“Create an interactive class activity timetable as a single HTML artifact for Grade [form] [subject], 5 weeks. Show one grid per week, editable cells, and a colour per activity type.”",
+      "3. Minta jadwal yang bisa dicetak\n\n“Add a print button that shows only the timetable, and a copy button that copies the table text.”",
+      "4. Ubah aktivitas dengan mudah\n\n“Add drag and drop so I can move activities between days.”\n\nSimpan, cetak, beres."
+    ],
+    "cta": "",
+    "tags": [
+      "jadwal kelas",
+      "claude artifacts",
+      "aktivitas",
+      "SMP"
+    ]
+  },
+  {
+    "id": "ti0262",
+    "judul": "Berhenti minta simulasi sains tanpa arahan",
+    "hook": "Berhenti minta Gemini “tunjukkan simulasi sains”. Guru matematika bisa pakai kerangka prompt ini untuk bikin simulasi sains yang lebih rapi.",
+    "posts": [
+      "Berhenti minta Gemini “tunjukkan simulasi sains”. Guru matematika bisa pakai kerangka prompt ini untuk bikin simulasi sains yang lebih rapi.",
+      "1. Tetapkan ini dalam prompt:\n\n+ Mata pelajaran dan kelas\n+ Konsep (contoh: gravitasi, gaya gesek)\n+ Jumlah kontrol (slider)\n+ Jenis visual\n+ Bahasa\n\nMakin tepat, makin rapi simulasi yang dibuat AI.",
+      "2. Simulasi gaya dan gerakan\n\n“Create a single HTML simulation of a ball rolling down a slope for Grade [year] science. Add sliders for angle and mass, and show the speed as text.”",
+      "3. Simulasi grafik dan bandul\n\n“Create an interactive graph of y = mx + c for Grade [form] mathematics, with sliders for m and c that update the equation live.”\n\n“Create a simple pendulum simulation with a restart button.”\n\nUji dulu dengan kelas kecil. Bener nggak?"
+    ],
+    "cta": "",
+    "tags": [
+      "simulasi sains",
+      "gemini",
+      "matematika",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0263",
+    "judul": "Shortcut prompt infografis peta pikiran",
+    "hook": "Coba deh shortcut prompt ini di Claude, ya. Untuk infografis peta pikiran, guru SMP bisa langsung tempel.",
+    "posts": [
+      "Coba deh shortcut prompt ini di Claude, ya. Untuk infografis peta pikiran, guru SMP bisa langsung tempel.",
+      "1. Shortcut peta pikiran\n\n1) “Turn [topic] into a mind map infographic with 6 branches and short labels.”\n2) “Make the central idea bold and place it in the middle.”\n3) “Use one colour per branch and a clean white background.”\n4) “Keep all labels under 5 words.”\n5) “Add a small question box at the bottom for students.”\n6) “Output as a single HTML page ready to print.”\n\nSimpan sebagai acuan, gampang saat dibutuhkan."
+    ],
+    "cta": "",
+    "tags": [
+      "peta pikiran",
+      "claude",
+      "infografis",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0264",
+    "judul": "Ular tangga untuk latihan kerja kantor",
+    "hook": "Saya coba ubah prosedur kerja kantor jadi game ular tangga digital pakai ChatGPT. Ini yang terjadi.",
+    "posts": [
+      "Saya coba ubah prosedur kerja kantor jadi game ular tangga digital pakai ChatGPT. Ini yang terjadi.",
+      "1. Langkah yang saya buat\n\nSaya ambil daftar SOP untuk sesi orientasi karyawan baru, lalu minta ChatGPT mengubahnya jadi papan ular tangga dengan kotak tindakan.",
+      "2. Yang terjadi, dan yang perlu diperbaiki\n\nPapannya keluar, tapi kotak tindakannya terlalu panjang dan ada soal yang kurang jelas. Jujur, saya masih perlu memendekkan kalimatnya sendiri.",
+      "3. Prompt akhir yang berhasil\n\n“Create a single-file HTML snakes and ladders game for new office staff about [process]. 8x8 board, action tiles under 12 words, dice button, Indonesian text.”\n\nCoba dulu sebelum dipakai. Komen GAME, saya bagikan template lengkapnya."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "ular tangga",
+      "chatgpt",
+      "latihan karyawan",
+      "eksperimen"
+    ]
+  },
+  {
+    "id": "ti0265",
+    "judul": "Mitos orang tua tidak perlu AI untuk ejaan",
+    "hook": "“Mitos: orang tua nggak perlu AI untuk bantu anak belajar ejaan di rumah.” Bener nggak?",
+    "posts": [
+      "“Mitos: orang tua nggak perlu AI untuk bantu anak belajar ejaan di rumah.” Bener nggak?",
+      "Nggak bener. Orang tua bisa bikin latihan ejaan interaktif cuma dengan kalimat biasa, dan anak bisa main di HP atau komputer.",
+      "1. Contoh kerja nyata\n\n“Create an interactive spelling practice game in a single HTML file for a Grade [year] child. 10 words on [topic], read each word aloud with browser speech, type the spelling, and earn a star for each correct answer.”",
+      "2. Tambah hadiah dan ulangi\n\n“Add encouraging messages in simple Indonesian and a reset button.”\n\nPraktis untuk di rumah, kan? Komen PROMPT ya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "ejaan",
+      "gemini canvas",
+      "orang tua",
+      "latihan"
+    ]
+  },
+  {
+    "id": "ti0266",
+    "judul": "Lagu belajar TPQ siap dalam 15 menit",
+    "hook": "Lagu belajar seperti ini sekarang bisa jadi dalam 15 menit saja. Caranya:",
+    "posts": [
+      "Lagu belajar seperti ini sekarang bisa jadi dalam 15 menit saja. Caranya:",
+      "1. Tetapkan tema dan bait\n\nTulis topik, jumlah bait, dan irama lagu. Sebut juga tingkat santri TPQ supaya kata-katanya pas.",
+      "2. Tempel prompt di Claude\n\n“Write a 3-verse Indonesian children's song about [topic] for TPQ students. Simple rhymes, a catchy chorus, and easy words to memorise. Keep it under 16 lines.”",
+      "3. Tambah irama untuk kelas\n\n“Add a simple rhythm pattern students can clap along to.”\n\nCoba nyanyikan dulu bersama murid, baru diajarkan. Simpan sebelum lupa."
+    ],
+    "cta": "",
+    "tags": [
+      "lagu belajar",
+      "claude",
+      "TPQ",
+      "menit"
+    ]
+  },
+  {
+    "id": "ti0267",
+    "judul": "Poster kelas malam-malam tanpa desain",
+    "hook": "Orang tua yang nggak sempat bikin poster untuk anak di rumah, thread ini untuk kalian.",
+    "posts": [
+      "Orang tua yang nggak sempat bikin poster untuk anak di rumah, thread ini untuk kalian.",
+      "Capek mikirin desain saat malam sudah larut? Wajar kok. Kita tidak perlu kemampuan desain untuk bikin poster yang kelihatan rapi.",
+      "1. Tips hemat waktu\n\nTulis dulu judul dan 3 kalimat singkat di HP. Itu bahan utama yang AI butuhkan.",
+      "2. Tempel prompt di Gemini\n\n“Design a clean A4 poster for a primary school class about [topic]. Big title, 3 short points, plain background, friendly colours, Indonesian text.”\n\nCepat selesai, kan? Tinggalkan PROMPT di komen."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "poster kelas",
+      "gemini",
+      "orang tua",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0268",
+    "judul": "Kenapa slide AI selalu terlalu panjang",
+    "hook": "Kenapa slide pembelajaran yang dibuat AI selalu kelihatan terlalu panjang dan tidak pas untuk murid pendidikan khusus?",
+    "posts": [
+      "Kenapa slide pembelajaran yang dibuat AI selalu kelihatan terlalu panjang dan tidak pas untuk murid pendidikan khusus?",
+      "1. Sebab utamanya\n\nPromptnya terlalu umum. AI tidak tahu tingkat murid, berapa kata yang pas, dan bentuk visual apa yang membantu mereka fokus.",
+      "2. Perbaiki dengan tambahan\n\n“Create 5 slides on [topic]. Maximum 12 words per slide, one picture description per slide, large font, one idea per slide.”",
+      "3. Tambah contoh\n\n“Add one worked example per slide and end with a 3-question check.”\n\nCoba sekali, lihat bedanya sendiri."
+    ],
+    "cta": "",
+    "tags": [
+      "slide pembelajaran",
+      "chatgpt",
+      "pendidikan khusus",
+      "prompt"
+    ]
+  },
+  {
+    "id": "ti0269",
+    "judul": "Game matematika Angry Birds tanpa coding",
+    "hook": "KAK, GIMANA CARANYA BIKIN GAME MATEMATIKA SEPERTI ANGRY BIRDS TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN GAME MATEMATIKA SEPERTI ANGRY BIRDS TANPA CODING DALAM 10 MENIT? Gampang kok. Yuk saya bagikan caranya.",
+      "1. Siapkan bahan di Gemini Notebook atau NotebookLM\n\nUnggah catatan matematika TPQ atau daftar soal. Cek dulu soalnya sudah benar sebelum masuk ke game.",
+      "2. Tempel prompt utama\n\n“Create a single-file HTML Angry Birds style math game for TPQ Grade [year] students on [topic]. Slingshot launch, each block hides a question, correct answers break the blocks, Indonesian text.”",
+      "3. Tambah kendali\n\n“Add a 3-life system, a score board, and a hint when the bird misses twice.”",
+      "4. Uji dan perbaiki\n\n“Make the slingshot easier to aim and add a restart button.”\n\nMainkan dua kali dulu, baru pakai di kelas."
+    ],
+    "cta": "",
+    "tags": [
+      "angry birds",
+      "notebooklm",
+      "TPQ",
+      "matematika"
+    ]
+  },
+  {
+    "id": "ti0270",
+    "judul": "Shortcut prompt poster untuk tugas kelompok",
+    "hook": "Coba deh shortcut prompt ini di Gemini, ya. Untuk poster kelas, mahasiswa juga bisa pakai di tugas kelompok.",
+    "posts": [
+      "Coba deh shortcut prompt ini di Gemini, ya. Untuk poster kelas, mahasiswa juga bisa pakai di tugas kelompok.",
+      "1. Shortcut poster kelas\n\n1) “Poster for a group presentation, 1 title, 3 bullets, plain background.”\n2) “Make the title bold and the colours calm.”\n3) “Add an empty box at the bottom for a QR code.”\n4) “Create an A4 layout in portrait with clear margins.”\n5) “Turn this into 3 variations for different topics.”\n6) “Simplify the text to 20 words maximum.”\n\nMau template lengkapnya? Komen PROMPT ya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "poster",
+      "gemini",
+      "shortcut",
+      "mahasiswa"
+    ]
+  },
+  {
+    "id": "ti0271",
+    "judul": "Mitos guru IPA tidak bisa bikin game sejarah",
+    "hook": "“Mitos: guru IPA nggak bisa bikin game sejarah.” Bener nggak?",
+    "posts": [
+      "“Mitos: guru IPA nggak bisa bikin game sejarah.” Bener nggak?",
+      "Bisa. Guru IPA bisa bikin game sejarah untuk kuis lintas mata pelajaran. AI tidak peduli bidang asal kita, yang penting perintahnya jelas.",
+      "1. Contoh kerja nyata\n\n“Create an interactive history quiz game as a single HTML artifact on [event], 8 questions, timeline drag and drop, Indonesian language.”",
+      "2. Tambah mode garis waktu\n\n“Add a timeline mode where players order five events correctly.”\n\nKomen GAME, nanti saya bagikan template lengkapnya untuk kalian."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "game sejarah",
+      "claude artifacts",
+      "guru IPA",
+      "kuis"
+    ]
+  },
+  {
+    "id": "ti0272",
+    "judul": "Simulasi sains untuk guru baru",
+    "hook": "“Banyak DM nanya: gimana caranya guru baru bisa bikin simulasi sains tanpa bisa coding?” Ini jawaban saya.",
+    "posts": [
+      "“Banyak DM nanya: gimana caranya guru baru bisa bikin simulasi sains tanpa bisa coding?” Ini jawaban saya.",
+      "1. Tentukan tujuan simulasi\n\nTulis dulu apa yang harus dilihat murid, misalnya perubahan suhu atau gerakan bola. Satu tujuan saja untuk awal.",
+      "2. Tempel prompt di Gemini Canvas\n\n“Create a simple interactive science simulation for Grade [year] on [topic]. Add 2 sliders, a play and reset button, and a short explanation in Indonesian below.”\n\nCoba dulu, ubah slider kalau perlu.",
+      "3. Kalau mau lebih cepat\n\nAda koleksi 29 template game belajar siap main yang bisa langsung dipakai dan diganti soalnya. Komen GAME, nanti saya kirim link."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "simulasi sains",
+      "gemini canvas",
+      "guru baru",
+      "game"
+    ]
+  },
+  {
+    "id": "ti0273",
+    "judul": "Peta pikiran dari 3 jam jadi 10 menit",
+    "hook": "Dulu saya butuh 3 jam untuk menggambar peta pikiran buat kelas bimbel. Sekarang 10 menit pakai ChatGPT.",
+    "posts": [
+      "Dulu saya butuh 3 jam untuk menggambar peta pikiran buat kelas bimbel. Sekarang 10 menit pakai ChatGPT.",
+      "Jujur aja, dulu saya menggambar sampai malam dan mata sudah berat. Rendah hati saja, saya juga masih belajar cara pakai AI dengan benar.",
+      "1. Langkah yang mengubah keadaan\n\nTulis topik dan 5 cabang utama dalam satu kalimat. Itu sudah cukup untuk ChatGPT mulai.",
+      "2. Prompt yang saya pakai\n\n“Create a mind map infographic on [topic] for tuition students, 5 branches, short labels, one colour per branch, clean layout.”\n\nTinggalkan PROMPT di komen kalau mau template lengkapnya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "peta pikiran",
+      "chatgpt",
+      "guru bimbel",
+      "infografis"
+    ]
+  },
+  {
+    "id": "ti0274",
+    "judul": "Tugas video kuliah yang nggak sempat",
+    "hook": "Mahasiswa yang capek memikirkan cara menyampaikan tugas video, thread ini untuk kalian.",
+    "posts": [
+      "Mahasiswa yang capek memikirkan cara menyampaikan tugas video, thread ini untuk kalian.",
+      "Capek karena bahannya banyak, waktunya sedikit, dan videonya harus tetap menarik. Saya paham, memang tidak mudah.",
+      "1. Ringkas catatan di Gemini Notebook atau NotebookLM\n\nUnggah bahan kuliah, lalu minta AI membuat ringkasan topik dan 5 ide utama.",
+      "2. Tempel prompt untuk skrip\n\n“Write a 60-second animated explainer script on [topic] for university students, 5 scenes, one key idea per scene, simple visual notes.”\n\nSimpan, biar gampang dicari saat dibutuhkan."
+    ],
+    "cta": "",
+    "tags": [
+      "video animasi",
+      "notebooklm",
+      "mahasiswa",
+      "skrip"
+    ]
+  },
+  {
+    "id": "ti0275",
+    "judul": "Portofolio guru siap dalam 20 menit",
+    "hook": "Dulu saya butuh 2 hari untuk menyusun portofolio guru di komputer. Sekarang 20 menit pakai ChatGPT.",
+    "posts": [
+      "Dulu saya butuh 2 hari untuk menyusun portofolio guru di komputer. Sekarang 20 menit pakai ChatGPT.",
+      "Capek karena harus cari foto, menyusun bagian-bagiannya, dan memastikan semuanya tampak rapi. Jujur aja, saya juga masih belajar.",
+      "1. Langkah yang mengubah keadaan\n\nSebutkan 5 bagian: profil, modul ajar, contoh hasil kerja murid, pencapaian, dan cara menghubungi saya.",
+      "2. Prompt yang saya pakai\n\n“Create a single-page HTML portfolio for an Indonesian Language teacher with 5 sections, sticky menu, large headings, and a contact button. Calm colours, Indonesian text.”\n\nCoba sendiri, gampang kok."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "portofolio",
+      "chatgpt",
+      "guru bahasa Indonesia",
+      "website"
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+- [Versioned filenames](feedback_versioned_filenames.md) — always timestamp + describe
+- [Netlify-ready output](feedback_netlify_ready_output.md) — every web deliverable must
+- [Jelajah English (Komo)](project_jelajah_english_komo.md) — folder app, dua UI kit
+- [Deploy Netlify tanpa CLI](reference_netlify_deploy_mcp.md) — pakai npx @netlify/mcp
+- [CPNS Kemenag](project_cpns_kemenag.md) — klon struktur app Akidah
+- [KIDO belajar Inggris](project_kido_belajar_inggris.md) — app anak EN/ID di
+- [English Kita](project_english_kita.md) — game EN dwibahasa MS/ID, palet ikut warna
+- [UI Kit Pemula NoCode](project_ui_kit_pemula_nocode.md) — kit dwibahasa MS/ID satu link
+- [Seri carousel Guru AI](project_guru_ai_carousel_series.md) — folder per hari
+- [AI Masterclass edugamelabs](project_aimasterclass_edugamelabs.md) — dua site MS/ID
+- [Basic Life for Kids](project_basic_life_for_kids.md) — app BM kemahiran hidup
+- [Maskot Kubi](project_maskot_kubi.md) — 50 maskot piksel palet Claude, aset lintas-app
+- [Panduan Google AI untuk Cikgu](project_panduan_google_ai_cikgu.md) — app BM cikgu
+- [Google AI Cikgu Pemula (BM/ID)](project_panduan_google_ai_cikgu_pemula.md)
+- [Cikgu Pemula redesign UI kit](project_cikgu_pemula_uikit_redesign.md) — folder -2026091
+- [Gemi brand kit](project_gemi_brand_kit.md) — kanvas 11 artboard dari gen.mjs
+- Gemi (app/maskot): [landing](project_gemi_landing_app.md), [app belajar](project_gemi_app_belajar.md), [uikit skrin](project_uikit_gemi_skrin.md), [alur v3](project_gemi_alur_interaktif.md), [kad maskot](project_gemi_kad_maskot_jelas.md), [svg hd](project_gemi_maskot_svg_hd.md), [svg hidup](project_gemi_maskot_svg_hidup.md), [svg baru](project_gemi_maskot_svg_baru.md), [3d](project_gemi_maskot_3d.md) — maskot terkini = SVG baru QuiverAI
+- [UI kit Tunas × Cikgu Pemula](project_uikit_tunas_cikgu_pemula.md) — maskot gaya Growth
+- [GEMI Prompt Library](project_gemi_prompt_library.md) — app 100 prompt, live di
+- [Skill canvas-film-studio](reference_canvas_film_studio_skill.md) — animasi Canvas 2D +
+- [Londrequ Express brand](project_londrequ_express_brand.md) — laundry Jember
+- [Ghania's Jahit brand](project_ghanias_jahit_brand.md) — penjahit wanita Mangli Jember
+- [gemi modul Bangun App](project_gemi_modul_bina_app.md) — trek ke-4 Modul 23–25
+- [gemi modul App Builder](project_gemi_modul_app_builder.md) — trek ke-5 Modul 26–32
+- [Remotion skills](reference_remotion_skills.md) — 12 skill remotion-* di
+- [Bidan Virda landing](project_bidan_virda_landing.md) — pijat bayi & mom care Jember
+- [AIMC section Jual ke Malaysia](project_aimc_section_jual_malaysia.md) — 25 modul
+- [gemi halaman akses ahli](project_gemi_halaman_akses.md) — terima kasih pembeli BM
+- [gemi app login Clerk](project_gemi_app_login_clerk.md) — 38 modul + Clerk
+- [LP Claude untuk Pemula](project_lp_claude_pemula.md) — lpmalay/lpindo, dijana
+- [gemi LP pelancaran kajian kes](project_gemi_launch_kajian_kes.md) — gaya HowDo
+- [FA Jagung](project_fa_jagung.md) — app pupuk jagung petani, PWA huruf besar
+- [AIMC ID section Antigravity](project_aimc_section_antigravity.md) — 5 modul sec:"ag"
+- [Claude Pemula LP peluncuran ID](project_claude_pemula_launch_id.md) — gaya kajian
+- [Worksheet vocab RBT](project_worksheet_vocab_rbt.md) — worksheet EN Colors & Shapes BM
+- [AIMC section Lembar Kerja + bahasa ID](project_aimc_section_lembar_kerja.md)
+- [Wedding Planner lucu](project_wedding_planner_lucu.md) — app nikah Afi & Virda gaya
+- [AIMC section Produk Laku/Laris](project_aimc_section_produk_laku.md) — sec:"jp" BM+ID
+- [AIMC section Threads + ukuran huruf (ID+BM)](project_aimc_section_threads.md)
+- [Carousel worksheet 5 langkah](project_carousel_worksheet_5langkah.md) — 6 slaid MS+ID
+- [Rujukan gemi suara Belajar Bina](reference_gemi_suara_belajar_bina.md) — filem 90s
+- [LP Jual ke Malaysia (ID)](project_claude_pemula_jual_malaysia_lp.md) — copywriting
+- [Repo video Opus 5.5 = referensi semua project](reference_opus_video_repos.md)
+- [LP Bidan Virda gaya LP Indo](project_bidan_virda_lp_lpindo.md) — LIVE bidanvirda.edugam
+- [EduGame Labs LP versi BM](project_edugamelabs_lp_bm.md) — terkini ~/Downloads/edugamela
+- [TriEye glassmorphic](project_trieye_glassmorphic.md) — triage mata HASA, gaya
+- [Buka output di Finder](feedback_reveal_output_finder.md) — setiap selesai generate:
+- [BrainEye glass + maskot](project_braineye_glass.md) — UiTM neuro-oftal, kaca biru
+- [Bidan Virda Care app](project_bidan_virda_care_app.md) — PWA ERM baby spa/home care +
+- [BrainEye Belajar Mata PWA](project_braineye_belajar_mata.md) — app belajar mata BM/EN
+- [BrainEye 3D Vision Lab](project_braineye_vision_lab.md) — eye 3D prosedural detail +
+- [Hook tipografi kecanduan apps](project_claude_nocode_hook_tipografi.md) — 41.6s ID
+- [TriEye Pokki × Aptivo](project_trieye_pokki.md) — Pro+Self BM/EN PWA from Excalidraw
+- [Haramain umroh app](project_haramain_umroh_app.md) — live app dari UI kit zip
+- [Prompt Permainan Kelas](project_prompt_permainan_kelas.md) — 5 prompt game BM +
+- [Carousel IG Bidan Virda](project_bidan_virda_carousel_ig.md) — testimoni/tindik/sertifi
+- [BioLab 3D Life Lab](project_biolab_3d.md) — biologi 3D (sel, DNA, helikase
+- [Skill studio-game-web](reference_studio_game_web_skill.md) — game web BM/ID statik:
+- [Final Boss Matematik](project_final_boss_matematik.md) — Si Bulat vs Raja Bug
+- [Flappy Matematika (Bulat Terbang)](project_flappy_matematika.md) — flappy 3D + gerbang
+- [Weather Cabinet](project_weather_cabinet.md) — lanskap kaca 3D cuaca interaktif
+- [Carousel Claude Pemula bingung mulai](project_carousel_claude_nocode_bingung_mulai.md)
+- [Prompt App Edukasi](project_prompt_app_edukasi.md) — LP BM asas UI/UX + 6 prompt app
+- [Workflow bikin apps visual (ID)](project_workflow_bikin_apps_visual.md) — 6 langkah
+- [Masterclass AI LP (semua AI)](project_masterclass_ai_lp.md) — lpindo/lpmalay rebrand
+- [Foto Auzan Hasfi + WA](reference_foto_auzan_hasfi.md) — foto profil bulat biru berjas
+- [LP Mentoring 1-on-1](project_mentoring_1on1_lp.md) — BM, foto user, kini SATU pakej
+- [LP Source Code 29 App](project_lp_source_code_29_app.md) — BM, gaya prompt permainan
+- [Doktor Komuniti MY](project_doktor_komuniti_my.md) — PWA komunitas dokter EN/BM pink
+- [LP Indo + Source Code](project_lp_indo_source_code.md) — lpindo digabung pakej 29 app
+- [Carousel guru & dosen FYP](project_guru_dosen_carousel_fyp.md) — 3 contoh + 100 judul
+- [PT ILJIN website](project_iljin_website.md) — company profile kemasan plastik untuk
+- [Prompt Generator Game](project_prompt_generator_game.md) — repo github auzanhasfi/promp
+- [Carousel otomatis eduapp.id](project_eduapp_carousel_otomatis.md) — task eduapp-carouse
+- [LP ilmu jadi produk (lpindo/lpmalay)](project_lp_ilmu_jadi_produk.md) — hero "Punya
+- [Lompat Hitung](project_lompat_hitung.md) — game platformer matematika ID
+- [Game Kertas & Tinta](project_game_kertas_tinta.md) — 7 game kini template kategori
+- [Sejarah Malaysia Kanta Masa](project_sejarah_malaysia_kanta_masa.md) — platformer
+- [Bilik Misteri Clawd](project_bilik_misteri_clawd.md) — escape room labirin Clawd +
+- [Lastik Clawd](project_lastik_clawd.md) — Angry Birds Clawd 5 jenis + soalan matematik
+- [jejak. Sejarah Malaysia PWA](project_jejak_sejarah_malaysia.md) — gaya wireframe pokki
+- [Grammo grammar app](project_grammo_grammar_app.md) — PWA grammar Inggris ID/EN gaya
+- [Arena Clawd](project_arena_clawd.md) — v3 biasa (8 hero + lawan AI) LIVE 26 Okt di
+- [JawiKu belajar Jawi](project_jawiku_belajar_jawi.md) — PWA Jawi BM/EN biru gaya
+- [Pembagian model kerja](feedback_tes_hemat_deepseek.md) — prompt → agen Haiku
+- [Koleksi game Clawd](project_koleksi_game_clawd.md) — Arena, Bilik Misteri
+- [LP Prompt Generator (ID)](project_lp_prompt_generator_id.md) — LP ringkas peluang uang
+- [Gudang Konten (bank konten + catatan)](project_gudang_konten.md) — maskot Gemi+Bulat
+- [Lari Clawd (Temple Run)](project_lari_clawd.md) — Clawd lari dikejar Raja Comot +
+- [Mahkota Clawd (Clash Royale)](project_mahkota_clawd.md) — kartu arena + Soal Eliksir
+- [Clawd vs Zombi (Plants vs Zombies)](project_clawd_vs_zombi.md) — kebun 5×9 + Soal
+- [Belajar Cara Belajar (Marble ID)](project_belajar_cara_belajar_marble.md)
+- [Potong Tali Clawd (Cut the Rope)](project_potong_tali_clawd.md) — tali + Soal Bintang
+- [Galeri Prompt demo](project_prompt_generator_demo.md) — repo prompt-generator-demo-
+- [Output berbentuk folder](feedback_output_folder.md) — game/app web dipecah index.html
+- [LP Prompt Generator ketagihan (ID+MS)](project_lp_pg_ketagihan.md) — animasi salin→temp
+- [Ikon & UI elegan, bukan AI slop](feedback_ikon_elegan.md) — ganti emoji dengan ikon
+- [LP akses Prompt Generator](project_lp_akses_prompt_generator.md) — terima kasih +
+- [LP Prompt Generator ide jadi app (25 Okt)](project_lp_pg_ide_jadi_app.md)
+- [Carousel fitur Prompt Generator](project_carousel_prompt_generator_fitur.md)
+- [Catur Ajaib Clawd](project_catur_ajaib_clawd.md) — auto-battler gaya Magic Chess +
+- [Checkout Prompt Generator (Mayar)](project_checkout_prompt_generator.md) — embed Mayar
+- [LP PG WTM + checkout](project_lp_pg_wtm_checkout.md) — Prompt Generator + Galeri
+- [Hapus master video](feedback_hapus_master_video.md) — setelah versi HP jadi
+- [Siaga Merdeka RTS](project_siaga_merdeka_rts.md) — RTS ala Red Alert perang
+- [Clawd Kilat (Sonic Dash)](project_clawd_kilat.md) — runner 3D three.js + soal + bos
+- [ElevenLabs v4 Turbo + Daud](feedback_elevenlabs_v4_turbo_daud.md) — narasi BM pakai
+- [Misi Detektif Nyamuk](project_misi_detektif_nyamuk.md) — game detektif BM PK Tahun 3
+- [Tanpa transkrip Whisper](feedback_tanpa_transkrip_whisper.md) — copywriting rujukan
+- [Bersih-bersih 1 Nov](project_bersih_bersih_20261101.md) — revisi lama & node_modules
+- [BalasDM prototipe](project_balasdm_prototipe.md) — ala ManyChat DM IG "AI" → link
+- [Dunia Clawd (Roblox Three.js)](project_dunia_clawd.md) — platform + Obby/Menara/Tycoon/
+- [Musik & SFX pakai ulang](feedback_musik_sfx_pakai_ulang.md) — ambil dari project lama, musik pelan, jangan generate, hemat kredit
+- [Kurang tulisan di gameplay](feedback_kurang_tulisan_gameplay.md) — buang kotak materi; cukup takarir, judul, blok jawaban
+- [Tulisan tidak menutupi](feedback_tulisan_tidak_menutupi.md) — semua video: tanpa judul di atas game, takarir dan label di area kosong
+- [Indeks project video lama](index_video_project.md) — 75 video promo, tutorial, remake, iklan; rujuk sebelum video baru
+- [Artikel Threads game edukasi](project_artikel_threads_game_edukasi.md) — gaya thread Antigravity, file 3 Nov 2026
+- [Slideshow bikin + jual game](project_game_edukasi_bikin_jual_artifact.md) — artifact SNkmYcg, 17 langkah, CTA PG + Masterclass
+- [Instagram downloader](reference_instagram_downloader.md) — yt-dlp di ~/.local/bin, reel publik tanpa login
+- [Tokoh 3D, bukan stickman](feedback_tokoh_3d_bukan_stickman.md) — video cikgu/murid pakai orang.js gaya curhat cikgu
+- [Hasil akhir ke Downloads](feedback_output_ke_downloads.md) — semua file jadi di ~/Downloads, bukan folder app matematika
+- [Kumpulan video di Downloads](reference_kumpulan_video_downloads.md) — folder tersortir, cek hash sebelum kumpulkan lagi
+- [PG Marketing Kit + prompt video](project_pg_marketing_kit.md) — 6 video BM pratinjau kode di Pro, 2 di demo, LIVE 6 Nov
+- [Zernio IG automation](project_zernio_ig_automation.md) — PROMPT/GAME → demoprompt, NAK → lptoolsmy, VIDEO + TOOLS → lpvideo (15 Nov)
+- [Feed IG Bidan Virda 20](project_bidan_virda_feed_ig_20.md) — 16 cover tunggal + 4 video, satu tema putih-krem-hijau, tanpa pink
+- [Galeri Prompt Video](project_demo_prompt_video.md) — demo gaya demoprompt, 3 prompt video BM, LIVE galeri-prompt-video.netlify.app, folder -20261109-1942
+- [Prompt Generator Video](project_prompt_generator_video.md) — LIVE generator.edugamelabs.com/prompt-video, 49 gaya (18 Nov), bagian di repo PG
+- [Video 3–8 Nov 2026](index_video_nov_2026.md) — 30 video terbaru: reaksi, belah dua, 3D, isometrik, Bidan Virda
+- [Video beban vs gaji guru](project_video_beban_gaji_guru.md) — TikTok vertikal BM 90s, infografik flat plate Three.js, salin folder ini untuk serupa
+- [Bahasa output Prompt Generator](project_pg_bahasa_output.md) — 5 bahasa game/app (ID, MS, EN, Chinese, Hindi), LIVE 9 Nov, a42ab16
+- [Video 5 jenis cikgu](project_video_jenis_cikgu.md) — potret BM 98s flat infografik, IK jalan + papan gantung, salin untuk explainer potret
+- [Video Jember vs Banyuwangi](project_video_jember_vs_banyuwangi.md) — belah dua ID 101s Canvas 2D + takarir otomatis, suara Putra
+- [Kontak WA melayang + geo bahasa](project_kontak_wa_geo.md) — kontak.js WA/IG/Threads + redirect negara di lptools, lpindo/lpmalay, demoprompt, LIVE 10 Nov
+- [LP Prompt Video BM](project_lp_prompt_video_ms.md) — LIVE lpvideo.edugamelabs.com 3 bahasa, kini 49 gaya (18 Nov, folder -20261118-2204-49-gaya)
+- [Video pendidikan Singapura EN](project_video_pendidikan_singapura.md) — potret 106s, suara Mun aksen SG, takarir + CTA Comment VIDEO
+- [Video tidak tersendat](feedback_video_tidak_tersendat.md) — jangan potong jeda keras/atempo; TTS satu paragraf; kamera linear
+- [4 LP satu situs 3 bahasa](project_lp_3bahasa_satu_situs.md) — Tools/Fundamental/Video/Mentoring /id /ms /en geo IP, LIVE 11 Nov
+- [Video cikgu tertidur](project_video_cikgu_tertidur.md) — potret BM 46.7s remake copywriting reel rujukan, Daud emosional, plate rumah/telefon/dapur
+- [Video kenapa masih cikgu](project_video_kenapa_masih_cikgu.md) — potret BM 79s emosional, remake siapngajar gaya MY, helper phone() chat
+- [Cikgu Power Rangers](project_cikgu_power_rangers.md) — 71.63s BM 13 jawatan cikgu, folder -20261111-2109
+- [Bau mulut Skinlyfe mix motion](project_bau_mulut_skinlyfe_mix_motion.md) — talking head split+full+motion hijau, gaya Drive Claude Edit, fix viewport 1920
+- [Cover judul pembuka](feedback_judul_cover_pembuka.md) — semua video buka dengan judul tipografi besar 0–3s lalu hilang, rujukan reel Bom Atom
+- [Video Singapura kaya (Selat Melaka)](project_video_singapura_kaya.md) — EN 57s gaya Bom Atom di citra satelit EOX, suara Alex Upbeat turbo_v2_5 (v4 abaikan speed)
+- [Tempo santai](feedback_tempo_santai.md) — explainer ~150 kata/menit, speed 0.9 + jeda napas sisipan, jangan secepat Shorts
+- [Video kualitatif bukan jalan pintas](project_video_kualitatif_jalan_pintas.md) — potret BM 91s mahasiswa FYP/viva, elemen visual baru, CTA Komen VIDEO
+- [Video Malaysia underrated](project_video_malaysia_underrated.md) — EN 73s remake peta berwarna 50/50 gaya Singapura, suara Jarnathan v4 turbo, bendera berkibar
+- [Bola Hamster Clawd](project_bola_hamster_clawd.md) — gaya Hamsterball + soalan matematik BM/EN, LIVE preview, template PG Pro (13 Nov)
+- [Video beban bertambah gaji tetap](project_video_beban_gaji_tetap_fiqh.md) — potret BM 144s tugas tambahan cikgu + fiqh ijarah, gaya kualitatif, Daud
+- [Video universiti ASEAN](project_video_universiti_asean.md) — BM 78s QS Asia 2027, 8/10 Malaysia, kad + pin peta, Daud
+- [Video beban cikgu lelaki vs perempuan](project_video_beban_cikgu_lelaki_perempuan.md) — potret BM 91s, data DOSM, layar belah dua, cover frame 0
+- [Video penat tetap datang](project_video_penat_tetap_datang.md) — BM 71s enjin kerja emosi Remotion, CTA Komen VIDEO
+- [Video tegur marah vs bimbing](project_video_tegur_marah_vs_bimbing.md) — belah dua EN 33.5s tanpa suara + pustaka 22 SFX kelas ElevenLabs
+- [Video ayah hantar adik](project_video_ayah_hantar_adik.md) — belah dua BM 71s tanpa suara, SFX sahaja, motor kapcai + Jalur Gemilang
+- [Bunyi transisi unik](feedback_bunyi_transisi_unik.md) — whoosh "set-set" jana baharu ElevenLabs tiap video, beza tiap potongan, jangan template
+- [Video sistem pendidikan AI](project_video_sistem_pendidikan_ai.md) — BM 40.5s Murid/AI/Cikgu lontar kertas, tanpa suara, CTA Komen TOOLS
+- [Modul Soal Guru](project_soal_guru_modul.md) — soalan & mapel guru, pautan murid, PIN, laporan; Dunia Clawd + Arena Pro
+- [Liga Stik Pro (PES stickman)](project_liga_stik_pro.md) — bola 11v11 10 klub + soal, LIVE preview + Prompt Generator 14 Nov
+- [Video AI matematik akar masalah](project_video_ai_matematik_akar_masalah.md) — BM ~77s gaya Infographics Show + Daud, takarir karaoke, CTA Komen TOOLS
+- [Video Dunia Clawd soal guru](project_video_dunia_clawd_soal_guru.md) — BM 41s gaya reel kad gameplay, iframe game sebenar, CTA Komen GAME → Pro
+- [Skill jualan studio-video-edukasi](project_skill_studio_video_edukasi.md) — 14 gaya BM+EN, zip 15 Nov 10:46 di Downloads, diuji penuh
+- [Video habuk mata 3D](project_video_habuk_mata_3d.md) — BM keratan kepala Three.js + sub EN, CTA Komen TOOLS (15 Nov)
+- [Siri teknik mengajar 1 minit](project_siri_teknik_mengajar.md) — BM ~70s + takarir EN, ep #1 papan jawapan, salin folder untuk episod baru
+- [Video bahasa Melayu 5 negara](project_video_bahasa_melayu_5_negara.md) — BM 75s peta vintaj gaya Iran vs Iraq, takarir Melayu+EN
+- [Video cikgu nak didengari](project_video_cikgu_nak_didengari.md) — BM 47s plate sekolah gaya beban-bertambah + takarir BM/EN, CTA Komen TOOLS
+- [Video tak pandai animasi (Claude)](project_video_claude_tak_pandai_animasi.md) — BM 45s enjin Penat 3D + peta satelit, takarir BM+EN, Komen TOOLS; user mahu gaya berbeza tiap video
+- [Video kalau cikgu aplikasi](project_video_kalau_cikgu_aplikasi.md) — BM 90.7s enjin 3D sama, adegan telefon app/bateri/notifikasi/nazir, Komen TOOLS
+- [Video damai murid bergaduh](project_video_damai_murid_bergaduh.md) — BM 100.8s dokumentari 3:4, 3D sekolah China + foto Unsplash, takarir BM+EN, Komen VIDEO
+- [Video tumpang nama (mahasiswa)](project_video_tumpang_nama.md) — BM 90s assignment berkumpulan, 5 set 3D baharu (mamak/kolej/jalan/perpus/dewan kuliah), Komen TOOLS
+- [Video markah individu mahasiswa](project_video_markah_individu_mahasiswa.md) — BM ~97s Nurul C vs kumpulan A, 4 set kampus baharu, takarir BM+EN, Komen TOOLS
+- [Skill carousel Bidan Virda HTML](project_skill_carousel_bidan_virda_html.md) — 2 index.html (Unsplash 3:4 + template 1:1) untuk Claude Free Sonnet
+- [LP mentoring bidan & homecare](project_lp_mentoring_bidan_homecare.md) — ID 3 paket Rp200/300/350k via WA, LIVE mentoring-konten-bidan.netlify.app
+- [Skit stickman telat dokter](project_video_skit_telat_dokter.md) — EN 31s Opus Canvas + ElevenLabs v4 turbo suara cewek, tanpa Omni
+- [Video otak 100% What If 3D](project_video_otak_100_whatif.md) — BM 87.6s Three.js rig+IK templat What If, Daud + sub EN
+- [Cover reels IG](project_cover_reels_ig.md) — 70 cover BM studio gelap + biru profil, single HTML ZIP, folder -20261116-2156
+- [Moon Star Care materi](project_moonstar_care_materi.md) — klien mentoring Sidoarjo, artifact DMq1nNF + template carousel/video HTML
+- [Video duduk depan vs belakang](project_video_duduk_depan_belakang.md) — BM 75s plate kelas + cover gaya IG, tanpa jalur hitam, takarir BM+EN, Komen VIDEO
+- [Gaya infografik tanpa jalur hitam](feedback_gaya_infografik_tanpa_jalur.md) — plate penuh skrin + cover gaya sampul IG
+- [Video mendidik bukan kerja sehari](project_video_mendidik_bukan_kerja_sehari.md) — BM 91.6s dokumentari 5 negara, enjin damai China + cover editorial, takarir BM+EN
+- [Repliz MCP (Threads)](reference_repliz_mcp.md) — tersambung ke Claude Code scope user, Threads @auzan_hasfi, posting butuh Premium/Gold
+- [Threads Screenshot extension](project_threads_screenshot_extension.md) — Chrome MV3, kamera manual + Run otomatis, folder -20261118-1729
+- [Video rumah sekolah pertama](project_video_rumah_sekolah_pertama.md) — BM 47s remake reel 3 tabiat rumah→kelas, cover IG biru, takarir BM+EN
+- [Video nak jadi cikgu sehari](project_video_nak_jadi_cikgu_sehari.md) — BM 75.8s IPG + 5 pagi–10 malam, enjin isometrik FYP, Komen TOOLS + mentoring bio
+- [LP Mentoring Claude Jember](project_lp_mentoring_jember.md) — fokus Claude app/web/video/carousel, peta, ajak teman DM, Rp200/250/300k, LIVE mentoring-claude-jember.netlify.app
+- [Video jago ngomong (Ardi Prayogo)](project_video_jago_ngomong_ardi.md) — kartun kantor ID 85s, mentoring milik Ardi bukan user, suara Bram
+- [Video kata ID vs MY](project_video_kata_id_vs_my.md) — belah dua BM 54.5s 12 kata + objek kartun, Daud, Komen TOOLS
+- [Video cikgu banyak cuti](project_video_cikgu_banyak_cuti.md) — BM 75s realiti cuti sekolah, kalendar 28 petak, CRK 10/15 hari, Komen TOOLS
+- [Video gelaran seumur hidup](project_video_cikgu_gelaran_seumur_hidup.md) — BM 75s cikgu berat tapi mulia, McKinsey + 422,325 guru, Komen TOOLS
+- [Posting tanpa TXT](feedback_posting_tanpa_txt.md) — caption video medsos terus diunggah via Repliz, tanpa fail TXT
+- [Video granat dalam gelas](project_video_granat_gelas.md) — EN 24.27s Zack D 3D, panel video saja, Jarnathan v4 + takarir Melayu
+- [Video pemanas CO (remake EN)](project_video_pemanas_co.md) — 47s 3D bilik biru, Jarnathan v4 Turbo, takarir BM, crop rakaman skrin
+- [Video Petronas tersingkir](project_video_petronas_tersingkir.md) — BM 82s peta+belah dua RON95 vs Pertalite, Daud, takarir BM+EN, Komen TOOLS
+- [Video cikgu cepat penat](project_video_cikgu_cepat_penat.md) — BM 75.5s kerja otak+emosi, Salmah Remotion, takarir BM+EN, sumber kajian, Komen TOOLS
+- [Video MyKad vs KTP](project_video_mykad_vs_ktp.md) — BM ~78s mix belah dua + kartun penuh, takarir BM+EN, Komen TOOLS
+- [Video RM1 juta semua rakyat](project_video_rm1_juta_semua_rakyat.md) — BM ~96s remake uang 1 miliar, 10 set 3D, Komen TOOLS
+- [Riset carousel Claude IG + Threads Afiq](project_riset_carousel_claude_ig.md) — Apify, LIVE riset-carousel-claude-ig.netlify.app, 21 Nov
+- [Video Mau jadi guru? (ID)](project_video_mau_jadi_guru_id.md) — remake ID viral 5 pagi, Bram, TikTok eduapp + Threads edugamelabs
+
+- [Dapur Token run 21 Nov](project_dapur_token_run.md) — 10 sistem agentic + Bank Konten IG/Threads, folder ~/Downloads/dapur-token-jalan-20261121-1403
+- [SOP Master 3 produk](project_sop_master.md) — LIVE sop-master-edugamelabs.netlify.app, 24 bab md + template BM/ID
+- [2.000 thread variasi Afiq](project_thread_variasi_afiq.md) — BM+ID di bank-konten-auzan, tag variasi-afiq, 22 Nov
+- [Gaya Video Opuscar 99 prompt](project_gaya_video_opuscar.md) — saduran CC BY-NC repo private (belum push); versi generator = 99 Gaya Seni ASLI BM, LIVE 22 Nov
+- [Video Brunei semua percuma](project_video_brunei_percuma.md) — BM 92s MY vs BN, kad status gaya Cikgu Cuti, Daud speed 1.0
+- [Video balik sekolah kerja cikgu](project_video_balik_sekolah_kerja_cikgu.md) — BM 75s 6 barang dibawa balik; versi akhir isometrik gaya cikgu cuti
+- [Video Kenapa Brunei sekaya ini](project_video_brunei_kaya.md) — BM 91.5s satelit + kad senarai, versi akhir 22 Nov
+- [Thread step by step 3 akun](feedback_thread_step_by_step_gaya.md) — struktur 11 bagian, prompt di lampiran, Pro+galeri, nada santai, emoji sedikit, @auzan_hasfi beda sudut
+- [Video cikgu tadika](project_video_cikgu_tadika.md) — BM 84.5s saduran reel guru PAUD, isometrik Cikgu Mira, Komen TOOLS
+- [Video senyuman cikgu (kuiz TV)](project_video_senyuman_cikgu_kuiz.md) — BM 85s game show, Nurul bertudung, Komen TOOLS
+- [Video cikgu mendidik & menjaga](project_video_cikgu_mendidik_menjaga.md) — BM 85s ilustrasi bokeh, Hana bertudung, cover biru
+- [Turbo Clawd balap](project_turbo_clawd.md) — Hot Wheels-style 3D + Gerbang Angka, LIVE game-preview + PG 23 Nov
+- [Pinball Clawd](project_pinball_clawd.md) — pinball 3D + soal di 4 tembakan, LIVE game-preview 23 Nov

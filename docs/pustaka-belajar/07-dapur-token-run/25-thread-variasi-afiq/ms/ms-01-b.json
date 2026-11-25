@@ -1,0 +1,449 @@
+[
+ {
+  "id": "tm0026",
+  "judul": "Game teka gambar siap dalam 10 minit",
+  "hook": "BANG, MACAM MANA NAK BUAT GAME TEKA GAMBAR UNTUK KELAS DALAM 10 MINIT?",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT GAME TEKA GAMBAR UNTUK KELAS DALAM 10 MINIT?\n\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Pilih 10 perkataan dari tema yang sama, contoh haiwan atau makanan tempatan.\n\n2. Buka Claude Artifacts dan tampal:\n\n“Make a picture guessing game with these 10 words. Show a simple drawn shape with hints, type the answer, instant feedback.”",
+   "3. Minta bunyi dan skor:\n\n“Add a soft sound for correct answers and a score at the end.”\n\n4. Tekan Preview dan main sendiri dua kali, lepas tu baru bagi murid.",
+   "Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "teka gambar",
+   "game kelas",
+   "content creator"
+  ]
+ },
+ {
+  "id": "tm0027",
+  "judul": "Game ular tangga digital untuk latihan staf",
+  "hook": "Berhenti minta ChatGPT “buatkan game ular tangga” saja.",
+  "posts": [
+   "Berhenti minta ChatGPT “buatkan game ular tangga” saja. Orang kerja pejabat boleh guna framework ini untuk hasilkan game ular tangga digital yang lebih kemas.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Topik kursus atau dasar syarikat\n+ Bilangan kotak\n+ Jenis soalan dalam setiap kotak\n+ Bahasa Malaysia\n+ Masa untuk setiap giliran",
+   "2. Game pertama: pengetahuan produk\n\n“Create a single-file HTML snakes and ladders game for new staff on product knowledge. 30 squares, one question per landing, Malay language.”\n\n3. Game kedua: keselamatan kerja\n\n“Make a version on workplace safety with 25 squares and a reward card every 5 squares.”",
+   "Uji dulu dengan satu kumpulan kecil sebelum guna untuk semua. Mudahkan?"
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "ular tangga",
+   "latihan staf",
+   "game digital"
+  ]
+ },
+ {
+  "id": "tm0028",
+  "judul": "Tiga prompt teka silang kata Bahasa Inggeris",
+  "hook": "3 prompt Canva AI yang setiap cikgu Bahasa Inggeris patut simpan untuk teka silang kata.",
+  "posts": [
+   "3 prompt Canva AI yang setiap cikgu Bahasa Inggeris patut simpan untuk teka silang kata. Save dulu, nanti senang cari.",
+   "1. Senarai kata dari topik\n\n“Create a crossword puzzle with 12 English words about [topic], clues in simple English, Year 5 level.”\n\n2. Kunci jawapan\n\n“Give the answer key in a separate list at the bottom.”",
+   "3. Versi cetak\n\n“Make a clean black and white version that fits on one A4 page with space for students to write.”\n\nMula dengan 6 kata dulu kalau tak biasa, lepas tu tambah. Kongsikan dengan kawan cikgu yang perlukan ya."
+  ],
+  "cta": "",
+  "tags": [
+   "canva ai",
+   "teka silang kata",
+   "bahasa inggeris",
+   "cikgu"
+  ]
+ },
+ {
+  "id": "tm0029",
+  "judul": "Poster kelas PJ dengan framework ChatGPT",
+  "hook": "KHAS UNTUK CIKGU PJ yang nak hasilkan poster kelas yang cantik dan cepat.",
+  "posts": [
+   "KHAS UNTUK CIKGU PJ yang nak hasilkan poster kelas yang cantik dan cepat. Ini framework prompt yang sesuai dengan kerja kita.\n\nIni caranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tema sukan dan acara\n+ Tajuk dan slogan pendek\n+ Saiz poster\n+ Warna utama sekolah\n+ Bahasa Malaysia",
+   "2. Contoh prompt untuk poster hari sukan:\n\n“Design a poster text and layout for a school sports day, A3 portrait, big headline, space for a photo, energetic but simple, Malay language.”\n\n3. Contoh prompt untuk poster galakan:\n\n“Write 5 short slogans for a fitness challenge for Year 4 pupils, each under 6 words.”",
+   "Minta ChatGPT beri dua versi, pilih yang paling jelas, lepas tu baru reka dalam aplikasi reka bentuk. Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "poster kelas",
+   "cikgu pj",
+   "sukan"
+  ]
+ },
+ {
+  "id": "tm0030",
+  "judul": "Borang maklum balas kelas dalam pelayar",
+  "hook": "Cikgu sains komputer yang penat isi borang maklum balas murid satu-satu, thread ini untuk korang.",
+  "posts": [
+   "Cikgu sains komputer yang penat isi borang maklum balas murid satu-satu, thread ini untuk korang.",
+   "Empati dulu. Bila kelas ramai, setiap borang rasa macam nak berjam-jam. Kadang-kadang kita terpaksa buat dalam masa rehat.\n\nTip 1: minta Claude bina borang dalam pelayar supaya murid boleh isi terus di telefon mereka.",
+   "“Create a student feedback form in Claude Artifacts with 6 questions: 3 scale 1 to 5, 2 short answer, 1 choice. Malay language, one page, results shown as a simple summary.”\n\nTip 2: minta ringkasan hasil:\n\n“Summarise the answers into a short paragraph for the teacher report.”",
+   "Kalau korang nak prompt yang dah siap untuk borang sebegini, komen PROMPT, nanti saya hantar maklumat penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "borang murid",
+   "sains komputer",
+   "maklum balas"
+  ]
+ },
+ {
+  "id": "tm0031",
+  "judul": "Lima prompt portfolio untuk student universiti",
+  "hook": "5 prompt Claude Artifacts yang setiap student universiti patut simpan untuk bina website portfolio.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap student universiti patut simpan untuk bina website portfolio.",
+   "1. Halaman utama\n\n“Create a one-page portfolio website with my name, course, photo placeholder and a short bio in English.”\n\n2. Bahagian projek\n\n“Add a project section with 3 cards, each with title, short description and link placeholder.”",
+   "3. Bahagian kemahiran\n\n“Show my skills as a simple bar list, 6 items, each with a level from 1 to 5.”\n\n4. Hubungi saya\n\n“Add a contact area with email and LinkedIn placeholders.”",
+   "5. Gaya ringkas\n\n“Use a clean white layout, one accent colour, mobile friendly.”\n\nSimpan dulu, lepas tu isi maklumat sebenar. Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "portfolio",
+   "student",
+   "website"
+  ]
+ },
+ {
+  "id": "tm0032",
+  "judul": "Lima prompt borang maklum balas untuk latihan",
+  "hook": "5 prompt Claude Artifacts yang setiap orang kerja pejabat patut simpan untuk borang maklum balas.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap orang kerja pejabat patut simpan untuk borang maklum balas selepas latihan atau mesyuarat.",
+   "1. Borang ringkas\n\n“Create a 5-question feedback form for a training session, Malay language, one page, with rating and comment boxes.”\n\n2. Ringkasan\n\n“After submissions, show the average rating and the top 3 comments.”",
+   "3. Versi telefon\n\n“Make the form easy to fill on mobile with big tap areas.”\n\n4. Penghargaan\n\n“Add a thank you message after submitting, with a link back to the first page.”",
+   "5. Eksport ringkas\n\n“Show the answers as a table that I can copy to a spreadsheet.”\n\nUji sendiri dua kali sebelum edar. Betul tak?"
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "maklum balas",
+   "pejabat",
+   "borang"
+  ]
+ },
+ {
+  "id": "tm0033",
+  "judul": "Game teka gambar untuk pelanggan kecil",
+  "hook": "Sebenarnya usahawan kecil boleh buat game teka gambar untuk pelanggan dalam satu sesi dengan Claude.",
+  "posts": [
+   "Sebenarnya usahawan kecil boleh buat game teka gambar untuk pelanggan dalam satu sesi dengan Claude.\n\nIni tiga langkah ringkas.",
+   "1. Pilih 8 produk atau perkataan yang pelanggan selalu tanya. Contoh: nama bahan, cara guna, atau jenis servis.\n\n2. Tulis satu ayat: nama game, bilangan soalan, dan gaya visual yang kemas.\n\n“Create a picture guessing game with 8 items for small business customers. Show a simple drawn hint, guess the word, instant feedback, Malay and English labels.”",
+   "3. Minta satu ayat arahan untuk dikongsi:\n\n“Make a one-line instruction and a link placeholder to share with customers.”",
+   "Kalau korang nak lihat contoh video ringkas untuk jualan, saya ada Prompt Video. Komen VIDEO, nanti saya hantar maklumat. Selamat mencuba."
+  ],
+  "cta": "VIDEO",
+  "tags": [
+   "claude",
+   "usahawan kecil",
+   "teka gambar",
+   "prompt video"
+  ]
+ },
+ {
+  "id": "tm0034",
+  "judul": "Borang maklum balas KAFA siap dalam 5 minit",
+  "hook": "Borang maklum balas murid macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+  "posts": [
+   "Borang maklum balas murid macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+   "Langkah 1: buka Claude dan tulis tujuan borang, contoh selepas kelas Jawi.\n\nLangkah 2: tampal:\n\n“Create a 5-question feedback form for KAFA pupils after a class. Simple Malay, smiley scale 1 to 3, one open question.”",
+   "Langkah 3: minta versi cetak:\n\n“Make a printable A5 version with clear spacing.”\n\nTip uji dulu: isi sendiri, pastikan soalan tidak panjang dan murid faham semuanya.",
+   "Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude",
+   "maklum balas",
+   "kafa",
+   "borang"
+  ]
+ },
+ {
+  "id": "tm0035",
+  "judul": "Laporan prestasi murid tanpa taip manual",
+  "hook": "Dulu saya ambil dua jam setiap minggu untuk taip laporan prestasi murid satu-satu.",
+  "posts": [
+   "Dulu saya ambil dua jam setiap minggu untuk taip laporan prestasi murid satu-satu. Sekarang saya guna Gemini Canvas.",
+   "Dulu saya taip manual, copy paste markah dari buku ke dokumen, lepas tu semak lagi. Malam-malam pun belum siap. Penat sangat.\n\nLangkah yang ubah keadaan: saya sediakan satu jadual ringkas, dan minta Gemini Canvas bina paparan untuk semak dan jana ayat.",
+   "“Create a Gemini Canvas tool where I type each student's marks and attendance, then it writes a 3-line progress comment in formal Malay. Show a printable summary at the end.”\n\nUji dengan lima rekod dulu, semak ayat yang keluar.",
+   "Kalau korang nak prompt siap untuk laporan begini, komen PROMPT ya, nanti saya hantar."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "gemini canvas",
+   "laporan murid",
+   "cikgu menengah",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0036",
+  "judul": "Borang maklum balas murid dengan ChatGPT",
+  "hook": "Ramai DM tanya: macam mana nak buat borang maklum balas murid guna ChatGPT tanpa coding?",
+  "posts": [
+   "Ramai DM tanya: macam mana nak buat borang maklum balas murid guna ChatGPT tanpa coding?\n\nIni jawapan saya.",
+   "Tip 1: tulis tujuan borang dan umur murid dalam satu ayat.\n\nTip 2: minta ChatGPT bina 5 soalan dengan skala 1 hingga 3 dan satu soalan terbuka.\n\n“Create 5 feedback questions for KAFA pupils after a class, simple Malay, smiley scale 1 to 3, one open question at the end.”",
+   "Tip 3: minta versi yang boleh dicetak atau ditampal dalam kelas. Uji sendiri dulu.",
+   "Kalau korang rasa nak dibimbing terus sampai borang atau app sendiri siap, saya ada sesi mentoring 1-on-1. Komen NAK, nanti saya hantar maklumat."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "chatgpt",
+   "maklum balas",
+   "kafa",
+   "mentoring"
+  ]
+ },
+ {
+  "id": "tm0037",
+  "judul": "Jadual aktiviti sains seminggu dengan Claude",
+  "hook": "Sebenarnya cikgu sains boleh susun jadual aktiviti kelas seminggu dalam satu prompt Claude.",
+  "posts": [
+   "Sebenarnya cikgu sains boleh susun jadual aktiviti kelas seminggu dalam satu prompt Claude.\n\nIni caranya:",
+   "1. Senaraikan 4 perkara: topik, tempoh waktu, saiz kumpulan, dan bahan yang ada.\n\n2. Tampal dalam Claude:\n\n“Create a 5-day science activity timetable for Year 4 with 40-minute lessons, groups of 4, one experiment per day, simple materials only.”",
+   "3. Minta bentuk jadual:\n\n“Show it as a table with day, activity, materials and a 5-minute exit question.”\n\n4. Semak masa setiap sesi dan betulkan kalau terlalu padat.",
+   "Kalau nak video ringkas tentang aktiviti ini untuk murid atau ibu bapa, saya ada Prompt Video. Komen VIDEO, nanti saya hantar. Selamat mencuba."
+  ],
+  "cta": "VIDEO",
+  "tags": [
+   "claude",
+   "jadual kelas",
+   "sains",
+   "prompt video"
+  ]
+ },
+ {
+  "id": "tm0038",
+  "judul": "Lima prompt laporan untuk cikgu Bahasa Melayu",
+  "hook": "5 prompt Claude yang setiap cikgu Bahasa Melayu patut simpan untuk laporan prestasi murid.",
+  "posts": [
+   "5 prompt Claude yang setiap cikgu Bahasa Melayu patut simpan untuk laporan prestasi murid.",
+   "1. Ringkasan satu murid\n\n“Write a 100-word progress summary in formal Malay for a Year 5 pupil, with one strength and one area to improve.”\n\n2. Komen penulisan\n\n“Give 3 comments on this essay, starting with praise and ending with one clear target.”",
+   "3. Kedudukan kelas\n\n“Write a class summary showing the common mistakes in comprehension and what to revisit.”\n\n4. Pesanan ibu bapa\n\n“Turn this report into a short, warm note in simple Malay for parents.”",
+   "5. Semakan kualiti\n\n“Check this report for grammar and remove any repeated phrases.”\n\nSimpan untuk bila perlu. Kongsikan dengan kawan cikgu yang perlukan ya."
+  ],
+  "cta": "",
+  "tags": [
+   "claude",
+   "bahasa melayu",
+   "laporan murid",
+   "cikgu"
+  ]
+ },
+ {
+  "id": "tm0039",
+  "judul": "Mitos laporan AI yang sama dan kaku",
+  "hook": "Mitos: hasil laporan prestasi murid daripada AI semuanya sama dan kaku. Betul ke?",
+  "posts": [
+   "Mitos: hasil laporan prestasi murid daripada AI semuanya sama dan kaku. Betul ke?",
+   "Saya pun dulu fikir macam tu. Ayat yang keluar memang nampak sama bila saya cuma tulis “buat laporan”.\n\nTapi bila saya beri data sebenar dan nada yang jelas, hasilnya jadi lebih sesuai dengan setiap murid.",
+   "Contoh prompt:\n\n“Write a formal Malay progress report for one Year 4 pupil. Data: comprehension 72, writing 58, attendance 95 percent. Mention strengths and one target for next month.”\n\nUbah data untuk setiap murid, dan ayat akan berubah ikut data itu.",
+   "Pendapat korang macam mana? Komen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "chatgpt",
+   "laporan murid",
+   "mitos ai",
+   "bahasa melayu"
+  ]
+ },
+ {
+  "id": "tm0040",
+  "judul": "Poster kelas tuisyen dalam dua versi",
+  "hook": "KHAS UNTUK GURU TUISYEN yang nak hasilkan poster kelas yang kemas.",
+  "posts": [
+   "KHAS UNTUK GURU TUISYEN yang nak hasilkan poster kelas yang kemas. Ini framework prompt untuk poster yang sesuai dengan kerja kita.\n\nIni caranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Nama kelas dan tahap\n+ Tajuk dan tarikh\n+ Gaya: ceria tapi ringkas\n+ Warna utama\n+ Bahasa Malaysia",
+   "2. Contoh prompt untuk poster kelas Matematik:\n\n“Write poster text for a Form 3 maths tuition class on Saturday, headline, 3 bullet points and a call to action, under 40 words.”\n\n3. Contoh untuk poster promosi:\n\n“Give 3 headline options for a Year 6 science booster class, each under 6 words.”",
+   "Minta dua versi, pilih yang paling jelas, lepas tu baru reka dalam aplikasi reka bentuk. Komen PROMPT kalau nak template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "chatgpt",
+   "poster tuisyen",
+   "guru tuisyen",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0041",
+  "judul": "Ular tangga sejarah Malaysia untuk kuiz kelas",
+  "hook": "KHAS UNTUK CIKGU SEJARAH yang nak buat ular tangga digital untuk kuiz kelas.",
+  "posts": [
+   "KHAS UNTUK CIKGU SEJARAH yang nak buat ular tangga digital untuk kuiz kelas. Ini framework prompt yang sesuai dengan kerja kita.\n\nIni caranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tema sejarah dan tahun\n+ Bilangan kotak\n+ Soalan setiap kotak\n+ Bahasa Malaysia\n+ Tahap murid",
+   "2. Contoh prompt:\n\n“Create a single-page snakes and ladders game in Claude Artifacts about Malaysian history for Form 2. 30 squares, each landing shows a short question, Malay language, big dice button.”\n\n3. Minta kotak bonus untuk jawapan betul berturut-turut.",
+   "Uji dulu, betulkan soalan yang kurang tepat, baru bawa ke kelas. Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "ular tangga",
+   "sejarah",
+   "kuiz"
+  ]
+ },
+ {
+  "id": "tm0042",
+  "judul": "Mitos poster AI untuk bilik darjah",
+  "hook": "Mitos: AI mahal dan poster yang dibuat AI selalu nampak sama. Betul ke?",
+  "posts": [
+   "Mitos: AI mahal dan poster yang dibuat AI selalu nampak sama. Betul ke?",
+   "Saya cikgu matematik. Dulu saya fikir poster AI tak sesuai untuk kelas. Rupanya masalahnya pada arahan yang terlalu umum.\n\nBila saya beri tajuk, sasaran murid, dan saiz, hasilnya jauh lebih kemas.",
+   "Contoh prompt:\n\n“Write poster text for a Year 4 maths corner titled Fun with Fractions. Include 3 short tips and one challenge question, A4 layout, simple bright words.”\n\nTukar sasaran murid, dan ayat akan ikut sesuai dengan umur mereka.",
+   "Korang rasa AI sesuai untuk poster kelas atau tidak? Tulis pendapat dalam ruangan komen."
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "poster kelas",
+   "mitos ai",
+   "cikgu matematik"
+  ]
+ },
+ {
+  "id": "tm0043",
+  "judul": "Game sejarah Melaka tanpa mula dari kosong",
+  "hook": "Ramai DM tanya: macam mana nak buat game sejarah yang murid suka, tanpa mula dari kosong?",
+  "posts": [
+   "Ramai DM tanya: macam mana nak buat game sejarah yang murid suka, tanpa mula dari kosong?\n\nIni jawapan saya.",
+   "Tip 1: pilih satu era sahaja, contoh Kesultanan Melaka. Murid lebih mudah ingat bila skop kecil.\n\nTip 2: minta ChatGPT bina 10 soalan dengan pilihan jawapan dan penerangan ringkas untuk setiap jawapan.",
+   "“Create 10 multiple choice questions about the Malacca Sultanate for Year 6 pupils, 4 options each, with a one-line explanation for the answer.”\n\nTip 3: minta satu arahan untuk murid, contoh: pilih jawapan dalam masa 15 saat.",
+   "Kalau korang nak cepat, saya ada koleksi 29 template game belajar siap main. Komen GAME, nanti saya hantar maklumat penuh."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "chatgpt",
+   "game sejarah",
+   "template game",
+   "kesultanan melaka"
+  ]
+ },
+ {
+  "id": "tm0044",
+  "judul": "Game kuiz sains dalam satu sesi Gemini",
+  "hook": "Sebenarnya cikgu sains boleh bina game kuiz kelas dalam satu sesi Gemini Canvas, tanpa pengalaman coding.",
+  "posts": [
+   "Sebenarnya cikgu sains boleh bina game kuiz kelas dalam satu sesi Gemini Canvas, tanpa pengalaman coding.\n\nIni caranya:",
+   "1. Tentukan topik dan 10 soalan. Contoh: sistem peredaran darah.\n\n2. Tulis satu ayat untuk game:\n\n“Create a quiz game in Gemini Canvas for Year 5 science on the circulatory system. 10 questions, 4 options each, score bar, Malay language.”",
+   "3. Minta mod dua pasukan:\n\n“Add a two-team mode where teams take turns, with a clear winner screen at the end.”\n\n4. Uji dengan rakan sekerja atau anak, betulkan soalan yang tak jelas.",
+   "Kalau korang rasa nak dibimbing terus sampai game sendiri siap, saya ada sesi mentoring 1-on-1. Komen NAK, nanti saya hantar maklumat."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "gemini canvas",
+   "kuiz sains",
+   "mentoring",
+   "cikgu sains"
+  ]
+ },
+ {
+  "id": "tm0045",
+  "judul": "Shortcut kad imbas kosa kata untuk ibu bapa",
+  "hook": "Bolehlah cuba shortcut prompt ini dekat Claude Artifacts ya, untuk kad imbas kosa kata anak di rumah.",
+  "posts": [
+   "Bolehlah cuba shortcut prompt ini dekat Claude Artifacts ya, untuk kad imbas kosa kata anak di rumah.",
+   "1. “Make a flashcard app with 15 words, flip on tap.”\n2. “Add an audio button that reads each word in English.”\n3. “Show a simple picture next to each word.”\n4. “Add a quiz at the end with 5 random cards.”\n5. “Let me add new words later from a text box.”\n6. “Keep one colour and large text for small screens.”\n7. “Show a score after the quiz.”\n8. “Make a reset button.”\n\nSelamat mencuba. Komen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "kosa kata",
+   "ibu bapa",
+   "flashcard"
+  ]
+ },
+ {
+  "id": "tm0046",
+  "judul": "Lima prompt lagu belajar untuk cikgu sains",
+  "hook": "5 prompt Claude Artifacts yang setiap cikgu sains patut simpan untuk lagu belajar.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap cikgu sains patut simpan untuk lagu belajar.",
+   "1. Halaman lirik\n\n“Create a single page that shows song lyrics in large text, with a chorus highlight, Malay language.”\n\n2. Ulang setiap rangkap\n\n“Add a repeat button for each verse.”",
+   "3. Bentuk rima\n\n“Turn these 5 facts into a 4-line chant with a rhyme on each line.”\n\n4. Kad aktiviti\n\n“Make a printable card with lyrics and a space for the class to add actions.”",
+   "5. Versi perlahan\n\n“Create a slower version of the lyrics with pauses marked for reading.”\n\nBaca dulu dengan kelas, betulkan mana yang tak sesuai. Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "lagu belajar",
+   "sains",
+   "cikgu"
+  ]
+ },
+ {
+  "id": "tm0047",
+  "judul": "Framework latihan ejaan sains dengan Claude",
+  "hook": "Berhenti minta Claude Artifacts “buatkan latihan ejaan” saja.",
+  "posts": [
+   "Berhenti minta Claude Artifacts “buatkan latihan ejaan” saja. Cikgu sains pun boleh guna framework ini untuk latihan ejaan yang lebih kemas.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tahun murid\n+ Senarai 8 perkataan sains\n+ Jenis soalan\n+ Maklum balas segera\n+ Bahasa Malaysia",
+   "2. Latihan pertama: istilah sains\n\n“Create an interactive spelling quiz with 8 Malay science words for Year 4. Show the word and let pupils type the spelling, instant feedback.”\n\n3. Latihan kedua: isi tempat kosong\n\n“Make a fill in the blank exercise with 5 science sentences and a hint button.”",
+   "Uji satu sesi dulu, lepas tu minta versi yang lebih mudah kalau murid perlukan. Komen PROMPT kalau nak template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "latihan ejaan",
+   "sains",
+   "framework"
+  ]
+ },
+ {
+  "id": "tm0048",
+  "judul": "Game memori sejarah tanpa coding, percuma",
+  "hook": "BANG, MACAM MANA NAK BUAT GAME SEJARAH UNTUK KELAS TANPA CODING, PERCUMA?",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT GAME SEJARAH UNTUK KELAS TANPA CODING, PERCUMA?\n\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Pilih satu peristiwa dan 8 fakta utama.\n\n2. Buka Gemini Canvas dan tampal:\n\n“Make a history memory game on 8 pairs of Malaysian historical events and dates for Form 1. Flip cards, timer, Malay labels.”",
+   "3. Minta skor dan semula:\n\n“Show moves and time at the end, with a play again button.”\n\n4. Main sendiri dua kali, betulkan soalan yang kurang jelas.",
+   "Kalau nak template lengkap untuk game sebegini, komen GAME ya. Selamat mencuba."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "gemini canvas",
+   "game sejarah",
+   "memori",
+   "cikgu sains"
+  ]
+ },
+ {
+  "id": "tm0049",
+  "judul": "Carousel ibu bapa yang tak berterabur",
+  "hook": "Kenapa carousel Instagram yang AI buat selalu nampak penuh dan tak sesuai untuk ibu bapa baca?",
+  "posts": [
+   "Kenapa carousel Instagram yang AI buat selalu nampak penuh dan tak sesuai untuk ibu bapa baca?",
+   "Sebab sebenar: prompt kita terlalu umum. Bila kita cuma tulis buat carousel, AI tambah banyak maklumat yang tak perlu.\n\nBila saya bina bahan untuk cikgu sekolah rendah, saya guna Gemini Notebook aka NotebookLM dan bagi sumber yang jelas.",
+   "Betulkan dengan 3 tambahan:\n\n+ Satu idea setiap slaid\n+ Maksimum 15 patah perkataan\n+ Bahasa Malaysia yang mudah\n\nContoh: “Using only these sources, make a 5-slide carousel for parents of Year 1 pupils, one idea per slide, max 15 words, simple Malay.”",
+   "Minta satu contoh dulu, semak fakta, baru buat yang penuh. Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "notebooklm",
+   "carousel instagram",
+   "ibu bapa",
+   "sekolah rendah"
+  ]
+ },
+ {
+  "id": "tm0050",
+  "judul": "Borang maklum balas kemas dengan Gemini Canvas",
+  "hook": "Sebenarnya kita boleh guna Gemini Canvas untuk buat borang maklum balas yang tampak kemas dan mudah diisi. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini Canvas untuk buat borang maklum balas yang tampak kemas dan mudah diisi. Ini caranya:",
+   "1. Tulis tujuan borang dan bilangan soalan.\n\n2. Tampal:\n\n“Create a feedback form in Gemini Canvas for a workshop with 5 questions, big tap areas, Malay language. Keep the original content, do not change my questions.”",
+   "3. Minta versi kemas untuk telefon:\n\n“Make a clean layout with a progress bar at the top and a thank you screen at the end.”\n\n4. Tekan Preview dan uji sendiri dulu.",
+   "Selamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "gemini canvas",
+   "maklum balas",
+   "borang",
+   "content creator"
+  ]
+ }
+]

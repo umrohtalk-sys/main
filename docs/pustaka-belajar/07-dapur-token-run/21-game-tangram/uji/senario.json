@@ -1,0 +1,22 @@
+[
+  {"nama": "asas-bm", "langkah": [
+    {"buka": "index.html"}, {"tangkap": "01-menu"},
+    {"klik": "[data-uji=bm]"}, {"jangka": "document.documentElement.lang === 'ms'"},
+    {"klik": "[data-uji=mula]"}, {"tunggu": 200}, {"tangkap": "02-peta"},
+    {"jangka": "document.querySelector('[data-uji=sil-1]').disabled === !window.__game.progres.b.ketupat"},
+    {"klik": "[data-uji=sil-0]"}, {"tunggu": 400}, {"jangka": "window.__game.keadaan === 'main'"}, {"tangkap": "03-main-awal"},
+    {"klik": "[data-uji=petunjuk]"}, {"tunggu": 300}, {"jangka": "window.__game.petunjuk === 1"}, {"tangkap": "04-petunjuk"},
+    {"klik": "[data-uji=ulang]"}, {"tunggu": 300}, {"jangka": "window.__game.petunjuk === 0 && window.__game.terkunci === window.__game.awal"},
+    {"jawabSemua": "betul"}, {"tunggu": 400}, {"jangka": "window.__game.keadaan === 'reveal' || window.__game.keadaan === 'hasil'"},
+    {"tunggu": 4200}, {"jangka": "window.__game.keadaan === 'hasil'"}, {"tangkap": "05-hasil"}
+  ]},
+  {"nama": "tukar-id", "langkah": [
+    {"buka": "index.html"}, {"klik": "[data-uji=id]"}, {"jangka": "document.documentElement.lang === 'id'"},
+    {"jangka": "document.querySelector('#btnMula').textContent.includes('Main')"}, {"tangkap": "01-menu-id"},
+    {"klik": "[data-uji=mula]"}, {"klik": "[data-uji=sil-0]"}, {"tunggu": 400},
+    {"jangka": "document.querySelector('[data-uji=putar]').textContent.includes('Putar')"},
+    {"jangka": "document.querySelector('#alat [data-uji=petunjuk]').textContent === 'Petunjuk'"},
+    {"klik": "[data-uji=tukar-bahasa]"}, {"jangka": "document.documentElement.lang === 'ms'"},
+    {"klik": "[data-uji=tukar-bahasa]"}, {"tangkap": "02-main-id"}
+  ]}
+]

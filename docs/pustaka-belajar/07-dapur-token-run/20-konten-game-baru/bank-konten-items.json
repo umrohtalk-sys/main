@@ -1,0 +1,408 @@
+[
+ {
+  "judul": "Cikgu, murid main Susun Syiling sambil belajar matematik",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah buat matematik.",
+  "isi": "0-3 s cover: 'Susun Syiling'.\nBabak 1: rakaman skrin Clawd — tuang syiling ke tong sama nilai, RM/Rp.\nBabak 2: murid salah, cuba lagi, akhirnya 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: 'Prompt untuk bina game macam ni ada dalam Prompt Generator.'\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "matematik",
+   "ai"
+  ],
+  "sumber": "10-game-susun-syiling/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Susun Koin buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran matematika.",
+  "isi": "Cover: 'Susun Koin'.\nRekaman layar: tuang syiling ke tong sama nilai, RM/Rp (versi Rupiah/ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "10-game-susun-syiling/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Susun Syiling dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Susun Syiling untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Susun Syiling untuk murid tanpa tulis satu baris kod.\n---\nIdeanya simple: tuang syiling ke tong sama nilai, RM/Rp. Murid rasa main game, cikgu dapat latihan matematik.\n---\nLangkah: 1) pilih mekanik game yang murid suka, 2) tampal prompt ke Claude/Gemini, 3) uji di telefon, 4) kongsi link ke kelas.\n---\nMaskot Clawd dilukis terus oleh AI dalam kod, jadi tiada isu hak cipta gambar.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "10-game-susun-syiling/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Gemi Gabung Nombor sambil belajar matematik",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah buat matematik.",
+  "isi": "0-3 s cover: 'Gemi Gabung Nombor'.\nBabak 1: rakaman skrin Gemi — gabung jubin sampai jumpa jawapan tambah, tolak, darab.\nBabak 2: murid salah, cuba lagi, akhirnya 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: 'Prompt untuk bina game macam ni ada dalam Prompt Generator.'\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "matematik",
+   "ai"
+  ],
+  "sumber": "11-game-gabung-nombor/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Gemi Gabung Angka buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran matematika.",
+  "isi": "Cover: 'Gemi Gabung Angka'.\nRekaman layar: gabung jubin sampai jumpa jawapan tambah, tolak, darab (versi Rupiah/ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "11-game-gabung-nombor/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Gemi Gabung Nombor dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Gemi Gabung Nombor untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Gemi Gabung Nombor untuk murid tanpa tulis satu baris kod.\n---\nIdeanya simple: gabung jubin sampai jumpa jawapan tambah, tolak, darab. Murid rasa main game, cikgu dapat latihan matematik.\n---\nLangkah: 1) pilih mekanik game yang murid suka, 2) tampal prompt ke Claude/Gemini, 3) uji di telefon, 4) kongsi link ke kelas.\n---\nMaskot Gemi dilukis terus oleh AI dalam kod, jadi tiada isu hak cipta gambar.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "11-game-gabung-nombor/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Kedai Pantas sambil belajar matematik",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah buat matematik.",
+  "isi": "0-3 s cover: 'Kedai Pantas'.\nBabak 1: rakaman skrin Si Bulat — layan pelanggan, kira harga dan beri baki.\nBabak 2: murid salah, cuba lagi, akhirnya 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: 'Prompt untuk bina game macam ni ada dalam Prompt Generator.'\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "matematik",
+   "ai"
+  ],
+  "sumber": "12-game-kedai-pantas/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Warung Cepat buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran matematika.",
+  "isi": "Cover: 'Warung Cepat'.\nRekaman layar: layan pelanggan, kira harga dan beri baki (versi Rupiah/ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "12-game-kedai-pantas/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Kedai Pantas dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Kedai Pantas untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Kedai Pantas untuk murid tanpa tulis satu baris kod.\n---\nIdeanya simple: layan pelanggan, kira harga dan beri baki. Murid rasa main game, cikgu dapat latihan matematik.\n---\nLangkah: 1) pilih mekanik game yang murid suka, 2) tampal prompt ke Claude/Gemini, 3) uji di telefon, 4) kongsi link ke kelas.\n---\nMaskot Si Bulat dilukis terus oleh AI dalam kod, jadi tiada isu hak cipta gambar.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "12-game-kedai-pantas/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Clawd Letus Gelembung sambil belajar matematik",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah buat matematik.",
+  "isi": "0-3 s cover: 'Clawd Letus Gelembung'.\nBabak 1: rakaman skrin Clawd — tembak gelembung jawapan betul, pantul dinding.\nBabak 2: murid salah, cuba lagi, akhirnya 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: 'Prompt untuk bina game macam ni ada dalam Prompt Generator.'\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "matematik",
+   "ai"
+  ],
+  "sumber": "18-game-tembak-gelembung/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Clawd Pecah Gelembung buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran matematika.",
+  "isi": "Cover: 'Clawd Pecah Gelembung'.\nRekaman layar: tembak gelembung jawapan betul, pantul dinding (versi Rupiah/ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "18-game-tembak-gelembung/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Clawd Letus Gelembung dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Clawd Letus Gelembung untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Clawd Letus Gelembung untuk murid tanpa tulis satu baris kod.\n---\nIdeanya simple: tembak gelembung jawapan betul, pantul dinding. Murid rasa main game, cikgu dapat latihan matematik.\n---\nLangkah: 1) pilih mekanik game yang murid suka, 2) tampal prompt ke Claude/Gemini, 3) uji di telefon, 4) kongsi link ke kelas.\n---\nMaskot Clawd dilukis terus oleh AI dalam kod, jadi tiada isu hak cipta gambar.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "18-game-tembak-gelembung/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Bulat Rebut Wilayah sambil belajar matematik",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah buat matematik.",
+  "isi": "0-3 s cover: 'Bulat Rebut Wilayah'.\nBabak 1: rakaman skrin Si Bulat — tawan kawasan tepat 40% atau 3/5 papan.\nBabak 2: murid salah, cuba lagi, akhirnya 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: 'Prompt untuk bina game macam ni ada dalam Prompt Generator.'\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "matematik",
+   "ai"
+  ],
+  "sumber": "19-game-rebut-wilayah/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Bulat Rebut Wilayah buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran matematika.",
+  "isi": "Cover: 'Bulat Rebut Wilayah'.\nRekaman layar: tawan kawasan tepat 40% atau 3/5 papan (versi Rupiah/ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "19-game-rebut-wilayah/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Bulat Rebut Wilayah dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Bulat Rebut Wilayah untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Bulat Rebut Wilayah untuk murid tanpa tulis satu baris kod.\n---\nIdeanya simple: tawan kawasan tepat 40% atau 3/5 papan. Murid rasa main game, cikgu dapat latihan matematik.\n---\nLangkah: 1) pilih mekanik game yang murid suka, 2) tampal prompt ke Claude/Gemini, 3) uji di telefon, 4) kongsi link ke kelas.\n---\nMaskot Si Bulat dilukis terus oleh AI dalam kod, jadi tiada isu hak cipta gambar.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "19-game-rebut-wilayah/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Gemi Tangram sambil belajar",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah belajar.",
+  "isi": "0-3 s cover: 'Gemi Tangram'.\nBabak 1: rakaman skrin Gemi — susun 7 kepingan jadi wau, rumah, perahu; belajar pecahan 1/4, 1/8, 1/16.\nBabak 2: murid cuba, salah, cuba lagi, 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: prompt ada dalam Prompt Generator.\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "ai"
+  ],
+  "sumber": "21-game-tangram/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Gemi Tangram buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran.",
+  "isi": "Cover: 'Gemi Tangram'.\nRekaman layar: susun 7 kepingan jadi wau, rumah, perahu; belajar pecahan 1/4, 1/8, 1/16 (versi ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "21-game-tangram/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Gemi Tangram dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Gemi Tangram untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Gemi Tangram untuk murid tanpa tulis satu baris kod.\n---\nIdeanya: susun 7 kepingan jadi wau, rumah, perahu; belajar pecahan 1/4, 1/8, 1/16.\n---\nLangkah: pilih mekanik yang murid suka, tampal prompt ke Claude/Gemini, uji di telefon, kongsi link ke kelas.\n---\nMaskot Gemi dilukis terus oleh AI dalam kod.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "21-game-tangram/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Teka Ejaan Harian sambil belajar",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah belajar.",
+  "isi": "0-3 s cover: 'Teka Ejaan Harian'.\nBabak 1: rakaman skrin Clawd — teka kata 5 huruf dalam 6 cubaan; cikgu boleh tampal senarai kata sendiri.\nBabak 2: murid cuba, salah, cuba lagi, 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: prompt ada dalam Prompt Generator.\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "ai"
+  ],
+  "sumber": "22-game-teka-ejaan/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Tebak Kata Harian buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran.",
+  "isi": "Cover: 'Tebak Kata Harian'.\nRekaman layar: teka kata 5 huruf dalam 6 cubaan; cikgu boleh tampal senarai kata sendiri (versi ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "22-game-teka-ejaan/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Teka Ejaan Harian dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Teka Ejaan Harian untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Teka Ejaan Harian untuk murid tanpa tulis satu baris kod.\n---\nIdeanya: teka kata 5 huruf dalam 6 cubaan; cikgu boleh tampal senarai kata sendiri.\n---\nLangkah: pilih mekanik yang murid suka, tampal prompt ke Claude/Gemini, uji di telefon, kongsi link ke kelas.\n---\nMaskot Clawd dilukis terus oleh AI dalam kod.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "22-game-teka-ejaan/LAPORAN.md"
+ },
+ {
+  "judul": "Cikgu, murid main Menara Si Bulat sambil belajar",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Murid saya tak sedar dia tengah belajar.",
+  "isi": "0-3 s cover: 'Menara Si Bulat'.\nBabak 1: rakaman skrin Si Bulat — jatuhkan blok tepat, baca pembaris, capai tinggi sasaran.\nBabak 2: murid cuba, salah, cuba lagi, 3 bintang.\nBabak 3: 'Game ni saya bina dengan AI, tanpa coding.'\nJambatan: prompt ada dalam Prompt Generator.\nCTA: Komen GAME, saya DM link demo.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "ai"
+  ],
+  "sumber": "23-game-jangkaan-tumpukan/LAPORAN.md"
+ },
+ {
+  "judul": "Guru, ini game Menara Si Bulat buatan AI untuk kelas",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "id",
+  "hook": "Siswa saya minta main lagi, padahal ini pelajaran.",
+  "isi": "Cover: 'Menara Si Bulat'.\nRekaman layar: jatuhkan blok tepat, baca pembaris, capai tinggi sasaran (versi ID).\nPenutup: 'Saya bikin pakai AI tanpa coding. Prompt-nya ada.'\nCTA: Komen GAME.",
+  "cta": "GAME",
+  "tags": [
+   "guru",
+   "gameedukasi",
+   "kurikulummerdeka"
+  ],
+  "sumber": "23-game-jangkaan-tumpukan/LAPORAN.md"
+ },
+ {
+  "judul": "Cara saya bina game Menara Si Bulat dengan AI (thread)",
+  "platform": "threads",
+  "format": "thread",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "Saya bina game Menara Si Bulat untuk murid tanpa tulis satu baris kod.",
+  "isi": "Saya bina game Menara Si Bulat untuk murid tanpa tulis satu baris kod.\n---\nIdeanya: jatuhkan blok tepat, baca pembaris, capai tinggi sasaran.\n---\nLangkah: pilih mekanik yang murid suka, tampal prompt ke Claude/Gemini, uji di telefon, kongsi link ke kelas.\n---\nMaskot Si Bulat dilukis terus oleh AI dalam kod.\n---\nNak prompt yang saya guna? Komen GAME di reel terbaru saya.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "ai",
+   "threads"
+  ],
+  "sumber": "23-game-jangkaan-tumpukan/LAPORAN.md"
+ },
+ {
+  "judul": "5 game baru buatan AI untuk murid",
+  "platform": "ig",
+  "format": "reel",
+  "pilar": "game-app",
+  "bahasa": "ms",
+  "hook": "5 GAME BARU buatan AI, untuk murid",
+  "isi": "Video siap: 24-video-promo-5-game/video-promo-5-game-20261121.mp4 (35 s). Caption di caption-ig.md.",
+  "cta": "GAME",
+  "tags": [
+   "cikgu",
+   "gameedukasi",
+   "ai"
+  ],
+  "sumber": "24-video-promo-5-game/caption-ig.md",
+  "status": "siap"
+ }
+]

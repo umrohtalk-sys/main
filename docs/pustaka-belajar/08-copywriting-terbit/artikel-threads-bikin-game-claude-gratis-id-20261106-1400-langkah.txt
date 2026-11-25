@@ -1,0 +1,171 @@
+POST UTAMA (tempel di kolom post Threads)
+
+BIKIN GAME EDUKASI NGGAK PERLU BAYAR APA-APA
+
+CUKUP COPY PROMPT, PASTE DI CLAUDE GRATIS, ONLINE-KAN DI NETLIFY
+
+INI LANGKAH DEMI LANGKAHNYA 👇
+
+
+==================================================
+ARTIKEL (tempel di lampiran teks / text attachment)
+==================================================
+
+Cara Bikin Game Edukasi dengan Claude Gratis
+
+
+Banyak guru mengira bikin game harus jago coding, atau harus langganan AI yang mahal.
+
+Padahal tidak.
+
+Kamu bisa mulai dengan tiga hal gratis:
+
+• Prompt yang sudah jadi
+• Akun Claude gratis
+• Netlify untuk meng-online-kan game
+
+Hasilnya game yang bisa dibuka murid di HP, dengan link sendiri.
+
+Ini langkahnya, satu per satu.
+
+
+1. Buka Galeri Prompt gratis
+
+Buka link ini:
+
+demoprompt.edugamelabs.com/id
+
+Di sana ada contoh game dan app edukasi. Setiap contoh ada preview hasil jadinya, jadi kamu bisa lihat dulu tampilan game sebelum membuatnya.
+
+
+2. Pilih game, lalu copy prompt
+
+Pilih satu game yang paling dekat dengan kelasmu. Klik Main dulu kalau mau mencoba.
+
+Kalau sudah cocok, klik Salin pada prompt game itu.
+
+Prompt ini sudah lengkap. Di dalamnya ada aturan game, susunan layar, gaya desain, sampai instruksi supaya nyaman di HP. Kamu tidak perlu menulis apa-apa dari nol.
+
+
+3. Buka Claude dan login
+
+Buka claude.ai, lalu daftar atau login dengan akun Google kamu.
+
+Paket gratis pun sudah cukup untuk mulai.
+
+
+4. Pilih Sonnet, lalu Effort Low
+
+Langkah ini kecil, tapi besar pengaruhnya ke kuota.
+
+Klik nama model di sebelah tombol kirim, lalu:
+
+• Pilih model Sonnet
+• Buka Effort, pilih Low
+
+Kenapa Low?
+
+Karena effort yang lebih tinggi menghabiskan batas pemakaian lebih cepat. Dengan Low, kuota gratismu bisa dipakai untuk lebih banyak game.
+
+Prompt kita juga sudah detail, jadi AI tidak perlu berpikir panjang untuk menebak maumu.
+
+Kalau hasil game yang rumit kurang rapi, baru coba naik ke Medium.
+
+
+5. Paste prompt dan kirim
+
+Paste prompt tadi di kolom chat, lalu tekan kirim.
+
+Tunggu sampai Claude selesai menulis kode. Biasanya beberapa menit, tergantung besar game-nya.
+
+Jangan tutup tab selama ia masih menulis.
+
+
+6. Mainkan dulu di panel samping
+
+Setelah jadi, game muncul di panel samping chat.
+
+Mainkan sampai selesai. Kalau ada yang kurang, kumpulkan semua catatan dan kirim sekaligus. Misalnya:
+
+"Tombol jawaban terlalu kecil di HP, dan layar akhir belum menampilkan skor."
+
+Satu pesan berisi tiga perbaikan jauh lebih hemat kuota dibanding tiga pesan terpisah.
+
+
+7. Download sebagai index.html
+
+Di panel game, cari tombol Download. Simpan file-nya dengan nama index.html.
+
+Lalu buat satu folder baru, misalnya "game-perkalian", dan masukkan index.html ke dalamnya.
+
+Kalau tombol Download tidak ada, klik Copy, paste di Notepad atau TextEdit (format teks biasa), lalu simpan sebagai index.html.
+
+
+8. Upload ke Netlify
+
+Buka app.netlify.com/drop
+
+Seret folder game tadi ke halaman itu.
+
+Tunggu beberapa detik, dan game kamu langsung punya link sendiri.
+
+Selesai. Game sudah online.
+
+
+9. Jadikan situsnya permanen
+
+Situs yang di-upload tanpa akun hanya sementara, dan ada tanda supaya kamu mengklaimnya.
+
+Jadi klik Claim, lalu daftar akun Netlify gratis. Setelah itu tanda tersebut hilang dan situsnya jadi milikmu.
+
+Di pengaturan situs, kamu juga bisa mengganti nama link supaya gampang diingat, misalnya game-perkalian-kelas3.netlify.app.
+
+Mau pakai Vercel? Bisa juga. Buka vercel.com/drop, login akun gratis, seret folder yang sama, lalu tekan Deploy.
+
+
+10. Bagikan ke murid
+
+Kirim link game ke grup WhatsApp kelas, atau tampilkan di layar.
+
+Murid tidak perlu install apa-apa. Buka link, langsung main.
+
+
+Jadi alurnya:
+
+Galeri Prompt → Copy → Claude gratis (Sonnet, Low) → Tunggu → index.html → Netlify → Bagikan
+
+
+Semudah itu bikin game edukasi.
+
+
+Tapi ada satu hal yang perlu kamu tahu.
+
+Galeri gratis tadi cuma demo. Jumlah prompt-nya sangat sedikit, dan setiap prompt sudah tetap materi, kelas, dan bahasanya.
+
+Kalau materimu berbeda, kamu harus mengubahnya sendiri, dan di situlah banyak pemula mentok.
+
+Karena itu saya siapkan versi Pro.
+
+Di Prompt Generator Pro, kamu dapat:
+
+• 100+ prompt game, app, dan landing page edukasi
+• Materi, kelas, dan bahasa bisa diganti sesuai kelasmu
+• Prompt Generator: tulis ide sendiri, prompt lengkapnya disusunkan
+• Tombol kirim langsung ke AI, tanpa copy paste panjang
+• Form landing page untuk menjual game kamu
+• Marketing Kit dengan form video promosi
+• Riwayat prompt dan panduan langkah demi langkah
+
+Dengan demo, kamu mengikuti game yang sudah ada.
+
+Dengan Pro, kamu bikin game sesuai kelasmu sendiri.
+
+Harganya Rp99.000, sekali bayar, akses selamanya.
+
+Detailnya di sini 👇
+lptoolsid.edugamelabs.com
+
+
+Mulai dulu dari yang gratis. Bikin satu game, bagikan ke murid, dan lihat reaksi mereka.
+
+Kamu mau coba bikin game apa dulu? Tulis di komentar ya 🙂

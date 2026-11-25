@@ -1,0 +1,450 @@
+[
+  {
+    "id": "ti0101",
+    "judul": "Animasi kelas siap pakai dengan Claude Artifacts",
+    "hook": "Dulu saya habiskan 3 jam untuk bikin satu animasi sederhana untuk kelas. Malam-malam, mata sudah berat, hasilnya juga belum memuaskan.",
+    "posts": [
+      "Dulu saya habiskan 3 jam untuk bikin satu animasi sederhana untuk kelas. Malam-malam, mata sudah berat, hasilnya juga belum memuaskan.\n\nSekarang saya pakai Claude Artifacts. Ini langkah yang mengubah cara kerja saya, yuk saya bagikan untuk kalian yang juga capek.",
+      "1. Tulis apa yang dibutuhkan kelas:\n\n+ Judul konsep\n+ Usia murid\n+ Panjang video (contoh 30 detik)\n+ Gaya visual sederhana\n\nMakin jelas, makin sedikit kita perlu mengulang.",
+      "2. Tempel prompt ini:\n\n\"Create a single-file HTML animation, 30 seconds, explaining [concept] to [age] students. Simple shapes, big text, smooth loop, Indonesian captions.\"\n\nMinta AI ubah kecepatan atau warna kalau perlu, lalu tekan Preview.",
+      "3. Rekam layar kalau sudah puas. Jadilah video untuk kelas.\n\nUji dulu sebelum tayang, bener nggak? Komen VIDEO kalau mau saya bagikan prompt yang lebih lengkap."
+    ],
+    "cta": "VIDEO",
+    "tags": [
+      "claude artifacts",
+      "video animasi pendek untuk kelas",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0102",
+    "judul": "Eksperimen catatan kuliah jadi peta pikiran",
+    "hook": "Saya coba ubah satu bab catatan kuliah jadi infografik peta pikiran pakai Gemini Canvas. Ini hasilnya.",
+    "posts": [
+      "Saya coba ubah satu bab catatan kuliah jadi infografik peta pikiran pakai Gemini Canvas. Ini hasilnya.\n\nAda yang berhasil, ada yang perlu diperbaiki. Saya ceritakan jujur, termasuk prompt terakhir yang akhirnya berhasil.",
+      "1. Langkah yang saya lakukan:\n\nBuka Gemini Canvas, tempel teks catatan (jangan terlalu panjang, bagi jadi 2 atau 3 bagian). Minta AI menentukan ide utama dan hubungannya.",
+      "2. Yang berhasil:\n\nCabang utama dan warna tiap kelompok memang rapi. Tapi tulisannya kecil sekali dan ada dua ide yang meleset dari catatan asli.\n\n3. Yang saya perbaiki:\n\nMinta AI mempertahankan isi asli dan mengurangi cabang.",
+      "Prompt terakhir yang berhasil:\n\n\"Turn these notes on [topic] into a clean mind map infographic. Keep the original content, 5 main branches max, large readable labels, Indonesian language.\"\n\nKalau mau coba, mulai dengan satu bab dulu."
+    ],
+    "cta": "",
+    "tags": [
+      "gemini canvas",
+      "infografik peta pikiran",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0103",
+    "judul": "Framework slide matematika pakai Gemini Canvas",
+    "hook": "KHUSUS UNTUK GURU MATEMATIKA: framework prompt untuk membuat slide pengajaran yang rapi, bisa langsung dipakai dengan Gemini Canvas.",
+    "posts": [
+      "KHUSUS UNTUK GURU MATEMATIKA: framework prompt untuk membuat slide pengajaran yang rapi, bisa langsung dipakai dengan Gemini Canvas.\n\nIni framework-nya:",
+      "1. Tetapkan ini dalam prompt:\n\n+ Kelas dan judul topik\n+ Jumlah slide (contoh 8)\n+ Satu contoh soal di setiap slide\n+ Bahasa Indonesia\n\nMakin jelas informasinya, makin sedikit kita perlu mengubah.",
+      "2. Contoh untuk topik pecahan:\n\n\"Create 8 teaching slides on fractions for grade 7 students. Each slide: one idea, one worked example, one question. Indonesian language, big numbers, no clutter.\"\n\n3. Contoh untuk topik perbandingan:\n\n\"Make 6 slides on ratio for grade 8, starting with a real-life example like mixing drinks, then 2 practice questions with answers.\"",
+      "Periksa setiap contoh sebelum tayang. Komen PROMPT kalau mau saya bagikan daftar prompt matematika lainnya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "gemini canvas",
+      "slide pengajaran",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0104",
+    "judul": "Game matematika mirip Angry Birds dari catatan",
+    "hook": "Sebenarnya kita bisa pakai Gemini Notebook atau NotebookLM untuk membuat bahan game matematika mirip Angry Birds. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai Gemini Notebook atau NotebookLM untuk membuat bahan game matematika mirip Angry Birds. Ini caranya:\n\nNggak perlu bisa coding, cukup punya catatan dan soal.",
+      "1. Unggah catatan topik matematika ke NotebookLM. Pastikan catatannya benar, karena AI mengambil rujukan dari situ.\n\n2. Minta AI menyusun 10 soal dan jawaban dari sumber itu saja.",
+      "3. Tempel prompt ini:\n\n\"From my uploaded notes, make 10 maths questions for grade 9 as bird-launch targets. Each target shows one question with 3 answers. Keep the original content, Indonesian language.\"\n\nLalu minta AI membuat game dalam satu file HTML.",
+      "Uji dulu dengan 2 soal sebelum dibawa ke kelas. Komen GAME kalau mau saya bagikan template game yang lebih lengkap."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "notebooklm",
+      "game matematika mirip angry birds",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0105",
+    "judul": "Buku cerita bergambar tanpa harus bisa menggambar",
+    "hook": "Banyak yang DM tanya: bisa nggak bikin buku cerita bergambar untuk anak sendiri pakai AI, tanpa harus bisa menggambar?",
+    "posts": [
+      "Banyak yang DM tanya: bisa nggak bikin buku cerita bergambar untuk anak sendiri pakai AI, tanpa harus bisa menggambar?\n\nIni jawaban saya.",
+      "1. Tulis cerita pendek 6 halaman, satu kalimat per halaman. Pilih tokoh dan tempat yang disukai anak.\n\n2. Buka Gemini Canvas, minta AI menyusun setiap halaman sebagai panel terpisah dengan teks besar.",
+      "3. Tempel prompt ini:\n\n\"Make a 6-page picture book for a 5 year old. One sentence per page, friendly cartoon style, same character on every page, Indonesian text, big readable font.\"\n\nPeriksa tokoh yang sama di setiap halaman. Kalau tidak sama, minta AI memperbaikinya.",
+      "Kalau kalian mau cara yang lebih cepat, saya punya kelas Masterclass AI untuk guru. Komen TOOLS kalau mau tahu lebih."
+    ],
+    "cta": "TOOLS",
+    "tags": [
+      "gemini canvas",
+      "buku cerita bergambar",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0106",
+    "judul": "Game sejarah quest dari dokumen sendiri",
+    "hook": "Sebenarnya kita bisa pakai Gemini Notebook atau NotebookLM untuk membuat game sejarah tanpa menulis satu baris kode. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai Gemini Notebook atau NotebookLM untuk membuat game sejarah tanpa menulis satu baris kode. Ini caranya:\n\nCocok untuk kalian yang kerja kantoran tapi ingin belajar sejarah dengan cara yang seru.",
+      "1. Unggah dokumen sejarah atau catatan ringkas ke NotebookLM. Dari situ AI akan jadi rujukan utama.\n\n2. Minta AI membuat kuis petualangan dengan 8 level, setiap level berisi satu soal sejarah.",
+      "3. Tempel prompt ini:\n\n\"Using only my notes on [topic], design a history quest game with 8 levels. Each level: one question, 3 choices, a short fact after the answer. Keep the original content.\"\n\nUji dulu level pertama.",
+      "Komen GAME kalau kalian mau versi game lengkap untuk dicoba. Ada pertanyaan? Tanya saja di bawah."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "notebooklm",
+      "game sejarah",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0107",
+    "judul": "Game tebak gambar untuk anak di rumah",
+    "hook": "Sebenarnya kita bisa pakai ChatGPT untuk membuat game tebak gambar buat anak di rumah dalam 15 menit. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai ChatGPT untuk membuat game tebak gambar buat anak di rumah dalam 15 menit. Ini caranya:\n\nOrang tua pun bisa membuatnya, tidak perlu tahu coding sama sekali.",
+      "1. Pilih 8 kata yang sedang dipelajari anak, contoh hewan atau sayur.\n\n2. Beri tahu ChatGPT tujuan game itu. Cukup pakai kalimat biasa.",
+      "3. Tempel prompt ini:\n\n\"Create a single-file HTML picture guessing game for a 6 year old. 8 words: [words]. Show a simple shape drawing, child types the word, gives a star if correct. Indonesian labels.\"\n\nMinta ChatGPT memperbesar tulisan kalau kecil.",
+      "Tips: coba sendiri dulu, pastikan setiap kata benar dan anak paham sebelum diberikan untuk main."
+    ],
+    "cta": "",
+    "tags": [
+      "chatgpt",
+      "game tebak gambar",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0108",
+    "judul": "Berhenti minta game escape room tanpa informasi",
+    "hook": "Berhenti minta Gemini \"buatkan game escape room\" saja. Guru pendidikan khusus bisa pakai framework prompt ini untuk membuat escape room yang lebih rapi dan sesuai murid.",
+    "posts": [
+      "Berhenti minta Gemini \"buatkan game escape room\" saja. Guru pendidikan khusus bisa pakai framework prompt ini untuk membuat escape room yang lebih rapi dan sesuai murid.\n\nIni caranya:",
+      "1. Tetapkan ini dalam prompt:\n\n+ Tingkat murid dan jumlah langkah\n+ Topik dan kata kunci\n+ Bantuan visual (gambar, warna)\n+ Waktu setiap ruangan\n\nMakin jelas, makin aman untuk murid.",
+      "2. Tempel prompt ini:\n\n\"Design a simple escape room for special needs students, grade 4 level. 3 rooms, each with one picture clue and one word clue. Big buttons, calm colours, no timer pressure, Indonesian labels.\"\n\n3. Tambah ruangan kedua untuk aktivitas kelompok kecil:\n\n\"Add a room where two students match 4 pictures to words together.\"",
+      "Uji sendiri di ponsel dan komputer sebelum dibawa ke kelas. Kalau ada bagian yang terlalu cepat, minta AI mengurangi kecepatannya."
+    ],
+    "cta": "",
+    "tags": [
+      "gemini",
+      "game escape room",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0109",
+    "judul": "Tips game sejarah untuk guru IPA",
+    "hook": "Sebenarnya guru IPA juga bisa membuat game sejarah di kelas pakai Gemini. Ini tiga tips yang saya pakai.",
+    "posts": [
+      "Sebenarnya guru IPA juga bisa membuat game sejarah di kelas pakai Gemini. Ini tiga tips yang saya pakai.\n\nNggak sulit, hanya perlu tahu cara menyusun prompt.",
+      "1. Pilih satu peristiwa sejarah yang berkaitan dengan topik IPA, contoh penemuan atau ciptaan.\n\n2. Minta Gemini menyusun 5 soal pilihan ganda dengan petunjuk singkat untuk setiap soal.",
+      "3. Tempel prompt ini:\n\n\"Create a 5-question history quiz game linked to [science invention]. Each question has 3 choices and a fact card after answering. Indonesian language, simple layout, one HTML file.\"\n\nTambahkan suara atau animasi kecil saat jawabannya benar.",
+      "Kalau mau saya bimbing dari awal sampai game selesai, ada sesi mentoring 1-on-1. Komen NAK, nanti saya beri tahu caranya."
+    ],
+    "cta": "NAK",
+    "tags": [
+      "gemini",
+      "game sejarah",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0110",
+    "judul": "Peta pikiran selesai dalam 10 menit",
+    "hook": "Infografik peta pikiran seperti ini sekarang bisa selesai dalam 10 menit saja. Caranya:",
+    "posts": [
+      "Infografik peta pikiran seperti ini sekarang bisa selesai dalam 10 menit saja. Caranya:\n\nGuru baru pun bisa membuatnya, tidak perlu skill desain grafis.",
+      "1. Tulis judul topik dan 5 ide utama. Tidak perlu bagus, yang penting jelas.\n\n2. Tempel prompt ini di Claude:\n\n\"Make a mind map infographic on [topic] with 5 main branches, 2 sub-points each. Clean layout, Indonesian labels, one HTML file.\"",
+      "3. Periksa tulisan dan susunannya. Minta Claude memperbaiki bagian yang belum pas dalam satu kalimat.\n\nTips akhir: uji dulu di ponsel dan komputer sebelum ditayangkan di kelas."
+    ],
+    "cta": "",
+    "tags": [
+      "claude",
+      "infografik peta pikiran",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0111",
+    "judul": "Latihan ejaan interaktif pakai Canva AI",
+    "hook": "Sebenarnya kita bisa pakai Canva AI untuk membuat latihan ejaan interaktif untuk murid kelas 2 SD. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai Canva AI untuk membuat latihan ejaan interaktif untuk murid kelas 2 SD. Ini caranya:\n\nNggak perlu skill desain, cukup punya daftar kata.",
+      "1. Daftar 10 kata ejaan minggu ini dan satu kalimat contoh untuk setiap kata.\n\n2. Buka Canva AI, minta AI membuat slide latihan dengan tempat kosong untuk murid mengisi huruf yang hilang.",
+      "3. Tempel prompt ini:\n\n\"Create 10 interactive spelling slides for grade 2 pupils, Indonesian language. Each slide shows a picture and a blank for missing letters. Keep these words: [word list]. Big font, bright colours.\"\n\nPastikan ejaannya benar sebelum tayang.",
+      "Komen PROMPT kalau mau saya bagikan daftar kalimat contoh untuk kelas 1 sampai 3 SD."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "canva ai",
+      "latihan ejaan interaktif",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0112",
+    "judul": "Video animasi sejarah dengan framework khusus",
+    "hook": "KHUSUS UNTUK GURU SEJARAH: framework prompt untuk membuat video animasi pendek yang cocok untuk kelas kalian, pakai Canva AI.",
+    "posts": [
+      "KHUSUS UNTUK GURU SEJARAH: framework prompt untuk membuat video animasi pendek yang cocok untuk kelas kalian, pakai Canva AI.",
+      "1. Tetapkan ini dalam prompt:\n\n+ Judul peristiwa\n+ Tahun dan tempat\n+ Panjang video (contoh 45 detik)\n+ Nada singkat dan netral\n\nHindari gambar yang membingungkan fakta sejarah.",
+      "2. Contoh untuk Hari Kemerdekaan:\n\n\"Create a 45-second animated short on Indonesia's independence for grade 8 students. Flat illustrations, Indonesian captions, timeline at the bottom, neutral tone.\"\n\n3. Contoh untuk Kerajaan Sriwijaya:\n\n\"Make a 40-second animation about Sriwijaya's trade route. Map with moving arrows, short Indonesian captions, school-friendly.\"",
+      "Periksa fakta dengan buku teks sebelum tayang. Komen VIDEO kalau mau saya bagikan prompt yang lebih lengkap."
+    ],
+    "cta": "VIDEO",
+    "tags": [
+      "canva ai",
+      "video animasi pendek untuk kelas",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0113",
+    "judul": "Latihan ejaan interaktif dengan prompt rapi",
+    "hook": "Berhenti minta Gemini \"buatkan latihan ejaan\" saja. Kreator konten bisa pakai framework prompt ini untuk membuat latihan yang lebih rapi.",
+    "posts": [
+      "Berhenti minta Gemini \"buatkan latihan ejaan\" saja. Kreator konten bisa pakai framework prompt ini untuk membuat latihan yang lebih rapi.",
+      "1. Tetapkan ini dalam prompt:\n\n+ Usia sasaran\n+ Daftar kata\n+ Jenis soal (isi tempat kosong, pilih ejaan yang benar)\n+ Gaya visual\n\nGampang, tapi biasanya ini yang terlewat.",
+      "2. Latihan isi tempat kosong:\n\n\"Create a fill-in-the-blank spelling quiz, 12 words, for ages 7-9. Picture hint, one missing letter per word, Indonesian feedback when wrong.\"\n\n3. Latihan pilih ejaan yang benar:\n\n\"Make a three-choice spelling game with 10 rounds, a score bar and a reset button. One HTML file.\"",
+      "Mulai dengan 5 kata dulu untuk uji coba. Kalau ada jawaban yang tidak tepat, minta Gemini mengulang bagian itu saja. Komen PROMPT kalau mau daftar lengkapnya."
+    ],
+    "cta": "PROMPT",
+    "tags": [
+      "gemini",
+      "latihan ejaan interaktif",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0114",
+    "judul": "Catatan ringkas pakai ponsel saja",
+    "hook": "KAK, GIMANA CARANYA BIKIN CATATAN RINGKAS YANG MUDAH DIINGAT PAKAI PONSEL SAJA?",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN CATATAN RINGKAS YANG MUDAH DIINGAT PAKAI PONSEL SAJA?\n\nGampang kok. Yuk saya bagikan caranya.",
+      "1. Salin isi topik ke dalam satu catatan. Pilih 5 kata kunci yang paling penting.\n\n2. Buka Canva AI di ponsel, minta AI menyusun isi itu menjadi kartu ringkas.",
+      "3. Tempel prompt ini:\n\n\"Turn these notes into 5 short study cards, one key idea per card, bold keyword, a simple icon suggestion, Indonesian language, portrait layout.\"\n\n4. Simpan dan unduh sebagai PDF untuk dibagikan ke murid atau teman.",
+      "Coba satu topik dulu, setelah itu baru buat yang lain. Gampang, kan?"
+    ],
+    "cta": "",
+    "tags": [
+      "canva ai",
+      "catatan ringkas",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0115",
+    "judul": "5 prompt laporan perkembangan murid SD",
+    "hook": "5 prompt Gemini Canvas yang setiap guru SD sebaiknya simpan untuk laporan perkembangan murid.",
+    "posts": [
+      "5 prompt Gemini Canvas yang setiap guru SD sebaiknya simpan untuk laporan perkembangan murid.\n\nSimpan dulu, nanti gampang dicari saat musim laporan tiba.",
+      "1. Ringkasan kelas:\n\n\"Summarise these test scores for a grade 3 class into 5 bullet points, Indonesian language, no student names.\"\n\n2. Murid yang perlu bantuan:\n\n\"List students below 50 percent in Maths, one suggested activity each. Use initials only.\"",
+      "3. Catatan untuk orang tua:\n\n\"Draft a polite 80-word note to parents about improvement in reading, Indonesian, warm tone.\"\n\n4. Langkah minggu depan:\n\n\"Suggest 3 remedial activities for next week, each 15 minutes, using classroom items.\"",
+      "Periksa lagi datanya sebelum dikirim, karena AI kadang keliru kalau datanya banyak. Bagikan ke teman guru yang membutuhkan ya."
+    ],
+    "cta": "",
+    "tags": [
+      "gemini canvas",
+      "laporan perkembangan murid",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0116",
+    "judul": "App belajar di ponsel siap dalam 15 menit",
+    "hook": "App belajar di ponsel seperti ini sekarang bisa selesai dalam 15 menit saja. Caranya:",
+    "posts": [
+      "App belajar di ponsel seperti ini sekarang bisa selesai dalam 15 menit saja. Caranya:\n\nCocok untuk kreator konten yang ingin membuat bahan sendiri.",
+      "1. Tentukan satu topik kecil, contoh pengucapan kosakata Bahasa Inggris untuk anak-anak.\n\n2. Buka Claude Artifacts, tempel prompt ini:\n\n\"Build a mobile-friendly learning app for [topic], 10 cards, tap to hear the word, progress bar, Indonesian and English labels, one HTML file.\"",
+      "3. Uji di ponsel sendiri. Pastikan tombolnya cukup besar dan tulisannya jelas.\n\nTips akhir: uji dulu sebelum dibagikan ke orang lain, bener nggak?"
+    ],
+    "cta": "",
+    "tags": [
+      "claude artifacts",
+      "app belajar di ponsel",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0117",
+    "judul": "Video animasi pendek untuk kelas dalam 30 detik",
+    "hook": "Banyak yang DM tanya: bagaimana cara membuat video animasi pendek untuk kelas dalam waktu singkat?",
+    "posts": [
+      "Banyak yang DM tanya: bagaimana cara membuat video animasi pendek untuk kelas dalam waktu singkat?\n\nYuk saya jawab.",
+      "1. Pilih satu konsep untuk 30 detik, contoh rantai makanan.\n\n2. Buka Gemini Canvas, minta AI menulis naskah 5 adegan dengan teks singkat di setiap adegan.",
+      "3. Tempel prompt ini:\n\n\"Create a 30-second animated explainer on [concept] for grade 5. 5 scenes, one line of Indonesian text per scene, flat colourful shapes, smooth transitions, one HTML file.\"\n\nRekam layar, selesai.",
+      "Kalau mau lebih cepat, ada koleksi 29 template game belajar siap main. Komen GAME, nanti saya jelaskan caranya."
+    ],
+    "cta": "GAME",
+    "tags": [
+      "gemini canvas",
+      "video animasi pendek untuk kelas",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0118",
+    "judul": "Naskah video SMP dari catatan",
+    "hook": "Berhenti minta Gemini Notebook atau NotebookLM \"buatkan video\" tanpa sumber. Guru SMP bisa pakai framework prompt ini untuk naskah video yang lebih rapi.",
+    "posts": [
+      "Berhenti minta Gemini Notebook atau NotebookLM \"buatkan video\" tanpa sumber. Guru SMP bisa pakai framework prompt ini untuk naskah video yang lebih rapi.\n\nIni caranya:",
+      "1. Tetapkan ini dalam prompt:\n\n+ Sumber catatan yang diunggah\n+ Panjang video\n+ Tingkat murid\n+ Bahasa dan nada\n\nSumber yang jelas membuat jawaban tidak keluar dari topik.",
+      "2. Contoh untuk sistem peredaran darah:\n\n\"Using only my uploaded notes, write a 60-second animated video script for grade 8. 6 scenes, one key fact per scene, Indonesian narration lines.\"\n\n3. Contoh untuk gaya dan gerak:\n\n\"Write a 45-second animation script from my notes on force and motion, with 3 quick checks for understanding.\"",
+      "Semak dulu naskahnya sebelum membuat visual. Lebih cepat daripada memperbaiki video yang sudah jadi."
+    ],
+    "cta": "",
+    "tags": [
+      "notebooklm",
+      "video animasi pendek untuk kelas",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0119",
+    "judul": "Lagu belajar sejarah dengan framework prompt",
+    "hook": "Berhenti minta Gemini Canvas \"buatkan lagu\" tanpa tema. Guru sejarah bisa pakai framework prompt ini untuk membuat lagu belajar yang lebih rapi.",
+    "posts": [
+      "Berhenti minta Gemini Canvas \"buatkan lagu\" tanpa tema. Guru sejarah bisa pakai framework prompt ini untuk membuat lagu belajar yang lebih rapi.",
+      "1. Tetapkan ini dalam prompt:\n\n+ Judul peristiwa\n+ Jumlah bait dan reff\n+ Tahun atau nama tokoh yang harus disebut\n+ Gaya irama (pelan, ceria)\n\nPokoknya jelas dan mudah dihafal.",
+      "2. Contoh untuk Hari Kemerdekaan:\n\n\"Write a 2-verse Indonesian learning song about Independence Day for grade 4, with a chorus repeating the date and the key event. Simple rhymes, slow beat.\"\n\n3. Contoh untuk tokoh sejarah:\n\n\"Write a short catchy chorus about [historical figure] and 3 achievements, Indonesian, easy to chant in class.\"",
+      "Baca liriknya dengan keras. Kalau tersendat, potong kalimat itu. Simpan liriknya untuk kelas besok."
+    ],
+    "cta": "",
+    "tags": [
+      "gemini canvas",
+      "lagu belajar",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0120",
+    "judul": "Infografik peta pikiran dari catatan sendiri",
+    "hook": "Banyak yang DM tanya: bisakah infografik peta pikiran dibuat dari catatan sendiri dalam satu jam? Ini jawaban singkat saya.",
+    "posts": [
+      "Banyak yang DM tanya: bisakah infografik peta pikiran dibuat dari catatan sendiri dalam satu jam? Ini jawaban singkat saya.",
+      "1. Unggah catatan ke Gemini Notebook atau NotebookLM, pastikan catatannya punya judul yang jelas.\n\n2. Minta AI mengeluarkan 5 cabang utama dan 2 isi untuk setiap cabang.",
+      "3. Tempel prompt ini:\n\n\"Using only my notes, make a mind map infographic with 5 main branches, 2 points each, short Indonesian labels. Keep the original content.\"\n\nHapus cabang yang tidak ada di catatan asli.",
+      "Kalau mau belajar AI untuk kelas dari nol, ada kelas Masterclass AI untuk guru. Komen TOOLS kalau mau tahu lebih."
+    ],
+    "cta": "TOOLS",
+    "tags": [
+      "notebooklm",
+      "infografik peta pikiran",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0121",
+    "judul": "Game matematika Angry Birds tanpa coding",
+    "hook": "KAK, GIMANA CARANYA BIKIN GAME MATEMATIKA MIRIP ANGRY BIRDS TANPA CODING?",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN GAME MATEMATIKA MIRIP ANGRY BIRDS TANPA CODING?\n\nCaranya lebih gampang dari yang kalian kira.",
+      "1. Unggah daftar soal matematika ke Gemini Notebook atau NotebookLM.\n\n2. Minta AI mengubah soal jadi target game, setiap target berisi satu soal.",
+      "3. Tempel prompt ini:\n\n\"From my uploaded questions, make a bird-launch maths game: each target shows one question, 3 answer options, and a score. Keep the original content, Indonesian labels.\"\n\nUji dulu dengan 5 soal.",
+      "Untuk pelaku UMKM, cara ini hemat waktu dan biaya. Coba satu topik dulu."
+    ],
+    "cta": "",
+    "tags": [
+      "notebooklm",
+      "game matematika mirip angry birds",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0122",
+    "judul": "5 prompt kartu hafalan kosakata TPQ",
+    "hook": "5 prompt Claude yang setiap ustaz dan ustazah TPQ sebaiknya simpan untuk kartu hafalan kosakata.",
+    "posts": [
+      "5 prompt Claude yang setiap ustaz dan ustazah TPQ sebaiknya simpan untuk kartu hafalan kosakata.\n\nSimpan dulu, biar gampang dicari saat dibutuhkan.",
+      "1. Kartu kosakata Arab dengan arti Indonesia:\n\n\"Make 12 flashcards of Arabic vocabulary on [topic] with Indonesian meaning and one example sentence each.\"\n\n2. Kartu dengan gambar:\n\n\"Create 10 vocabulary cards with a simple picture description, the word in Arabic script and Latin letters.\"",
+      "3. Kuis singkat:\n\n\"Turn these 8 words into a 5-question quiz with answers at the end, one question per word.\"\n\n4. Kartu untuk murid kelas 1:\n\n\"Make large-font flashcards for 6 year olds, 3 words per page, Indonesian sentences.\"",
+      "5. Kartu yang bisa dicetak:\n\n\"Give me a printable word list in two columns, with a space for pupils to write the meaning.\"\n\nPeriksa lagi tulisan Arabnya sebelum dicetak."
+    ],
+    "cta": "",
+    "tags": [
+      "claude",
+      "kartu hafalan kosakata",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0123",
+    "judul": "Lagu belajar untuk catatan ujian dalam 10 menit",
+    "hook": "KAK, GIMANA CARANYA BIKIN LAGU BELAJAR UNTUK CATATAN UJIAN DALAM 10 MENIT?",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN LAGU BELAJAR UNTUK CATATAN UJIAN DALAM 10 MENIT?\n\nJawabannya simpel, ikuti 4 langkah ini.",
+      "1. Tulis 5 fakta penting dari catatan, satu kalimat pendek untuk setiap fakta.\n\n2. Buka Gemini, minta AI memasukkan fakta itu ke dalam bait pendek dengan rima yang mudah.",
+      "3. Tempel prompt ini:\n\n\"Turn these 5 facts into a short catchy Indonesian song with a chorus, easy to memorise, about 90 seconds to sing.\"\n\n4. Minta versi kedua dengan irama lebih pelan kalau mau dihafal malam hari.",
+      "Nyanyikan sendiri dua kali. Kalau masih sulit diingat, ganti kalimat yang panjang. Sudah siap untuk belajar lagi."
+    ],
+    "cta": "",
+    "tags": [
+      "gemini",
+      "lagu belajar",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0124",
+    "judul": "Simulasi sains tanpa lab pakai ChatGPT",
+    "hook": "KAK, GIMANA CARANYA BIKIN SIMULASI SAINS UNTUK KELAS TANPA LABORATORIUM, PAKAI CHATGPT SAJA?",
+    "posts": [
+      "KAK, GIMANA CARANYA BIKIN SIMULASI SAINS UNTUK KELAS TANPA LABORATORIUM, PAKAI CHATGPT SAJA?\n\nNggak susah kok, ikuti langkah ini.",
+      "1. Pilih satu eksperimen sederhana, contoh gravitasi atau pemantulan cahaya.\n\n2. Tulis apa yang harus dilihat murid dan apa yang bisa diubah, contoh sudut atau massa.",
+      "3. Minta ChatGPT membuat simulasi dengan slider. Tempel prompt ini:\n\n\"Build a single-file HTML science simulation of [experiment] with 2 sliders, live result text, Indonesian labels, simple colours.\"\n\n4. Uji dengan 3 nilai berbeda. Pastikan hasilnya masuk akal sebelum ditayangkan.",
+      "Kalau hasilnya tidak masuk akal, minta ChatGPT menjelaskan rumus yang dipakai. Kabari saya kalau ada yang aneh."
+    ],
+    "cta": "",
+    "tags": [
+      "chatgpt",
+      "simulasi sains",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  },
+  {
+    "id": "ti0125",
+    "judul": "Game tebak gambar untuk belajar ulang",
+    "hook": "Sebenarnya kita bisa pakai Gemini Canvas untuk membuat game tebak gambar sebagai bahan belajar ulang. Ini caranya:",
+    "posts": [
+      "Sebenarnya kita bisa pakai Gemini Canvas untuk membuat game tebak gambar sebagai bahan belajar ulang. Ini caranya:\n\nMurid suka kalau belajar sambil bermain.",
+      "1. Daftar 8 istilah dari bab yang mau diulang.\n\n2. Minta Gemini Canvas menggambar ikon sederhana untuk setiap istilah, murid menebak istilahnya.",
+      "3. Tempel prompt ini:\n\n\"Create a picture-guessing revision game with 8 terms from [chapter]. Each round shows a simple SVG drawing, student types the term. Keep the original terms, Indonesian labels, score counter.\"\n\nGanti ikon yang membingungkan.",
+      "Kalau mau versi lengkap dengan suara dan level, minta Gemini Canvas tambahkan satu level lagi. Gampang, kan?"
+    ],
+    "cta": "",
+    "tags": [
+      "gemini canvas",
+      "game tebak gambar",
+      "prompt ai",
+      "pendidikan indonesia"
+    ]
+  }
+]

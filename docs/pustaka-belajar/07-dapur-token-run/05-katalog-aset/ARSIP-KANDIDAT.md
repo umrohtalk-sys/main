@@ -1,0 +1,333 @@
+# Kandidat Arsip (HANYA DAFTAR, tidak ada yang dihapus)
+
+## A. Versi lama (ada versi lebih baru di kelompok yang sama)
+
+- **video-cikgu-sehari** (video): terkini 202611211246, lama 208 MB
+  - 202611211241 isometrik-id (182 MB) `/Users/auzanhasfi/Documents/app matematika/video-cikgu-sehari-20261121-1241-isometrik-id`
+  - 202611191841 isometrik-bm (25 MB) `/Users/auzanhasfi/Documents/app matematika/video-cikgu-sehari-20261119-1841-isometrik-bm`
+- **video-prompt-generator-cerita** (video): terkini 202610262130, lama 125 MB
+  - 202610262112 copy-baru-ms-id (125 MB) `/Users/auzanhasfi/Documents/app matematika/video-prompt-generator-cerita-20261026-2112-copy-baru-ms-id`
+- **video-rm1-juta-semua-rakyat** (video): terkini 202611210649, lama 113 MB
+  - 202611210649 threads-720p-kompres (8 MB) `/Users/auzanhasfi/Downloads/video-rm1-juta-semua-rakyat-20261121-0649-threads-720p-kompres.mp4`
+  - 202611210638 whatif-3d-bm (105 MB) `/Users/auzanhasfi/Documents/app matematika/video-rm1-juta-semua-rakyat-20261121-0638-whatif-3d-bm`
+- **chat whatsapp dengan adib team konten** (app): terkini 202507021951, lama 104 MB
+  - 202507021929  (104 MB) `/Users/auzanhasfi/Downloads/Chat WhatsApp dengan Adib Team Konten.zip`
+- **prompt-generator-game** (game): terkini 202610212026, lama 102 MB
+  - 202610202123 tanpa-gratis-floatbar (21 MB) `/Users/auzanhasfi/Downloads/prompt-generator-game-20261020-2123-tanpa-gratis-floatbar-netlify`
+  - 202610201729 tambah-11-app-referensi-ui (21 MB) `/Users/auzanhasfi/Downloads/prompt-generator-game-20261020-1729-tambah-11-app-referensi-ui-netlify`
+  - 202610201718 koleksi-clawd-upload (19 MB) `/Users/auzanhasfi/Downloads/prompt-generator-game-20261020-1718-koleksi-clawd-upload-netlify`
+  - 202610201718 koleksi-clawd (41 MB) `/Users/auzanhasfi/Documents/app matematika/prompt-generator-game-20261020-1718-koleksi-clawd`
+- **video-jago-ngomong-stand-out** (video): terkini 202611192015, lama 77 MB
+  - 202611192015 kartun-id (77 MB) `/Users/auzanhasfi/Documents/app matematika/video-jago-ngomong-stand-out-20261119-2015-kartun-id`
+- **video-mykad-vs-ktp** (video): terkini 202611210529, lama 69 MB
+  - 202611210521 mix-belah-dua-bm (69 MB) `/Users/auzanhasfi/Documents/app matematika/video-mykad-vs-ktp-20261121-0521-mix-belah-dua-bm`
+- **dr-syikin-mata** (lain): terkini 202610052029, lama 65 MB
+  - 202610051052  (65 MB) `/Users/auzanhasfi/Downloads/dr-syikin-mata`
+- **video-cikgu-cepat-penat** (video): terkini 202611210509, lama 57 MB
+  - 202611210451 reaksi-bm (57 MB) `/Users/auzanhasfi/Documents/app matematika/video-cikgu-cepat-penat-20261121-0451-reaksi-bm`
+- **video-kata-id-vs-my** (video): terkini 202611192045, lama 55 MB
+  - 202611192045 belah-dua-bm (55 MB) `/Users/auzanhasfi/Documents/app matematika/video-kata-id-vs-my-20261119-2045-belah-dua-bm`
+- **video-granat-gelas** (video): terkini 202611210404, lama 50 MB
+  - 202611210344 zackd-3d-en (50 MB) `/Users/auzanhasfi/Documents/app matematika/video-granat-gelas-20261121-0344-zackd-3d-en`
+- **video-dosen-id-vs-my** (video): terkini 202611080557, lama 44 MB
+  - 202611080411 bm (44 MB) `/Users/auzanhasfi/Documents/app matematika/video-dosen-id-vs-my-20261108-0411-bm`
+- **video-sekolah-semua-game** (video): terkini 202611041815, lama 41 MB
+  - 202611040800 zack-bm (41 MB) `/Users/auzanhasfi/Documents/app matematika/video-sekolah-semua-game-20261104-0800-zack-bm`
+- **bidan-virda-testimoni** (lain): terkini 202610202010, lama 39 MB
+  - 202610202000 adnan-pijat-ali-homecare (8 MB) `/Users/auzanhasfi/Downloads/bidan-virda-testimoni-20261020-2000-adnan-pijat-ali-homecare`
+  - 202610070000 mandi-jemur-arsya-arsyi (8 MB) `/Users/auzanhasfi/Downloads/bidan-virda-testimoni-20261007-mandi-jemur-arsya-arsyi`
+  - 202610062030 tindik-wa (8 MB) `/Users/auzanhasfi/Downloads/bidan-virda-testimoni-20261006-2030-tindik-wa`
+  - 202610062005 tanpa-nomor-telepon (8 MB) `/Users/auzanhasfi/Downloads/bidan-virda-testimoni-20261006-2005-tanpa-nomor-telepon`
+  - 202610061955 baby-spa-arsya-arsyi (8 MB) `/Users/auzanhasfi/Downloads/bidan-virda-testimoni-20261006-1955-baby-spa-arsya-arsyi`
+- **video-otak-100-peratus** (video): terkini 202611162152, lama 38 MB
+  - 202611162125 whatif-3d-bm (38 MB) `/Users/auzanhasfi/Documents/app matematika/video-otak-100-peratus-20261116-2125-whatif-3d-bm`
+- **gemi-app** (app): terkini 202610281930, lama 38 MB
+  - 202609250438 modul-video-opus (5 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260925-0438-modul-video-opus`
+  - 202609231936 maskot-svg-baru (5 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260923-1936-maskot-svg-baru`
+  - 202609200926 modul-app-builder (9 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260920-0926-modul-app-builder`
+  - 202609191807 modul-bina-app (8 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260919-1807-modul-bina-app`
+  - 202609182024 maskot-svg-hidup (7 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260918-2024-maskot-svg-hidup`
+  - 202609121947 modul-baru-brandkit (4 MB) `/Users/auzanhasfi/Documents/app matematika/gemi-app-20260912-1947-modul-baru-brandkit`
+- **video-prompt-generator-tutorial** (video): terkini 202610280033, lama 36 MB
+  - 202610262206 id-2format (36 MB) `/Users/auzanhasfi/Documents/app matematika/video-prompt-generator-tutorial-20261026-2206-id-2format`
+- **video-claude-pemula-bina-app** (video): terkini 202609250401, lama 36 MB
+  - 202609242049 bm-hidup-2format (18 MB) `/Users/auzanhasfi/Documents/app matematika/video-claude-pemula-bina-app-20260924-2049-bm-hidup-2format`
+  - 202609242040 potret-bm-cerah (18 MB) `/Users/auzanhasfi/Documents/app matematika/video-claude-pemula-bina-app-20260924-2040-potret-bm-cerah`
+- **prompt-generator** (app): terkini 202611092029, lama 34 MB
+  - 202611092014 bagian-prompt-video (34 MB) `/Users/auzanhasfi/Downloads/prompt-generator-20261109-2014-bagian-prompt-video`
+- **lp-prompt-generator** (lp): terkini 202611101801, lama 34 MB
+  - 202611061847 clarity-hp (9 MB) `/Users/auzanhasfi/Downloads/lp-prompt-generator-20261106-1847-clarity-hp`
+  - 202611061100 marketing-kit (8 MB) `/Users/auzanhasfi/Downloads/lp-prompt-generator-20261106-1100-marketing-kit`
+  - 202611012030 clarity (17 MB) `/Users/auzanhasfi/Documents/app matematika/lp-prompt-generator-20261101-2030-clarity`
+- **guru-dosen-carousel-fyp** (carousel): terkini 202610140042, lama 33 MB
+  - 202610120545 photodump-9x16 (33 MB) `/Users/auzanhasfi/Downloads/guru-dosen-carousel-fyp-20261012-0545-photodump-9x16`
+- **video-pemanas-co** (video): terkini 202611210409, lama 32 MB
+  - 202611210351 3d-potret-en (32 MB) `/Users/auzanhasfi/Documents/app matematika/video-pemanas-co-20261121-0351-3d-potret-en`
+- **video-clawd-fotosintesis-promo** (video): terkini 202611022145, lama 31 MB
+  - 202611022115 potret-bm (31 MB) `/Users/auzanhasfi/Documents/app matematika/video-clawd-fotosintesis-promo-20261102-2115-potret-bm`
+- **video-arena-clawd-ml-promo** (video): terkini 202611022300, lama 30 MB
+  - 202611022230 potret-bm (30 MB) `/Users/auzanhasfi/Documents/app matematika/video-arena-clawd-ml-promo-20261102-2230-potret-bm`
+- **video-englisha-preview** (video): terkini 202609232100, lama 27 MB
+  - 202609232041 potret-id (27 MB) `/Users/auzanhasfi/Documents/app matematika/video-englisha-preview-20260923-2041-potret-id`
+- **cover-reels-ig** (video): terkini 202611162234, lama 24 MB
+  - 202611162204 pek-41-reel (5 MB) `/Users/auzanhasfi/Downloads/cover-reels-ig-20261116-2204-pek-41-reel.html`
+  - 202611162156 studio-biru-70-cover (5 MB) `/Users/auzanhasfi/Downloads/cover-reels-ig-20261116-2156-studio-biru-70-cover.html`
+  - 202611162156 studio-biru (14 MB) `/Users/auzanhasfi/Documents/app matematika/cover-reels-ig-20261116-2156-studio-biru`
+- **bidan-virda-feed-ig** (lain): terkini 202611072059, lama 22 MB
+  - 202611072033 20-postingan (22 MB) `/Users/auzanhasfi/Downloads/bidan-virda-feed-ig-20261107-2033-20-postingan`
+- **video-gemi-tips-bina-app** (video): terkini 202609220000, lama 21 MB
+  - 202609220000 potret-bm (21 MB) `/Users/auzanhasfi/Documents/app matematika/video-gemi-tips-bina-app-20260922-potret-bm`
+- **bidan-virda-carousel-emosi-ibu-hamil** (carousel): terkini 202610120545, lama 21 MB
+  - 202610102010 readable-9x16 (10 MB) `/Users/auzanhasfi/Downloads/bidan-virda-carousel-emosi-ibu-hamil-20261010-2010-readable-9x16`
+  - 202610101940 potret-9x16 (11 MB) `/Users/auzanhasfi/Downloads/bidan-virda-carousel-emosi-ibu-hamil-20261010-1940-potret-9x16`
+- **video-belajar-bina-tipografi** (video): terkini 202610011810, lama 21 MB
+  - 202610011810 landskap-bm (21 MB) `/Users/auzanhasfi/Documents/app matematika/video-belajar-bina-tipografi-20261001-1810-landskap-bm`
+- **prompt-generator-demo** (app): terkini 202611101801, lama 19 MB
+  - 202611092021 best-seller-pro (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261109-2021-best-seller-pro`
+  - 202611061847 clarity-hp (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261106-1847-clarity-hp`
+  - 202611061000 marketing-kit-video (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261106-1000-marketing-kit-video`
+  - 202611012030 clarity-video-atas (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261101-2030-clarity-video-atas`
+  - 202610310940 testimoni-video (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261031-0940-testimoni-video`
+  - 202610310815 laptop-hp-interaktif (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261031-0815-laptop-hp-interaktif`
+  - 202610282105 liputan-wtm (2 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261028-2105-liputan-wtm`
+  - 202610282035 fokus-galeri (1 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261028-2035-fokus-galeri`
+  - 202610282010 lptools-url-bahasa (1 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261028-2010-lptools-url-bahasa`
+  - 202610281953 hook-gratis-pro (1 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261028-1953-hook-gratis-pro`
+  - 202610251846 cara-pakai-fitur-pro (1 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261025-1846-cara-pakai-fitur-pro`
+  - 202610231642 galeri-3bahasa (1 MB) `/Users/auzanhasfi/Downloads/prompt-generator-demo-20261023-1642-galeri-3bahasa`
+- **bidan-virda-carousel-bayi-nangis-mandi** (carousel): terkini 202610091852, lama 16 MB
+  - 202610091845 kotak-10-slide (16 MB) `/Users/auzanhasfi/Downloads/bidan-virda-carousel-bayi-nangis-mandi-20261009-1845-kotak-10-slide`
+- **pek-cover-reel-ig** (video): terkini 202611162234, lama 15 MB
+  - 202611162204 41-reel (15 MB) `/Users/auzanhasfi/Downloads/pek-cover-reel-ig-20261116-2204-41-reel.zip`
+- **game-dunia-clawd** (game): terkini 202611141921, lama 14 MB
+  - 202611072048 blok-arena-banyak (2 MB) `/Users/auzanhasfi/Documents/app matematika/game-dunia-clawd-20261107-2048-blok-arena-banyak`
+  - 202611020430 roblox-3d-ms-en-id (12 MB) `/Users/auzanhasfi/Documents/app matematika/game-dunia-clawd-20261102-0430-roblox-3d-ms-en-id`
+- **iloveimg-converted (1)** (lain): terkini 202505211930, lama 12 MB
+  - 202505211928  (12 MB) `/Users/auzanhasfi/Downloads/iloveimg-converted (1)`
+- **iloveimg-converted** (lain): terkini 202505162028, lama 12 MB
+  - 202505162022  (12 MB) `/Users/auzanhasfi/Downloads/iloveimg-converted`
+- **video-claude-tak-pandai-animasi** (video): terkini 202611151200, lama 11 MB
+  - 202611151102 potret-bm (11 MB) `/Users/auzanhasfi/Documents/app matematika/video-claude-tak-pandai-animasi-20261115-1102-potret-bm`
+- **video-rbt-app-preview** (video): terkini 202610010127, lama 11 MB
+  - 202609261057 potret-bm (11 MB) `/Users/auzanhasfi/Documents/app matematika/video-rbt-app-preview-20260926-1057-potret-bm`
+- **bidan-virda-carousel-bayi-tenang-setelah-mandi** (carousel): terkini 202610140530, lama 10 MB
+  - 202610140500 natural-9x16 (10 MB) `/Users/auzanhasfi/Downloads/bidan-virda-carousel-bayi-tenang-setelah-mandi-20261014-0500-natural-9x16`
+- **bidan-virda-carousel-newborn-tidur-nyenyak** (carousel): terkini 202610120600, lama 9 MB
+  - 202610120545 natural-tanpa-kotak (9 MB) `/Users/auzanhasfi/Downloads/bidan-virda-carousel-newborn-tidur-nyenyak-20261012-0545-natural-tanpa-kotak`
+- **food-drive-template-design** (lain): terkini 202503010940, lama 9 MB
+  - 202402140640  (9 MB) `/Users/auzanhasfi/Downloads/food-drive-template-design`
+- **uikit-gemi** (uikit): terkini 202609130301, lama 8 MB
+  - 202609130253 skrin-terkini (8 MB) `/Users/auzanhasfi/Documents/app matematika/uikit-gemi-20260913-0253-skrin-terkini`
+- **deploy-6ac4ba732c72fa96de81db78** (lain): terkini 202610061949, lama 8 MB
+  - 202610061249  (8 MB) `/Users/auzanhasfi/Downloads/deploy-6ac4ba732c72fa96de81db78`
+- **carousel-claude-nocode-bingung-mulai** (carousel): terkini 202610091700, lama 7 MB
+  - 202610090350 kotak-10-slide-friendly (7 MB) `/Users/auzanhasfi/Documents/app matematika/carousel-claude-nocode-bingung-mulai-20261009-0350-kotak-10-slide-friendly`
+- **stitch_mathquest_kids_ui_kit** (lain): terkini 202609111322, lama 7 MB
+  - 202609111314  (7 MB) `/Users/auzanhasfi/Downloads/stitch_mathquest_kids_ui_kit.zip`
+- **lp-edugamelabs-id** (lp): terkini 202611101801, lama 6 MB
+  - 202611012030 clarity-video-atas (1 MB) `/Users/auzanhasfi/Documents/app matematika/lp-edugamelabs-id-20261101-2030-clarity-video-atas`
+  - 202610220317 prompt-generator-elegan (2 MB) `/Users/auzanhasfi/Documents/app matematika/lp-edugamelabs-id-20261022-0317-prompt-generator-elegan`
+  - 202610151949 ilmu-jadi-produk (2 MB) `/Users/auzanhasfi/Documents/app matematika/lp-edugamelabs-id-20261015-1949-ilmu-jadi-produk-netlify.zip`
+- **lp-prompt-video-3bahasa** (video): terkini 202611210717, lama 5 MB
+  - 202611182204 49-gaya (2 MB) `/Users/auzanhasfi/Downloads/lp-prompt-video-3bahasa-20261118-2204-49-gaya`
+  - 202611151054 motion-story (1 MB) `/Users/auzanhasfi/Downloads/lp-prompt-video-3bahasa-20261115-1054-motion-story`
+  - 202611120551 kliqoo (960 KB) `/Users/auzanhasfi/Downloads/lp-prompt-video-3bahasa-20261112-0551-kliqoo`
+  - 202611111857 id-ms-en (960 KB) `/Users/auzanhasfi/Downloads/lp-prompt-video-3bahasa-20261111-1857-id-ms-en`
+- **braineye-3d** (app): terkini 202610060437, lama 5 MB
+  - 202610052030 eye-atlas-en-ms (5 MB) `/Users/auzanhasfi/Downloads/braineye-3d-20261005-2030-eye-atlas-en-ms`
+- **app-pemula-nocode-id** (app): terkini 202610231943, lama 5 MB
+  - 202609291911 section-produk-laku (1 MB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-id-20260929-1911-section-produk-laku`
+  - 202609271913 bahasa-id-lembar-kerja (1 MB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-id-20260927-1913-bahasa-id-lembar-kerja`
+  - 202609260951 section-antigravity (1 MB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-id-20260926-0951-section-antigravity`
+  - 202609241826 section-jual-malaysia (1 MB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-id-20260924-1826-section-jual-malaysia`
+- **edugamelabs-bm** (game): terkini 202610052004, lama 5 MB
+  - 202610040911 plus-kod-sumber (2 MB) `/Users/auzanhasfi/Downloads/edugamelabs-bm-20261004-0911-plus-kod-sumber-netlify`
+  - 202610040815 harga-rm (2 MB) `/Users/auzanhasfi/Downloads/edugamelabs-bm-20261004-0815-harga-rm-netlify`
+  - 202610040800  (2 MB) `/Users/auzanhasfi/Downloads/edugamelabs-bm-20261004-0800-netlify`
+- **claude-vs-codex-main** (lain): terkini 202609212023, lama 5 MB
+  - 202609210627  (5 MB) `/Users/auzanhasfi/Downloads/claude-vs-codex-main`
+- **panduan-google-ai-cikgu-pemula** (lain): terkini 202609112047, lama 5 MB
+  - 202609111725 redesign-uikit (4 MB) `/Users/auzanhasfi/Documents/app matematika/panduan-google-ai-cikgu-pemula-20260911-1725-redesign-uikit`
+  - 202609111036  (776 KB) `/Users/auzanhasfi/Documents/app matematika/panduan-google-ai-cikgu-pemula-20260911-1036`
+- **jasa-edugamelabs** (game): terkini 202610152120, lama 4 MB
+  - 202610152117 preview-video (4 MB) `/Users/auzanhasfi/Downloads/jasa-edugamelabs-20261015-2117-preview-video-netlify.zip`
+- **cover-video-14-17-nov** (video): terkini 202611172250, lama 4 MB
+  - 202611172250 20-video (4 MB) `/Users/auzanhasfi/Downloads/cover-video-14-17-nov-20261117-2250-20-video.html`
+- **fundraising-event-labels-template** (lain): terkini 202503010922, lama 4 MB
+  - 202309291224  (4 MB) `/Users/auzanhasfi/Downloads/fundraising-event-labels-template`
+- **lp-edugamelabs-ms** (lp): terkini 202611101801, lama 4 MB
+  - 202611012030 clarity-video-atas (2 MB) `/Users/auzanhasfi/Documents/app matematika/lp-edugamelabs-ms-20261101-2030-clarity-video-atas`
+  - 202610151949 ilmu-jadi-produk (2 MB) `/Users/auzanhasfi/Documents/app matematika/lp-edugamelabs-ms-20261015-1949-ilmu-jadi-produk`
+- **edugame-labs-bento-id** (game): terkini 202608282009, lama 3 MB
+  - 202608270000  (3 MB) `/Users/auzanhasfi/Documents/app matematika/edugame-labs-bento-id-20260827.zip`
+- **app-pemula-nocode-ms** (app): terkini 202610231957, lama 3 MB
+  - 202609291911 section-produk-laris (1 MB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-ms-20260929-1911-section-produk-laris`
+  - 202609271913 section-lembaran-kerja (1000 KB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-ms-20260927-1913-section-lembaran-kerja`
+  - 202609250411 section-video-claude-opus (948 KB) `/Users/auzanhasfi/Documents/app matematika/app-pemula-nocode-ms-20260925-0411-section-video-claude-opus`
+- **hand-drawn-design-background** (lain): terkini 202503010925, lama 3 MB
+  - 202003311530  (3 MB) `/Users/auzanhasfi/Downloads/hand-drawn-design-background`
+- **carousel-prompt-video** (video): terkini 202611101853, lama 3 MB
+  - 202611101850 10slide-bm (3 MB) `/Users/auzanhasfi/Documents/app matematika/carousel-prompt-video-20261110-1850-10slide-bm`
+- **deploy-6a6f467624d70798d5eb76db** (lain): terkini 202608261947, lama 2 MB
+  - 202608261247  (2 MB) `/Users/auzanhasfi/Downloads/deploy-6a6f467624d70798d5eb76db`
+- **hand-drawn-world-food-day-event-design** (lain): terkini 202503010932, lama 2 MB
+  - 202008141305  (2 MB) `/Users/auzanhasfi/Downloads/hand-drawn-world-food-day-event-design`
+- **carousel-gemi-app** (carousel): terkini 202609200940, lama 2 MB
+  - 202609200930 jual-rm15 (2 MB) `/Users/auzanhasfi/Documents/app matematika/carousel-gemi-app-20260920-0930-jual-rm15`
+- **hand-drawn-flat-design-meal-prep-illustration** (lain): terkini 202503010937, lama 2 MB
+  - 202203080819  (2 MB) `/Users/auzanhasfi/Downloads/hand-drawn-flat-design-meal-prep-illustration`
+- **carousel-worksheet-5langkah** (carousel): terkini 202609292022, lama 2 MB
+  - 202609292022 6slaid-ms (1 MB) `/Users/auzanhasfi/Downloads/carousel-worksheet-5langkah-20260929-2022-6slaid-ms.zip`
+  - 202609292022 6slaid-id (1 MB) `/Users/auzanhasfi/Downloads/carousel-worksheet-5langkah-20260929-2022-6slaid-id.zip`
+- **carousel-educator-gemi** (carousel): terkini 202609231957, lama 2 MB
+  - 202609112103 redesign-maskot (2 MB) `/Users/auzanhasfi/Documents/app matematika/carousel-educator-gemi-20260911-2103-redesign-maskot`
+- **bidan-virda-lp** (lp): terkini 202610242012, lama 2 MB
+  - 202610022121 gaya-lpindo-jember (2 MB) `/Users/auzanhasfi/Downloads/bidan-virda-lp-20261002-2121-gaya-lpindo-jember-netlify.zip`
+- **deploy-6a96da515b52b5734c3d2b27** (lain): terkini 202610040758, lama 2 MB
+  - 202610040058  (2 MB) `/Users/auzanhasfi/Downloads/deploy-6a96da515b52b5734c3d2b27`
+- **misi_kebun_buah_ajaib_netlify** (game): terkini 202608031914, lama 2 MB
+  - 202608031854  (2 MB) `/Users/auzanhasfi/Downloads/Misi_Kebun_Buah_Ajaib_netlify`
+- **english-kita** (app): terkini 202609030229, lama 1 MB
+  - 202609022115  (336 KB) `/Users/auzanhasfi/Documents/app matematika/english-kita-netlify.zip`
+  - 202608222005  (1 MB) `/Users/auzanhasfi/Documents/app matematika/english-kita-netlify`
+- **demo-prompt-video** (video): terkini 202611120551, lama 1 MB
+  - 202611101801 kontak-wa (420 KB) `/Users/auzanhasfi/Downloads/demo-prompt-video-20261110-1801-kontak-wa`
+  - 202611091942 live (404 KB) `/Users/auzanhasfi/Downloads/demo-prompt-video-20261109-1942-live-netlify`
+  - 202611091806 tiga-gaya (400 KB) `/Users/auzanhasfi/Downloads/demo-prompt-video-20261109-1806-tiga-gaya`
+- **guru-claude-app** (app): terkini 202608261957, lama 1 MB
+  - 202608261957  (504 KB) `/Users/auzanhasfi/Documents/app matematika/guru-claude-app`
+  - 202608260358 flexline-icons-chatgpt-gemini (136 KB) `/Users/auzanhasfi/Documents/app matematika/guru-claude-app-20260826-0358-flexline-icons-chatgpt-gemini.zip`
+  - 202608252046 login-wajib (104 KB) `/Users/auzanhasfi/Downloads/guru-claude-app-20260825-2046-login-wajib.zip`
+  - 202608252019  (344 KB) `/Users/auzanhasfi/Downloads/guru-claude-app`
+- **claude-pemula-landing** (lp): terkini 202609260923, lama 952 KB
+  - 202609260920 id-mobile-premium (256 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-20260926-0920-id-mobile-premium`
+  - 202609260909 id-fokus-bikin-app (256 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-20260926-0909-id-fokus-bikin-app`
+  - 202609260413 layout-gemi (440 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-20260926-0413-layout-gemi`
+- **claude-cikgu-landing** (lp): terkini 202608242006, lama 856 KB
+  - 202608242005  (856 KB) `/Users/auzanhasfi/Downloads/claude-cikgu-landing`
+- **deploy-6a9bdc242b99195751f03f71** (lain): terkini 202609241821, lama 728 KB
+  - 202609241120  (728 KB) `/Users/auzanhasfi/Downloads/deploy-6a9bdc242b99195751f03f71`
+- **deploy-6a9bdc05c7e4b26a8ffadc9d** (lain): terkini 202609242026, lama 728 KB
+  - 202609241321  (728 KB) `/Users/auzanhasfi/Downloads/deploy-6a9bdc05c7e4b26a8ffadc9d`
+- **deploy-6a6eb2564571275a1ac89ea3** (lain): terkini 202609011710, lama 720 KB
+  - 202609011010  (720 KB) `/Users/auzanhasfi/Downloads/deploy-6a6eb2564571275a1ac89ea3`
+- **game-arena-clawd-pro** (game): terkini 202611141926, lama 656 KB
+  - 202610242100 ml-lobi-hero-skin (656 KB) `/Users/auzanhasfi/Documents/app matematika/game-arena-clawd-pro-20261024-2100-ml-lobi-hero-skin`
+- **lp-mentoring-claude-jember** (lp): terkini 202611192145, lama 624 KB
+  - 202611192137 value-mobile (312 KB) `/Users/auzanhasfi/Downloads/lp-mentoring-claude-jember-20261119-2137-value-mobile`
+  - 202611192036 fokus-claude (312 KB) `/Users/auzanhasfi/Downloads/lp-mentoring-claude-jember-20261119-2036-fokus-claude`
+- **braineye-studio** (app): terkini 202610041356, lama 612 KB
+  - 202610041340 glass-biru-maskot (396 KB) `/Users/auzanhasfi/Downloads/braineye-studio-20261004-1340-glass-biru-maskot`
+  - 202610041328  (216 KB) `/Users/auzanhasfi/Downloads/braineye-studio`
+- **cartoon-short-kit** (lain): terkini 202611051842, lama 528 KB
+  - 202611021536  (528 KB) `/Users/auzanhasfi/Downloads/cartoon-short-kit`
+- **lp-akses-prompt-generator** (lp): terkini 202610251819, lama 472 KB
+  - 202610251806 animasi-terima-kasih (472 KB) `/Users/auzanhasfi/Documents/app matematika/lp-akses-prompt-generator-20261025-1806-animasi-terima-kasih`
+- **mulka-tajwid** (lain): terkini 202608152024, lama 420 KB
+  - 202608091943  (264 KB) `/Users/auzanhasfi/Downloads/mulka-tajwid.zip`
+  - 202608090722  (156 KB) `/Users/auzanhasfi/Downloads/mulka-tajwid-netlify`
+- **braineye-belajar-mata** (app): terkini 202610072022, lama 356 KB
+  - 202610052110 pwa-bm-en (356 KB) `/Users/auzanhasfi/Downloads/braineye-belajar-mata-20261005-2110-pwa-bm-en`
+- **cikgu-quest** (lain): terkini 202608202357, lama 352 KB
+  - 202608202356  (352 KB) `/Users/auzanhasfi/Downloads/cikgu-quest-netlify`
+- **ophthalmic-triaging-tool** (lain): terkini 202610041100, lama 340 KB
+  - 202610040923 glassmorphic (252 KB) `/Users/auzanhasfi/Downloads/ophthalmic-triaging-tool-20261004-0923-glassmorphic`
+  - 202610040907  (88 KB) `/Users/auzanhasfi/Downloads/ophthalmic-triaging-tool.zip`
+- **materi-moonstar-care** (lain): terkini 202611181647, lama 336 KB
+  - 202611162203 carousel-video (136 KB) `/Users/auzanhasfi/Downloads/materi-moonstar-care-20261116-2203-carousel-video`
+  - 202611162203  (200 KB) `/Users/auzanhasfi/Documents/app matematika/materi-moonstar-care-20261116-2203`
+- **guru-claude-app 2** (app): terkini 202608261957, lama 328 KB
+  - 202608242005  (328 KB) `/Users/auzanhasfi/Downloads/guru-claude-app 2`
+- **deploy-6a7dc1edb90a573c319cc52a (1)** (lain): terkini 202609090317, lama 320 KB
+  - 202609082017  (320 KB) `/Users/auzanhasfi/Downloads/deploy-6a7dc1edb90a573c319cc52a (1)`
+- **deploy-6a7dc1edb90a573c319cc52a** (lain): terkini 202609062102, lama 320 KB
+  - 202609061402  (320 KB) `/Users/auzanhasfi/Downloads/deploy-6a7dc1edb90a573c319cc52a`
+- **cikgu-4** (lain): terkini 202608211056, lama 296 KB
+  - 202608211055  (296 KB) `/Users/auzanhasfi/Downloads/cikgu-4`
+- **lp-mentoring-jember** (lp): terkini 202611192032, lama 288 KB
+  - 202611192021 cafe-zoom (288 KB) `/Users/auzanhasfi/Downloads/lp-mentoring-jember-20261119-2021-cafe-zoom`
+- **prompt-app-edukasi** (app): terkini 202610091036, lama 280 KB
+  - 202610090845 asas-uiux-bm (280 KB) `/Users/auzanhasfi/Documents/app matematika/prompt-app-edukasi-20261009-0845-asas-uiux-bm`
+- **game-siaga-merdeka** (game): terkini 202610311033, lama 276 KB
+  - 202610311006 rts-sejarah-id (276 KB) `/Users/auzanhasfi/Documents/app matematika/game-siaga-merdeka-20261031-1006-rts-sejarah-id`
+- **edugame-labs** (game): terkini 202608132119, lama 264 KB
+  - 202608061835  (264 KB) `/Users/auzanhasfi/Downloads/edugame-labs.html`
+- **deploy-6a64c0e6839ef43c56904817** (lain): terkini 202608270307, lama 260 KB
+  - 202608262007  (260 KB) `/Users/auzanhasfi/Downloads/deploy-6a64c0e6839ef43c56904817`
+- **workflow-bikin-apps-ai** (app): terkini 202610091112, lama 208 KB
+  - 202610091112 promosi-app (208 KB) `/Users/auzanhasfi/Documents/app matematika/workflow-bikin-apps-ai-20261009-1112-promosi-app`
+- **grammo-grammar-app** (app): terkini 202610171850, lama 204 KB
+  - 202610171808 gaya-midwok-wise (204 KB) `/Users/auzanhasfi/Documents/app matematika/grammo-grammar-app-20261017-1808-gaya-midwok-wise`
+- **jawiku-belajar-jawi** (app): terkini 202610190215, lama 200 KB
+  - 202610190202 biru-family (200 KB) `/Users/auzanhasfi/Documents/app matematika/jawiku-belajar-jawi-20261019-0202-biru-family`
+- **claude-pemula-landing-id** (lp): terkini 202609260923, lama 196 KB
+  - 202609260920 mobile-premium (52 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-id-20260926-0920-mobile-premium-netlify.zip`
+  - 202609260909 fokus-bikin-app (52 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-id-20260926-0909-fokus-bikin-app-netlify.zip`
+  - 202609260413 layout-gemi (48 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-id-20260926-0413-layout-gemi-netlify.zip`
+  - 202608290000  (44 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-id-20260829-netlify.zip`
+- **final-boss-matematik** (game): terkini 202610090203, lama 192 KB
+  - 202610090200 soalan-lebih-mudah (148 KB) `/Users/auzanhasfi/Documents/app matematika/final-boss-matematik-20261009-0200-soalan-lebih-mudah`
+  - 202610090154 si-bulat-vs-raja-bug (44 KB) `/Users/auzanhasfi/Downloads/final-boss-matematik-20261009-0154-si-bulat-vs-raja-bug.zip`
+- **flappy-matematika** (game): terkini 202610090221, lama 184 KB
+  - 202610090217 si-bulat-3d (184 KB) `/Users/auzanhasfi/Downloads/flappy-matematika-20261009-0217-si-bulat-3d-netlify.zip`
+- **mentoring-1on1-auzan** (lp): terkini 202610251709, lama 168 KB
+  - 202610251709 builder-rm104 (168 KB) `/Users/auzanhasfi/Documents/app matematika/mentoring-1on1-auzan-20261025-1709-builder-rm104-netlify`
+- **guru-claude-ai** (lain): terkini 202608231737, lama 168 KB
+  - 202608192017  (128 KB) `/Users/auzanhasfi/Documents/app matematika/guru-claude-ai`
+  - 202608191713  (40 KB) `/Users/auzanhasfi/Downloads/guru-claude-ai-netlify.zip`
+- **deploy-6a8a1d20666a3e6dd678ccd4** (lain): terkini 202610012058, lama 164 KB
+  - 202610011358  (164 KB) `/Users/auzanhasfi/Downloads/deploy-6a8a1d20666a3e6dd678ccd4`
+- **chat whatsapp dengan adib team konten (1)** (app): terkini 202507021944, lama 156 KB
+  - 202507021938  (156 KB) `/Users/auzanhasfi/Downloads/Chat WhatsApp dengan Adib Team Konten (1)`
+- **codinger** (app): terkini 202608210522, lama 128 KB
+  - 202608210520  (128 KB) `/Users/auzanhasfi/Documents/app matematika/codinger`
+- **game-bola-hamster-clawd** (game): terkini 202611131947, lama 124 KB
+  - 202611131929 matematik-bm-en (124 KB) `/Users/auzanhasfi/Documents/app matematika/game-bola-hamster-clawd-20261113-1929-matematik-bm-en`
+- **deploy-6a8a792eb14d3abbdb574164** (lain): terkini 202609261055, lama 124 KB
+  - 202609260355  (124 KB) `/Users/auzanhasfi/Downloads/deploy-6a8a792eb14d3abbdb574164`
+- **game-arena-clawd** (game): terkini 202610262134, lama 64 KB
+  - 202610190208 hero-spell-kedai-hutan-bm (36 KB) `/Users/auzanhasfi/Downloads/game-arena-clawd-20261019-0208-hero-spell-kedai-hutan-bm-netlify.zip`
+  - 202610190153 moba-matematik-bm (28 KB) `/Users/auzanhasfi/Downloads/game-arena-clawd-20261019-0153-moba-matematik-bm-netlify.zip`
+- **claude-pemula-landing-ms** (lp): terkini 202609260413, lama 44 KB
+  - 202608290000  (44 KB) `/Users/auzanhasfi/Documents/app matematika/claude-pemula-landing-ms-20260829-netlify.zip`
+- **cpns-kemenag** (app): terkini 202609012129, lama 36 KB
+  - 202609012127  (36 KB) `/Users/auzanhasfi/Documents/app matematika/cpns-kemenag-netlify.zip`
+- **akidah** (app): terkini 202609012117, lama 36 KB
+  - 202608241754  (36 KB) `/Users/auzanhasfi/Documents/app matematika/akidah-netlify.zip`
+- **wedding-planner-lucu** (app): terkini 202609282050, lama 24 KB
+  - 202609282042 gaya-rbt (24 KB) `/Users/auzanhasfi/Documents/app matematika/wedding-planner-lucu-20260928-2042-gaya-rbt.zip`
+- **artikel-threads-game-edukasi** (artikel): terkini 202611032149, lama 24 KB
+  - 202611032138 bikin-dan-jual (8 KB) `/Users/auzanhasfi/Documents/app matematika/artikel-threads-game-edukasi-20261103-2138-bikin-dan-jual.txt`
+  - 202611032129 spasi-emoji (8 KB) `/Users/auzanhasfi/Documents/app matematika/artikel-threads-game-edukasi-20261103-2129-spasi-emoji.txt`
+  - 202611032126 gaya-antigravity (8 KB) `/Users/auzanhasfi/Documents/app matematika/artikel-threads-game-edukasi-20261103-2126-gaya-antigravity.txt`
+- **index** (lain): terkini 202608140429, lama 20 KB
+  - 202605262204  (20 KB) `/Users/auzanhasfi/Downloads/index.html`
+- **n8n-auto-post-by-bang-tutorial** (lain): terkini 202509270543, lama 12 KB
+  - 202506301935  (12 KB) `/Users/auzanhasfi/Downloads/n8n-auto-post-by-bang-tutorial`
+- **artikel-threads-jual-game-edukasi** (artikel): terkini 202611032144, lama 8 KB
+  - 202611032142 penjelasan (8 KB) `/Users/auzanhasfi/Documents/app matematika/artikel-threads-jual-game-edukasi-20261103-2142-penjelasan.txt`
+- **kumpulan-video-baru** (video): terkini 202611041903, lama 0 KB
+  - 202611032015  (0 KB) `/Users/auzanhasfi/Downloads/kumpulan-video-baru-20261103-2015`
+
+## B. node_modules (bisa dibangun ulang dengan npm install)
+
+- video-kerja-emosi-cikgu: 3,173 MB (`/Users/auzanhasfi/Documents/app matematika/video-kerja-emosi-cikgu-20261108-1645-reaksi-bm`)
+- video-cikgu-power-rangers: 1,861 MB (`/Users/auzanhasfi/Documents/app matematika/video-cikgu-power-rangers-20261111-2109-reaksi-bm`)
+- video-reaksi-pandai-cakap: 1,339 MB (`/Users/auzanhasfi/Documents/app matematika/video-reaksi-pandai-cakap-20261105-2300-animated-shorts-bm`)
+- video-reaksi-game-markah: 1,079 MB (`/Users/auzanhasfi/Documents/app matematika/video-reaksi-game-markah-20261105-2240-animated-shorts-bm`)
+- video-reaksi-pj-5jam: 819 MB (`/Users/auzanhasfi/Documents/app matematika/video-reaksi-pj-5jam-20261105-2215-animated-shorts-bm`)
+- video-gemi-tips-bina-app: 784 MB (`/Users/auzanhasfi/Documents/app matematika/video-gemi-tips-bina-app-20260922-potret-id`)
+- video-reaksi-10x-cikgu: 560 MB (`/Users/auzanhasfi/Documents/app matematika/video-reaksi-10x-cikgu-20261104-1830-animated-shorts-bm`)
+- dr-syikin-mata: 62 MB (`/Users/auzanhasfi/Downloads/dr-syikin-mata.zip`)
+- video-promo-prompt-video: 32 MB (`/Users/auzanhasfi/Documents/app matematika/video-promo-prompt-video-20261110-1843-kotak-bm`)
+- gemi-app-experience: 29 MB (`/Users/auzanhasfi/Downloads/gemi-app-experience`)
+- bidan-virda-video: 29 MB (`/Users/auzanhasfi/Downloads/bidan-virda-video`)
+- video-claude-nocode-promo: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-claude-nocode-promo-20261004-1400-gaya-finqube-potret`)
+- video-claude-nocode-hook-tipografi: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-claude-nocode-hook-tipografi-20261006-2140-potret-bm`)
+- video-iljin-company-profile: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-iljin-company-profile-20261012-2236-potret-kotak-id`)
+- video-gemi-kisah-piksel: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-gemi-kisah-piksel-20260921-potret-bm`)
+- video-belajar-bina-tipografi: 29 MB (`/Users/auzanhasfi/Downloads/video-belajar-bina-tipografi-20261001-1810-landskap-bm-20261003T075353Z-1-001.zip`)
+- video-gemi-app-preview: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-gemi-app-preview-20260919-0451-potret`)
+- video-gemi-launch: 29 MB (`/Users/auzanhasfi/Documents/app matematika/video-gemi-launch-20260920-1015-potret-bm`)
+- bank-konten-catatan: 25 MB (`/Users/auzanhasfi/Documents/app matematika/bank-konten-catatan-20261022-1943-simpan-tanpa-kunci`)
+- gemi-referensi: 23 MB (`/Users/auzanhasfi/Downloads/gemi-referensi`)

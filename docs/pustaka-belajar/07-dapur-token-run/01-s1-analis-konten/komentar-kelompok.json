@@ -1,0 +1,23 @@
+{
+ "catatan":"Sampel 201 komentar teratas (terbaru dulu) dari 10 reel teratas via Zernio comments_get_inbox_post_comments; bukan seluruh komentar (reel #1 saja 1.975, hanya ~72 diambil). Balasan pemilik akun (auto-DM) tidak dihitung. Username dianonimkan.",
+ "sampel_total":201,
+ "kelompok":{
+  "pertanyaan":{"n":6,"contoh":["Cara jadi guru tadika di Malaysia gimana? (u1)","Kalau mau jadi guru di Malaysia ada permitnya gak? (u2)","Jadi solution dia apa? (u3)"]},
+  "keluhan_curhat":{"n":63,"contoh":["Guru di Indonesia dipandang sebelah mata (u4)","Paling sakit penat emosi dan penat minda (u5)","Sekolah sukan: pagi latihan, petang latihan, balik penat (u6)"]},
+  "permintaan_topik":{"n":7,"contoh":["Cuba bandingkan Malaysia dgn Singapore (u7)","Cuba Korea Vs Malaysia (u8)","Cuba buat story kerja government (u9)","Indonesia harusnya dicompare dgn India (u10)"]},
+  "minat_produk":{"n":41,"rincian":{"PROMPT":22,"TOOLS":15,"VIDEO":4},"contoh":["Prompt (u11)","Tools (u12)","video (u13)"]},
+  "lain":{"n":84,"contoh":["Terbaik Malaysia (u14)","Mention kawan (u15)","Spam berulang (u16)"]}
+ },
+ "per_reel":{
+  "perbezaan pendidikan malaysia vs indonesia":{"sampel":72,"pertanyaan":5,"keluhan":36,"topik":4,"produk":2,"lain":25},
+  "Nak jadi cikgu JOM tengok":{"sampel":16,"pertanyaan":1,"keluhan":6,"topik":0,"produk":0,"lain":9},
+  "Curhatan cikgu":{"sampel":22,"pertanyaan":0,"keluhan":9,"topik":1,"produk":0,"lain":12},
+  "malaysia vs brunei":{"sampel":13,"pertanyaan":0,"keluhan":0,"topik":2,"produk":6,"lain":5},
+  "Cikgu Aina":{"sampel":16,"pertanyaan":0,"keluhan":0,"topik":0,"produk":15,"lain":1},
+  "Murid reaksi tercepat":{"sampel":5,"lain":5},
+  "Hari isnin dihantar siapa":{"sampel":1,"lain":1},
+  "Cikgu merangkap apa lagi":{"sampel":31,"keluhan":12,"produk":2,"lain":17},
+  "Nak jadi pensyarah":{"sampel":16,"produk":14,"lain":2},
+  "8 dari 10 universiti Asean":{"sampel":9,"produk":2,"lain":7}
+ }
+}

@@ -1,0 +1,49 @@
+# Laporan main-auto telefon — Gemi Tangram
+
+Masa: 2026-11-21T14:01:46.167Z  ·  viewport 375x667
+
+- LULUS: menu: semua butang >= 44px ([])
+- LULUS: menu: label pil bahasa terisi
+- LULUS: menu -> peta
+- LULUS: peta: sekurang-kurangnya 10 siluet
+- LULUS: peta: siluet 2 terkunci pada mulanya
+- LULUS: peta: butang >= 44px
+- LULUS: siluet 1 bermula
+- LULUS: kepingan awal terkunci mengikut tahap
+- LULUS: main: butang >= 44px
+- LULUS: tiada skrol mendatar (main)
+- LULUS: putaran salah: tidak melekat, mesej "Hampir" -> Hampir! Putar atau balikkan kepingan ini.
+- LULUS: siluet 1 selesai (hasil)
+- LULUS: kad hasil muncul
+- LULUS: siluet 1: 3 bintang (cepat, tiada petunjuk) = 3
+- LULUS: hasil memaparkan pecahan 1/4, 1/8, 1/16 daripada keseluruhan
+- LULUS: kad hasil muat (boleh skrol)
+- LULUS: seterusnya -> siluet 2
+- LULUS: petunjuk memaparkan slot berkelip dan menambah kiraan
+- LULUS: petunjuk berulang untuk slot sama tidak menolak lagi
+- LULUS: siluet 2: 2 bintang dengan 1 petunjuk = 2
+- LULUS: siluet 3: 1 bintang bila masa > 2x par = 1
+- LULUS: peta: siluet 4 terbuka (siluet 3 selesai), siluet 5 masih terkunci
+- LULUS: siluet 4 selesai dengan seret sebenar
+- LULUS: siluet 5 selesai dengan seret sebenar
+- LULUS: siluet 6 selesai dengan seret sebenar
+- LULUS: siluet 7 selesai dengan seret sebenar
+- LULUS: siluet 8 selesai dengan seret sebenar
+- LULUS: siluet 9 selesai dengan seret sebenar
+- LULUS: siluet 10 selesai dengan seret sebenar
+- LULUS: siluet 11 selesai dengan seret sebenar
+- LULUS: siluet 12 selesai dengan seret sebenar
+- LULUS: siluet 13 selesai dengan seret sebenar
+- LULUS: semua 13 siluet mendapat bintang
+- LULUS: siluet terakhir: tiada butang Seterusnya
+- LULUS: Ulang: papan dimulakan semula
+- LULUS: tukar ke ID di tengah main
+- LULUS: mesej petunjuk dalam bahasa Indonesia (berkedip)
+- LULUS: label pil bahasa terisi
+- LULUS: hasil dalam bahasa Indonesia
+- LULUS: butang bunyi senyapkan
+- LULUS: bahasa disimpan selepas muat semula
+- LULUS: bintang disimpan selepas muat semula
+- LULUS: siluet terakhir terbuka selepas muat semula
+- LULUS: tiada skrol mendatar (peta)
+- LULUS: tiada ralat konsol / fail hilang 

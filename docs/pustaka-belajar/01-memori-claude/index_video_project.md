@@ -1,0 +1,85 @@
+---
+name: index-video-project
+description: Indeks semua project video lama (promo, tutorial, remake, Zack D., iklan); cari di sini sebelum video baru
+metadata:
+  type: reference
+---
+
+- [Film promo gemi 60s](project_gemi_film_promo.md) — Canvas+musik 120 BPM
+- [Film preview app gemi](project_gemi_film_preview_app.md) — layar asli app + titik
+- [Film pelancaran gemi BM](project_gemi_film_pelancaran_bm.md) — 60s BM kenapa gemi
+- [Kisah Gemi kartun piksel](project_gemi_kisah_piksel.md) — 60s BM asal usul gemi
+- [gemi 7 tip bina app](project_gemi_tips_bina_app.md) — 60s BM Remotion+kanvas dakwat
+- [Antigravity langkah video](project_gemi_antigravity_langkah.md) — 60s BM 8 langkah
+- [Englisha preview video](project_englisha_preview_video.md) — 45s ID Remotion + maskot
+- [Preview video Claude Pemula × Malaysia](project_claude_pemula_preview_video.md)
+- [Preview video Claude Pemula bina app (BM)](project_claude_pemula_bina_app_video.md)
+- [Modul video Claude Opus](project_modul_video_claude_opus.md) — TXT BM 30 pelajaran:
+- [AIMC BM section Video Claude Opus](project_aimc_section_video_opus.md) — 6 modul sec:"v
+- [gemi modul Video Claude Opus](project_gemi_modul_video_opus.md) — trek ke-6 Modul
+- [Video worksheet Antigravity (Cikgu)](project_cikgu_worksheet_antigravity_video.md)
+- [gemi launch rujukan HowDo](project_gemi_launch_howdo.md) — 40s BM 132 BPM potret
+- [RBT App preview](project_rbt_app_preview.md) — video 45s gaya gemi BM + versi ID
+- [Claude Pemula LP pelancaran BM](project_claude_pemula_launch_ms.md) — fokus Video
+- [Video beza AI Studio vs Antigravity](project_cikgu_beza_aistudio_antigravity.md)
+- [Video launch Claude Pemula ID 60s](project_claude_pemula_launch_video_id.md)
+- [Video apps jadi produk (Edukator ID)](project_edukator_apps_jadi_produk_video.md)
+- [gemi Belajar bina motion](project_gemi_belajar_bina_motion.md) — 75s potret BM
+- [Claude Pemula Belajar bina motion](project_claude_pemula_belajar_bina_motion.md)
+- [Skill video-tipografi-suara](project_video_tipografi_suara_skill.md) — kini mod "studio
+- [Video apps dijual tipografi landskap](project_edukator_apps_dijual_tipografi.md)
+- [Video app dijual BM pictogram](project_cikgu_app_dijual_pictogram.md) — landskap 60s
+- [Video app dijual BM elegan](project_cikgu_app_dijual_elegan.md) — gaya Belajar bina
+- [Video kenapa berbaloi (BM)](project_cikgu_kenapa_berbaloi.md) — 67s landskap gaya
+- [Iklan kecanduan bikin apps](project_iklan_ketagihan_apps.md) — 40s ID AI Masterclass
+- [Newcare Bayi video paket](project_newcare_bayi_video.md) — 60s potret ID Blossom
+- [Mom Treatment Oktober video](project_mom_treatment_video.md) — 60s potret ID
+- [TriEye Self video 60s EN](project_trieye_self_video.md) — potret, gerak gaya RBT
+- [Iklan Londrequ motion 60s](project_londrequ_iklan_motion.md) — voice-over user
+- [Promo Bina App gaya finqube](project_claude_nocode_promo_finqube.md) — 100s BM potret
+- [BrainEye 3D eye atlas](project_braineye_3d.md) — remake human-atlas khusus mata EN/BM
+- [Promo video Bidan Virda Care](project_bidan_virda_care_promo_video.md) — 60s ID potret+
+- [Workflow bina app & video (Zoom)](project_workflow_bina_app_video_zoom.md)
+- [BrainEye preview video 30s](project_braineye_preview_video.md) — remake 2 refs
+- [Video workflow bina app 3 min](project_workflow_bina_app_video_3min.md) — landskap BM
+- [Skill video-quotes-joget](project_video_quotes_joget_skill.md) — upload video joget →
+- [gemi bercakap video](project_gemi_bicara_video.md) — 56s BM tanpa suara
+- [Video company profile ILJIN](project_iljin_video_company_profile.md) — 70.5s ID potret+
+- [jasa.edugamelabs.com preview video](project_jasa_edugamelabs_preview_video.md)
+- [Petualangan Fotosintesis](project_petualangan_fotosintesis.md) — platformer IPA tokoh
+- [Laundryku × gemi ketagihan 60s](project_laundryku_gemi_ketagihan_video.md)
+- [Video launch Prompt Generator](project_prompt_generator_launch_video.md) — 60s potret
+- [Video lukisan Prompt Generator](project_prompt_generator_lukisan_video.md)
+- [Video cerita Prompt Generator BM](project_prompt_generator_cerita_bm.md) — terkini
+- [Tutorial Prompt Generator 2 menit](project_prompt_generator_tutorial_video.md)
+- [Video PG edukator 60s](project_prompt_generator_edukator_video.md) — ketinggalan
+- [Video kenapa Prompt Generator 1 menit](project_prompt_generator_kenapa_video.md)
+- [Video manfaat PG + Galeri untuk guru](project_pg_galeri_manfaat_edukator_video.md)
+- [Video manfaat PG gaya Roblox](project_pg_galeri_roblox_video.md) — avatar voxel 3D
+- [Video caption hijau (IMG_8804)](project_video_caption_hijau.md) — auto-caption glow
+- [Bidan Virda HARI 1 thriller](project_bidan_virda_hari1_thriller.md) — newborn POV
+- [Pingda 4 tips ibu hamil](project_pingda_tips_ibu_hamil.md) — joget bidan 15s + gaya
+- [Guru mi instan thriller](project_guru_mie_instan_thriller.md) — warung malam
+- [Video dopamin game edukasi BM](project_dopamin_game_edukasi_bm.md) — 70s cerita
+- [Vibe coding balik layar reel](project_vibe_coding_balik_layar.md) — 56.6s ID HyperFrame
+- [Vibe coding cerita 3D (ID)](project_vibe_coding_cerita_3d.md) — remake 75s Pak Bayu
+- [Video MLBB candu → game edukasi (ID)](project_mlbb_game_edukasi_video_id.md)
+- [Cikgu & budak ajaib gunung (Zack D.)](project_cikgu_budak_ajaib_gunung.md)
+- [Eksperimen anak AI (Zack D.)](project_eksperimen_anak_ai.md) — 75s BM, bayi tanya AI →
+- [Video ubah tema template PG](project_pg_ubah_tema_video.md) — 1 menit ID+MS
+- [Cikgu terakhir, budak genius](project_cikgu_terakhir_budak_genius.md) — 75s BM Zack D.
+- [Sekolah = kilang pekerja (remake IG)](project_sekolah_kilang_pekerja.md) — 43s BM
+- [Cikgu reaktans disuruh](project_cikgu_reaktans_disuruh.md) — 124s BM stickman Zack D.
+- [Universiti bukan ilmu](project_universiti_bukan_ilmu_video.md) — 56s BM stickman 3D
+- [Curhat cikgu kerja emosi](project_curhat_cikgu_kerja_emosi.md) — ±90s BM 3D baju
+- [Tesis tebal video](project_tesis_tebal_video.md) — 61s BM lecturer panel, hook Zack D.
+- [Cikgu AI malas remake](project_cikgu_ai_malas_remake.md) — 91.6s BM flat 2D gelap
+- [Graduan kerja di mana](project_graduan_kerja_di_mana.md) — 2:09 BM flat Canvas 2D
+- [Cikgu kontrak isometrik](project_cikgu_kontrak_isometrik.md) — 74s BM remake guru
+- [Anak menyapu belajar dua kali](project_anak_menyapu_belajar_video.md) — 89s BM remake siluet flat, hook Zack D., Daud Turbo, folder -20261102-2010
+- [Promo Clawd Fotosintesis](project_clawd_fotosintesis_promo_video.md) — 74s BM gameplay asli + butang sentuh + CTA komen GAME + Pro, folder -20261102-2115
+- [Promo Arena Clawd ML](project_arena_clawd_ml_promo_video.md) — 84s BM gameplay asli, skill 1/2/ult Nini, komen GAME + Pro, folder -20261102-2230
+- [Promo JawiKu tutorial](project_jawiku_promo_tutorial_video.md) — 50s BM preview + 5 langkah PG, Pro vs percuma, komen APP, folder -20261102-2345
+- [Janin 266 hari 3D](project_janin_266_hari.md) — 128s ID hari demi hari, shader SDF WebGL2, Anjani
+- [Reaksi 10x cikgu-murid](project_reaksi_10x_cikgu.md) — 96s BM gaya claude-animated-shorts, hook pembaris, Daud Turbo, folder -20261104-1830
+- [PG tampal jadi app](project_pg_tampal_jadi_app_video.md) — 37.9s BM remake jagomotion, PG → Claude → hasil ×6, folder -20261106-1939

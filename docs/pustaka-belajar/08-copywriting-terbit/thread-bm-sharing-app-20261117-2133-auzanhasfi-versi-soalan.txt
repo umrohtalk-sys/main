@@ -1,0 +1,55 @@
+PREVIEW THREAD — BAHASA MALAYSIA
+Akaun  : Threads @auzanhasfi (tanpa garis bawah)
+Topik  : Cikgu
+Bentuk : 1 post utama + 3 balasan berantai
+Beza dengan @auzan_hasfi: buka dengan soalan, susunan langkah bernombor, contoh lain, ayat penutup lain
+Status : DRAF
+
+==================================================
+POST 1 (utama)
+==================================================
+Cikgu pernah tak nak buat aktiviti kelas yang lain dari biasa, tapi tak cukup masa nak sediakan?
+
+Saya pun selalu macam tu.
+
+Sebab tu saya bina satu alat kecil untuk diri sendiri. Sekarang saya kongsikan dengan cikgu-cikgu lain.
+
+Cara dia berfungsi saya terangkan kat bawah
+
+==================================================
+BALASAN 1
+==================================================
+Caranya 3 langkah je
+
+1. Pilih nak bina apa: game kuiz, app latihan, worksheet interaktif
+2. Isi subjek, tahun dan topik
+3. Salin prompt yang keluar, tampal dalam Claude atau ChatGPT atau Gemini
+
+AI akan bina bahan tu terus. Cikgu cuma main dan semak.
+
+==================================================
+BALASAN 2
+==================================================
+Contoh yang saya dah buat untuk murid sendiri
+
+Game Clawd vs Zombi dengan soalan matematik, game lari ala Temple Run yang kena jawab soalan untuk teruskan, dan kuiz sejarah Malaysia
+
+Murid lebih semangat sebab rasa macam main game, bukan buat latihan
+
+Nak cuba dulu, demo percuma kat sini:
+demoprompt.edugamelabs.com
+
+==================================================
+BALASAN 3
+==================================================
+Versi penuh ada lebih banyak jenis game dan app, galeri prompt siap guna, dan panduan langkah demi langkah sampai boleh jual hasil sendiri
+
+lptoolsmy.edugamelabs.com
+
+Komen "PROMPT" kalau nak saya terangkan lebih lanjut
+
+==================================================
+CATATAN
+==================================================
+- Setiap post bawah 500 aksara.
+- Pautan sama (demoprompt + lptoolsmy) tapi ayat, struktur dan contoh game berbeza supaya tak nampak duplikat.

@@ -1,0 +1,28 @@
+https://www.instagram.com/p/DZR5pPbk7sQ/
+@kayadigital.ai · 2255 like · 1086 komentar · 2026-06-07
+
+Jika aku ngulang setup Claude dari awal lagi, 25 tools ini yang paling pertama aku install.
+
+Bukan karena keren di atas kertas. Tapi karena tanpa ini, Claude kerja setengah kapasitas.
+
+SETUP 1⃣ — Skills: Instruksi yang Diam-diam Aktif
+
+8 tools install sekali, kerja selamanya. humanizer hapus 37 pola tulisan AI. marketingskills inject 40 framework ke setiap task. caveman potong 65% token tanpa kehilangan kualitas.
+
+SETUP 2⃣ — MCP Servers: Claude Terhubung ke Dunia Nyata
+
+8 koneksi live. Notion, Google Drive, GitHub — Claude baca dan tulis langsung tanpa copy-paste. Context7 pastikan Claude tidak pakai docs yang salah. Firecrawl ubah website apapun jadi data bersih.
+
+SETUP 3⃣ — Plugins: Satu Command, Tim Lengkap
+
+9 plugins. superpowers paksa Claude planning sebelum coding — kualitas output naik drastis. gstack dari Garry Tan (YC) kasih 23 dev tools sekaligus. repomix pack seluruh repo jadi satu file siap di-feed ke Claude.
+
+Tiga kategori ini beda cara install-nya.
+
+Skills → folder lokal. MCP → Settings Integrations. Plugins → command di Claude Code.
+
+Kalau cuma punya 30 menit: pasang Context7 + superpowers + humanizer dulu. Tiga ini cover 80% kebutuhan harian.
+
+Tutorial lengkap step-by-step sudah aku tulis — termasuk config JSON untuk setiap MCP dan command untuk setiap plugin.
+
+Komen SETUP di bawah — aku kirim link tutorialnya langsung ke DM kamu.

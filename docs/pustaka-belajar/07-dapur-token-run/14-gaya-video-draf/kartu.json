@@ -1,0 +1,74 @@
+[
+  {
+    "id": "kartun-tinta-tebal",
+    "judul": {
+      "ms": "Kartun Tinta Tebal",
+      "id": "Kartun Garis Tinta Tebal",
+      "en": "Thick-Ink Cartoon Reaction"
+    },
+    "deskripsi": {
+      "ms": "Cikgu balik sekolah rasa penat walaupun tak angkat berat, dibongkar dengan kartun bergaris tebal dalam dunia 3D kelas.",
+      "id": "Guru pulang sekolah terasa lelah padahal tidak mengangkat beban, dibongkar lewat kartun bergaris tebal di dunia kelas 3D."
+    },
+    "kategori": "konsep",
+    "tempoh_saat": 75.5,
+    "teknologi": "Remotion, Three.js, pasca ink pass, LensBlur, Bloom, GradeEffect",
+    "sumber_mp4": "/Users/auzanhasfi/Downloads/video-cikgu-cepat-penat-20261121-0509-reaksi-bm-komen-tools.mp4",
+    "folder_projek": "/Users/auzanhasfi/Documents/app matematika/video-cikgu-cepat-penat-20261121-0451-reaksi-bm",
+    "status": "draf"
+  },
+  {
+    "id": "drama-kaca-3d-gelap",
+    "judul": {
+      "ms": "Drama Kaca 3D Gelap",
+      "id": "Drama Kaca 3D Gelap",
+      "en": "Dark 3D Glass Drama"
+    },
+    "deskripsi": {
+      "ms": "Granat yang pinnya sudah tercabut tak meletup kerana berada dalam gelas, diceritakan dalam adegan 3D gelap bertakarir Melayu.",
+      "id": "Granat yang pinnya sudah tercabut tidak meledak karena berada di dalam gelas, diceritakan dalam adegan 3D gelap dengan teks layar Indonesia."
+    },
+    "kategori": "cerita",
+    "tempoh_saat": 24.3,
+    "teknologi": "Three.js, UnrealBloom, ShaderPass Lensa, IK tentera, fizik serpihan kaca",
+    "sumber_mp4": "/Users/auzanhasfi/Downloads/video-granat-gelas-20261121-0404-zackd-3d-en.mp4",
+    "folder_projek": "/Users/auzanhasfi/Documents/app matematika/video-granat-gelas-20261121-0344-zackd-3d-en",
+    "status": "draf"
+  },
+  {
+    "id": "isometrik-kalendar-cuti",
+    "judul": {
+      "ms": "Kalendar Cuti Isometrik",
+      "id": "Kalender Libur Isometrik",
+      "en": "Isometric Holiday Calendar"
+    },
+    "deskripsi": {
+      "ms": "Orang nampak cikgu banyak cuti, tapi kalendar isometrik ini menunjukkan kerja yang berlaku semasa cuti.",
+      "id": "Orang melihat guru banyak libur, tetapi kalender isometrik ini menunjukkan pekerjaan yang terjadi saat libur."
+    },
+    "kategori": "cerita",
+    "tempoh_saat": 75,
+    "teknologi": "Three.js dengan setViewOffset, overlay Canvas 2D, timeline seek(t)",
+    "sumber_mp4": null,
+    "folder_projek": "/Users/auzanhasfi/Documents/app matematika/video-cikgu-cuti-20261119-2159-isometrik-bm",
+    "status": "draf"
+  },
+  {
+    "id": "dokumenter-satelit-campur",
+    "judul": {
+      "ms": "Dokumenter Satelit Campur",
+      "id": "Dokumenter Satelit Campur",
+      "en": "Mixed Satellite Documentary"
+    },
+    "deskripsi": {
+      "ms": "Petronas pernah tersingkir dari Indonesia, dibandingkan dengan peta satelit, panel harga belah dua dan cap dokumen.",
+      "id": "Petronas pernah tersingkir dari Indonesia, dibandingkan lewat peta satelit, panel harga dua sisi, dan kartu cap dokumen."
+    },
+    "kategori": "peta",
+    "tempoh_saat": 82,
+    "teknologi": "Canvas 2D, plate satelit, font Anton, Oswald, Old Standard, Special Elite",
+    "sumber_mp4": "/Users/auzanhasfi/Downloads/video-petronas-tersingkir-20261121-0506-bm-takarir-bm-en.mp4",
+    "folder_projek": "/Users/auzanhasfi/Documents/app matematika/video-petronas-20261121-0439-dokumenter-bm",
+    "status": "draf"
+  }
+]

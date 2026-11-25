@@ -1,0 +1,21 @@
+[
+  {"nama": "asas-bm", "langkah": [
+    {"buka": "index.html?uji=1&seed=3"}, {"tangkap": "01-menu"},
+    {"klik": "[data-uji=bm]"}, {"jangka": "document.documentElement.lang === 'ms'"},
+    {"klik": "[data-uji=mula]"}, {"tunggu": 200}, {"tangkap": "02-peta"},
+    {"jangka": "document.querySelector('[data-uji=tahap-1]').disabled === true"},
+    {"klik": "[data-uji=tahap-0]"}, {"tunggu": 300}, {"jangka": "window.__game.keadaan === 'main'"}, {"tangkap": "03-main-awal"},
+    {"kekunci": "ArrowUp"}, {"nilai": "window.__game.langkah(5), window.__game.snap().trail.length"},
+    {"kekunci": "ArrowRight"}, {"nilai": "window.__game.langkah(4), window.__game.snap().trail.length"},
+    {"jangka": "window.__game.snap().trail.length >= 4"}, {"tangkap": "04-melukis-ekor"},
+    {"klik": "[data-uji=ulang]"}, {"jangka": "window.__game.peratus === 4 && window.__game.snap().trail.length === 0"}
+  ]},
+  {"nama": "tukar-id", "langkah": [
+    {"buka": "index.html?uji=1&seed=3"}, {"klik": "[data-uji=id]"}, {"jangka": "document.documentElement.lang === 'id'"},
+    {"jangka": "document.querySelector('h1').textContent === 'Bulat Rebut Wilayah'"}, {"tangkap": "01-menu-id"},
+    {"klik": "[data-uji=mula]"}, {"klik": "[data-uji=tahap-0]"}, {"tunggu": 300},
+    {"jangka": "document.getElementById('sasLabel').textContent === 'Rebut'"},
+    {"klik": "[data-uji=tukar-bahasa]"}, {"jangka": "document.documentElement.lang === 'ms' && document.getElementById('sasLabel').textContent === 'Tawan'"},
+    {"klik": "[data-uji=tukar-bahasa]"}, {"tangkap": "02-main-id"}
+  ]}
+]

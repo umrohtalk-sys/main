@@ -1,0 +1,166 @@
+THREAD SERI #23 - 15 POST
+Judul: "Aku adalah guru PAUD yang dikira cuma bisa nyanyi, ternyata bikin apps huruf yang dipakai orang tua murid di rumah 😭"
+Angle: cerita dari sisi "diremehkan", dibangun lewat momen-momen kecil di grup orang tua & kelas; apps lahir dari pertanyaan orang tua, bukan dari niat bikin produk.
+Contoh mapel/jenjang: PAUD/TK, pengenalan huruf (literasi awal), kelompok B usia 5-6 tahun.
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah guru PAUD yang dikira cuma bisa nyanyi, ternyata bikin apps huruf yang dipakai orang tua murid di rumah 😭
+
+dulu tiap ditanya kerja apa, jawabanku selalu disambut "ooh, yang nyanyi-nyanyi itu ya"
+
+ini cerita gimana lagu "A-B-C" berubah jadi apps kecil di HP para ibu
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Jujur, aku memang nyanyi tiap hari. Lagu pagi, lagu cuci tangan, lagu beresin mainan.
+
+Tapi yang orang gak lihat: di balik lagu itu ada rencana. Kenapa huruf B dikenalin bareng bola, kenapa huruf yang mirip (b dan d) sengaja dipisah minggunya.
+
+Cuma ya, siapa yang mau dengerin penjelasan itu dari "guru nyanyi" 😭
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Awal mulanya dari grup WA orang tua.
+
+Satu ibu kirim pesan malam-malam: "Bu, anak saya di rumah gak mau belajar huruf, maunya HP terus. Ada saran?"
+
+Terus disusul ibu lain: "Sama Bu, kalau dikasih buku malah dilempar."
+
+Aku bales panjang soal kartu huruf. Dibaca, dikasih jempol, besoknya anaknya tetap pegang HP.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Malam itu aku mikir, kalau anaknya pasti pegang HP, kenapa gak isi HP-nya dengan cara aku ngajar di kelas?
+
+Bukan app huruf umum yang suaranya kebule-bulean. Tapi yang suaranya "B... bola!" persis kayak di kelas, gambarnya barang yang mereka kenal.
+
+Masalahnya aku gak ngerti bikin app sama sekali. Aku bisanya gunting, tempel, nyanyi 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Aku buka AI dan ngetik kayak lagi nulis laporan perkembangan anak:
+
+"Muridku umur 5 tahun, belum bisa baca. Tombol harus besar banget. Gak boleh ada tulisan instruksi karena mereka belum bisa baca. Tiap huruf dipencet, keluar suara dan gambar benda."
+
+Ternyata kebiasaan nulis catatan perkembangan anak itu kepake banget di sini.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Versi pertama kucoba ke keponakanku yang umur 4.
+
+Dia gak mencet hurufnya. Dia mencet gambar kucing di pojok berkali-kali, ketawa, terus nanya "kok kucingnya gak ngomong?"
+
+Aku ngakak, tapi itu pelajaran penting: anak kecil mencet yang paling lucu, bukan yang paling penting.
+
+Jadi hurufnya yang kubikin lucu, bisa goyang pas disentuh.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Hal kecil yang gak kepikiran sama sekali sebelumnya:
+
+- anak PAUD jarinya sering nempel lama, jadi satu sentuhan panjang jangan dihitung dua kali
+- suara harus pelan dulu, karena ibunya sering pakai pas adiknya tidur
+- jangan ada tanda silang merah kalau salah, mereka langsung mewek
+
+Semua itu bukan ilmu IT. Itu ilmu ngasuh 😭
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Bagian paling lucu: rekam suara.
+
+Aku rekam sendiri pakai HP di kamar mandi karena katanya gemanya bikin suara "lebih jernih". Ternyata malah kayak di goa.
+
+Akhirnya rekam ulang di dalam lemari baju. Sumpah, guru PAUD bikin app itu modalnya lemari 😭
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Aku gak bikin pengumuman besar. Cuma kirim satu link ke grup WA:
+
+"Bunda, ini permainan huruf yang sama kayak di kelas. Boleh dicoba 10 menit sebelum tidur."
+
+Kubikin bisa dipasang di layar HP kayak app biasa (PWA), jadi ibu-ibu gak perlu download dari Play Store. Tinggal buka, tambah ke layar utama, beres.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Besok paginya, satu ibu kirim voice note.
+
+Isinya suara anaknya teriak "D... DOMBA!" terus ketawa sendiri.
+
+Ibunya nambahin: "Bu, dia minta main lagi, terus nyanyi lagu huruf yang di sekolah."
+
+Aku dengerin itu di parkiran sekolah, belum turun dari motor, dan mataku basah 😭
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Yang gak kuduga: orang tua jadi ikut ngerti cara aku ngajar.
+
+Ada ayah yang nanya, "Bu, kenapa b sama d gak muncul barengan?"
+
+Akhirnya aku bisa jelasin alasan yang selama ini cuma ada di kepalaku. Dan dia dengerin.
+
+Apps kecil itu ternyata jadi jembatan antara kelas dan rumah.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Terus kabarnya nyebar. Ibu dari kelas lain nanya, guru TK di kecamatan sebelah minta link, ada yang nanya boleh gak dipakai di tempat les.
+
+Ada juga yang nawarin bayar buat versi angka.
+
+Aku sama sekali gak siap ditanya itu. Selama ini kerjaanku dianggap "cuma nyanyi", tiba-tiba ada yang mau bayar hasil kerjaku 😭
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Sekarang kalau ada yang bilang "ooh guru PAUD, yang nyanyi-nyanyi ya", aku cuma senyum.
+
+Iya, aku nyanyi. Dan lagu itu sekarang ada di HP puluhan rumah, diputar sebelum anak-anak tidur.
+
+Ternyata yang diremehin itu justru bekal paling kuat: aku paling ngerti cara anak umur 5 tahun belajar.
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Buat sesama guru PAUD/TK yang sering ngerasa kecil:
+
+kamu ngerti hal yang gak dipahami banyak pembuat app, yaitu gimana rasanya ngajar anak yang belum bisa baca, belum bisa sabar, dan gampang nangis.
+
+AI bisa bantu nulis kodenya. Tapi gak bisa ngerti anak-anak kayak kamu ngerti.
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Makasih udah baca sampai sini 🙏
+
+Kalau kamu guru PAUD, TK, atau orang tua anak usia dini: kira-kira kebiasaan kecil apa di kelas yang pengen banget kamu bawa ke rumah murid?
+
+Tulis di komentar ya, siapa tau itu ide app berikutnya. Atau simpan dulu thread ini buat nanti 🌱

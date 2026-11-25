@@ -1,0 +1,39 @@
+[
+  {"nama": "menang-bm", "langkah": [
+    {"buka": "index.html?uji=1"}, {"tangkap": "01-menu"},
+    {"klik": "[data-uji=bm]"}, {"klik": "[data-uji=mula]"}, {"tunggu": 400}, {"tangkap": "02-tahap1"},
+    {"klik": "[data-cadang-syiling]"}, {"tangkap": "03-syiling-dipilih"},
+    {"klik": "[data-cadang-tong]"}, {"tunggu": 150}, {"tangkap": "04-tuang"},
+    {"tunggu": 500}, {"klik": "[data-cadang-syiling]"}, {"klik": "[data-cadang-tong]"}, {"tunggu": 400},
+    {"jawabSemua": "betul"}, {"tunggu": 900},
+    {"jangka": "window.__game.keadaan === 'hasil'"}, {"jangka": "window.__game.bintang >= 1"},
+    {"nilai": "[window.__game.skor, window.__game.bintang, window.__game.nyawa]"}, {"tangkap": "05-hasil-menang"}
+  ]},
+  {"nama": "kalah-id", "langkah": [
+    {"buka": "index.html"}, {"klik": "[data-uji=id]"}, {"jangka": "document.documentElement.lang === 'id'"},
+    {"klik": "[data-uji=mula]"}, {"tunggu": 400}, {"tangkap": "01-level1-id"},
+    {"jawabSemua": "salah"}, {"tunggu": 300}, {"tangkap": "02-terlebih"}, {"tunggu": 1200},
+    {"jangka": "window.__game.keadaan === 'hasil' && window.__game.nyawa === 0"}, {"tangkap": "03-hasil-kalah"},
+    {"klik": "[data-uji=main-semula]"}, {"tunggu": 300},
+    {"jangka": "window.__game.keadaan === 'main' && window.__game.nyawa === 5 && window.__game.skor === 0"}, {"tangkap": "04-ulang"}
+  ]},
+  {"nama": "tukar-bahasa", "langkah": [
+    {"buka": "index.html"}, {"klik": "[data-uji=id]"},
+    {"jangka": "document.querySelector('[data-uji=mula]').textContent.includes('Mulai')"},
+    {"klik": "[data-uji=mula]"}, {"tunggu": 300},
+    {"jangka": "document.querySelector('.tong-sasaran').textContent.startsWith('Rp ')"}, {"tangkap": "01-rupiah"},
+    {"klik": "[data-uji=bahasa-tukar]"}, {"tunggu": 200},
+    {"jangka": "document.documentElement.lang === 'ms' && document.querySelector('.tong-sasaran').textContent.startsWith('RM ')"}, {"tangkap": "02-ringgit"},
+    {"buka": "index.html"}, {"jangka": "document.documentElement.lang === 'ms'"},
+    {"klik": "[data-uji=id]"}, {"buka": "index.html"}, {"jangka": "document.documentElement.lang === 'id'"}, {"tangkap": "03-kekal-id"}
+  ]},
+  {"nama": "masa-dan-tukar", "langkah": [
+    {"buka": "index.html"}, {"klik": "[data-uji=mula]"}, {"tunggu": 300},
+    {"klik": "[data-uji=tong-0]"}, {"tangkap": "01-tiada-pilihan"},
+    {"klik": "[data-uji=syiling-0]"}, {"jangka": "window.__game.sel === 0"},
+    {"klik": "[data-uji=syiling-0]"}, {"jangka": "window.__game.sel === null"}, {"klik": "[data-uji=syiling-0]"}, {"jangka": "window.__game.sel === 0"},
+    {"klik": "[data-uji=tukar]"}, {"tunggu": 200}, {"jangka": "window.__game.sel === null"}, {"tangkap": "02-tukar"},
+    {"jangka": "window.__game.paksaMasa(0.3) || true"}, {"tunggu": 700}, {"tangkap": "03-masa-habis"},
+    {"jangka": "window.__game.nyawa === 4"}, {"tunggu": 1800}, {"jangka": "window.__game.masa > 30 && window.__game.nyawa === 4"}, {"tangkap": "04-ulang-tahap"}
+  ]}
+]

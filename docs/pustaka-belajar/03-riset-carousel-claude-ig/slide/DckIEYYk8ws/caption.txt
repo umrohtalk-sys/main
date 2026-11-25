@@ -1,0 +1,20 @@
+https://www.instagram.com/p/DckIEYYk8ws/
+@kayadigital.ai · 139 like · 128 komentar · 2026-08-28
+
+Kesalahan paling umum kalau vibe coding: buka Bolt atau Lovable, terus ketik semua fitur sekaligus di satu prompt. Login, payment, dashboard, notifikasi, semuanya jadi satu.
+
+AI-nya kewalahan sendiri. Bikin banyak asumsi yang nggak diminta, dan begitu ada bug, susah dilacak masalahnya di bagian mana.
+
+Aku praktekkan 9 langkah di gambar ini buat bikin BookingKu, aplikasi booking untuk bisnis jasa lokal seperti salon, klinik kecantikan, sampai bengkel. 
+
+Bukan cuma jalan di preview, tapi beneran live di internet, lengkap dengan dashboard admin buat kelola booking yang masuk.
+
+Nggak perlu paham coding sama sekali. Tutorial lengkapnya isinya prompt yang tinggal paste, tahap demi tahap dari validasi masalah sampai app-nya live, plus solusi buat error yang paling sering muncul pas build.
+
+Komen "STACK" nanti aku kirim link tutorial BookingKu-nya ke DM 
+
+Tutorial ini dirancang agar tinggal ikutin, prompt-nya udah jadi, tinggal tempel satu-satu sesuai urutan. 
+
+Tapi tetap luangin waktu, jangan diburu-buru. Beberapa bagian seperti setup schema database di awal butuh dibaca pelan-pelan dulu sebelum lanjut ke tahap build.
+
+#claudeai #aiindonesia #kayadigitalai #vibecoding

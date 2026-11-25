@@ -1,0 +1,176 @@
+THREAD SERI #03 - 15 POST
+Judul: "Aku adalah guru yang gak bisa coding sama sekali, tapi sekarang punya apps sendiri buat ngajar pake AI 😭"
+Angle: rasa minder "gak bisa coding" dibongkar lewat momen-momen kecil: layar error merah, istilah asing,
+dan kesadaran bahwa bahasa guru (bahasa kelas) ternyata sudah cukup buat ngobrol sama AI.
+Struktur: cerita + satu post "kamus guru vs kamus programmer" + refleksi, tanpa bahas jualan.
+Contoh mapel/jenjang: Bahasa Indonesia SD kelas 2 (membaca permulaan, huruf b dan d yang sering ketuker).
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah guru yang gak bisa coding sama sekali, tapi sekarang punya apps sendiri buat ngajar pake AI 😭
+
+dulu denger kata "HTML" aja aku langsung pura-pura sibuk nyari spidol
+
+sekarang murid kelas 2-ku tiap pagi nanya "Bu, app hurufnya udah dibuka belum?"
+
+ini cerita gimana aku nyampe sini, termasuk bagian malu-maluinnya 😭
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Aku guru kelas 2 SD. Kerjaanku sehari-hari: ngajarin anak baca, nyatet siapa yang belum bisa, sama nyari pensil yang ilang.
+
+Laptopku isinya foto kegiatan sama file rapor. Itu aja.
+
+Jadi kalau ada yang bilang "guru sekarang harus melek teknologi", aku selalu ngerasa itu ngomongin orang lain, bukan aku.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Masalahku waktu itu kecil tapi bandel: b sama d.
+
+Ada lima anak yang tiap baca "dadu" jadi "babu". Aku udah coba kartu huruf, nulis di udara, nyanyi. Masih ketuker.
+
+Aku pengen sesuatu yang bisa mereka pegang sendiri berkali-kali, tanpa aku harus duduk di samping satu-satu. Soalnya muridku 28 😭
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Malam itu aku buka AI dan ngetik dengan bahasa paling guru yang aku punya:
+
+"Muridku kelas 2 sering ketuker huruf b dan d. Aku mau permainan sederhana: muncul gambar, misal bola atau domba, terus anak pilih huruf awalnya b atau d. Kalau benar ada bunyi senang. Tulisan besar, warna cerah."
+
+Gak ada satu pun istilah teknis. Aku gak tau istilahnya juga sih.
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Yang keluar: tulisan panjang penuh simbol aneh. Kurung siku, garis miring, kata-kata Inggris.
+
+Aku panik, hampir kututup.
+
+Terus aku nanya lagi, beneran polos: "ini harus aku apain? aku gak ngerti sama sekali."
+
+Dan dia jelasin pelan-pelan kayak ngajarin anak kelas 2. Ironis banget sumpah 😭
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Momen paling lucu: pertama kali aku buka hasilnya, layarnya putih doang.
+
+Aku kira laptopku rusak. Aku matiin, nyalain lagi. Tetep putih.
+
+Akhirnya aku cuma foto layar pake HP, kukirim ke AI: "kenapa kosong?"
+
+Ternyata aku cuma salah nyimpen nama file. Satu titik. Satu titik doang yang bikin aku mau nangis jam 10 malam 😭
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Pas akhirnya jalan, gambarnya domba, hurufnya besar, ada bunyi "ting" kalau benar.
+
+Aku main sendiri sampai lima belas kali. Sendirian. Di meja makan.
+
+Suamiku lewat, nanya "lagi ngapain senyum-senyum?"
+
+Aku jawab "aku bikin app." Dan aku sendiri gak percaya kalimat itu keluar dari mulutku.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Di sini aku sadar sesuatu yang bikin minderku pelan-pelan luntur.
+
+Ternyata ngobrol sama AI itu mirip banget nulis RPP atau ngejelasin ke orang tua murid.
+
+Kamu jelasin siapa muridnya, apa kesulitannya, hasil apa yang kamu mau lihat.
+
+Itu keahlian guru dari dulu. Aku cuma gak pernah tau keahlian itu kepake di sini.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Kamus kecil yang kubikin sendiri biar gak takut lagi:
+
+- "bug" = muridnya salah paham, tapi ini appnya
+- "revisi" = remedial, tapi buat app
+- "user" = muridku
+- "fitur" = aktivitas tambahan di LKS
+
+Begitu kuterjemahin ke bahasa kelas, semuanya kerasa jauh lebih bisa dipegang.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Hari pertama dipake di kelas, aku pinjem HP sekolah tiga biji, satu HP buat bertiga.
+
+Si anak yang paling sering ketuker, dia yang paling lama main. Dia gak mau gantian.
+
+Pas dia dapet sepuluh benar berturut-turut, dia berdiri dan teriak "BU AKU UDAH TAU BEDANYA, PERUTNYA BEDA ARAH!"
+
+Aku gak pernah ngajarin istilah "perut huruf". Dia nemu sendiri 😭
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Yang gak kuduga: anak-anak ngasih masukan kayak tim penguji.
+
+"Bu, dombanya kurang lucu."
+"Bu, kalau salah jangan bunyi jelek, kasian."
+"Bu, tambahin p sama q dong."
+
+Aku catat semua di buku kecil, malamnya kusampaikan ke AI satu-satu. Appnya tumbuh ikut murid.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Sampai sekarang aku tetep gak bisa coding. Beneran.
+
+Kalau kamu suruh aku nulis satu baris kodenya sendiri, aku nyerah.
+
+Tapi aku bisa bilang dengan jelas apa yang muridku butuhin, dan aku bisa lihat mana yang belum pas. Ternyata itu bagian yang paling susah, dan itu bagianku.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Hal-hal yang kubilang ke diri sendiri tiap kali mentok:
+
+- error itu bukan tanda kamu bodoh, itu cuma pertanyaan berikutnya
+- foto layar lalu tanya, gak usah malu
+- satu app satu masalah, jangan langsung mau semua
+- kalau capek, tutup laptop, besok lanjut. app-nya gak kabur kok
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Kadang aku mikir, berapa banyak guru yang punya ide bagus tapi berhenti di kalimat "aku kan gak bisa coding".
+
+Padahal yang dibutuhin murid itu bukan guru yang jago kode.
+
+Mereka butuh guru yang tau persis di huruf mana mereka nyangkut. Dan itu kamu 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Kalau kamu juga ngerasa "teknologi bukan duniaku", gak apa-apa. Aku juga dulu gitu.
+
+Coba mulai dari satu hal kecil yang bikin muridmu nyangkut minggu ini, terus ceritain ke AI kayak kamu cerita ke rekan guru.
+
+Tulis di komentar dong, masalah kecil apa di kelasmu yang pengen kamu bikinin app? Atau simpan dulu thread ini buat nanti 🙌

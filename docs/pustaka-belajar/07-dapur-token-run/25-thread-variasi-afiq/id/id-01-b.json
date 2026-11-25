@@ -1,0 +1,449 @@
+[
+ {
+  "id": "ti0026",
+  "judul": "Game tebak gambar siap dalam 10 menit",
+  "hook": "KAK, GIMANA CARANYA MEMBUAT GAME TEBAK GAMBAR UNTUK KELAS DALAM 10 MENIT?",
+  "posts": [
+   "KAK, GIMANA CARANYA MEMBUAT GAME TEBAK GAMBAR UNTUK KELAS DALAM 10 MENIT?\n\nGampang kok. Yuk saya bagikan caranya.",
+   "1. Pilih 10 kata dari tema yang sama, contoh hewan atau makanan khas daerah.\n\n2. Buka Claude Artifacts dan tempel:\n\n“Make a picture guessing game with these 10 words. Show a simple drawn shape with hints, type the answer, instant feedback.”",
+   "3. Minta bunyi dan skor:\n\n“Add a soft sound for correct answers and a score at the end.”\n\n4. Tekan Preview dan main sendiri dua kali, baru berikan ke murid.",
+   "Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "tebak gambar",
+   "game kelas",
+   "content creator"
+  ]
+ },
+ {
+  "id": "ti0027",
+  "judul": "Game ular tangga digital untuk latihan staf",
+  "hook": "Berhenti minta ChatGPT “buatkan game ular tangga” saja.",
+  "posts": [
+   "Berhenti minta ChatGPT “buatkan game ular tangga” saja. Karyawan kantoran bisa memakai framework ini untuk membuat game ular tangga digital yang lebih rapi.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Topik kursus atau kebijakan perusahaan\n+ Jumlah kotak\n+ Jenis soal di setiap kotak\n+ Bahasa Indonesia\n+ Waktu untuk setiap giliran",
+   "2. Game pertama: pengetahuan produk\n\n“Create a single-file HTML snakes and ladders game for new staff on product knowledge. 30 squares, one question per landing, Indonesian language.”\n\n3. Game kedua: keselamatan kerja\n\n“Make a version on workplace safety with 25 squares and a reward card every 5 squares.”",
+   "Uji dulu dengan satu kelompok kecil sebelum dipakai untuk semua. Gampang, kan?"
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "ular tangga",
+   "latihan staf",
+   "game digital"
+  ]
+ },
+ {
+  "id": "ti0028",
+  "judul": "Tiga prompt teka silang kata Bahasa Inggris",
+  "hook": "3 prompt Canva AI yang setiap guru Bahasa Inggris sebaiknya simpan untuk teka silang kata.",
+  "posts": [
+   "3 prompt Canva AI yang setiap guru Bahasa Inggris sebaiknya simpan untuk teka silang kata. Simpan dulu, nanti gampang dicari.",
+   "1. Daftar kata dari topik\n\n“Create a crossword puzzle with 12 English words about [topic], clues in simple English, grade 5 level.”\n\n2. Kunci jawaban\n\n“Give the answer key in a separate list at the bottom.”",
+   "3. Versi cetak\n\n“Make a clean black and white version that fits on one A4 page with space for students to write.”\n\nMulai dengan 6 kata dulu kalau belum terbiasa, lalu tambah. Bagikan ke teman guru yang membutuhkan ya."
+  ],
+  "cta": "",
+  "tags": [
+   "canva ai",
+   "teka silang kata",
+   "bahasa inggris",
+   "guru"
+  ]
+ },
+ {
+  "id": "ti0029",
+  "judul": "Poster kelas PJOK dengan framework ChatGPT",
+  "hook": "KHUSUS UNTUK GURU PJOK yang ingin membuat poster kelas yang cantik dan cepat.",
+  "posts": [
+   "KHUSUS UNTUK GURU PJOK yang ingin membuat poster kelas yang cantik dan cepat. Ini framework prompt yang cocok dengan pekerjaan kita.\n\nCaranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tema olahraga dan kegiatan\n+ Judul dan slogan singkat\n+ Ukuran poster\n+ Warna utama sekolah\n+ Bahasa Indonesia",
+   "2. Contoh prompt untuk poster hari olahraga:\n\n“Design a poster text and layout for a school sports day, A3 portrait, big headline, space for a photo, energetic but simple, Indonesian language.”\n\n3. Contoh prompt untuk poster ajakan:\n\n“Write 5 short slogans for a fitness challenge for grade 4 pupils, each under 6 words.”",
+   "Minta ChatGPT memberi dua versi, pilih yang paling jelas, lalu baru didesain di aplikasi desain. Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "poster kelas",
+   "guru PJOK",
+   "olahraga"
+  ]
+ },
+ {
+  "id": "ti0030",
+  "judul": "Formulir masukan kelas di browser",
+  "hook": "Guru informatika yang capek mengisi formulir masukan murid satu per satu, thread ini untuk kalian.",
+  "posts": [
+   "Guru informatika yang capek mengisi formulir masukan murid satu per satu, thread ini untuk kalian.",
+   "Ikut merasakan dulu. Kalau kelasnya ramai, setiap formulir terasa butuh berjam-jam. Kadang kita harus mengerjakannya saat jam istirahat.\n\nTips 1: minta Claude membuat formulir di browser supaya murid bisa langsung mengisi di ponsel mereka.",
+   "“Create a student feedback form in Claude Artifacts with 6 questions: 3 scale 1 to 5, 2 short answer, 1 choice. Indonesian language, one page, results shown as a simple summary.”\n\nTips 2: minta ringkasan hasil:\n\n“Summarise the answers into a short paragraph for the teacher report.”",
+   "Kalau kalian mau prompt yang sudah jadi untuk formulir seperti ini, komen PROMPT, nanti saya kirim info lengkapnya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "formulir murid",
+   "informatika",
+   "masukan"
+  ]
+ },
+ {
+  "id": "ti0031",
+  "judul": "Lima prompt portofolio untuk mahasiswa",
+  "hook": "5 prompt Claude Artifacts yang setiap mahasiswa sebaiknya simpan untuk membuat website portofolio.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap mahasiswa sebaiknya simpan untuk membuat website portofolio.",
+   "1. Halaman utama\n\n“Create a one-page portfolio website with my name, course, photo placeholder and a short bio in English.”\n\n2. Bagian proyek\n\n“Add a project section with 3 cards, each with title, short description and link placeholder.”",
+   "3. Bagian keahlian\n\n“Show my skills as a simple bar list, 6 items, each with a level from 1 to 5.”\n\n4. Hubungi saya\n\n“Add a contact area with email and LinkedIn placeholders.”",
+   "5. Gaya ringkas\n\n“Use a clean white layout, one accent colour, mobile friendly.”\n\nSimpan dulu, lalu isi dengan data asli. Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "portofolio",
+   "mahasiswa",
+   "website"
+  ]
+ },
+ {
+  "id": "ti0032",
+  "judul": "Lima prompt formulir masukan untuk latihan",
+  "hook": "5 prompt Claude Artifacts yang setiap karyawan kantoran sebaiknya simpan untuk formulir masukan.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap karyawan kantoran sebaiknya simpan untuk formulir masukan setelah pelatihan atau rapat.",
+   "1. Formulir ringkas\n\n“Create a 5-question feedback form for a training session, Indonesian language, one page, with rating and comment boxes.”\n\n2. Ringkasan\n\n“After submissions, show the average rating and the top 3 comments.”",
+   "3. Versi ponsel\n\n“Make the form easy to fill on mobile with big tap areas.”\n\n4. Ucapan terima kasih\n\n“Add a thank you message after submitting, with a link back to the first page.”",
+   "5. Ekspor ringkas\n\n“Show the answers as a table that I can copy to a spreadsheet.”\n\nUji sendiri dua kali sebelum disebarkan. Bener nggak?"
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "masukan",
+   "kantor",
+   "formulir"
+  ]
+ },
+ {
+  "id": "ti0033",
+  "judul": "Game tebak gambar untuk pelanggan kecil",
+  "hook": "Sebenarnya pelaku UMKM bisa membuat game tebak gambar untuk pelanggan dalam satu sesi dengan Claude.",
+  "posts": [
+   "Sebenarnya pelaku UMKM bisa membuat game tebak gambar untuk pelanggan dalam satu sesi dengan Claude.\n\nIni tiga langkah gampangnya.",
+   "1. Pilih 8 produk atau kata yang sering ditanyakan pelanggan. Contoh: nama bahan, cara pakai, atau jenis layanan.\n\n2. Tulis satu kalimat: nama game, jumlah soal, dan gaya visual yang rapi.\n\n“Create a picture guessing game with 8 items for small business customers. Show a simple drawn hint, guess the word, instant feedback, Indonesian and English labels.”",
+   "3. Minta satu kalimat instruksi untuk dibagikan:\n\n“Make a one-line instruction and a link placeholder to share with customers.”",
+   "Kalau kalian mau lihat contoh video singkat untuk jualan, saya punya Prompt Video. Komen VIDEO, nanti saya kirim infonya. Selamat mencoba."
+  ],
+  "cta": "VIDEO",
+  "tags": [
+   "claude",
+   "pelaku UMKM",
+   "tebak gambar",
+   "prompt video"
+  ]
+ },
+ {
+  "id": "ti0034",
+  "judul": "Formulir masukan TPQ siap dalam 5 menit",
+  "hook": "Formulir masukan murid seperti ini sekarang bisa selesai dalam 5 menit saja. Caranya:",
+  "posts": [
+   "Formulir masukan murid seperti ini sekarang bisa selesai dalam 5 menit saja. Caranya:",
+   "Langkah 1: buka Claude dan tulis tujuan formulir, contoh: setelah kelas Jawi.\n\nLangkah 2: tempel:\n\n“Create a 5-question feedback form for TPQ pupils after a class. Simple Indonesian, smiley scale 1 to 3, one open question.”",
+   "Langkah 3: minta versi cetak:\n\n“Make a printable A5 version with clear spacing.”\n\nTips uji dulu: isi sendiri, pastikan soalnya tidak panjang dan murid paham semuanya.",
+   "Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude",
+   "masukan",
+   "TPQ",
+   "formulir"
+  ]
+ },
+ {
+  "id": "ti0035",
+  "judul": "Laporan prestasi murid tanpa mengetik manual",
+  "hook": "Dulu saya butuh dua jam setiap minggu untuk mengetik laporan prestasi murid satu per satu.",
+  "posts": [
+   "Dulu saya butuh dua jam setiap minggu untuk mengetik laporan prestasi murid satu per satu. Sekarang saya pakai Gemini Canvas.",
+   "Dulu saya mengetik manual, menyalin nilai dari buku ke dokumen, lalu memeriksa lagi. Malam-malam pun belum selesai. Capek sekali.\n\nLangkah yang mengubah keadaan: saya membuat satu tabel sederhana, lalu meminta Gemini Canvas membuat tampilan untuk memeriksa dan menyusun kalimat.",
+   "“Create a Gemini Canvas tool where I type each student's marks and attendance, then it writes a 3-line progress comment in formal Indonesian. Show a printable summary at the end.”\n\nUji dengan lima data dulu, periksa kalimat yang keluar.",
+   "Kalau kalian mau prompt siap pakai untuk laporan seperti ini, komen PROMPT ya, nanti saya kirim."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "gemini canvas",
+   "laporan murid",
+   "guru SMP",
+   "prompt"
+  ]
+ },
+ {
+  "id": "ti0036",
+  "judul": "Formulir masukan murid dengan ChatGPT",
+  "hook": "Banyak DM tanya: gimana caranya membuat formulir masukan murid pakai ChatGPT tanpa coding?",
+  "posts": [
+   "Banyak DM tanya: gimana caranya membuat formulir masukan murid pakai ChatGPT tanpa coding?\n\nIni jawaban saya.",
+   "Tips 1: tulis tujuan formulir dan usia murid dalam satu kalimat.\n\nTips 2: minta ChatGPT membuat 5 soal dengan skala 1 sampai 3 dan satu soal terbuka.\n\n“Create 5 feedback questions for TPQ pupils after a class, simple Indonesian, smiley scale 1 to 3, one open question at the end.”",
+   "Tips 3: minta versi yang bisa dicetak atau ditempel di kelas. Uji sendiri dulu.",
+   "Kalau kalian ingin dibimbing langsung sampai formulir atau aplikasi sendiri jadi, saya punya sesi mentoring 1-on-1. Komen NAK, nanti saya kirim infonya."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "chatgpt",
+   "masukan",
+   "TPQ",
+   "mentoring"
+  ]
+ },
+ {
+  "id": "ti0037",
+  "judul": "Jadwal kegiatan IPA seminggu dengan Claude",
+  "hook": "Sebenarnya guru IPA bisa menyusun jadwal kegiatan kelas seminggu dalam satu prompt Claude.",
+  "posts": [
+   "Sebenarnya guru IPA bisa menyusun jadwal kegiatan kelas seminggu dalam satu prompt Claude.\n\nCaranya:",
+   "1. Tulis 4 hal: topik, durasi jam pelajaran, ukuran kelompok, dan bahan yang tersedia.\n\n2. Tempel di Claude:\n\n“Create a 5-day science activity timetable for grade 4 with 40-minute lessons, groups of 4, one experiment per day, simple materials only.”",
+   "3. Minta bentuk jadwal:\n\n“Show it as a table with day, activity, materials and a 5-minute exit question.”\n\n4. Cek waktu setiap sesi dan perbaiki kalau terlalu padat.",
+   "Kalau mau video singkat tentang kegiatan ini untuk murid atau orang tua, saya punya Prompt Video. Komen VIDEO, nanti saya kirim. Selamat mencoba."
+  ],
+  "cta": "VIDEO",
+  "tags": [
+   "claude",
+   "jadwal kelas",
+   "IPA",
+   "prompt video"
+  ]
+ },
+ {
+  "id": "ti0038",
+  "judul": "Lima prompt laporan untuk guru Bahasa Indonesia",
+  "hook": "5 prompt Claude yang setiap guru Bahasa Indonesia sebaiknya simpan untuk laporan prestasi murid.",
+  "posts": [
+   "5 prompt Claude yang setiap guru Bahasa Indonesia sebaiknya simpan untuk laporan prestasi murid.",
+   "1. Ringkasan satu murid\n\n“Write a 100-word progress summary in formal Indonesian for a grade 5 pupil, with one strength and one area to improve.”\n\n2. Komentar tulisan\n\n“Give 3 comments on this essay, starting with praise and ending with one clear target.”",
+   "3. Ringkasan kelas\n\n“Write a class summary showing the common mistakes in comprehension and what to revisit.”\n\n4. Pesan orang tua\n\n“Turn this report into a short, warm note in simple Indonesian for parents.”",
+   "5. Pengecekan kualitas\n\n“Check this report for grammar and remove any repeated phrases.”\n\nSimpan untuk dipakai kapan saja. Bagikan ke teman guru yang membutuhkan ya."
+  ],
+  "cta": "",
+  "tags": [
+   "claude",
+   "bahasa indonesia",
+   "laporan murid",
+   "guru"
+  ]
+ },
+ {
+  "id": "ti0039",
+  "judul": "Mitos laporan AI yang sama dan kaku",
+  "hook": "Mitos: hasil laporan prestasi murid dari AI semuanya sama dan kaku. Bener nggak?",
+  "posts": [
+   "Mitos: hasil laporan prestasi murid dari AI semuanya sama dan kaku. Bener nggak?",
+   "Saya juga dulu berpikir begitu. Kalimat yang keluar memang terlihat sama kalau saya cuma menulis “buat laporan”.\n\nTapi begitu saya memberi data asli dan nada yang jelas, hasilnya jadi lebih sesuai untuk setiap murid.",
+   "Contoh prompt:\n\n“Write a formal Indonesian progress report for one grade 4 pupil. Data: comprehension 72, writing 58, attendance 95 percent. Mention strengths and one target for next month.”\n\nUbah data untuk setiap murid, maka kalimatnya akan berubah sesuai data itu.",
+   "Pendapat kalian bagaimana? Komen PROMPT kalau mau saya bagikan template lengkapnya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "chatgpt",
+   "laporan murid",
+   "mitos ai",
+   "bahasa indonesia"
+  ]
+ },
+ {
+  "id": "ti0040",
+  "judul": "Poster kelas bimbel dalam dua versi",
+  "hook": "KHUSUS UNTUK GURU BIMBEL yang ingin membuat poster kelas yang rapi.",
+  "posts": [
+   "KHUSUS UNTUK GURU BIMBEL yang ingin membuat poster kelas yang rapi. Ini framework prompt untuk poster yang cocok dengan pekerjaan kita.\n\nCaranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Nama kelas dan jenjang\n+ Judul dan tanggal\n+ Gaya: ceria tapi ringkas\n+ Warna utama\n+ Bahasa Indonesia",
+   "2. Contoh prompt untuk poster kelas Matematika:\n\n“Write poster text for a grade 9 math tuition class on Saturday, headline, 3 bullet points and a call to action, under 40 words.”\n\n3. Contoh untuk poster promosi:\n\n“Give 3 headline options for a grade 6 science booster class, each under 6 words.”",
+   "Minta dua versi, pilih yang paling jelas, lalu baru didesain di aplikasi desain. Komen PROMPT kalau mau template lengkapnya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "chatgpt",
+   "poster bimbel",
+   "guru bimbel",
+   "prompt"
+  ]
+ },
+ {
+  "id": "ti0041",
+  "judul": "Ular tangga sejarah Indonesia untuk kuis kelas",
+  "hook": "KHUSUS UNTUK GURU SEJARAH yang ingin membuat ular tangga digital untuk kuis kelas.",
+  "posts": [
+   "KHUSUS UNTUK GURU SEJARAH yang ingin membuat ular tangga digital untuk kuis kelas. Ini framework prompt yang cocok dengan pekerjaan kita.\n\nCaranya:",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tema sejarah dan tahunnya\n+ Jumlah kotak\n+ Soal di setiap kotak\n+ Bahasa Indonesia\n+ Level murid",
+   "2. Contoh prompt:\n\n“Create a single-page snakes and ladders game in Claude Artifacts about Indonesian history for grade 8. 30 squares, each landing shows a short question, Indonesian language, big dice button.”\n\n3. Minta kotak bonus untuk jawaban benar berturut-turut.",
+   "Uji dulu, perbaiki soal yang kurang tepat, baru dibawa ke kelas. Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "ular tangga",
+   "sejarah",
+   "kuis"
+  ]
+ },
+ {
+  "id": "ti0042",
+  "judul": "Mitos poster AI untuk ruang kelas",
+  "hook": "Mitos: AI itu mahal dan poster buatan AI selalu terlihat sama. Bener nggak?",
+  "posts": [
+   "Mitos: AI itu mahal dan poster buatan AI selalu terlihat sama. Bener nggak?",
+   "Saya guru matematika. Dulu saya pikir poster AI tidak cocok untuk kelas. Ternyata masalahnya ada di perintah yang terlalu umum.\n\nSaat saya memberi judul, sasaran murid, dan ukuran, hasilnya jauh lebih rapi.",
+   "Contoh prompt:\n\n“Write poster text for a grade 4 math corner titled Fun with Fractions. Include 3 short tips and one challenge question, A4 layout, simple bright words.”\n\nUbah sasaran murid, dan kalimatnya akan menyesuaikan dengan usia mereka.",
+   "Menurut kalian, AI cocok untuk poster kelas atau tidak? Tulis pendapat di kolom komentar."
+  ],
+  "cta": "",
+  "tags": [
+   "chatgpt",
+   "poster kelas",
+   "mitos ai",
+   "guru matematika"
+  ]
+ },
+ {
+  "id": "ti0043",
+  "judul": "Game sejarah Malaka tanpa mulai dari nol",
+  "hook": "Ramai DM tanya: gimana caranya membuat game sejarah yang disukai murid, tanpa mulai dari nol?",
+  "posts": [
+   "Ramai DM tanya: gimana caranya membuat game sejarah yang disukai murid, tanpa mulai dari nol?\n\nIni jawaban saya.",
+   "Tips 1: pilih satu era saja, contoh Kesultanan Malaka. Murid lebih mudah mengingat kalau cakupannya kecil.\n\nTips 2: minta ChatGPT membuat 10 soal pilihan ganda dengan penjelasan singkat untuk setiap jawaban.",
+   "“Create 10 multiple choice questions about the Malacca Sultanate for grade 6 pupils, 4 options each, with a one-line explanation for the answer.”\n\nTips 3: minta satu aturan untuk murid, contoh: pilih jawaban dalam waktu 15 detik.",
+   "Kalau kalian mau cepat, saya punya koleksi 29 template game belajar siap main. Komen GAME, nanti saya kirim info lengkapnya."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "chatgpt",
+   "game sejarah",
+   "template game",
+   "kesultanan malaka"
+  ]
+ },
+ {
+  "id": "ti0044",
+  "judul": "Game kuis IPA dalam satu sesi Gemini",
+  "hook": "Sebenarnya guru IPA bisa membuat game kuis kelas dalam satu sesi Gemini Canvas, tanpa pengalaman coding.",
+  "posts": [
+   "Sebenarnya guru IPA bisa membuat game kuis kelas dalam satu sesi Gemini Canvas, tanpa pengalaman coding.\n\nCaranya:",
+   "1. Tentukan topik dan 10 soal. Contoh: sistem peredaran darah.\n\n2. Tulis satu kalimat untuk game:\n\n“Create a quiz game in Gemini Canvas for grade 5 science on the circulatory system. 10 questions, 4 options each, score bar, Indonesian language.”",
+   "3. Minta mode dua tim:\n\n“Add a two-team mode where teams take turns, with a clear winner screen at the end.”\n\n4. Uji dengan rekan kerja atau anak, perbaiki soal yang tidak jelas.",
+   "Kalau kalian ingin dibimbing langsung sampai game sendiri jadi, saya punya sesi mentoring 1-on-1. Komen NAK, nanti saya kirim infonya."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "gemini canvas",
+   "kuis IPA",
+   "mentoring",
+   "guru IPA"
+  ]
+ },
+ {
+  "id": "ti0045",
+  "judul": "Shortcut kartu hafalan kosakata untuk orang tua",
+  "hook": "Coba shortcut prompt ini di Claude Artifacts ya, untuk kartu hafalan kosakata anak di rumah.",
+  "posts": [
+   "Coba shortcut prompt ini di Claude Artifacts ya, untuk kartu hafalan kosakata anak di rumah.",
+   "1. “Make a flashcard app with 15 words, flip on tap.”\n2. “Add an audio button that reads each word in English.”\n3. “Show a simple picture next to each word.”\n4. “Add a quiz at the end with 5 random cards.”\n5. “Let me add new words later from a text box.”\n6. “Keep one colour and large text for small screens.”\n7. “Show a score after the quiz.”\n8. “Make a reset button.”\n\nSelamat mencoba. Komen PROMPT kalau mau saya bagikan template lengkapnya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "kosakata",
+   "orang tua",
+   "flashcard"
+  ]
+ },
+ {
+  "id": "ti0046",
+  "judul": "Lima prompt lagu belajar untuk guru IPA",
+  "hook": "5 prompt Claude Artifacts yang setiap guru IPA sebaiknya simpan untuk lagu belajar.",
+  "posts": [
+   "5 prompt Claude Artifacts yang setiap guru IPA sebaiknya simpan untuk lagu belajar.",
+   "1. Halaman lirik\n\n“Create a single page that shows song lyrics in large text, with a chorus highlight, Indonesian language.”\n\n2. Ulangi setiap bait\n\n“Add a repeat button for each verse.”",
+   "3. Bentuk rima\n\n“Turn these 5 facts into a 4-line chant with a rhyme on each line.”\n\n4. Kartu aktivitas\n\n“Make a printable card with lyrics and a space for the class to add actions.”",
+   "5. Versi pelan\n\n“Create a slower version of the lyrics with pauses marked for reading.”\n\nBaca dulu bersama kelas, perbaiki bagian yang belum sesuai. Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "claude artifacts",
+   "lagu belajar",
+   "IPA",
+   "guru"
+  ]
+ },
+ {
+  "id": "ti0047",
+  "judul": "Framework latihan ejaan IPA dengan Claude",
+  "hook": "Berhenti minta Claude Artifacts “buatkan latihan ejaan” saja.",
+  "posts": [
+   "Berhenti minta Claude Artifacts “buatkan latihan ejaan” saja. Guru IPA pun bisa memakai framework ini untuk latihan ejaan yang lebih rapi.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Kelas murid\n+ Daftar 8 kata IPA\n+ Jenis soal\n+ Umpan balik langsung\n+ Bahasa Indonesia",
+   "2. Latihan pertama: istilah IPA\n\n“Create an interactive spelling quiz with 8 Indonesian science words for grade 4. Show the word and let pupils type the spelling, instant feedback.”\n\n3. Latihan kedua: isi tempat kosong\n\n“Make a fill in the blank exercise with 5 science sentences and a hint button.”",
+   "Uji satu sesi dulu, lalu minta versi yang lebih mudah kalau murid membutuhkan. Komen PROMPT kalau mau template lengkapnya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "claude artifacts",
+   "latihan ejaan",
+   "IPA",
+   "framework"
+  ]
+ },
+ {
+  "id": "ti0048",
+  "judul": "Game memori sejarah tanpa coding, gratis",
+  "hook": "KAK, GIMANA CARANYA MEMBUAT GAME SEJARAH UNTUK KELAS TANPA CODING, GRATIS?",
+  "posts": [
+   "KAK, GIMANA CARANYA MEMBUAT GAME SEJARAH UNTUK KELAS TANPA CODING, GRATIS?\n\nGampang kok. Yuk saya bagikan caranya.",
+   "1. Pilih satu peristiwa dan 8 fakta utama.\n\n2. Buka Gemini Canvas dan tempel:\n\n“Make a history memory game on 8 pairs of Indonesian historical events and dates for grade 7. Flip cards, timer, Indonesian labels.”",
+   "3. Minta skor dan ulang:\n\n“Show moves and time at the end, with a play again button.”\n\n4. Main sendiri dua kali, perbaiki soal yang kurang jelas.",
+   "Kalau mau template lengkap untuk game seperti ini, komen GAME ya. Selamat mencoba."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "gemini canvas",
+   "game sejarah",
+   "memori",
+   "guru IPA"
+  ]
+ },
+ {
+  "id": "ti0049",
+  "judul": "Carousel orang tua yang tidak berantakan",
+  "hook": "Kenapa carousel Instagram buatan AI selalu terlihat penuh dan tidak cocok dibaca orang tua?",
+  "posts": [
+   "Kenapa carousel Instagram buatan AI selalu terlihat penuh dan tidak cocok dibaca orang tua?",
+   "Sebabnya: prompt kita terlalu umum. Waktu kita cuma menulis buat carousel, AI menambahkan banyak informasi yang tidak perlu.\n\nSaat saya membuat bahan untuk guru SD, saya memakai Gemini Notebook aka NotebookLM dan memberi sumber yang jelas.",
+   "Perbaiki dengan 3 tambahan:\n\n+ Satu ide setiap slide\n+ Maksimal 15 kata\n+ Bahasa Indonesia yang sederhana\n\nContoh: “Using only these sources, make a 5-slide carousel for parents of grade 1 pupils, one idea per slide, max 15 words, simple Indonesian.”",
+   "Minta satu contoh dulu, cek faktanya, baru buat yang lengkap. Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "notebooklm",
+   "carousel instagram",
+   "orang tua",
+   "SD"
+  ]
+ },
+ {
+  "id": "ti0050",
+  "judul": "Formulir masukan rapi dengan Gemini Canvas",
+  "hook": "Sebenarnya kita bisa memakai Gemini Canvas untuk membuat formulir masukan yang terlihat rapi dan mudah diisi. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita bisa memakai Gemini Canvas untuk membuat formulir masukan yang terlihat rapi dan mudah diisi. Ini caranya:",
+   "1. Tulis tujuan formulir dan jumlah soal.\n\n2. Tempel:\n\n“Create a feedback form in Gemini Canvas for a workshop with 5 questions, big tap areas, Indonesian language. Keep the original content, do not change my questions.”",
+   "3. Minta versi rapi untuk ponsel:\n\n“Make a clean layout with a progress bar at the top and a thank you screen at the end.”\n\n4. Tekan Preview dan uji sendiri dulu.",
+   "Selamat mencoba."
+  ],
+  "cta": "",
+  "tags": [
+   "gemini canvas",
+   "masukan",
+   "formulir",
+   "content creator"
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+PREVIEW THREAD — BAHASA MALAYSIA
+Akaun  : Threads @auzan_hasfi
+Topik  : AI Threads
+Bentuk : 1 post utama + 3 balasan berantai (macam thread "tools dah release")
+Status : DRAF — belum dimuat naik
+
+==================================================
+POST 1 (utama)
+==================================================
+Cikgu, saya nak share satu app yang saya guna hari-hari untuk bina bahan PdP
+
+Dulu nak buat satu game kuiz pun boleh makan masa seminggu. Sekarang saya cuma pilih jenis game, isi topik, salin prompt, tampal dalam AI. Siap dalam beberapa minit.
+
+Tak perlu pandai coding pun!
+
+Saya letak cara guna dan contoh kat bawah 👇
+
+==================================================
+BALASAN 1
+==================================================
+Nama app ni Prompt Generator
+
+Cikgu pilih jenis game atau app, pilih subjek dan tahun, lepas tu app terus susun prompt lengkap untuk cikgu.
+
+Prompt tu boleh guna kat Claude, ChatGPT, Gemini pun boleh
+
+Nak cuba versi demo dulu:
+demoprompt.edugamelabs.com
+
+==================================================
+BALASAN 2
+==================================================
+Macam ni contoh yang dah jadi
+
+Game final boss matematik, game ala Mobile Legends dengan soalan, game lompat kira, semua dibina guna prompt dari app ni
+
+Lepas siap, cikgu boleh guna dalam kelas, kongsi dengan murid, atau sell sebagai produk digital untuk jana pendapatan
+
+==================================================
+BALASAN 3
+==================================================
+Kalau cikgu nak versi penuh dengan semua jenis game, gallery prompt dan panduan step by step
+
+lptoolsmy.edugamelabs.com
+
+Ada soalan, tanya je kat ruangan komen. Saya balas satu-satu 🙏
+
+==================================================
+CATATAN
+==================================================
+- Setiap post bawah 500 aksara (had Threads).
+- Jumlah pautan: 2 (had Threads 5 pautan satu post).
+- Gaya ikut thread 11/08: ayat santai BM, "pun bole/boleh", "tak perlu pandai coding pun!", emoji sedikit, pautan di balasan, bukan di post utama.

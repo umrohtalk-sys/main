@@ -1,0 +1,174 @@
+THREAD SERI #05 - 15 POST
+Judul: "Jangan bikin apps pendidikan sebelum kamu tau urutan ini, aku udah salah dulu 😭"
+Angle: cerita urutan yang terbalik (bikin app lengkap dulu, murid belakangan) lalu urutan yang akhirnya kupakai, tiap langkah lahir dari satu kegagalan kecil.
+Contoh mapel/jenjang: Bahasa Inggris SD kelas 4 (kosakata hewan & benda di kelas).
+Tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Jangan bikin apps pendidikan sebelum kamu tau urutan ini, aku udah salah dulu 😭
+
+aku guru Bahasa Inggris SD, dan app pertamaku gagal bukan karena AI-nya, tapi karena urutanku kebalik
+
+kuceritain dari yang salah dulu ya, biar kamu gak ngulang 😭
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Urutanku yang salah dulu gini:
+
+buka AI → minta "bikinin app belajar bahasa Inggris lengkap" → nambah fitur → nambah fitur lagi → baru kasih ke murid.
+
+Kedengerannya wajar kan? Aku juga mikir gitu. Sampai hari H app-nya dibuka di kelas 4.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+App-nya ada menu login, papan skor, 6 level, kamus, kuis, lagu, sama karakter yang bisa ganti baju.
+
+Murid buka, terus... mereka sibuk ganti baju karakter selama 20 menit 😭
+
+Kosakata hewannya? Gak ada yang nyentuh. Satu anak malah nanya "Bu, levelnya di mana sih?"
+
+Aku senyum, tapi dalam hati pengen ngumpet di bawah meja.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Malamnya aku mikir: aku bikin app buat siapa sebenernya?
+
+Jujur, buat aku sendiri. Biar keliatan canggih. Biar bisa dipamerin di grup guru.
+
+Padahal yang kubutuhin cuma satu: murid bisa nyebut "elephant" tanpa ketawa malu.
+
+Itu masalahnya sekecil itu, tapi app-ku segede mal.
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Jadi aku bongkar ulang. Bukan app-nya dulu, tapi urutannya.
+
+Urutan pertama yang kubalik: LIHAT MURID DULU, baru buka AI.
+
+Seminggu aku cuma nyatet di buku kecil, momen mana yang bikin mereka bengong. Ternyata bukan artinya. Mereka bingung cara bacanya. "Giraffe" dibaca "gi-ra-pe" 😭
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Urutan kedua: tulis satu kalimat masalah, bukan daftar fitur.
+
+Kalimatku akhirnya cuma gini:
+
+"murid kelas 4 tau gambar hewannya, tapi takut salah ngucapin, jadi diem aja."
+
+Satu kalimat itu ternyata jauh lebih berguna buat AI daripada daftar 15 fitur yang kutulis dulu.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Urutan ketiga: gambar dulu, ngetik belakangan.
+
+Aku buka excalidraw.com, gambar asal-asalan: satu kartu hewan gede, satu tombol speaker, satu tombol mikrofon. Udah. Tiga kotak.
+
+Gambarnya jelek, garisnya miring. Tapi pas kukasih ke AI, hasilnya langsung nyambung sama yang kumau. Sumpah beda jauh.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Urutan keempat: bikin SATU layar dulu, bukan satu app.
+
+Satu kartu, satu hewan, satu suara. Belum ada menu, belum ada skor, belum ada level.
+
+Rasanya kayak curang, kecil banget. Tapi justru yang kecil ini yang bisa kuselesaiin dalam satu malam, bukan satu bulan.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Urutan kelima: tes ke SATU murid, bukan satu kelas.
+
+Kupanggil satu anak pas istirahat. Dia pencet speaker, dengerin "elephant", terus nyoba ngomong sendiri sambil malu-malu.
+
+Terus dia bilang: "Bu, gambarnya kecil, aku gak liat gajahnya." 😭
+
+Lima detik feedback itu nyelametin aku dari malu di depan 30 anak.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Yang lucu, revisi dari anak itu sederhana semua:
+
+- gambarnya dibesarin
+- tulisannya jangan miring
+- suaranya pelan aja, jangan kayak robot marah
+
+Gak ada satupun yang minta login atau papan skor. Gak ada.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Urutan keenam: baru bawa ke kelas, dan diem.
+
+Aku gak jelasin apa-apa. Cuma bagi link-nya, kujadiin PWA biar bisa dibuka dari layar HP kayak app biasa.
+
+Terus aku cuma ngamatin. Siapa yang mencet berkali-kali, siapa yang berhenti, siapa yang nyoba ngomong pelan sendiri.
+
+Momen diem ini yang dulu gak pernah kulakuin.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Hasilnya? Kelas jadi berisik. Berisik yang bagus.
+
+"Elephant! Elephant!" sahut-sahutan. Ada yang nyuruh temennya nebak hewan dari suara doang.
+
+Dan anak yang biasanya diem pas pelajaran Inggris, dia yang paling sering mencet mikrofon. Aku sampai pura-pura beresin meja biar gak keliatan mewek 😭
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Urutan terakhir: baru tambah fitur, satu-satu, kalau murid yang minta.
+
+Minggu depannya mereka minta "Bu, tambahin benda di kelas dong". Ya udah kutambahin. Besoknya ada yang minta kuis tebak suara. Kutambahin.
+
+Fitur yang lahir dari permintaan murid gak pernah sia-sia. Yang lahir dari gengsiku, hampir selalu.
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Kalau diringkas, urutanku sekarang:
+
+1. lihat murid
+2. satu kalimat masalah
+3. gambar kasar
+4. satu layar
+5. tes ke satu anak
+6. bawa ke kelas, diem
+7. tambah kalau diminta
+
+AI-nya baru kepake di langkah 4. Enam langkah lainnya itu kerjaan guru banget 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Jadi kalau kamu lagi semangat-semangatnya mau bikin app pertama, aku cuma titip satu:
+
+jangan mulai dari AI. Mulai dari muridmu yang paling sering bengong.
+
+Kamu lagi di urutan nomor berapa sekarang? Tulis di komentar ya, atau simpan thread ini buat nanti pas mulai 🙌

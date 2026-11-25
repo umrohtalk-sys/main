@@ -1,0 +1,1041 @@
+=== 1 | 2026-10-04 | 93 like ===
+Yang baru follow akaun saya, meh saya kenalkan diri sikit.
+
+Background saya psikologi dan data sains. Dekat sini saya banyak share tentang tip dan trik AI macam Gemini Notebook, Canva, Chatgpt , Gemini dan AI tools yang lain especially untuk beginner. Kadang ada share juga tentang psikologi.
+
+Moga perkongsian saya sedikit sebanyak dapat korang manfaatkan ya dan terima kasih juga sebab sudi follow.
+
+Kalau korang nak lebih banyak free guide, tips dan prompt AI, korang boleh dapatkan dalam channel free saya ini: https://t.me/ezzynotaAI
+
+=== 2 | 2026-11-20 | 35 like ===
+NAK BUAT SLIDE CANTIK GUNA AI TAPI TAK TAHU NAK TULIS PROMPT?
+
+Ramai dah cuba guna AI untuk hasilkan slide. Tapi masalahnya slide yang dijana tak kemas, susunan isi berterabur dan visual pula tak seperti yang kita nak. Sudahnya kena ulang prompt banyak kali sampai habis masa dan kredit AI.
+
+Sebenarnya kita boleh hasilkan slide yang lebih kemas dan menarik dengan mudah kalau tahu cara bagi arahan yang betul kepada AI.
+
+Sebab itu saya sediakan Ezzy Slide & Carousel AI.
+
+Dalam platform ini saya dah sediakan:
+
+1. Tutorial langkah demi langkah untuk hasilkan slide dan carousel menggunakan AI. Boleh ikut walaupun baru nak belajar.
+2. Templat prompt siap guna yang boleh terus salin dan ubah ikut topik serta keperluan kita. Tak perlu pening fikir prompt dari kosong.
+3. Panduan hasilkan slide dan carousel dengan pelbagai gaya visual menarik supaya hasil nampak lebih kemas dan profesional.
+
+Tak perlu buang masa berjam-jam cuba prompt yang sama berulang kali.
+
+Tinggal ikut tutorial, pilih prompt dan hasilkan slide ikut keperluan kita.
+
+Dapatkan akses sekarang: https://sites.google.com/view/ezzy-ai/platform
+
+=== 3 | 2026-11-20 | 19 like ===
+Boleh try prompt yang saya kongsi ini untuk buat infografik
+
+=== 4 | 2026-11-20 | 1161 like ===
+Korang yang student itu jangan guna Gemini NotebookLM untuk buat nota dan ringkasan saja. Cuba tetapkan custom instruction supaya NotebookLM boleh jadi tutor peribadi kita.
+
+1. Upload nota dan slide kuliah.
+2. Klik Configure Chat dekat titik tiga sebelah settings. 
+3. Pilih learning guide.
+
+4. Nak custom sendiri pun boleh. Contohnya: 
+
+ "Anda bertindak sebagai tutor peribadi saya. Bantu saya memahami [topik]. Gunakan bahasa mudah, terangkan konsep secara berperingkat, berikan contoh yang relevan dan uji kefahaman saya dengan soalan. Jangan terus berikan jawapan sebelum saya cuba menjawab."
+
+Boleh ubah custom instruction ikut cara belajar kita. Selamat mencuba.
+
+=== 5 | 2026-11-19 | 12 like ===
+Sekarang ini nak buat slide yang kemas dan menarik sangatlah mudah. Boleh guna ChatGPT, Gemini NotebookLM, Canva AI atau tools AI yang lain.
+
+Kalau berminat nak belajar boleh tengok bio saya ya.
+
+=== 6 | 2026-11-19 | 5 like ===
+JANGAN BUAT KESILAPAN INI KALAU NAK AI BERIKAN RESPONS YANG KITA NAK
+
+1. Prompt terlalu umum
+
+Jangan sekadar minta AI "Buatkan marketing".
+
+Kita kena tetapkan produk, sasaran pelanggan, objektif dan jenis kandungan yang kita nak.
+
+Lagi jelas arahan, lagi mudah AI hasilkan jawapan yang sesuai.
+
+2. Percaya 100% jawapan AI
+
+AI pun boleh buat silap. 
+
+Kadang-kadang fakta dan angka yang diberikan nampak betul tapi sebenarnya salah.
+
+Jadi pastikan kita semak semula maklumat penting sebelum guna.
+
+3. Kongsi maklumat sulit
+
+Elakkan masukkan password, nombor IC atau maklumat sulit dalam AI.
+
+Kalau nak guna dokumen sebagai sumber, padam atau sembunyikan dulu maklumat sensitif itu.
+
+=== 7 | 2026-11-18 | 27 like ===
+Selamat mencuba.
+
+=== 8 | 2026-11-18 | 29 like ===
+Kepada cikgu-cikgu, ini cara paling mudah buat bahan pdpc guna AI:
+
+1. Buka Gemini NotebookLM
+2. Upload bahan pdpc sebagai sumber AI
+3. Guna fungsi studio untuk buat nota infografik, rumusan. Soalan quiz, video penerangan dan macam-macam lagi.
+
+Cikgu-cikgu tinggal semak saja.
+
+Cuma kalau nak hasil yang bagus, pastikan sumber yang kita upload itu berkualiti dan relevan ya.
+
+=== 9 | 2026-11-18 | 2 like ===
+Berhati-hatilah melabel orang
+
+=== 10 | 2026-11-17 | 4 like ===
+Tahu tak senang saja nak buat game belajar macam ini sekarang. Guna:
+
+1. Claude/ChatGPT
+2. Master Prompt Code
+
+Kalau berminat nak master prompt code boleh tengok bio ya.
+
+=== 11 | 2026-11-17 | 254 like ===
+Cikgu-cikgu, berhenti minta AI “hasilkan slaid pengajaran.”
+
+Guna prompt ini untuk hasilkan slide pengajaran yang lebih tersusun dan menarik.
+
+1. Penerangan topik
+
+Prompt:
+“Hasilkan [Bilangan] slide pengajaran topik [Topik] untuk murid [Tahun/Tingkatan]. Objektifnya untuk membantu murid memahami [Objektif]. Masukkan isi penting [Kandungan]. Susun slide mengikut pengenalan, penerangan, contoh dan rumusan. Gunakan visual infografik moden, ilustrasi menarik dan warna yang sesuai. Gunakan [Bahasa Pilihan] yang mudah difahami.”
+
+2. Ulang kaji pelajaran
+
+Prompt:
+“Hasilkan [Bilangan] slide ulang kaji [Subjek] bagi murid [Tahun/Tingkatan] untuk topik [Topik]. Objektifnya untuk mengukuhkan penguasaan [Kemahiran]. Fokus pada [Isi Penting]. Susun slide mengikut ringkasan nota, contoh soalan, teknik menjawab dan latihan. Gunakan visual minimalis, jadual perbandingan dan peta minda. Gunakan [Bahasa Pilihan] yang ringkas dan jelas.”
+
+3. Aktiviti pembelajaran
+
+Prompt
+“Hasilkan [Bilangan] slide aktiviti interaktif untuk topik [Topik] bagi murid [Tahun/Tingkatan]. Objektifnya untuk meningkatkan kefahaman murid tentang [Objektif]. Fokus pada [Kandungan]. Susun slide mengikut penerangan ringkas, aktiviti berkumpulan, kuiz dan refleksi. Gunakan visual ceria, ikon menarik dan elemen gamifikasi. Gunakan [Bahasa Pilihan] yang mudah dan mesra murid.”
+
+=== 12 | 2026-11-17 | 4 like ===
+4 KESILAPAN BIASA BILA GUNA AI YANG RAMAI BEGINNER BUAT
+
+1.Bagi arahan ringkas macam tengah search kat Google.
+2.Terus copy paste jawapan AI tanpa baca, semak atau edit semula.
+3.Berhenti mencuba bila jawapan tak menepati kehendak.
+4.Tidak beri konteks yang jelas tentang tugasan yang nak dilakukan.
+
+=== 13 | 2026-11-16 | 30 like ===
+Oklah buat video macam ini tak sampai 10 minit. 
+
+1. Prompt dan storyboard guna ChatGPT.
+2. Buat video setiap scene kat Google Flow. 
+3. Dah siap tinggal combine. 
+
+Spend kredit pun 30 saja.
+
+=== 14 | 2026-11-16 | 76 like ===
+Selamat mencuba.
+
+=== 15 | 2026-11-15 | 1 like ===
+Sejarah AI. Yang kita selalu guna itu generative AI (cabang AI) cuma nak mudah kita panggil AI saja.
+
+=== 16 | 2026-11-14 | 14 like ===
+Yang nak upskill AI lebih sekadar prompting, ini 3 FREE kos yang korang boleh belajar kat Kaggle
+
+1. 5-Day Intensive Generative AI Course
+2. 5-Day AI Agents Intensive Course
+3. 5-Day AI Agents: Vibe Coding Course
+
+=== 17 | 2026-11-14 | 28 like ===
+Antara 3 perkongsian Dr. Rania Awaad tentang ketahanan rohani dari kisah Nabi Sulaiman:
+
+1. Kekayaan dan kuasa adalah ujian Allah
+2. Sentiasa latih diri untuk rendah hati dan bersyukur
+3. Buang sifat tamak melalui amalan sedekah
+
+=== 18 | 2026-11-13 | 12 like ===
+Tak payah pening kepala fikir prompt. Meh belajar cara mudah guna AI untuk buat:
+
+Infografik
+Video
+Slide
+Game belajar
+
+Dalam Ezzy Mastery AI ada:
+
+Tutorial mudah
+Bank prompt
+Panduan AI
+Dan bermacam-macam lagilah.
+
+Siap ada update lagi.
+
+Cuma harga akses akan dinaikkan bila dah banyak update. 
+
+Jadi better dapatkan sekarang kalau tak nak terlambat: https://sites.google.com/view/ezzymasteryai/platform
+
+=== 19 | 2026-11-13 | 16 like ===
+Berhenti minta AI “hasilkan game belajar.”
+
+Guna prompt ini untuk hasilkan game belajar menarik dengan lebih mudah dan pantas.
+
+Yang masih tak tahu cara mudah buat game belajar boleh tengok sini:
+
+=== 20 | 2026-11-12 | 12 like ===
+Ada orang tak nak buat slide guna AI sebab slide AI terlalu banyak sangat maklumat lepas itu gambar berterabur.
+
+Tapi kalau kita tahu caranya boleh saja buat slide kemas macam ini guna AI. Tak sampai 5 minit pun buat. 
+
+Beza pada cara guna saja sebenarnya. Betul tak?
+
+=== 21 | 2026-11-12 | 805 like ===
+Berhenti minta AI “hasilkan infografik.”
+
+Guna 5 prompt ini untuk hasilkan infografik pengajaran menarik dengan lebih mudah dan pantas.
+
+1. Gaya sticker scrapbook
+
+Prompt:
+“Create a fun infographic on [topic]. Use sticker scrapbook style with cut-out elements, white borders around objects, playful doodles, and layered composition. Trendy, student-friendly, and creative notebook vibe.”
+
+2. Gaya komik manga
+
+Prompt:
+“Create an educational comic on [topic]. Use manga-inspired style with clean line art, expressive facial emotions, dynamic poses, and minimal background details. Storytelling-focused and engaging for teenagers and young adults.”
+
+3. Gaya isometric 3D
+
+Prompt:
+“ Create a detailed infographic on [topic]. Use isometric 3D style showing miniature environments such as labs, factories, or systems viewed from an angled top-down perspective. Clear process flow, structured layout, and visually engaging depth.”
+
+=== 22 | 2026-11-12 | 24 like ===
+Dari perkongsian Dr. Rania Awaad, ini 3 pengajaran besar tentang ketahanan mental yang boleh kita pelajari daripada kisah Nabi Yunus. 
+
+1. Jangan putus asa walau di saat paling gelap dalam hidup kita.
+2. Akui kelemahan dan kesilapan diri serta segerakan taubat.
+3. Sentiasa percaya pada perancangan Allah.
+
+=== 23 | 2026-11-11 | 1 like ===
+Sekali tengok macam real tapi sebenarnya AI.
+
+=== 24 | 2026-11-11 | 21 like ===
+NAK HASILKAN OUTPUT LEBIH BERKUALITI GUNA GEMINI NOTEBOOKLM? 
+
+Meh saya share 5 tip yang korang boleh guna. Boleh save dan share ya.
+
+1. Satu notebook untuk satu topik.
+
+Sebaiknya asingkan notebook mengikut topik atau projek.
+
+Contohnya, kalau nak buat bahan PdP Matematik dan Bahasa Melayu, gunakan notebook berasingan.
+
+Ini membantu NotebookLM fokus pada sumber yang relevan dan mengurangkan risiko maklumat bercampur.
+
+2. Tetapkan peranan NotebookLM.
+
+Kita boleh tetapkan peranan AI mengikut tugasan melalui fungsi Configure Chat.
+
+Contoh:
++ Pakar pembinaan modul PdP
++ Pembantu penyelidikan akademik
++ Pakar pembangunan bahan latihan
++ Tutor pembelajaran
+
+Dengan cara ini, respons AI boleh disesuaikan mengikut keperluan kita.
+
+3. Utamakan kualiti sumber, bukan kuantiti.
+
+Tak semestinya kena upload berpuluh-puluh sumber untuk dapatkan hasil yang bagus.
+
+Kadang-kadang 5 sumber yang berkualiti lebih membantu berbanding 30 sumber yang kurang relevan.
+
+Pastikan sumber yang kita upload tepat, relevan dan tidak mempunyai terlalu banyak maklumat berulang.
+
+=== 25 | 2026-11-11 | 55 like ===
+Mudahnya ada AI sekarang poster infografik macam ini boleh siap tak sampai 2 minit. Prompt pun tak perlu panjang-panjang. Lepas AI siapkan kita tinggal semak saja maklumat.
+
+Cara mudah nak buat infografik macam ini:
+
+1. Cari contoh infografik kat internet
+2. Bagi dekat AI lepas itu minta AI buat infografik macam itu untuk topik kita
+
+Siap. Tak perlu prompt panjang-panjang kan.
+
+=== 26 | 2026-11-10 | 40 like ===
+Berhenti minta Gemini NotebookLM “hasilkan video”.
+
+Guna prompt ini untuk buat video pengajaran dengan lebih mudah dan pantas.
+
+1. Tetapkan ini dalam prompt:
+
++ Jenis video
++ Sasaran penonton
++ Gaya visual
++ Topik dan isi utama
++ Kekangan dan arahan tambahan
+
+=== 27 | 2026-11-09 | 323 like ===
+Ramai lagi tak tahu yang kita sekarang boleh gunakan Gemini untuk hasilkan lagu AI dengan mudah dan pantas. 
+
+Meh saya kongsikan caranya.
+
+1. Mula-mula buka Gemini dan pilih ‘Create Music’
+
+2. Masukkan prompt untuk hasilkan lagu AI. 
+
+Boleh masukkan lirik, gambar atau video. 
+
+Lepas itu tetapkan panjang lagu, genre dan sebagainya.
+
+3. Untuk hasilkan lagu yang bagus, pastikan prompt mempunyai elemen ini:
+
++ Genre
++ Mood
++ Instrument
++ Tempo
++ Vocal
+
+=== 28 | 2026-11-08 | 6 like ===
+MAKIN PANDAI AI, MAKIN MALAS MANUSIA BERFIKIR?
+
+Saya perasan sekarang ramai yang dah mula bergantung pada AI untuk buat macam-macam kerja.
+
+Nak tulis ayat, tanya AI.
+
+Nak cari idea, tanya AI.
+
+Nak buat keputusan pun kadang-kadang tanya AI.
+
+Bagus sebenarnya sebab AI boleh mudahkan banyak kerja kita.
+
+Cuma saya terfikir satu benda.
+
+Kalau semua perkara kita serahkan pada AI, lama-lama apa jadi dengan kemampuan kita untuk berfikir sendiri?
+
+Sebab AI sepatutnya dijadikan sebagai partner berfikir. Bukan sekadar tempat untuk kita dapatkan jawapan dan terus copy paste.
+
+Contoh bila kita ada sesuatu idea, cuba bincangkan dengan AI. Minta AI berikan pandangan berbeza, cabar idea kita, kenal pasti kelemahan dan cadangkan penambahbaikan.
+
+Kita juga boleh minta AI tanyakan soalan yang membuatkan kita berfikir dengan lebih mendalam.
+
+=== 29 | 2026-11-06 | 85 like ===
+Untuk korang yang nak belajar cara mudah guna AI untuk buat:
+
+Infografik
+Slide
+Video
+Game Belajar
+
+Boleh belajar dalam platform saya ini.
+
+Dalam platform ini ada:
+
+Tutorial
+Workflow mudah
+Bank prompt
+Panduan AI
+
+Dan bermacam-macam lagilah.
+
+Selain itu siap ada update lagi. 
+
+Cuma harga akses akan dinaikkan bila dah banyak update. 
+
+Jadi better dapatkan akses sekarang kalau tak nak terlambat: https://sites.google.com/view/ezzymasteryai/platform
+
+=== 30 | 2026-11-06 | 323 like ===
+Berhenti minta AI hasilkan game.
+
+Guna 4 prompt ini untuk buat game pembelajaran menarik guna Gemini Canvas.
+
+Yang masih tak tahu cara nak buat boleh tengok sini:
+
+1. Rancangan TV
+
+2. Cerita interaktif
+
+=== 31 | 2026-11-05 | 26 like ===
+Ramai lagi tak tahu yang kita boleh ubah slide jadi video ringkas macam ini guna canva. Cara dia.
+
+1. Upload slide dalam canva
+2. Guna fungsi image to video
+
+Siap. Bolehlah cuba ya.
+
+=== 32 | 2026-11-05 | 932 like ===
+BANG, MACAM MANA NAK BUAT GAME BELAJAR MACAM ORANG LAIN BUAT ITU?
+
+Senang saja. Ini saya sharekan cara paling mudah dan percuma.
+
+1. Buka Gemini kemudian aktifkan fungsi canvas.
+
+2. Masukkan prompt untuk buat game. Contoh:
+
+3. Jana game dan siap. 
+
+Boleh test game kita.
+
+Kalau nak ubah boleh bagi prompt susulan.
+
+=== 33 | 2026-11-04 | 47 like ===
+Nak buat game belajar macam ini sekarang mudah. Guna AI saja. Minta AI buatkan game lepas itu masukkan sekali soalan. Bolehlah sambil main game sambil belajar kan.
+
+Game macam ini kalau nak lagi mudah buat guna master prompt code. Kita cuma perlu bagi AI macam ChatGPT atau claude master prompt code lepas itu beritahu dia untuk buat game macam ini untuk subjek yang kita nak.
+
+Kalau berminat nak master prompt code, boleh dapatkan kat link di bio ya.
+
+=== 34 | 2026-11-04 | 132 like ===
+Berhenti minta AI “hasilkan worksheet”.
+
+Guna prompt ini untuk buat worksheet dengan aras dan jenis soalan yang berbeza.
+
+1. Aras mudah (Mengingat & memahami)
+
+2. Aras sederhana (Aplikasi dan penyelesaian masalah)
+
+3. Aras tinggi (Analisis & penilaian KBAT)
+
+=== 35 | 2026-11-03 | 161 like ===
+Selamat mencuba.
+
+=== 36 | 2026-11-02 | 532 like ===
+Video macam ini sekarang kita boleh buat dalam masa 10 minit saja. Cara dia:
+
+1. Buat storyboard guna ChatGPT 
+2. Buat video guna Google Flow
+3. Jadikan storyboard rujukan video
+
+Bolehlah cuba ya.
+
+Kalau nak workflow lengkap dan prompt boleh tengok kat link di bio.
+
+=== 37 | 2026-11-02 | 39 like ===
+JANGAN TERUS HASILKAN BAHAN GUNA GEMINI NOTEBOOKLM
+
+Buat 5 langkah ini untuk dapatkan hasil yang lebih tepat dan tersusun. Boleh save dan share ya.
+
+1. Tetapkan tujuan Notebook
+
+Cipta satu notebook untuk satu topik atau projek saja.
+
+Jangan campurkan terlalu banyak topik yang tak berkaitan supaya AI lebih fokus pada sumber kita.
+
+2. Kumpulkan sumber berkualiti
+
+Upload bahan rujukan kita seperti PDF, Google Docs atau transkrip.
+
+Boleh juga guna Fast Research atau Deep Research untuk cari sumber tambahan.
+
+Cuma pastikan sumber relevan ya.
+
+Sumber yang tidak berkaitan boleh dibuang.
+
+3. Semak kualiti sumber
+
+Sebelum hasilkan bahan, buat analisis dulu seperti:
+
++ Cari maklumat yang bercanggah.
++ Kenal pasti maklumat yang masih kurang.
++ Semak sudut pandang berbeza.
+
+Ini penting supaya AI tak buat rumusan berdasarkan maklumat yang tak lengkap.
+
+=== 38 | 2026-11-01 | 11 like ===
+Kesihatan mental pun perlu dijaga ya
+
+=== 39 | 2026-10-31 | 405 like ===
+Mudah saja nak buat game macam ini sekarang. 
+
+1. Upload master prompt
+2. Minta AI buatkan game macam ini untuk topik dan subjek yang kita nak
+
+Siap game. Boleh share dekat pelajar untuk main.
+
+=== 40 | 2026-10-30 | 612 like ===
+KHAS UNTUK MEREKA YANG KERJA PEJABAT
+
+Guna framework prompt ini untuk hasilkan infografik yang lebih kemas dan cantik dengan lebih mudah guna Gemini NotebookLM.
+
+1. Tetapkan ini dalam prompt:
+
++ Jenis infografik
++ Sasaran pembaca
++ Tema dan gaya visual
++ Topik dan isi utama
++ Kekangan dan arahan tambahan
+
+2. Ringkasan laporan
+
+3. Carta alir SOP
+
+=== 41 | 2026-10-29 | 78 like ===
+Buat slide tak sampai 2 minit. Cara dia:
+
+1. Minta AI run master prompt
+2. Upload draf slide atau slide lama kita
+3. Beritahu AI untuk hasilkan slide dengan gaya baru
+4. Slide siap
+
+Proses jana slide baru akan ambil masa sikit tapi kita tak perlu tunggu pun. Boleh buat benda lain. Jimat masa kita.
+
+=== 42 | 2026-10-29 | 5 like ===
+Cikgu-cikgu, ibu bapa atau student yang nak buat nota panduan pantas untuk ulang kaji subjek boleh gunakan fungsi interactive dan study guide report dalam Gemini NotebookLM ini. Hanya upload nota, slaid, buku teks atau buku rujukan saja. Nanti Notebook akan buatkan ringkasan nota pantas untuk topik itu siap infografik, flashcard dan kuiz lagi. Jadi tak perlulah baca semua. Ulang kaji pun jadi lebih mudah.
+
+=== 43 | 2026-10-29 | 735 like ===
+BANG, MACAM MANA NAK BUAT SLIDE WOW GUNA GEMINI NOTEBOOKLM TAPI NAK NOTEBOOK GUNA ISI KITA?
+
+Meh saya kongsikan cara mudah.
+
+1. Hasilkan draf slide terlebih dulu.
+
+Nak buat sendiri boleh.
+
+Nak minta notebook buatkan pun boleh.
+
+Yang penting pastikan isi draf slide itu seperti apa yang kita nak.
+
+2. Jadikan draf slide sebagai sumber.
+
+Lepas itu barulah hasilkan slide.
+
+Nak minta dalam chat boleh.
+
+Nak guna studio pun boleh.
+
+Cuma pastikan draf slide itu jadikan sumber tunggal.
+
+3. Tetapkan gaya slide yang kita nak.
+
+Sekarang banyak gaya menarik yang notebook boleh hasilkan.
+
+Glassmorphism, Google Material Theme, Scientific Poster Style.
+Banyak lagilah.
+
+Tinggal pilih ikut kesesuaian tujuan slide saja.
+
+=== 44 | 2026-10-29 | 0 like ===
+Ada yang tanya ok ke kalau guna free akaun AI?
+
+Bagi saya ok kalau untuk task simple cuma hasil itu janganlah letak high expectation sangat. Sebab bila guna akaun percuma ini, kita cuma dapat akses beberapa percent saja kapasiti AI. 
+
+Kalau nak lebih banyak akses, kena bayar. Makin banyak kita bayar, makin banyak akses yang kita boleh guna. Cuma kena betul-betul tahu gunalah kalau tak nak membazir.
+
+=== 45 | 2026-10-29 | 15 like ===
+Nak rasa lebih gembira dan tenang sepanjang hari?
+
+Mulakan pagi dengan syukur.
+
+Kelebihan dari sudut psikologi:
+
+1. Rasa lebih bahagia
+2. Tingkatkan kepuasan hidup
+3. Emosi positif kekal lebih lama
+
+Selamat pagi
+
+=== 46 | 2026-10-28 | 3 like ===
+Sebenarnya tak perlu pun explore semua benda tentang AI. Lebih baik fokus explore AI untuk bantu buat tugasan kita. Lagi mudah macam itu.
+
+=== 47 | 2026-10-28 | 60 like ===
+Bolehlah guna shortcut prompt ini. Selamat mencuba.
+
+=== 48 | 2026-10-27 | 7 like ===
+Korang yang nak edit gambar AI boleh gunakan fungsi magic layers dalam Canva ini. Nanti dia akan ubah gambar AI itu jadi format yang boleh diedit. Nak guna akaun percuma pun boleh.
+
+=== 49 | 2026-10-27 | 0 like ===
+Alhamdulillah pagi ini baru buka whatsapp ada rezeki payment.
+
+=== 50 | 2026-10-26 | 68 like ===
+20 slide macam ini kita boleh buat tak sampai 5 minit guna ChatGPT work. Cuma tinggal minta ChatGPT guna master prompt lepas itu beritahu input slide yang kita inginkan. Nanti ChatGPT buatkan slide. Bolehlah kita buat kerja lain. Lepas beberapa minit buka chat dah siap. Mudahkan.
+
+=== 51 | 2026-10-26 | 1467 like ===
+BERHENTI minta Gemini NotebookLM “hasilkan slide”. 
+
+Cikgu-cikgu boleh guna framework prompt ini untuk hasilkan slide yang lebih kemas dan cantik dengan lebih mudah
+
+1. Tetapkan ini dalam prompt:
+
++ Topik
++ Audiens
++ Objektif
++ Kandungan
++ Struktur
++ Visual
++ Bahasa
+
+2. Slaid pengajaran harian
+
+3. Slaid nota ringkas & ulang kaji
+
+=== 52 | 2026-10-25 | 30 like ===
+Yang nak upskill AI itu bolehlah gunakan nota dan website yang saya kongsikan kat sini.
+
+Linknya: https://www.ezzynotaai.my/upskill
+
+Boleh save dan share kat orang lain ya.
+
+=== 53 | 2026-10-24 | 9 like ===
+Sebab masih ramai tanya jadi saya share balik. Selain guna slide lama, boleh saja guna draf slide. Cara dia lebih kurang sama saja.
+
+=== 54 | 2026-10-24 | 16 like ===
+Selamat berhujung minggu :)
+
+=== 55 | 2026-10-23 | 23 like ===
+Dulu nak buat slide macam ini makan masa berjam-jam. Sekarang ada AI dah boleh buat tak sampai 10 minit. Yang penting kena tahu caranya.
+
+Korang tak perlu bazir masa explore sendiri.
+
+Belajar  kat sini saja: https://sites.google.com/view/ezzymasteryai/platform
+
+Terus boleh buat.
+
+=== 56 | 2026-10-23 | 385 like ===
+Kalau korang student, ini 8 tips Gemini Notebook aka NotebookLM yang korang boleh gunakan untuk belajar lebih mudah dan cepat.
+
+1. Ringkaskan bahan yang panjang seperti artikel jurnal dalam bahasa yang mudah difahami.
+
+2. Terangkan istilah teknikal dan jargon yang sukar dengan contoh yang mudah difahami. 
+
+3. Bina senarai glosari dari bahan belajar yang kita upload.
+
+4. Buat peta minda untuk bantu kita dapatkan gambaran besar berkaitan sesuatu topik.
+
+5. Buat jadual perbandingan hujah dan perspektif untuk mudahkan bacaan kita.
+
+6. Ekstrak maklumat berstruktur seperti penulis, tahun, kaedah, teori, dan hujah utama dalam bentuk jadual untuk jimatkan masa ketika buat literature review.
+
+7. Tetapkan tahap kesukaran penerangan mengikut keperluan pelajaran. Contoh tahap kesukaran mudah bila baru mula belajar dan sukar ketika ulang kaji. 
+
+8. Hasilkan nota infografik dan video ringkas untuk mudahkan rujukan dan ulang kaji.
+
+=== 57 | 2026-10-22 | 692 like ===
+KHAS UNTUK LECTURER
+
+Guna framework prompt ini untuk hasilkan infografik yang lebih kemas dan cantik guna Gemini Notebook aka NotebookLM.
+
+1. Tetapkan ini dalam prompt:
+
++ Jenis infografik
++ Sasaran pembaca
++ Tema dan gaya visual
++ Topik dan isi utama
++ Kekangan dan arahan tambahan
+
+2.  Infografik peta konsep akademik
+
+3. Infografik rumusan artikel jurnal
+
+=== 58 | 2026-10-21 | 10 like ===
+4 manfaat syukur mengikut psikologi. Save & share.
+
+=== 59 | 2026-10-20 | 370 like ===
+BANG, MACAM MANA NAK BUAT 100 SLIDE GUNA GEMINI NOTEBOOK?
+
+Meh saya kongsikan caranya.
+
+1. Hasilkan draf 100 slide dulu.
+
+Boleh minta notebook buatkan berdasarkan sumber kita.
+
+Nak guna AI lain pun boleh.
+
+2. Jadikan draf sebagai sumber tunggal.
+
+Kalau guna notebook, boleh tukar draf jadi sumber.
+
+Kalau AI lain, boleh upload draf sebagai sumber baru.
+
+3. Hasilkan slide guna Notebook.
+
+Nak minta dekat chat boleh, nak guna studio pun boleh.
+
+Cuma dalam prompt spesifikkan page slide. Contoh:
+
+“ Hasilkan slide 1 - 15 dengan gaya professional dan minimalist”
+“ Hasilkan slide 16 - 30 dengan gaya professional dan minimalist”
+
+Ulang sampai kita habis jana semua slide.
+
+=== 60 | 2026-10-19 | 299 like ===
+Sekarang ini dah tak perlu spend masa berjam-jam buat slide. Guna ChatGPT saja. Tak sampai 10 minit dah boleh buat. Cara dia:
+
+1. Berikan draf slide pada ChatGPT
+2. Minta ChatGPT buatkan slide
+
+Siap. Kalau nak belajar boleh tengok link di bio ya.
+
+=== 61 | 2026-10-19 | 2102 like ===
+BERHENTI minta Gemini Notebook “hasilkan infografik”. 
+
+Cikgu-cikgu boleh guna framework prompt ini untuk hasilkan infografik yang lebih kemas dan cantik.
+
+1. Tetapkan ini dalam prompt:
+
++ Jenis infografik
++ Sasaran pembaca
++ Tema dan gaya visual
++ Topik dan isi utama
++ Kekangan dan arahan tambahan
+
+2. Infografik peta minda
+
+3. Infografik ringkasan nota
+
+=== 62 | 2026-10-18 | 30 like ===
+Normalize baca Surah Al-Mulk sebelum tidur. 
+
+Selamat malam ✨
+
+=== 63 | 2026-10-17 | 30 like ===
+Tip psikologi belajar lebih berkesan. Selamat mencuba.
+
+=== 64 | 2026-10-16 | 38 like ===
+Korang yang nak jimat masa belajar AI itu boleh gunakan bahan belajar yang saya kongsikan kat sini. Dalam ini ada:
+
++ Tutorial
++ Prompts
++ Tip praktikal
++ Ebook
+
+Korang tinggal belajar dan apply saja.
+
+Boleh dapatkan akses kat sini ya: https://sites.google.com/view/ezzymasteryai/platform
+
+=== 65 | 2026-10-16 | 916 like ===
+Untuk korang yang baru nak explore Gemini Notebook aka NotebookLM, ini saya kongsi cara guna AI tool ini untuk beginner.
+
+Save dan kongsikan biar lebih ramai newbie tahu ya.
+
+1. Gemini Notebook ini sebenarnya AI tool yang boleh bantu kita faham, kaji dan susun maklumat berdasarkan bahan rujukan sendiri.
+
+Contohnya, kita upload nota atau dokumen.
+
+Lepas tu boleh terus tanya soalan berkaitan bahan kita upload itu.
+
+Tak perlu baca satu-satu.
+
+2. Cara guna mudah saja.
+
+Boleh google dan buka Gemini Notebook. 
+
+Kemudian login guna akaun Google kita.
+
+Lepas itu create notebook baru.
+
+3. Dekat notebook itu, kita akan nampak 3 panel.
+
+Pertama Sources iaitu tempat masukkan bahan rujukan.
+
+Kedua Chat iaitu tempat borak dengan AI.
+
+Ketiga Studio iaitu tempat generate pelbagai bahan daripada sumber tadi.
+
+=== 66 | 2026-10-15 | 4 like ===
+✅ Malaysia
+✅ Brunei 
+✅ Singapura
+
+Alhamdulillah makin ramai yang subscribe Ezzy Mastery AI :)
+
+=== 67 | 2026-10-15 | 160 like ===
+2 minit saja chat dengan chatgpt work, siap slaid kemas macam ini. Mudahkan ada AI sekarang.
+
+=== 68 | 2026-10-15 | 83 like ===
+Korang yang selalu guna Gemini Notebook itu, ini saya share 3 PROMPT dari Google yang korang boleh try.
+
+1. Product Manager Persona
+Tukar dokumen panjang jadi memo keputusan yang fokus pada bukti masalah pengguna, kekangan teknikal dan kekurangan produk.
+
+2.  Scientific Researcher Persona
+Teliti dokumen dengan lebih terperinci terutamanya pada cara eksperimen dibuat dan ketepatan data.
+
+3. Middle School Teacher Persona
+Mudahkan bahasa atau istilah susah menjadi penerangan ringkas, contoh analogi harian, dan senarai kata kunci mudah.
+
+=== 69 | 2026-10-14 | 65 like ===
+Tip psikologi kurangkan stres. Moga membantu.
+
+=== 70 | 2026-10-14 | 91 like ===
+Boleh guna shortcut prompt ini dalam ChatGPT. Selamat mencuba.
+
+=== 71 | 2026-10-13 | 77 like ===
+Sekarang senang saja buat slide macam ini. 5 minit saja untuk buat. Cara dia:
+
+1. Buka ChatGPT
+2. Draf slide
+3. Jana gambar
+4. Compile dalam powerpoint.
+
+Kalau nak belajar, boleh tengok link di bio ya.
+
+=== 72 | 2026-10-13 | 1 like ===
+Done update ✅
+
+=== 73 | 2026-10-13 | 3172 like ===
+Sebenarnya kita boleh guna Gemini Notebook aka NotebookLM untuk ubah slide lama jadi slide baru tanpa ubah kandungan slide.
+
+Ini caranya:
+
+1. Upload slide lama dan jadikan sebagai sumber tunggal.
+
+Lepas itu boleh buat slide macam biasa.
+
+Nak guna fungsi dalam studio boleh.
+
+Nak terus chat minta hasilkan slide pun boleh.
+
+2. Cuma dalam prompt, kita kena minta AI ikut kandungan slide lama.
+
+Contoh:
+“ Maintain 100% of the original content. Do not alter the structure, wording or meaning of the content. Do not apply any changes, omissions or simplifications.”
+
+Lagi satu pastikan dalam prompt ada beritahu output bahasa juga untuk elak AI auto translate.
+
+3. Lepas itu bolehlah tambah dalam prompt untuk gaya visual pula. 
+
+Yang inilah yang akan ubah slide lama kita jadi slide baru.
+
+Boleh minta gaya AI tech ke, claymorphism ke atau infographic heavy.
+
+Bila prompt dah lengkap, kita dah boleh minta Notebook buatkan slide baru terus.
+
+=== 74 | 2026-10-12 | 2 like ===
+Macam ini google map kesan trafik. Kalau korang nak tahu ini pun salah satu aplikasi AI juga. AI bukan cuma genAI yang kita selalu guna itu.
+
+=== 75 | 2026-10-12 | 357 like ===
+ChatGPT sekarang dah makin power tapi ramai yang masih belum gunakan features ChatGPT sepenuhnya. 
+
+Saya share 6 features yang korang wajib explore hari ini.
+
+1. Sites
+Sekarang kita dah boleh buat website terus dalam ChatGPT.
+
+Cuma describe website macam mana kita nak.
+
+Nanti ChatGPT buatkan. 
+
+Kita siap boleh publish lagi bila dah siap.
+
+2. Work Mode
+Kalau kita ada kerja yang perlukan banyak langkah, kita boleh guna Work Mode.
+
+Hanya perlu bagikan input dan prompt yang jelas saja. 
+
+ChatGPT akan rancang dan buat kerja itu.
+
+Kita tinggal tunggu hasilnya saja.
+
+3. Plugins
+Yang ni menarik kalau kita selalu guna banyak apps. 
+
+ChatGPT boleh connect dengan apps macam Gmail, Canva dan Calendar.
+
+Jadi kita tinggal minta ChatGPT saja untuk buat kerja kita macam carikan emel atau design poster dan slide.
+
+=== 76 | 2026-10-11 | 0 like ===
+Alhamdulillah positive review :) InsyaAllah will update more sharing dalam ini
+
+=== 77 | 2026-10-09 | 19 like ===
+Masih ada lagi yang tak tahu kalau kita student boleh dapatkan Google AI Plus free setahun. Korang boleh apply kat sini sebelum 31 Disember ini: https://gemini.google/students/
+
+=== 78 | 2026-10-09 | 52 like ===
+Ramai lagi tak tahu yang kita sebenarnya boleh buat banyak benda guna fungsi Canvas dalam Gemini.
+
+Ini antara 5 benda best yang kita boleh buat:
+
+1. Edit dokumen
+
+Split-screen canvas memudahkan kita untuk edit dokumen yang dihasilkan Gemini. Kita boleh highlight mana part yang kita nak edit dan beritahu Gemini perubahan yang kita ingin lakukan. Tak perlu prompt balik.
+
+2. Buat laman web mudah tanpa perlu coding
+
+Minta saja Gemini hasilkan laman web mudah macam daily task checklist atau water tracker. Laman web siap dalam canvas dan boleh dikongsikan.
+
+3. Buat bahan belajar
+
+Kita boleh hasilkan bahan belajar seperti flashcard, kuiz dan infografik dari laporan yang dihasilkan guna canvas.
+
+=== 79 | 2026-10-08 | 97 like ===
+Ubah cara korang belajar, research dan proses maklumat guna Gemini Notebook.
+
+Ini saya share 5 prompt viral yang korang tinggal copy-paste.
+
+1. 5 soalan penting (The "5 Essential Questions" )
+Minta AI mencari 5 soalan utama yang paling penting untuk membantu kita memahami keseluruhan isi dokumen dengan cepat 
+
+Prompt:
+“ Analyze all inputs and generate 5 essential questions that, when answered, capture the main points and core meaning of all inputs.“
+
+2. Panduan Nota Kuliah (Ultimate Prompt for Lectures) 
+Menukar nota kelas atau slaid kuliah menjadi soalan ulang kaji yang berfokus pada maksud istilah, konsep utama dan contoh kegunaan 
+
+Prompt:
+“ Review all uploaded materials and generate 5 essential questions that capture the core meaning.
+Focus on:
+- Core topics and definitions
+- Key concepts emphasized
+- Relationships between concepts
+- Practical applications mentioned”
+
+3. Cari Fakta Menarik (Steven Johnson's "Interesting Bits") 
+Minta AI mengimbas dokumen tebal untuk mengeluarkan fakta paling mengejutkan atau menarik berserta key quotes.
+
+Prompt:
+“ What are the most surprising or interesting pieces of information in these sources? Include key quotes.”
+
+=== 80 | 2026-10-07 | 7 like ===
+Korang yang nak belajar gunakan 100% fungsi chatgpt, baik cepat daftar kelas ini. Hari ini last harga early bird RM97 sampai tengah malam ini. Esok dah harga RM127. Rugi kalau korang tak grab sekarang.
+
+Daftar cepat kat sini sebelum harga early bird tamat: https://learnai.my/r/asyraf/gpt6
+
+=== 81 | 2026-10-07 | 356 like ===
+Bolehlah guna shortcut prompt ini dalam ChatGPT. Selamat mencuba.
+
+=== 82 | 2026-10-07 | 27 like ===
+4 tip kurangkan burnout mengikut psikologi:
+
+1. Asingkan waktu kerja dan peribadi
+2. Berehat sebentar secara berkala
+3. Fokus perkara yang boleh dikawal
+4. Dapatkan tidur yang cukup
+
+Selamat pagi dan selamat berkerja. Moga urusan kita dimudahkan hari ini insyaAllah amin.
+
+=== 83 | 2026-10-06 | 5 like ===
+Kalau AI itu manusia, mana yang korang rasa korang paling rapat?
+
+=== 84 | 2026-10-06 | 35 like ===
+JANGAN cuma minta Gemini Notebook aka NotebookLM untuk “buat podcast”.
+
+Ini saya share 5 prompt podcast pembelajaran yang korang boleh cuba hari ini.
+
+1. Podcast Pengenalan Topik
+Sesuai untuk beri pelajar gambaran awal sebelum masuk kelas.
+
+2. Podcast Penerangan Konsep
+Sesuai untuk topik yang agak susah dan perlukan penerangan yang lebih santai.
+
+3. Podcast Perbincangan / Debat
+Sesuai untuk topik yang mempunyai beberapa perspektif atau pandangan.
+
+=== 85 | 2026-10-05 | 1 like ===
+Comel video ini hahaha
+
+=== 86 | 2026-10-05 | 8 like ===
+Korang yang tengah nak upskill itu jangan terlepas peluang ini.
+
+Daftar saja lepas itu lengkapkan kursus wajib dalam tempoh 7 hari. 
+
+Dah settle semua korang boleh akses kursus dalam coursera secara percuma untuk 3 bulan. Bolehlah kumpul sijil dan upskill. Kalau tak kena bayar sendiri. 
+
+Link saya letak di komen.
+
+Ini linknya. Boleh daftar guna mydigital id.
+
+https://rakyatdigital.gov.my/skills-hub
+
+=== 87 | 2026-10-05 | 167 like ===
+Jangan cuma minta AI hasilkan slide.
+
+Guna framework prompt ini untuk hasilkan slide AI yang lebih kemas, tersusun dan cantik.
+
+1. Tetapkan tajuk spesifik. Contoh:
+
+❌ Artificial Intelligence
+✅ Pengenalan kepada Artificial Intelligence untuk Guru
+✅ 5 Cara Guru Boleh Menggunakan AI dalam Pengajaran
+✅ Asas Generative AI untuk Guru Sekolah Rendah
+
+2. Tetapkan sasaran audience. Contoh: 
+
++ Guru sekolah
++ Murid tahun 2
++ Pelajar universiti tahun 1
++ Pekerja baru
+
+3. Tetapkan objektif. Contoh: 
+
++ Edukasi
++ Latihan
++ Kesedaran
++ Informasi
+
+=== 88 | 2026-10-04 | 4 like ===
+Siap sudah ebook percuma panduan buat lagu AI untuk beginner. Boleh download dalam EzzyNota AI ya. Link ada di bio. Moga membantu.
+
+=== 89 | 2026-10-04 | 30 like ===
+Update terkini dari Google. 
+
+Akaun percuma cuma boleh guna model flash-lite saja.
+AI plus dah tak boleh guna model pro.
+
+Lepas ini kalau nak guna AI memang kena subscribe.
+
+=== 90 | 2026-10-04 | 23 like ===
+4 kebaikan bersyukur mengikut psikologi:
+
+1. Kurangkan stress
+2. Tingkatkan emosi positif
+3. Tingkatkan kepuasan hidup
+4. Tingkatkan ketahanan mental
+
+Jadi mulakanlah pagi kita dengan syukur Alhamdulillah sebab banyak sangat nikmat yang Allah kurniakan dekat kita.
+
+=== 91 | 2026-10-03 | 0 like ===
+Ini antara akaun thread yang korang boleh follow. Moga bermanfaat :)
+
+=== 92 | 2026-10-03 | 0 like ===
+Update google bulan ini
+
+=== 93 | 2026-10-03 | 2 like ===
+Selamat berhujung minggu. Antara 6 aktiviti ini mana yang korang selalu buat bila weekend?
+
+=== 94 | 2026-10-02 | 6 like ===
+Nak jimat masa dan kredit buat slide AI?
+
+Meh belajar dalam Mastery Slide AI ini. Dalam ini saya share panduan lengkap guna Gemini Notebook, Canva AI dan ChatGPT untuk buat slide AI. Siap ada prompt lagi. 
+
+Plus saya pun akan update panduan itu nanti. Korang cuma perlu bayar sekali saja untuk dapat free update. Link ada dekat komen.
+
+Harga akan naik bila-bila masa saja ya.
+
+Boleh dapatkan akses kat sini: https://sites.google.com/view/mastery-slide-ai/home
+
+=== 95 | 2026-10-02 | 308 like ===
+JANGAN sekadar minta Gemini Notebook aka NotebookLM untuk “buat video tentang [TOPIK]”. 
+
+Ini saya share 5 prompt video pembelajaran yang korang boleh cuba hari ini.
+
+1. Video Pengenalan Topik
+Sesuai digunakan sebelum pelajar mula belajar sesuatu topik.
+
+Prompt:
+“ Create an introductory learning video about [TOPIC]. Give students a clear big-picture overview before they learn the topic in detail. Introduce the main concepts, explain why the topic is important, provide simple examples, and highlight what students should understand by the end of the video. Use language suitable for [EDUCATION LEVEL].”
+
+2. Video Penerangan Konsep
+Sesuai untuk menerangkan konsep yang susah dengan cara lebih mudah.
+
+Prompt:
+“ Create an educational video explaining [CONCEPT]. Start with a simple definition, then explain the concept step-by-step. Use relatable examples and analogies to make difficult ideas easier to understand. Highlight common misunderstandings and end with the key points students should remember. Use language suitable for [EDUCATION LEVEL].”
+
+3. Video Proses
+Sesuai untuk topik yang mempunyai proses, urutan atau beberapa peringkat.
+
+Prompt:
+“ Create a step-by-step learning video explaining how [PROCESS] works. Begin with a short introduction, then explain each stage in the correct sequence. Clearly show how one step leads to the next and explain why each step is important. End with a short recap of the complete process. Use language suitable for [EDUCATION LEVEL].”
+
+=== 96 | 2026-10-02 | 20 like ===
+6 amalan sunat hari Jumaat yang kita boleh buat. Selamat beramal.
+
+=== 97 | 2026-10-01 | 800 like ===
+Bolehlah cuba guna shortcut prompt ini dekat ChatGPT ya.
+
+=== 98 | 2026-09-30 | 19 like ===
+Sem baru, student baru tapi masih pakai slide lama.
+
+Kadang bukan sebab kita tak nak buat baru tapi tak sempat.
+
+Yalah kerja lecturer bukan cuma mengajar saja. Banyak lagi kerja lain yang kita nak kena buat.

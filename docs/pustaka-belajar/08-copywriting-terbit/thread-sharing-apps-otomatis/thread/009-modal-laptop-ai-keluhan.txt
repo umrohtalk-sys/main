@@ -1,0 +1,164 @@
+THREAD SERI #09 - 15 POST
+Judul: "Cuma modal laptop, AI, dan keluhan murid, aku bisa punya produk digital sendiri, ini caranya 😭"
+Angle: buku catatan keluhan murid yang pelan-pelan berubah jadi produk. "Caranya" muncul lewat kebiasaan kecil, bukan tutorial. Produk muncul sebagai kejutan di akhir cerita.
+Contoh mapel/jenjang: guru Bahasa Inggris SMK jurusan Tata Boga (vocabulary dapur & resep)
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Cuma modal laptop, AI, dan keluhan murid, aku bisa punya produk digital sendiri, ini caranya 😭
+
+modalnya bukan kursus mahal, bukan tim IT
+
+modalnya satu buku tulis lusuh yang isinya keluhan anak-anak SMK tiap habis pelajaran Bahasa Inggris
+
+kuceritain dari halaman pertama ya
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Aku ngajar Bahasa Inggris di SMK jurusan Tata Boga.
+
+Anak-anakku jago banget di dapur. Bisa bikin croissant berlapis-lapis. Tapi begitu kusuruh baca resep bahasa Inggris, mukanya langsung kayak liat adonan bantat 😭
+
+"Bu, buat apa sih, kan kita mau masak, bukan mau ngomong."
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Awalnya keluhan kayak gitu cuma kubalas senyum.
+
+Sampai suatu hari aku capek sendiri, terus iseng kutulis di buku kecil: tanggal, keluhan, siapa yang ngomong (pakai inisial aja).
+
+Gak ada niat apa-apa. Cuma biar gak kesel sendirian. Lama-lama buku itu penuh.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Pas kubaca ulang satu semester, ternyata keluhannya itu-itu aja loh.
+
+"Bu, whisk sama beat bedanya apa?"
+"Fold itu dilipat kayak baju?"
+"Kok resep luar pakai cup, kita kan pakai gram?"
+
+Mereka bukan males. Mereka bingung di kata kerja dapur yang gak ada di buku paket.
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Malam itu aku buka laptop, buka AI, terus kuketik persis isi buku catatan itu. Gak kuubah jadi bahasa teknis.
+
+"Murid SMK Tata Boga bingung kata kerja dapur bahasa Inggris. Aku mau app kecil: ada gambar gerakan tangan, katanya, bunyinya, terus ada tantangan masak pura-pura."
+
+Itu doang. Kalimat curhat yang disusun rapi dikit.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Hasil pertamanya lucu sih.
+
+Gambar "knead" malah orang lagi berlutut 😭 karena AI-nya ngira kneel. Tombol bunyinya ngomong cepet banget kayak MC acara musik.
+
+Tapi strukturnya udah ada. Dan aku sadar, yang bikin aku gak takut lagi adalah: aku bisa nyuruh dia benerin satu-satu, kayak ngoreksi tugas murid.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Bagian paling seru justru pas kutes ke kelas.
+
+Kuminta mereka main "Kitchen Order": layar nyebut instruksi bahasa Inggris, mereka harus tap gerakan yang bener secepatnya.
+
+Ruang kelas tiba-tiba kayak dapur restoran jam makan siang. Teriak "FOLD! FOLD!" sambil ketawa. Aku cuma bisa geleng-geleng.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Terus keluhan baru masuk lagi ke buku:
+
+"Bu, kurang soal yang pakai takaran."
+"Bu, ada mode lawan temen gak?"
+
+Dan di sini aku ketawa sendiri. Dulu keluhannya "buat apa belajar ini". Sekarang keluhannya "Bu, kurang banyak" 😭
+
+Buku yang sama, isinya berubah total.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Jadi kalau ditanya "caranya gimana", jujur caranya cuma ini:
+
+keluhan murid = daftar fitur yang belum dibuat.
+
+Aku gak pernah mikirin ide dari nol. Aku cuma nyalin buku catatan ke AI, satu keluhan per malam, terus kutes besoknya.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Beberapa kebiasaan kecil yang ternyata ngebantu banget:
+
+- Tulis keluhan pakai kata-kata murid, jangan dirapikan
+- Satu malam satu keluhan, jangan semua sekaligus
+- Gambar layar dulu di kertas atau excalidraw.com, baru kasih ke AI
+- Tes ke 2-3 anak dulu pas istirahat sebelum ke satu kelas
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Momen kejutannya datang dari arah yang gak kusangka.
+
+Ada alumni yang udah kerja di dapur hotel chat aku: "Bu, app yang dulu masih ada? Temen-temen kerja aku yang baru masuk pada bingung istilah dapur."
+
+Aku bengong lama. App yang kubikin buat kelas ternyata dibutuhin orang yang udah kerja 😭
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Dari situ aku rapihin. Kutambah mode pemula, kuganti contoh-contohnya biar cocok buat dapur beneran, kujadikan PWA biar bisa dipasang di HP kayak app biasa.
+
+Terus beberapa guru Tata Boga dari SMK lain nanya mau beli versi lengkapnya.
+
+Aku gak pernah bikin rencana jualan. Itu kejadian sendiri.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Yang paling kuinget dari perjalanan ini:
+
+produk digital itu bukan barang yang kamu karang di kepala.
+
+Dia udah ada di kelasmu, berbentuk keluhan yang tiap hari kamu dengar dan kamu anggap angin lalu. Tinggal ditangkap dan dibikin jadi sesuatu yang bisa dipencet.
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Dan jujur, laptopku juga bukan yang canggih. Kipasnya bunyi kayak blender kalau buka banyak tab 😭
+
+Ternyata yang bikin beda bukan alatnya. Tapi kebiasaan dengerin murid, nulis, terus berani bikin versi jelek dulu.
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Kalau kamu mau mulai, besok coba satu hal kecil:
+
+siapin buku tulis, catat satu keluhan murid persis kayak yang mereka ucapkan.
+
+Seminggu lagi baca ulang. Siapa tau produk pertamamu udah nunggu di situ.
+
+Tulis di komentar, keluhan murid apa yang paling sering kamu denger? Atau simpan dulu thread ini 🙌

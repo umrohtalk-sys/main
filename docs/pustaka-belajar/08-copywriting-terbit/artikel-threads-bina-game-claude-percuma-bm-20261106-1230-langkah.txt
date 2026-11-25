@@ -1,0 +1,171 @@
+POST UTAMA (tampal di ruang post Threads)
+
+BINA GAME PENDIDIKAN TAK PERLU BAYAR APA-APA
+
+CUKUP SALIN PROMPT, TAMPAL DI CLAUDE PERCUMA, TERBITKAN DI NETLIFY
+
+INI LANGKAH DEMI LANGKAHNYA 👇
+
+
+==================================================
+ARTIKEL (tampal di lampiran teks / text attachment)
+==================================================
+
+Cara Bina Game Pendidikan dengan Claude Percuma
+
+
+Ramai cikgu fikir nak bina game mesti pandai coding, atau mesti langgan AI yang mahal.
+
+Sebenarnya tak.
+
+Anda boleh mula dengan tiga benda percuma:
+
+• Prompt yang dah siap
+• Akaun Claude percuma
+• Netlify untuk terbitkan game
+
+Hasilnya game yang boleh dibuka murid di telefon, dengan pautan sendiri.
+
+Ini langkahnya, satu per satu.
+
+
+1. Buka Galeri Prompt percuma
+
+Buka pautan ini:
+
+demoprompt.edugamelabs.com/ms
+
+Di situ ada contoh game dan app pendidikan. Setiap satu ada pratonton hasil siapnya, jadi anda boleh tengok dulu rupa game sebelum membinanya.
+
+
+2. Pilih game, kemudian salin prompt
+
+Pilih satu game yang paling dekat dengan kelas anda. Klik Main dulu kalau nak cuba.
+
+Kalau dah berkenan, klik Salin pada prompt game itu.
+
+Prompt ini sudah lengkap. Di dalamnya ada peraturan game, susunan skrin, gaya reka bentuk, sampai arahan supaya selesa di telefon. Anda tak perlu tulis apa-apa dari kosong.
+
+
+3. Buka Claude dan log masuk
+
+Pergi ke claude.ai, kemudian daftar atau log masuk dengan akaun Google anda.
+
+Pakej percuma pun dah cukup untuk mula.
+
+
+4. Pilih Sonnet, kemudian Effort Low
+
+Langkah ini kecil, tapi besar kesannya pada kuota.
+
+Klik nama model di sebelah butang hantar, kemudian:
+
+• Pilih model Sonnet
+• Buka Effort, pilih Low
+
+Kenapa Low?
+
+Sebab effort yang lebih tinggi menghabiskan had penggunaan lebih cepat. Dengan Low, kuota percuma anda boleh digunakan untuk lebih banyak game.
+
+Prompt kita pun dah terperinci, jadi AI tak perlu berfikir panjang untuk meneka apa yang anda mahu.
+
+Kalau hasil game rumit kurang kemas, baru cuba naik ke Medium.
+
+
+5. Tampal prompt dan hantar
+
+Tampal prompt tadi di ruang chat, kemudian tekan hantar.
+
+Tunggu sehingga Claude selesai menulis kod. Biasanya beberapa minit, bergantung pada besar game.
+
+Jangan tutup tab semasa ia sedang menulis.
+
+
+6. Main dulu di panel sebelah
+
+Bila siap, game akan muncul di panel sebelah chat.
+
+Main sampai tamat. Kalau ada yang kurang, kumpulkan semua catatan dan hantar sekali gus. Contohnya:
+
+"Butang jawapan terlalu kecil di telefon, dan skrin tamat belum tunjuk skor."
+
+Satu mesej berisi tiga pembetulan jauh lebih jimat kuota berbanding tiga mesej berasingan.
+
+
+7. Muat turun sebagai index.html
+
+Di panel game, cari butang muat turun (Download). Simpan failnya dengan nama index.html.
+
+Kemudian buat satu folder baharu, contohnya "game-sifir", dan masukkan index.html ke dalamnya.
+
+Kalau butang muat turun tiada, klik Copy, tampal dalam Notepad atau TextEdit (format teks biasa), kemudian simpan sebagai index.html.
+
+
+8. Terbitkan di Netlify
+
+Buka app.netlify.com/drop
+
+Seret folder game tadi ke halaman itu.
+
+Tunggu beberapa saat, dan game anda terus dapat pautan sendiri.
+
+Siap. Game dah dalam talian.
+
+
+9. Kekalkan laman anda
+
+Laman yang diterbitkan tanpa akaun hanya sementara, dan ada tanda supaya anda menuntutnya.
+
+Jadi klik Claim, kemudian daftar akaun Netlify percuma. Selepas itu tanda tersebut hilang dan laman kekal milik anda.
+
+Di tetapan laman, anda juga boleh tukar nama pautan supaya mudah diingat, contohnya game-sifir-tahun3.netlify.app.
+
+Nak guna Vercel? Boleh juga. Buka vercel.com/drop, log masuk akaun percuma, seret folder yang sama, kemudian tekan Deploy.
+
+
+10. Kongsi kepada murid
+
+Hantar pautan game ke kumpulan WhatsApp kelas, atau tayang di skrin.
+
+Murid tak perlu pasang apa-apa. Buka pautan, terus main.
+
+
+Jadi alirannya:
+
+Galeri Prompt → Salin → Claude percuma (Sonnet, Low) → Tunggu → index.html → Netlify → Kongsi
+
+
+Semudah itu membina game pendidikan.
+
+
+Tapi ada satu perkara yang perlu anda tahu.
+
+Galeri percuma tadi cuma demo. Jumlah promptnya sangat sedikit, dan setiap prompt dah tetap topik, Tahun, dan bahasanya.
+
+Kalau topik anda berbeza, anda kena ubah sendiri, dan di situlah ramai pemula tersekat.
+
+Sebab itu saya sediakan versi Pro.
+
+Dalam Prompt Generator Pro, anda dapat:
+
+• 100+ prompt game, app, dan landing page pendidikan
+• Topik, Tahun, dan bahasa boleh diubah ikut kelas anda
+• Prompt Generator: tulis idea sendiri, prompt lengkapnya disusunkan
+• Butang hantar terus ke AI, tak perlu salin tampal panjang
+• Template landing page untuk menjual game anda
+• Marketing Kit dengan prompt video promosi
+• Riwayat prompt dan panduan langkah demi langkah
+
+Dengan demo, anda ikut game yang sedia ada.
+
+Dengan Pro, anda bina game ikut kelas anda sendiri.
+
+Harganya RM29, sekali bayar, akses selamanya.
+
+Butirannya di sini 👇
+lptoolsmy.edugamelabs.com
+
+
+Mula dulu dengan yang percuma. Bina satu game, kongsi dengan murid, dan tengok reaksi mereka.
+
+Cikgu nak cuba game apa dulu? Tulis di komen ya 🙂

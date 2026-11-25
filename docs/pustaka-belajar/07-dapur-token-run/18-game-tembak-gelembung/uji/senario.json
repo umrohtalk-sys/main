@@ -1,0 +1,99 @@
+[
+ {
+  "nama": "asas-bm",
+  "langkah": [
+   {
+    "buka": "index.html?seed=11"
+   },
+   {
+    "tangkap": "01-menu"
+   },
+   {
+    "klik": "[data-uji=bm]"
+   },
+   {
+    "jangka": "document.documentElement.lang === 'ms'"
+   },
+   {
+    "klik": "[data-uji=mula]"
+   },
+   {
+    "tunggu": 200
+   },
+   {
+    "tangkap": "02-peta"
+   },
+   {
+    "klik": "[data-uji=tahap-0]"
+   },
+   {
+    "tunggu": 500
+   },
+   {
+    "jangka": "window.__game.keadaan === 'main'"
+   },
+   {
+    "tangkap": "03-main-awal"
+   },
+   {
+    "nilai": "window.__game.soalan"
+   },
+   {
+    "jawabSemua": "betul"
+   },
+   {
+    "tunggu": 800
+   },
+   {
+    "jangka": "window.__game.keadaan === 'hasil' && window.__game.menang === true"
+   },
+   {
+    "tangkap": "04-menang"
+   },
+   {
+    "klik": "[data-uji=ulang]"
+   },
+   {
+    "tunggu": 300
+   },
+   {
+    "jangka": "window.__game.keadaan === 'main' && window.__game.skor === 0"
+   }
+  ]
+ },
+ {
+  "nama": "tukar-id",
+  "langkah": [
+   {
+    "buka": "index.html?seed=21"
+   },
+   {
+    "klik": "[data-uji=id]"
+   },
+   {
+    "jangka": "document.documentElement.lang === 'id'"
+   },
+   {
+    "tangkap": "01-menu-id"
+   },
+   {
+    "klik": "[data-uji=mula]"
+   },
+   {
+    "klik": "[data-uji=tahap-0]"
+   },
+   {
+    "tunggu": 400
+   },
+   {
+    "tangkap": "02-main-id"
+   },
+   {
+    "klik": "[data-uji=tukar-bahasa]"
+   },
+   {
+    "jangka": "document.documentElement.lang === 'ms'"
+   }
+  ]
+ }
+]

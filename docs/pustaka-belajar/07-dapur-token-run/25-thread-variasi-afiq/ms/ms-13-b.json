@@ -1,0 +1,476 @@
+[
+ {
+  "id": "tm0626",
+  "judul": "Lembaran kerja jadi game untuk bengkel",
+  "hook": "Berhenti minta ChatGPT \"tukarkan ini jadi game\" tanpa beri konteks. Hasilnya selalu pelik.",
+  "posts": [
+   "Berhenti minta ChatGPT \"tukarkan ini jadi game\" tanpa beri konteks. Hasilnya selalu pelik.",
+   "Usahawan kecil yang buat bengkel boleh guna framework prompt ini untuk tukar lembaran kerja jadi game yang lebih kemas.\n\n1. Tetapkan ini dalam prompt:\n\n+ Jenis bengkel\n+ Bilangan soalan\n+ Jenis game\n+ Bahasa peserta\n+ Masa setiap soalan",
+   "2. Game lumba jawab untuk peserta bengkel:\n\n\"Turn this worksheet into a team race game for a 2-hour business workshop. 8 questions, team scores, big buttons.\"\n\n3. Game kad pilih jawapan:\n\n\"Make a card-flip quiz where each card shows a question and the player picks one of three answers.\"",
+   "Uji dulu sebelum bawa ke bengkel. Kalau ada soalan yang tak jelas, tukar ayat sebelum sesi bermula."
+  ],
+  "cta": "",
+  "tags": [
+   "bengkel",
+   "usahawan",
+   "chatgpt",
+   "game",
+   "lembaran kerja"
+  ]
+ },
+ {
+  "id": "tm0627",
+  "judul": "Patahkan mitos coding untuk game sejarah",
+  "hook": "\"Mitos: perlu pandai coding untuk buat game web.\" Betul ke? Saya rasa tak sepenuhnya.",
+  "posts": [
+   "\"Mitos: perlu pandai coding untuk buat game web.\" Betul ke? Saya rasa tak sepenuhnya.",
+   "Student universiti boleh buat game sejarah yang siap main tanpa tahu coding. Ini contoh kerja sebenar.\n\n1. Tampal prompt ini dalam Claude Artifacts:\n\n\"Create a single-file HTML history quiz game on [topic], Malaysia, 10 questions, four choices each, score at the end.\"\n\nLepas itu, cuma perlu semak fakta dan tukar tahun atau nama tempat.",
+   "2. Tambah timeline untuk ulang kaji:\n\n\"Add a timeline bar at the top that shows the period of each question.\"\n\nAda mitos lain yang korang nak saya patahkan?"
+  ],
+  "cta": "",
+  "tags": [
+   "mitos",
+   "game sejarah",
+   "claude",
+   "student",
+   "coding"
+  ]
+ },
+ {
+  "id": "tm0628",
+  "judul": "Kad imbas kosa kata dengan Gemini Canvas",
+  "hook": "Berhenti minta Gemini Canvas \"buat flashcard\" tanpa bahan. Hasilnya selalu generik dan tak boleh guna.",
+  "posts": [
+   "Berhenti minta Gemini Canvas \"buat flashcard\" tanpa bahan. Hasilnya selalu generik dan tak boleh guna.",
+   "Content creator boleh guna framework prompt ini untuk hasilkan kad imbas kosa kata yang lebih kemas.\n\n1. Tetapkan ini dalam prompt:\n\n+ Bahasa sasaran dan tahap\n+ Tema perkataan\n+ Bilangan kad\n+ Gaya visual\n+ Format cetak",
+   "2. Kad gambar dan perkataan:\n\n\"Create 12 flashcards for English learners on [theme]. Each card: a simple illustration, the word and one example sentence.\"\n\n3. Kad soalan dan jawapan:\n\n\"Make 12 flashcards with a question on the front and the answer on the back, for quick revision.\"",
+   "4. Kad berwarna mengikut kategori:\n\n\"Group the flashcards into four color-coded categories with a short label each.\"\n\nMahu versi penuh prompt ini? Komen PROMPT, saya hantar."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "kad imbas",
+   "gemini canvas",
+   "content creator",
+   "prompt",
+   "kosa kata"
+  ]
+ },
+ {
+  "id": "tm0629",
+  "judul": "Kad imbas kosa kata dalam 10 minit",
+  "hook": "BANG, MACAM MANA NAK BUAT KAD IMBAS KOSA KATA UNTUK LATIHAN BAHASA DALAM 10 MINIT SAJA?\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT KAD IMBAS KOSA KATA UNTUK LATIHAN BAHASA DALAM 10 MINIT SAJA?\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Tulis 10 perkataan dan tema dalam satu baris.\n\n2. Tampal prompt ini dalam Claude:\n\n\"Create 10 flashcards for office staff learning English: word, Malay meaning, one short example sentence. Clean layout.\"",
+   "3. Minta susunan untuk cetak:\n\n\"Format the cards in a printable grid, two columns, with dotted cut lines.\"\n\n4. Minta versi kuiz:\n\n\"Turn the same 10 words into a matching quiz with an answer key.\"",
+   "Cuba satu set dulu dengan rakan sekerja sebelum cetak banyak."
+  ],
+  "cta": "",
+  "tags": [
+   "kad imbas",
+   "claude",
+   "pejabat",
+   "bang",
+   "bahasa"
+  ]
+ },
+ {
+  "id": "tm0630",
+  "judul": "Lagu belajar mesra pendidikan khas",
+  "hook": "\"Mitos: hasil AI semua sama dan tak sesuai untuk murid pendidikan khas.\" Betul ke?",
+  "posts": [
+   "\"Mitos: hasil AI semua sama dan tak sesuai untuk murid pendidikan khas.\" Betul ke?",
+   "Saya cuba dengan lagu belajar pendek untuk kelas pendidikan khas. Hasil pertama memang generik, tapi bila prompt lebih spesifik, ia jadi sesuai.\n\n1. Tampal prompt ini dalam Claude:\n\n\"Write a 4-line Malay song about [topic] for students with learning needs. Short lines, repeated chorus, slow tempo.\"",
+   "2. Tambah bantuan visual:\n\n\"Add a simple action for each line and one picture cue per word.\"\n\nHasilnya lebih tenang dan murid lebih mudah ikut.",
+   "Pandangan cikgu pendidikan khas macam mana? Nak yang lebih lengkap? Komen PROMPT, nanti saya kongsi."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "lagu belajar",
+   "claude",
+   "pendidikan khas",
+   "mitos",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0631",
+  "judul": "Soalan KAFA jadi game kuiz kelas",
+  "hook": "Saya cuba ubah soalan peperiksaan lama KAFA jadi game kuiz kelas guna Gemini Notebook aka NotebookLM. Ini apa yang jadi.",
+  "posts": [
+   "Saya cuba ubah soalan peperiksaan lama KAFA jadi game kuiz kelas guna Gemini Notebook aka NotebookLM. Ini apa yang jadi.",
+   "Langkah saya mudah: muat naik soalan lama, lepas itu minta AI pilih soalan yang sesuai untuk kuiz.\n\n\"From these past-year questions, pick 10 that suit a 15-minute class quiz. Keep the original wording.\"\n\nHasil pertama terlalu panjang, jadi saya minta ringkas.",
+   "Yang menjadi: AI cepat susun soalan ikut tajuk. Yang perlu dibaiki: beberapa soalan berkaitan konteks lama, jadi saya semak sendiri.\n\nPrompt tambahan yang berjaya: \"Turn these 10 questions into a single-file HTML quiz game in Malay. Four choices, instant feedback, teacher-friendly.\"",
+   "Ustaz dan ustazah boleh cuba dulu sendiri. Ceritakan kat saya soalan mana yang paling susah diubah."
+  ],
+  "cta": "",
+  "tags": [
+   "kafa",
+   "game kuiz",
+   "notebooklm",
+   "eksperimen",
+   "ustaz"
+  ]
+ },
+ {
+  "id": "tm0632",
+  "judul": "Escape room untuk anak main di telefon",
+  "hook": "Tip percuma untuk ibu bapa yang nak anak belajar sambil main game escape room di rumah.",
+  "posts": [
+   "Tip percuma untuk ibu bapa yang nak anak belajar sambil main game escape room di rumah.",
+   "1. Muat naik nota anak dalam Gemini Notebook aka NotebookLM, lepas itu minta:\n\n\"Create a 5-room escape room game about [topic] for a 9-year-old. Each room has one puzzle and a clue.\"\n\n2. Minta setiap bilik jadi satu soalan:\n\n\"Make each puzzle a short question with a clear answer and a hint after 30 seconds.\"",
+   "3. Minta versi yang boleh dibuka di telefon:\n\n\"Make the game fit a phone screen with big buttons and no scrolling.\"\n\nUji sendiri dulu, pastikan soalan tak terlalu sukar untuk umur anak.",
+   "Kalau nak lihat contoh bahan video untuk anak belajar, saya ada Prompt Video. Komen VIDEO, nanti saya hantar link."
+  ],
+  "cta": "VIDEO",
+  "tags": [
+   "escape room",
+   "ibu bapa",
+   "notebooklm",
+   "anak",
+   "game"
+  ]
+ },
+ {
+  "id": "tm0633",
+  "judul": "Latihan ejaan interaktif tanpa coding",
+  "hook": "Sebenarnya kita boleh guna Gemini untuk buat latihan ejaan interaktif yang murid suka cuba walaupun tanpa coding. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini untuk buat latihan ejaan interaktif yang murid suka cuba walaupun tanpa coding. Ini caranya:",
+   "1. Tampal senarai 20 perkataan dan minta AI susun ikut tahap:\n\n\"Sort these words into three levels: easy, medium, hard. Keep the original spelling.\"\n\n2. Minta latihan isi tempat kosong:\n\n\"Make a fill-in-the-blank spelling quiz from these words. Show the first letter only.\"",
+   "3. Minta skrin jawapan dan bunyi:\n\n\"Build a single-file HTML spelling game with typing input, instant feedback and a sound for correct answers. Malay language instructions.\"\n\nPastikan semua perkataan betul sebelum murid mula main.",
+   "Ustaz dan ustazah boleh cuba dengan satu kelas dulu. Esok kita tengok hasilnya."
+  ],
+  "cta": "",
+  "tags": [
+   "ejaan",
+   "gemini",
+   "kafa",
+   "latihan",
+   "interaktif"
+  ]
+ },
+ {
+  "id": "tm0634",
+  "judul": "Komik pendidikan dengan prompt ChatGPT",
+  "hook": "Berhenti minta ChatGPT \"buatkan komik\" tanpa watak dan arah cerita. Hasilnya selalu hambar.",
+  "posts": [
+   "Berhenti minta ChatGPT \"buatkan komik\" tanpa watak dan arah cerita. Hasilnya selalu hambar.",
+   "Content creator boleh guna framework prompt ini untuk hasilkan komik pendidikan yang lebih kemas.\n\n1. Tetapkan ini dalam prompt:\n\n+ Watak utama dan umur\n+ Topik pembelajaran\n+ Bilangan panel\n+ Gaya lukisan ringkas\n+ Bahasa dialog",
+   "2. Komik 6 panel tentang sains asas:\n\n\"Create a 6-panel comic script about why plants need sunlight. Main character: a curious 8-year-old. Short dialogue, Malay language.\"\n\n3. Komik sejarah ringkas:\n\n\"Write a 6-panel comic about a historical event in Malaysia, with a simple lesson at the end.\"",
+   "4. Komik tentang peraturan sekolah:\n\n\"Create a 4-panel comic about classroom rules with a funny twist. Keep the message positive.\"\n\nUji dulu sebelum guna dengan audiens sebenar."
+  ],
+  "cta": "",
+  "tags": [
+   "komik",
+   "chatgpt",
+   "content creator",
+   "pendidikan",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0635",
+  "judul": "Kenapa game lumba jawab selalu berterabur",
+  "hook": "Kenapa game lumba jawab berkumpulan yang AI buat selalu nampak berterabur dan terlalu panjang?",
+  "posts": [
+   "Kenapa game lumba jawab berkumpulan yang AI buat selalu nampak berterabur dan terlalu panjang?",
+   "1. Sebab sebenar: prompt terlalu umum.\n\nBila tulis \"buat game lumba jawab\", AI tak tahu berapa pasukan, berapa soalan atau berapa lama masa setiap pusingan. Gunakan Gemini Notebook aka NotebookLM dengan bahan kuliah supaya soalan lebih tepat.",
+   "2. Tambah tiga butiran dalam prompt:\n\n\"Two teams, 8 questions, 30 seconds per question, score bar at the top.\"\n\n3. Tambah contoh format:\n\n\"Each question: one line, four choices, one correct answer marked.\"",
+   "4. Minta paparan ringkas:\n\n\"Keep the layout clean, large buttons, and no more than two colors. Then compare the result with the first version.\""
+  ],
+  "cta": "",
+  "tags": [
+   "game lumba jawab",
+   "notebooklm",
+   "pensyarah",
+   "kenapa",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0636",
+  "judul": "Slide pengajaran BM dalam 15 minit",
+  "hook": "BANG, MACAM MANA NAK BUAT SLIDE PENGAJARAN YANG MENARIK TANPA REKA GRAFIK DAN DALAM 15 MINIT?\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT SLIDE PENGAJARAN YANG MENARIK TANPA REKA GRAFIK DAN DALAM 15 MINIT?\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Tulis tajuk dan tiga idea utama dalam satu perenggan.\n\n2. Tampal dalam Gemini Canvas:\n\n\"Create 6 slides for Year 4 Malay Language on [topic]. One idea per slide, big title, short sentences, bright colors.\"",
+   "3. Minta slide soalan selepas setiap idea:\n\n\"After every two slides, add one quick question slide with three choices.\"\n\n4. Minta nota penceramah:\n\n\"Add one speaker note under each slide, under 20 words.\"",
+   "Buka di pelayar dan semak ejaan dulu sebelum tunjuk kepada murid."
+  ],
+  "cta": "",
+  "tags": [
+   "slide",
+   "bahasa melayu",
+   "gemini canvas",
+   "bang",
+   "pengajaran"
+  ]
+ },
+ {
+  "id": "tm0637",
+  "judul": "Kenapa buku cerita AI selalu panjang",
+  "hook": "Kenapa buku cerita bergambar yang AI buat selalu nampak terlalu panjang dan tak sesuai umur kanak-kanak?",
+  "posts": [
+   "Kenapa buku cerita bergambar yang AI buat selalu nampak terlalu panjang dan tak sesuai umur kanak-kanak?",
+   "1. Sebab sebenar: prompt tak beri had umur dan panjang cerita.\n\nAI akan tulis ikut kemahuan dia, bukan kemahuan pembaca kecil. Bila tambah dua butiran ini, hasil jadi jauh lebih baik.",
+   "2. Tambah had panjang:\n\n\"Keep the story under 150 words, 6 pages, one picture idea per page.\"\n\n3. Tambah umur pembaca:\n\n\"Written for children aged 4 to 6, simple words, rhythm and repetition.\"",
+   "4. Contoh gaya ayat:\n\n\"Example line: The little rabbit hopped to the river. Use this style for each page.\"\n\nMulakan dengan satu halaman dulu dalam Canva AI, semak, kemudian teruskan."
+  ],
+  "cta": "",
+  "tags": [
+   "buku cerita",
+   "canva ai",
+   "content creator",
+   "kenapa",
+   "kanak-kanak"
+  ]
+ },
+ {
+  "id": "tm0638",
+  "judul": "Lima prompt lagu belajar untuk student",
+  "hook": "Lima prompt Claude yang setiap student universiti patut simpan untuk buat lagu belajar.",
+  "posts": [
+   "Lima prompt Claude yang setiap student universiti patut simpan untuk buat lagu belajar.",
+   "1. Tulis lirik ringkas:\n\n\"Write a 4-line Malay study song about [topic] for exam revision. Catchy chorus.\"\n\n2. Tambah ingatan mudah:\n\n\"Add a mnemonic for the three key points in the chorus.\"",
+   "3. Buat versi kuiz nyanyian:\n\n\"Turn the chorus into a call-and-response quiz where the listener answers each line.\"\n\n4. Buat paparan web ringkas:\n\n\"Build a single-file HTML page that displays the lyrics line by line, with a play button.\"\n\n5. Buat versi ulang kaji harian:\n\n\"Shorten the song to 2 lines for daily review.\"",
+   "Simpan prompt ini dalam satu fail. Lain kali tinggal tukar topik saja."
+  ],
+  "cta": "",
+  "tags": [
+   "lagu belajar",
+   "claude",
+   "universiti",
+   "ulang kaji",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0639",
+  "judul": "App belajar di telefon untuk anak",
+  "hook": "KHAS UNTUK IBU BAPA\nSaya kongsi framework prompt untuk app belajar di telefon yang sesuai untuk anak, tanpa perlu tahu coding.",
+  "posts": [
+   "KHAS UNTUK IBU BAPA\nSaya kongsi framework prompt untuk app belajar di telefon yang sesuai untuk anak, tanpa perlu tahu coding.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Umur anak\n+ Topik yang nak dipelajari\n+ Jenis aktiviti: kuiz, padan gambar atau teka\n+ Masa setiap sesi\n+ Bahasa Melayu atau English",
+   "2. Contoh untuk anak 6 tahun:\n\n\"Create a single-file HTML app for a 6-year-old to learn Malay animals. Tap the picture, hear the name, five rounds.\"\n\n3. Contoh untuk anak 10 tahun:\n\n\"Make a simple math word-problem game for a 10-year-old. Three levels, stars for score.\"",
+   "Uji dulu di telefon sendiri. Kalau butang terlalu kecil, minta AI besarkan.\n\nMinat nak cuba lagi? Komen PROMPT, saya hantar versi penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "app belajar",
+   "gemini",
+   "ibu bapa",
+   "anak",
+   "khas"
+  ]
+ },
+ {
+  "id": "tm0640",
+  "judul": "Jadual aktiviti prasekolah siap satu malam",
+  "hook": "Tip ringkas untuk cikgu prasekolah yang nak jadual aktiviti kelas siap dalam satu malam.",
+  "posts": [
+   "Tip ringkas untuk cikgu prasekolah yang nak jadual aktiviti kelas siap dalam satu malam.",
+   "1. Muat naik rancangan tahunan dalam Gemini Notebook aka NotebookLM, lepas itu minta:\n\n\"Build a weekly activity timetable for Year 1 preschool, 45-minute blocks, mixing songs, play and story time.\"",
+   "2. Minta versi untuk ibu bapa:\n\n\"Simplify the timetable into a one-page parent note, icons described in words, under 80 words.\"\n\n3. Minta sesuaikan ikut cuaca:\n\n\"Add an indoor alternative for each outdoor activity.\"",
+   "Kalau cikgu nak dibimbing dari awal sampai sistem jadual siap, saya ada sesi mentoring 1-on-1. Komen NAK, nanti saya hantar link."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "prasekolah",
+   "jadual",
+   "notebooklm",
+   "mentoring",
+   "aktiviti"
+  ]
+ },
+ {
+  "id": "tm0641",
+  "judul": "Kenapa lembaran kerja jadi game tak sesuai",
+  "hook": "Kenapa lembaran kerja jadi game yang AI buat selalu tak sesuai dengan murid tuisyen?",
+  "posts": [
+   "Kenapa lembaran kerja jadi game yang AI buat selalu tak sesuai dengan murid tuisyen?",
+   "1. Sebab sebenar: prompt tak beritahu tahap murid dan masa yang ada.\n\nAI cuma tahu bahan, bukan keadaan kelas. Muat naik lembaran kerja dalam Gemini Notebook aka NotebookLM, dan tambah butiran ini.",
+   "2. Tambah tahap dan masa:\n\n\"Target Form 3 students who are weak in algebra. 20-minute session, 12 questions.\"\n\n3. Tambah tip selepas jawapan salah:\n\n\"After a wrong answer, show a short hint, not the full solution.\"",
+   "4. Minta paparan ringkas:\n\n\"Single-file HTML game, big buttons, a progress bar, Malay language.\"\n\nKomen GAME kalau nak saya kongsi template penuh."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "lembaran kerja",
+   "tuisyen",
+   "notebooklm",
+   "game",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0642",
+  "judul": "Game sejarah dalam Gemini Canvas",
+  "hook": "Sebenarnya kita boleh guna Gemini Canvas untuk buat game sejarah yang student boleh main di pelayar dalam masa kurang sejam. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini Canvas untuk buat game sejarah yang student boleh main di pelayar dalam masa kurang sejam. Ini caranya:",
+   "1. Tampal ringkasan tajuk sejarah dan minta AI susun timeline:\n\n\"Turn this topic into a 10-event timeline with one question per event. Keep the original facts.\"",
+   "2. Tukar timeline jadi game:\n\n\"Build a single-file HTML history game where players drag each event to the right year. Score at the end, Malay language.\"\n\n3. Tambah rujukan ringkas:\n\n\"Add a small reference line under each answer with the source name.\"",
+   "Semak fakta sendiri sebelum hantar. Komen GAME kalau nak saya kongsi template penuh."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "game sejarah",
+   "gemini canvas",
+   "student",
+   "timeline",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0643",
+  "judul": "Poster kelas PJ siap dalam 5 minit",
+  "hook": "Poster kelas macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+  "posts": [
+   "Poster kelas macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+   "1. Muat naik jadual kelas dalam Gemini Notebook aka NotebookLM dan minta AI pilih tiga maklumat utama.\n\n2. Tampal prompt ini:\n\n\"Create a PE class poster with three key rules, one headline, bright colors, Malay language.\"",
+   "3. Minta versi cetak A4:\n\n\"Format the poster for A4 print with a clear border and large text.\"",
+   "Tip uji dulu: lihat dari jarak dua meter. Kalau tulisan masih jelas, poster dah siap.\n\nItu sahaja. Kalau mahu bahan penuh, Komen PROMPT ya."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "poster",
+   "pj",
+   "notebooklm",
+   "minit",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0644",
+  "judul": "Nota ringkas jadi kad ingatan",
+  "hook": "Tip percuma untuk orang kerja pejabat yang nak tukar nota ringkas jadi bahan yang senang diingat.",
+  "posts": [
+   "Tip percuma untuk orang kerja pejabat yang nak tukar nota ringkas jadi bahan yang senang diingat.",
+   "1. Tampal nota dalam Gemini Canvas dan minta ringkasan dalam lima ayat:\n\n\"Summarise these notes into five short sentences, each starting with a verb.\"",
+   "2. Minta versi kad ingatan:\n\n\"Turn the summary into 5 memory cards with a question on one side and the answer on the other.\"\n\n3. Minta versi kuiz ringkas:\n\n\"Make a 5-question quiz from these cards with instant feedback.\"",
+   "Kalau nak template game yang siap main, saya ada koleksi 29 template game belajar siap main. Komen GAME, nanti saya hantar link."
+  ],
+  "cta": "GAME",
+  "tags": [
+   "nota ringkas",
+   "gemini canvas",
+   "pejabat",
+   "kad ingatan",
+   "game"
+  ]
+ },
+ {
+  "id": "tm0645",
+  "judul": "Empat prompt komik untuk cikgu khas",
+  "hook": "Empat prompt Gemini yang setiap cikgu pendidikan khas patut simpan untuk buat komik pendidikan.",
+  "posts": [
+   "Empat prompt Gemini yang setiap cikgu pendidikan khas patut simpan untuk buat komik pendidikan.",
+   "1. Komik sosial ringkas:\n\n\"Create a 4-panel comic showing how to take turns in class. Simple drawing description, short sentences.\"\n\n2. Komik rutin harian:\n\n\"Make a 6-panel comic showing morning routine steps, one action per panel.\"",
+   "3. Komik tenang sebelum ujian:\n\n\"Write a 4-panel comic about a child breathing calmly before a test. Gentle tone, Malay language.\"\n\n4. Komik cerita pendek:\n\n\"Create a comic about a friendly helper in school. Two characters, three panels, one clear lesson.\"",
+   "Simpan prompt ini. Bila perlu bahan baru, tinggal tukar watak dan tajuk saja.\n\nPandangan korang? Komen PROMPT kalau mahu prompt yang lengkap."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "komik",
+   "gemini",
+   "pendidikan khas",
+   "prompt",
+   "sosial"
+  ]
+ },
+ {
+  "id": "tm0646",
+  "judul": "Escape room latihan pasukan tanpa coding",
+  "hook": "BANG, MACAM MANA NAK BUAT GAME ESCAPE ROOM UNTUK LATIHAN PASUKAN TANPA CODING DAN PERCUMA?\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT GAME ESCAPE ROOM UNTUK LATIHAN PASUKAN TANPA CODING DAN PERCUMA?\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Pilih tema dan tiga teka-teki utama.\n\n2. Tampal dalam Gemini Canvas:\n\n\"Create a 3-room escape room game for a team training session on [topic]. Each room has one puzzle and a clue. Single-file HTML.\"",
+   "3. Minta paparan masa:\n\n\"Add a 20-minute countdown and show a hint button after 5 minutes.\"\n\n4. Minta kad kemenangan:\n\n\"End with a result screen showing the time taken and the team name.\"",
+   "Main dulu dengan dua rakan. Kalau ada teka-teki yang terlalu mudah atau terlalu sukar, ubah sebelum bawa ke bengkel."
+  ],
+  "cta": "",
+  "tags": [
+   "escape room",
+   "gemini canvas",
+   "usahawan",
+   "bang",
+   "pasukan"
+  ]
+ },
+ {
+  "id": "tm0647",
+  "judul": "Kad imbas kosa kata untuk prasekolah",
+  "hook": "Dulu saya ambil tiga jam untuk tulis dan lukis kad imbas kosa kata untuk kelas kecil. Sekarang sepuluh minit dengan Gemini Canvas.",
+  "posts": [
+   "Dulu saya ambil tiga jam untuk tulis dan lukis kad imbas kosa kata untuk kelas kecil. Sekarang sepuluh minit dengan Gemini Canvas.",
+   "Dulu saya lukis satu-satu dan malam-malam masih belum siap. Sekarang saya bagi AI kerja berat dulu, lepas itu saya semak.\n\n1. Tampal senarai 8 perkataan dan minta:\n\n\"Create 8 picture flashcards for 4-year-olds. Big simple pictures, one word per card.\"",
+   "2. Minta warna dan saiz yang sesuai:\n\n\"Use bright colors, large font, and leave space at the bottom for the child to trace.\"\n\nCikgu tak perlu jadi pelukis hebat untuk buat kad yang cantik.",
+   "Semak satu-satu gambar dan buang yang tak sesuai. Esok kelas dah boleh guna."
+  ],
+  "cta": "",
+  "tags": [
+   "kad imbas",
+   "gemini canvas",
+   "prasekolah",
+   "dulu",
+   "kosa kata"
+  ]
+ },
+ {
+  "id": "tm0648",
+  "judul": "Simulasi sains untuk murid pendidikan khas",
+  "hook": "Ramai DM tanya: simulasi sains untuk murid pendidikan khas boleh buat sendiri ke? Ini jawapan saya.",
+  "posts": [
+   "Ramai DM tanya: simulasi sains untuk murid pendidikan khas boleh buat sendiri ke? Ini jawapan saya.",
+   "Boleh. Tip percuma:\n\n1. Tampal dalam Claude Artifacts:\n\n\"Create a single-file HTML science simulation for students with learning needs on [topic]. Big buttons, one change at a time, a short explanation after each step.\"",
+   "2. Minta kawalan yang mudah:\n\n\"Add only two controls, a slider and a reset button. Calm colors, no flashing.\"\n\nUji sendiri dulu sebelum tunjuk kepada murid.",
+   "Kalau cikgu nak belajar guna Claude, Gemini dan ChatGPT dari kosong, saya ada kelas Masterclass AI untuk cikgu. Komen TOOLS, nanti saya hantar link."
+  ],
+  "cta": "TOOLS",
+  "tags": [
+   "simulasi",
+   "claude",
+   "pendidikan khas",
+   "masterclass",
+   "sains"
+  ]
+ },
+ {
+  "id": "tm0649",
+  "judul": "Teka silang kata dari nota anak",
+  "hook": "Sebenarnya kita boleh guna Gemini Notebook aka NotebookLM untuk buat teka silang kata daripada nota anak sendiri. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini Notebook aka NotebookLM untuk buat teka silang kata daripada nota anak sendiri. Ini caranya:",
+   "1. Muat naik nota sekolah anak dan minta senarai 12 perkataan penting:\n\n\"List 12 key words from these notes for a 9-year-old, with a short clue for each. Keep the original spelling.\"",
+   "2. Minta susun grid teka silang kata:\n\n\"Arrange the words into a crossword grid with numbered clues across and down. Malay language clues.\"\n\n3. Minta kunci jawapan berasingan:\n\n\"Put the answer key on a separate page for the parent to check.\"",
+   "Semak ejaan sebelum cetak. Esok malam boleh terus cuba bersama anak."
+  ],
+  "cta": "",
+  "tags": [
+   "teka silang kata",
+   "notebooklm",
+   "ibu bapa",
+   "anak",
+   "gemini"
+  ]
+ },
+ {
+  "id": "tm0650",
+  "judul": "Lembaran kerja jadi kuiz untuk staf",
+  "hook": "Ramai DM tanya: lembaran kerja jadi game untuk latihan staf boleh buat cepat ke? Ini jawapan saya.",
+  "posts": [
+   "Ramai DM tanya: lembaran kerja jadi game untuk latihan staf boleh buat cepat ke? Ini jawapan saya.",
+   "Boleh. Tip percuma dua bahagian:\n\n1. Tampal lembaran kerja dalam Gemini Canvas:\n\n\"Turn this worksheet into a single-file HTML quiz game for office staff. Five questions, instant feedback, score at the end.\"",
+   "2. Tambah masa dan kemasan:\n\n\"Add a 10-second timer per question and a clean white layout with blue accents.\"\n\nUji dulu sebelum guna dengan staf.",
+   "Kalau nak lebih cepat dan nak dibimbing sampai app atau game sendiri siap, saya ada sesi mentoring 1-on-1. Komen NAK, nanti saya hantar link."
+  ],
+  "cta": "NAK",
+  "tags": [
+   "kuiz",
+   "gemini canvas",
+   "pejabat",
+   "mentoring",
+   "staf"
+  ]
+ }
+]

@@ -1,0 +1,168 @@
+THREAD SERI #25 - 15 POST
+Judul: "Aku adalah guru SMK yang bosen lihat murid nyontek jobsheet, kubikin simulasi yang gak bisa dicontek 😭"
+Angle: cerita "perang kecil" guru vs budaya salin jobsheet, yang ujungnya bukan soal menang, tapi soal murid akhirnya mikir sendiri.
+Contoh mapel/jenjang: SMK jurusan Teknik Instalasi Tenaga Listrik (TITL), kelas XI, materi rangkaian seri-paralel & hukum Ohm.
+Struktur: dibuka dari satu adegan pagi, lalu kejar-kejaran akal antara guru dan murid, ditutup refleksi.
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah guru SMK yang bosen lihat murid nyontek jobsheet, kubikin simulasi yang gak bisa dicontek 😭
+
+tapi jujur, ujung ceritanya bukan "aku menang"
+
+ternyata murid-muridku jauh lebih kreatif dari yang kukira, dan itu justru bikin aku belajar sesuatu 😭
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Senin pagi, aku ngumpulin 32 jobsheet praktik rangkaian paralel.
+
+Kubuka satu-satu. Nilai arusnya sama semua. Sampai koma-komanya sama.
+
+Bahkan ada coretan salah tulis yang ikut kecopy di delapan jobsheet. Delapan! Coretannya pun di posisi yang sama 😭
+
+Aku ketawa, tapi sambil pengen nangis.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Masalahnya bukan cuma nyontek.
+
+Di bengkel, alat ukurnya terbatas. Satu multimeter dipakai rame-rame. Yang megang cuma satu-dua anak, sisanya nunggu angka terus disalin.
+
+Jadi sebenarnya mereka gak nyontek karena malas. Mereka nyontek karena gak kebagian pegang. Itu yang baru kusadari belakangan.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Malamnya aku ngobrol sama AI, curhat apa adanya:
+
+"aku guru listrik SMK, jobsheet hukum Ohm selalu dicontek karena angkanya sama untuk semua anak. aku pengen simulasi rangkaian di HP yang nilai resistor dan tegangannya beda untuk tiap murid."
+
+Ide intinya sederhana: kalau soalnya beda, jawabannya gak bisa disalin.
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Versi pertama jadinya lucu.
+
+Resistornya muncul tapi kabelnya melayang gak nyambung ke mana-mana. Lampunya nyala walaupun saklarnya kebuka 😭
+
+Aku screenshot, kukirim balik: "lampunya nyala padahal saklar off, ini melanggar fisika."
+
+Diperbaiki. Versi kedua udah lumayan, versi ketiga baru berani kubawa ke kelas.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Cara kerjanya: tiap murid masukin nama, terus muncul rangkaian dengan nilai resistor acak.
+
+Mereka geser-geser multimeter virtual, ukur tegangan, ukur arus, isi tabel. Kalau sambungan probe-nya salah, multimeternya "bunyi" dan angka gak keluar.
+
+Bonusnya: semua anak kebagian megang multimeter. Walau virtual.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Hari pertama dipakai, ruang kelas mendadak berisik dengan cara yang beda.
+
+Bukan "bro lihat punyamu dong", tapi "loh kok punyaku 0,4 ampere, punyamu 0,7?"
+
+Mereka bandingin, bingung, terus debat kenapa beda. Aku cuma jalan keliling sambil nahan senyum.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Terus minggu kedua, plot twist.
+
+Ada satu anak yang pinter banget, dia bikin "rumus cepat" di kertas, difoto, disebar di grup kelas. Tinggal masukin angka dari layar, hasil keluar.
+
+Jadi mereka tetap nyontek. Tapi nyonteknya... pakai rumus hukum Ohm 😭
+
+Aku gak tahu harus marah atau bangga.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Akhirnya aku panggil anak itu. Kutanya: "kamu bikin rumus ini dari mana?"
+
+Dia jelasin dengan semangat, lengkap, kenapa arus total dibagi begini, kenapa tegangan paralel sama.
+
+Lebih lancar dari penjelasanku di papan tulis, sumpah.
+
+Di situ aku sadar, dia bukan penyontek. Dia calon tutor.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Jadi simulasinya kuubah lagi, bukan buat "menangkap" dia.
+
+Kutambah satu tahap: setelah ngisi tabel, muncul pertanyaan acak kayak "kalau R2 dilepas, lampu mana yang mati? kenapa?"
+
+Rumus cepat gak bisa jawab itu. Harus ngerti rangkaiannya.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Dan si anak tadi kuangkat jadi "asisten bengkel". Tugasnya bantu teman yang bingung, tapi gak boleh nyebut angka, cuma boleh nanya balik.
+
+Dia awalnya protes: "susah Pak, mending kukasih jawabannya."
+
+Seminggu kemudian dia bilang: "Pak, ternyata ngajarin itu capek ya." 😭
+
+Selamat datang di dunia kami, Nak.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Yang lucu, tabel jobsheet sekarang makin jarang kucek.
+
+Aku lebih sering baca jawaban "kenapa"-nya. Di situ kelihatan siapa yang ngerti, siapa yang nebak, siapa yang salah konsep tapi berani nulis.
+
+Jawaban salah yang jujur ternyata jauh lebih berguna buat aku ngajar daripada jawaban benar hasil salinan.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Beberapa hal kecil yang kupelajari dari "perang" ini:
+
+- Murid nyontek sering karena sistemnya, bukan karakternya
+- Soal yang beda tiap anak bikin mereka ngobrol, bukan nyalin
+- Kalau ada yang "ngakalin", lihat dulu, mungkin dia justru paling paham
+- Simulasi gak gantiin praktik asli, cuma bikin semua anak siap sebelum pegang alat
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Sekarang kalau masuk bengkel beneran, anak-anak udah tahu harus ngukur di mana. Multimeter asli yang cuma sedikit itu jadi lebih efisien dipakai.
+
+Dan coretan salah tulis yang sama di delapan jobsheet? Udah gak pernah muncul lagi.
+
+Yang muncul sekarang coretan beda-beda. Dan aku seneng banget lihatnya 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Jadi kalau kamu guru yang lagi capek lihat jawaban kembar di tumpukan tugas, mungkin pertanyaannya bukan "gimana biar mereka gak nyontek".
+
+Tapi "gimana biar tiap anak punya soalnya sendiri".
+
+Kamu ngajar jurusan atau mapel apa? Ceritain di komentar, siapa tau bisa kita pikirin bareng versi "anti-contek"-nya 🙌

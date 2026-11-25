@@ -1,0 +1,22 @@
+https://www.instagram.com/p/DeHGj-mG-5V/
+@claudetipsandtricks · 3191 like · 39 komentar · 2026-10-05
+
+Claude can't generate video. It can still edit yours. 🎬
+
+Opus 5.5 only outputs text, so it writes your edit as code. Changing one shot means changing one line, and every render comes out identical.
+
+The workflow, slide by slide:
+
+1️⃣ Write one HTML scene that renders any frame at time t, then a Playwright capture loop
+2️⃣ Motion graphics: lower thirds and kinetic titles as HTML scenes. For longer explainers, ask for a Remotion or HyperFrames composition
+3️⃣ Voiceover: Claude writes the script and calls a TTS engine through an MCP connector. Ask for word timestamps so every beat lands on the voice
+4️⃣ Rough cut: transcribe the raw footage first, let Claude cut from the text, and have it check its own render
+5️⃣ The stack: Playwright steps the scene frame by frame, ffmpeg stitches it into an H.264 MP4 with your audio
+6️⃣ Know the limits: keep real footage for faces and animals, and ask for physically accurate lighting
+
+📌 Save this for your next edit.
+👇 Which part of your editing would you hand to Claude first?
+
+Follow @claudetipsandtricks for one Claude tip, every day.
+
+#claude #claudeai #anthropic #claudeopus #aitools #videoediting #videoeditor #motiongraphics #contentcreator #aiworkflow #playwright #ffmpeg #remotion #creatortools

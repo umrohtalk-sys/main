@@ -1,0 +1,802 @@
+{
+ "dibuat": "2026-11-21",
+ "jumlah": 38,
+ "situs": [
+  {
+   "url": "https://aimasterclass.edugamelabs.com",
+   "status": 200,
+   "curl_s": 0.99,
+   "bytes": 6058,
+   "final_url": "https://aimasterclass.edugamelabs.com/",
+   "title": "Panduan Claude AI untuk Pemula",
+   "redirected": false,
+   "shot_hp": "shots/aimasterclass-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/aimasterclass-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 8.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 9.5,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://aimasterclassid.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.51,
+   "bytes": 6098,
+   "final_url": "https://aimasterclassid.edugamelabs.com/",
+   "title": "Panduan Claude AI untuk Pemula",
+   "redirected": false
+  },
+  {
+   "url": "https://akses-prompt-generator.netlify.app",
+   "status": 200,
+   "curl_s": 0.93,
+   "bytes": 13981,
+   "final_url": "https://akses-prompt-generator.netlify.app/",
+   "title": "Akses Prompt Generator",
+   "redirected": false,
+   "shot_hp": "shots/akses-prompt-generator-netlify-app-hp.jpg",
+   "shot_desktop": "shots/akses-prompt-generator-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 1.7,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://bidan-virda-jember.netlify.app",
+   "status": 200,
+   "curl_s": 2.37,
+   "bytes": 170314,
+   "final_url": "https://bidan-virda-jember.netlify.app/",
+   "title": "Bidan Virda Jember — pijat bayi, newborn care & mom treatment, home care",
+   "redirected": false,
+   "shot_hp": "shots/bidan-virda-jember-netlify-app-hp.jpg",
+   "shot_desktop": "shots/bidan-virda-jember-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 1.8,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://cpns-kemenag.netlify.app",
+   "status": 200,
+   "curl_s": 0.89,
+   "bytes": 1985,
+   "final_url": "https://cpns-kemenag.netlify.app/",
+   "title": "CPNS Kemenag — Belajar TWK, TIU, TKP & SKB",
+   "redirected": false
+  },
+  {
+   "url": "https://demoprompt.edugamelabs.com",
+   "status": 200,
+   "curl_s": 5.92,
+   "bytes": 24289,
+   "final_url": "https://demoprompt.edugamelabs.com/id?geo=1",
+   "title": "Galeri Prompt Gratis — EduGame Labs",
+   "redirected": true,
+   "shot_hp": "shots/demoprompt-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/demoprompt-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 18.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 1.9,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://english-kita.netlify.app",
+   "status": 200,
+   "curl_s": 1.99,
+   "bytes": 16699,
+   "final_url": "https://english-kita.netlify.app/",
+   "title": "English Kita — Belajar Bahasa Inggeris",
+   "redirected": false,
+   "shot_hp": "shots/english-kita-netlify-app-hp.jpg",
+   "shot_desktop": "shots/english-kita-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 6.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://final-boss-matematik.netlify.app",
+   "status": 200,
+   "curl_s": 0.89,
+   "bytes": 11501,
+   "final_url": "https://final-boss-matematik.netlify.app/",
+   "title": "Final Boss Matematik",
+   "redirected": false,
+   "shot_hp": "shots/final-boss-matematik-netlify-app-hp.jpg",
+   "shot_desktop": "shots/final-boss-matematik-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 2.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://galeri-prompt-video.netlify.app",
+   "status": 200,
+   "curl_s": 1.1,
+   "bytes": 9947,
+   "final_url": "https://galeri-prompt-video.netlify.app/",
+   "title": "Galeri Prompt Video",
+   "redirected": false,
+   "shot_hp": "shots/galeri-prompt-video-netlify-app-hp.jpg",
+   "shot_desktop": "shots/galeri-prompt-video-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 3.5,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://gemi-akses-ahli.netlify.app",
+   "status": 200,
+   "curl_s": 1.42,
+   "bytes": 123521,
+   "final_url": "https://gemi-akses-ahli.netlify.app/",
+   "title": "gemi — Akses Ahli",
+   "redirected": false,
+   "shot_hp": "shots/gemi-akses-ahli-netlify-app-hp.jpg",
+   "shot_desktop": "shots/gemi-akses-ahli-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 3.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://gemi-prompt-library.netlify.app",
+   "status": 200,
+   "curl_s": 0.81,
+   "bytes": 5119,
+   "final_url": "https://gemi-prompt-library.netlify.app/",
+   "title": "GEMI Prompt Library — Temukan Prompt yang Tepat untuk Setiap Ide",
+   "redirected": false,
+   "shot_hp": "shots/gemi-prompt-library-netlify-app-hp.jpg",
+   "shot_desktop": "shots/gemi-prompt-library-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 12.8,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 2.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://gemiapp.edugamelabs.com",
+   "status": 200,
+   "curl_s": 0.84,
+   "bytes": 3654,
+   "final_url": "https://gemiapp.edugamelabs.com/",
+   "title": "gemi — belajar AI dari asas",
+   "redirected": false,
+   "shot_hp": "shots/gemiapp-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/gemiapp-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 4.5,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://generator.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.25,
+   "bytes": 4807,
+   "final_url": "https://generator.edugamelabs.com/",
+   "title": "Prompt Generator Edukasi: Game, App & Landing Page",
+   "redirected": false,
+   "shot_hp": "shots/generator-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/generator-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 9.0,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://generator.edugamelabs.com/prompt-video/",
+   "status": 200,
+   "curl_s": 0.62,
+   "bytes": 4807,
+   "final_url": "https://generator.edugamelabs.com/prompt-video/",
+   "title": "Prompt Generator Video: dari idea jadi video",
+   "redirected": false,
+   "shot_hp": "shots/generator-edugamelabs-com-prompt-video-hp.jpg",
+   "shot_desktop": "shots/generator-edugamelabs-com-prompt-video-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 7.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 2.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://gudang-konten-auzan.netlify.app",
+   "status": 200,
+   "curl_s": 1.27,
+   "bytes": 16051,
+   "final_url": "https://gudang-konten-auzan.netlify.app/",
+   "title": "Gudang Konten",
+   "redirected": false
+  },
+  {
+   "url": "https://kido-belajar-inggris.netlify.app",
+   "status": 200,
+   "curl_s": 0.96,
+   "bytes": 3854,
+   "final_url": "https://kido-belajar-inggris.netlify.app/",
+   "title": "KIDO — Learn English for Kids",
+   "redirected": false
+  },
+  {
+   "url": "https://lpindo.edugamelabs.com",
+   "status": 200,
+   "curl_s": 8.0,
+   "bytes": 252169,
+   "final_url": "https://lpindo.edugamelabs.com/id/",
+   "title": "Masterclass AI untuk Edukator & Pemula — punya ilmu mengajar? Jadikan produk digital yang bisa dijual",
+   "redirected": true,
+   "shot_hp": "shots/lpindo-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/lpindo-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 5.0,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://lpmalay.edugamelabs.com",
+   "status": 200,
+   "curl_s": 2.87,
+   "bytes": 252169,
+   "final_url": "https://lpindo.edugamelabs.com/id/",
+   "title": "Masterclass AI untuk Edukator & Pemula — punya ilmu mengajar? Jadikan produk digital yang bisa dijual",
+   "redirected": true,
+   "shot_hp": "shots/lpmalay-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/lpmalay-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 0.8,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://lptoolsid.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.44,
+   "bytes": 74457,
+   "final_url": "https://lptoolsid.edugamelabs.com/id/",
+   "title": "Cara tercepat bikin app & game edukasi: pakai prompt",
+   "redirected": true,
+   "shot_hp": "shots/lptoolsid-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/lptoolsid-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 4.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 1.7,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://lptoolsmy.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.65,
+   "bytes": 74457,
+   "final_url": "https://lptoolsid.edugamelabs.com/id/",
+   "title": "Cara tercepat bikin app & game edukasi: pakai prompt",
+   "redirected": true,
+   "shot_hp": "shots/lptoolsmy-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/lptoolsmy-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 1.6,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 2.5,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://lpvideo.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.24,
+   "bytes": 26245,
+   "final_url": "https://lpvideo.edugamelabs.com/id/",
+   "title": "Prompt Video: bawa idemu, jadi video kayak gini",
+   "redirected": true,
+   "shot_hp": "shots/lpvideo-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/lpvideo-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 28.0,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 1.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://mentoring-auzan.netlify.app",
+   "status": 200,
+   "curl_s": 1.72,
+   "bytes": 146835,
+   "final_url": "https://mentoring-auzan.netlify.app/id/",
+   "title": "Mentoring 1-on-1 Auzan Hasfi",
+   "redirected": true,
+   "shot_hp": "shots/mentoring-auzan-netlify-app-hp.jpg",
+   "shot_desktop": "shots/mentoring-auzan-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 2.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://mentoring-claude-jember.netlify.app",
+   "status": 200,
+   "curl_s": 1.68,
+   "bytes": 41251,
+   "final_url": "https://mentoring-claude-jember.netlify.app/",
+   "title": "Mentoring Claude Jember",
+   "redirected": false,
+   "shot_hp": "shots/mentoring-claude-jember-netlify-app-hp.jpg",
+   "shot_desktop": "shots/mentoring-claude-jember-netlify-app-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 4.7,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.8,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://mentoring-konten-bidan.netlify.app",
+   "status": 200,
+   "curl_s": 1.18,
+   "bytes": 32492,
+   "final_url": "https://mentoring-konten-bidan.netlify.app/",
+   "title": "Mentoring Konten Bidan & Homecare",
+   "redirected": false
+  },
+  {
+   "url": "https://mentoring1on1.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.35,
+   "bytes": 146509,
+   "final_url": "https://mentoring1on1.edugamelabs.com/id/",
+   "title": "Mentoring 1-on-1 Auzan Hasfi",
+   "redirected": true,
+   "shot_hp": "shots/mentoring1on1-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/mentoring1on1-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 2.0,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://mentoringkonten.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.01,
+   "bytes": 32166,
+   "final_url": "https://mentoringkonten.edugamelabs.com/",
+   "title": "Mentoring Konten Bidan & Homecare",
+   "redirected": false,
+   "shot_hp": "shots/mentoringkonten-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/mentoringkonten-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 2.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.3,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://preview.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.21,
+   "bytes": 27460,
+   "final_url": "https://preview.edugamelabs.com/",
+   "title": "Game Preview",
+   "redirected": false,
+   "shot_hp": "shots/preview-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/preview-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 0.7,
+     "console_errors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+     ],
+     "failed_requests": [
+      "404 https://preview.edugamelabs.com/favicon.ico"
+     ],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 1.4,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://preview.edugamelabs.com/kertas-tinta/games/liga-stik-pro/",
+   "status": 200,
+   "curl_s": 0.63,
+   "bytes": 2932,
+   "final_url": "https://preview.edugamelabs.com/kertas-tinta/games/liga-stik-pro/",
+   "title": "Liga Stik Pro · Bola Matematika",
+   "redirected": false,
+   "shot_hp": "shots/preview-edugamelabs-com-kertas-tinta-games-liga-stik-pro-hp.jpg",
+   "shot_desktop": "shots/preview-edugamelabs-com-kertas-tinta-games-liga-stik-pro-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 3.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://preview.edugamelabs.com/kertas-tinta/games/siaga-merdeka/",
+   "status": 200,
+   "curl_s": 0.9,
+   "bytes": 11435,
+   "final_url": "https://preview.edugamelabs.com/kertas-tinta/games/siaga-merdeka/",
+   "title": "Siaga Merdeka",
+   "redirected": false,
+   "shot_hp": "shots/preview-edugamelabs-com-kertas-tinta-games-siaga-merdeka-hp.jpg",
+   "shot_desktop": "shots/preview-edugamelabs-com-kertas-tinta-games-siaga-merdeka-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 1.7,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://prompt-game-edukasi.netlify.app",
+   "status": 200,
+   "curl_s": 0.94,
+   "bytes": 5133,
+   "final_url": "https://prompt-game-edukasi.netlify.app/",
+   "title": "Prompt Generator Edukasi: Game, App & Landing Page",
+   "redirected": false
+  },
+  {
+   "url": "https://prompt-generator-edukasi-id.netlify.app",
+   "status": 200,
+   "curl_s": 1.03,
+   "bytes": 74783,
+   "final_url": "https://prompt-generator-edukasi-id.netlify.app/id/",
+   "title": "Cara tercepat bikin app & game edukasi: pakai prompt",
+   "redirected": true
+  },
+  {
+   "url": "https://prompt-generator-edukasi-ms.netlify.app",
+   "status": 200,
+   "curl_s": 7.81,
+   "bytes": 74457,
+   "final_url": "https://lptoolsid.edugamelabs.com/id/",
+   "title": "Cara tercepat bikin app & game edukasi: pakai prompt",
+   "redirected": true
+  },
+  {
+   "url": "https://prompt-video-ms.netlify.app",
+   "status": 200,
+   "curl_s": 8.39,
+   "bytes": 26571,
+   "final_url": "https://prompt-video-ms.netlify.app/id/",
+   "title": "Prompt Video: bawa idemu, jadi video kayak gini",
+   "redirected": true
+  },
+  {
+   "url": "https://promptvideo.edugamelabs.com",
+   "status": 200,
+   "curl_s": 1.58,
+   "bytes": 9621,
+   "final_url": "https://promptvideo.edugamelabs.com/",
+   "title": "Galeri Prompt Video",
+   "redirected": false,
+   "shot_hp": "shots/promptvideo-edugamelabs-com-hp.jpg",
+   "shot_desktop": "shots/promptvideo-edugamelabs-com-desktop.jpg",
+   "browser": {
+    "hp": {
+     "load_s": 1.1,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    },
+    "desktop": {
+     "load_s": 0.2,
+     "console_errors": [],
+     "failed_requests": [],
+     "overflow_x": null,
+     "empty_cta": []
+    }
+   }
+  },
+  {
+   "url": "https://riset-carousel-bayi-ig.netlify.app",
+   "status": 200,
+   "curl_s": 1.17,
+   "bytes": 9222,
+   "final_url": "https://riset-carousel-bayi-ig.netlify.app/",
+   "title": "Papan Riset Carousel Bayi",
+   "redirected": false
+  },
+  {
+   "url": "https://riset-carousel-claude-ig.netlify.app",
+   "status": 200,
+   "curl_s": 1.62,
+   "bytes": 9297,
+   "final_url": "https://riset-carousel-claude-ig.netlify.app/",
+   "title": "Papan Riset Carousel Claude",
+   "redirected": false
+  },
+  {
+   "url": "https://riset-konten-guru-ig.netlify.app",
+   "status": 200,
+   "curl_s": 1.69,
+   "bytes": 7181,
+   "final_url": "https://riset-konten-guru-ig.netlify.app/",
+   "title": "Papan Riset Konten Guru",
+   "redirected": false
+  },
+  {
+   "url": "https://ui-kit-pemula-nocode.netlify.app",
+   "status": 200,
+   "curl_s": 1.12,
+   "bytes": 3705,
+   "final_url": "https://ui-kit-pemula-nocode.netlify.app/",
+   "title": "UI Kit · Panduan Claude AI untuk Pemula",
+   "redirected": false
+  }
+ ]
+}

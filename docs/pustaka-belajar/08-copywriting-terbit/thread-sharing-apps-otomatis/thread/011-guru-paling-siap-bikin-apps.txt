@@ -1,0 +1,168 @@
+THREAD SERI #11 - 15 POST
+Judul: "Kenapa guru itu sebenarnya paling siap jadi pembuat apps pendidikan? Karena punya yang gak dimiliki programmer 😭"
+Angle: cerita "adu" kecil antara guru dan sepupu programmer yang sama-sama bikin app membaca; dari situ muncul daftar hal yang cuma dimiliki guru (refleksi + cerita, bukan tutorial).
+Contoh mapel/jenjang: Bahasa Indonesia, guru kelas 1 SD (belajar membaca suku kata).
+Tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Kenapa guru itu sebenarnya paling siap jadi pembuat apps pendidikan? Karena punya yang gak dimiliki programmer 😭
+
+aku baru sadar ini pas "lomba" kecil sama sepupuku yang kerja jadi programmer
+
+dia bikin app membaca, aku juga bikin. yang dipake murid kelas 1 ternyata punya siapa? 😭
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Ceritanya lebaran kemarin. Aku curhat soal murid kelas 1 yang masih kebalik baca "ba" sama "da".
+
+Sepupuku langsung semangat: "Gampang, Kak. Aku bikinin app-nya, seminggu jadi."
+
+Aku iseng jawab: "Aku juga mau coba bikin pake AI ah."
+
+Dia ketawa. Bukan ketawa jahat sih, ketawa kasihan 😭
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Seminggu kemudian dia kirim link. Jujur, keren banget.
+
+Ada animasi, ada skor, ada papan peringkat, ada level sampai 50. Warnanya rapi kayak app beneran.
+
+Punyaku? Cuma satu layar. Huruf besar-besar, tombol gede, suara aku sendiri yang bilang "baaa".
+
+Aku sempet malu mau nunjukin.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Terus dua-duanya kucoba di kelas. Hari Senin app dia, hari Selasa app aku.
+
+Hari Senin anak-anak heboh 5 menit. Habis itu mereka sibuk mencet bintang dan ngejar level, bukan baca.
+
+Ada yang nangis karena namanya paling bawah di papan peringkat. Kelas 1 loh, umur 6 tahun 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Hari Selasa, app aku yang polos itu.
+
+Gak ada yang heboh. Tapi gak ada yang berhenti juga. Mereka pencet "ba", dengerin, ulangin pelan-pelan.
+
+Satu anak yang biasanya diem bilang: "Bu, ini suara Ibu ya?"
+
+Iya, Nak. Dan ternyata itu yang bikin dia mau dengerin 😭
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Malamnya aku mikir lama. Sepupuku jauh lebih jago bikin app. Gak ada debat.
+
+Tapi aku punya sesuatu yang dia gak punya, dan itu bukan soal coding.
+
+Aku tau anak umur 6 tahun gampang patah kalau dibandingin. Aku tau mereka lebih percaya suara yang mereka kenal.
+
+Itu bukan ilmu IT. Itu ilmu ruang kelas.
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Hal pertama yang guru punya: kamu tau di titik mana murid nyangkut.
+
+Programmer tau "anak susah membaca". Kamu tau anaknya nyangkut di "b" dan "d", di suku kata yang mirip, di kata yang hurufnya lebih dari empat.
+
+Masalah yang spesifik itu justru bahan app yang paling berharga.
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Hal kedua: kamu tau kapan murid bosan, bahkan sebelum mereka bilang.
+
+Kamu hafal tanda-tandanya. Mulai mainin pensil, nanya "udah belum Bu", tiba-tiba haus.
+
+Jadi waktu bikin app, kamu otomatis bikin sesinya pendek. Bukan karena teori UX, tapi karena kamu udah ribuan kali liat anak bosan 😭
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Hal ketiga: kamu punya lab uji coba gratis tiap hari. Namanya kelas.
+
+Programmer harus nyari orang buat tes app-nya. Kamu tinggal bawa HP besok pagi, liat satu murid nyoba, dan langsung tau mana yang bikin bingung.
+
+Gak perlu survei. Cukup liat muka mereka.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Hal keempat, yang paling sering dilupain: kamu tau kata-kata yang dipahami murid.
+
+App sepupuku tulisannya "Selesaikan tantangan untuk membuka level berikutnya."
+
+Anak kelas 1 belum bisa baca kalimat itu. Lah wong app-nya buat belajar membaca 😭
+
+Guru gak bakal kepikiran nulis gitu.
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Terus coding-nya gimana? Nah, ini bagian yang dulu bikin aku takut.
+
+Sekarang AI yang ngerjain bagian itu. Aku cuma cerita: "satu layar, huruf besar, tombol gede, ada suara pas dipencet, jangan ada skor."
+
+Bagian teknisnya ketutup. Bagian yang gak bisa dikerjain AI, ya ngerti muridnya, itu ada di aku.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Jujur aku tetap belajar banyak dari sepupuku.
+
+Dia ngajarin aku nyimpen app biar bisa dibuka kayak app di HP tanpa Play Store (PWA katanya). Dia juga ngajarin biar tombolnya gak geser pas HP diputer.
+
+Jadi bukan guru lawan programmer. Cuma ternyata yang tau "app ini buat apa" itu gurunya.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Bagian lucunya: minggu lalu sepupuku nelfon.
+
+"Kak, app aku dipake sama guru temen aku, katanya anak-anak gak mau baca, cuma ngejar skor. Boleh gak aku pake ide Kakak yang suaranya guru sendiri?"
+
+Aku ngakak. Yang ditawarin seminggu jadi, sekarang nanya ke aku 😭
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Jadi kalau kamu guru dan ngerasa "aku gak punya skill bikin app", coba diliat lagi.
+
+Kamu udah punya bagian paling susahnya: ngerti murid, ngerti materi, ngerti kelas.
+
+Yang kamu belum punya cuma bagian teknis. Dan bagian itu, sekarang, bisa dibantu.
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Makasih udah baca sampai sini 🙌
+
+Coba deh tulis di komentar: satu hal kecil yang kamu tau tentang muridmu, yang gak bakal ditau orang luar kelas.
+
+Bisa jadi itu ide app pertamamu loh.
+
+Simpan thread ini buat diingetin lagi kalau lagi minder 😭

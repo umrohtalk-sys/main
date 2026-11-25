@@ -1,0 +1,441 @@
+[
+ {
+  "id": "tm0526",
+  "judul": "Enam shortcut prompt latihan ejaan",
+  "hook": "Bolehlah cuba shortcut prompt ini dekat Claude ya. Ringkas saja untuk latihan ejaan yang boleh dimainkan terus.",
+  "posts": [
+   "Bolehlah cuba shortcut prompt ini dekat Claude ya. Ringkas saja untuk latihan ejaan yang boleh dimainkan terus.",
+   "1. Tebak ejaan:\n“Quiz me on 10 spelling words, give the meaning first.”\n2. Isi huruf hilang:\n“Make 8 fill-in-the-missing-letter spelling words for Year 2.”\n3. Ayat rumpang:\n“Give 5 sentences with a blank for the spelling word.”\n4. Cari salah ejaan:\n“Show 6 words, half misspelled, for me to mark.”\n5. Kad ejaan:\n“List 12 words as flashcards with Malay meaning.”\n6. Skor akhir:\n“Score my answers and explain each mistake briefly.”\n\nSelamat mencuba."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "latihan ejaan",
+   "claude",
+   "shortcut prompt",
+   "usahawan"
+  ]
+ },
+ {
+  "id": "tm0527",
+  "judul": "RPH untuk cikgu baru, framework ringkas",
+  "hook": "KHAS UNTUK CIKGU BARU\n\nFramework prompt untuk bikin rancangan pengajaran harian yang kemas dan tak makan masa berjam-jam.",
+  "posts": [
+   "KHAS UNTUK CIKGU BARU\n\nFramework prompt untuk bikin rancangan pengajaran harian yang kemas dan tak makan masa berjam-jam.\n\nIni framework dan dua contoh.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Mata pelajaran dan tahun\n+ Topik dan objektif\n+ Masa setiap aktiviti\n+ Bahan kelas yang ada\n+ Cara menilai\n\nMakin lengkap maklumat, makin kurang kerja betulkan semula.",
+   "2. Contoh RPH Bahasa Melayu:\n\n“Write a 60-minute lesson plan for Year 3 Malay language on compound words. Objective, 3 activities with timings, materials, and 3 quick assessment questions.”",
+   "3. Contoh RPH Matematik:\n\n“Write a 45-minute lesson plan for Year 4 on multiplication tables up to 10, with a warm-up game, group work and an exit ticket.”\n\nSelamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "rph",
+   "cikgu baru",
+   "chatgpt",
+   "framework"
+  ]
+ },
+ {
+  "id": "tm0528",
+  "judul": "Empat prompt slaid untuk pelajar universiti",
+  "hook": "4 prompt ChatGPT yang setiap pelajar universiti patut simpan untuk bikin slide pengajaran untuk kelas tutorial.",
+  "posts": [
+   "4 prompt ChatGPT yang setiap pelajar universiti patut simpan untuk bikin slide pengajaran untuk kelas tutorial.\n\nSimpan dulu, senang cari bila dah dekat tarikh bentang.",
+   "1. Struktur slaid:\n\n“Outline a 10-slide teaching deck on [topic], one main idea per slide, with a title and 3 bullets each.”\n\n2. Tulis nota ringkas:\n\n“Write 2 short speaker notes per slide in plain Malay, under 40 words each.”\n\nSalin ke PowerPoint dan semak.",
+   "3. Cadang visual:\n\n“For each slide, suggest one simple chart or diagram that supports the bullet points.”\n\n4. Soalan penutup:\n\n“Write 5 quick quiz questions for the last slide to check understanding.”\n\nSelamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "slaid",
+   "pelajar universiti",
+   "chatgpt",
+   "pembentangan"
+  ]
+ },
+ {
+  "id": "tm0529",
+  "judul": "Nota ringkas bab matematik dalam 5 minit",
+  "hook": "Nota ringkas macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+  "posts": [
+   "Nota ringkas macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+   "1. Tampal teks bab:\n\nLetakkan satu bab matematik, lalu minta Claude Artifacts:\n\n“Turn this chapter into a one-page revision note for Form 2: key formulas, 3 worked examples, and 5 quick checks. Keep the original content.”",
+   "2. Tetapkan paparan:\n\n“Make it printable, use clear headings, and add space for students to write notes.”\n\nTunggu siap, pratonton akan keluar.",
+   "3. Uji dulu:\n\nSemak tiga contoh kerja, pastikan formula betul sebelum edar kepada murid."
+  ],
+  "cta": "",
+  "tags": [
+   "nota ringkas",
+   "matematik",
+   "claude artifacts",
+   "revisi"
+  ]
+ },
+ {
+  "id": "tm0530",
+  "judul": "Laporan prestasi murid siap dalam 15 minit",
+  "hook": "Laporan prestasi murid macam ini sekarang boleh siap dalam 15 minit saja. Cara dia:",
+  "posts": [
+   "Laporan prestasi murid macam ini sekarang boleh siap dalam 15 minit saja. Cara dia:",
+   "1. Masukkan data ringkas:\n\nSenaraikan nama murid, tiga markah dan satu nota guru bagi setiap murid.",
+   "2. Minta Gemini Canvas tulis laporan:\n\n“Write a short Malay progress report for each student from this data: strengths, one area to improve, and one suggestion. Keep names and scores unchanged.”",
+   "3. Semak dan cetak:\n\nBaca sekali lagi, betulkan ayat yang terlalu formal atau tak sesuai untuk ibu bapa. Uji dengan dua laporan dulu sebelum cetak semua."
+  ],
+  "cta": "",
+  "tags": [
+   "laporan murid",
+   "cikgu bahasa melayu",
+   "gemini canvas",
+   "ibu bapa"
+  ]
+ },
+ {
+  "id": "tm0531",
+  "judul": "Tiga prompt poster kelas prasekolah",
+  "hook": "3 prompt Gemini Notebook aka NotebookLM yang setiap cikgu prasekolah patut simpan untuk bikin poster kelas yang ceria.",
+  "posts": [
+   "3 prompt Gemini Notebook aka NotebookLM yang setiap cikgu prasekolah patut simpan untuk bikin poster kelas yang ceria.\n\nSimpan dulu, senang guna bila tiba musim bilik darjah baru.",
+   "1. Poster tema:\n\n“Design a classroom poster about [topic] for 5-year-olds: one large picture, 3 short Malay words, bright colours.”\n\nTampal bahan dari nota kelas dulu.",
+   "2. Poster peraturan kelas:\n\n“Make a poster of 5 classroom rules in simple Malay words, each with a simple picture.”\n\nSemak perkataan supaya sesuai dengan umur murid.",
+   "3. Poster jadual harian:\n\n“Make a daily routine poster with 5 pictures: arrival, circle time, play, snack, goodbye.”\n\nKomen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "poster kelas",
+   "prasekolah",
+   "notebooklm",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0532",
+  "judul": "Borang maklum balas BM siap dalam 5 minit",
+  "hook": "Borang maklum balas murid macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+  "posts": [
+   "Borang maklum balas murid macam ini sekarang boleh siap dalam 5 minit saja. Cara dia:",
+   "1. Tentukan 5 soalan:\n\nTulis topik dan tahap murid dalam satu ayat, contohnya Tahun 6 selepas kelas kata kerja.",
+   "2. Minta ChatGPT buat borang:\n\n“Create a 5-question feedback form for Year 6 students after a Malay grammar lesson. Use simple Malay words, 3 rating questions and 2 open questions.”\n\nSalin dan tampal ke dokumen.",
+   "3. Uji dulu:\n\nIsi borang sendiri dan lihat sama ada soalan mudah difahami murid sebelum edar."
+  ],
+  "cta": "",
+  "tags": [
+   "borang murid",
+   "cikgu bahasa melayu",
+   "chatgpt",
+   "maklum balas"
+  ]
+ },
+ {
+  "id": "tm0533",
+  "judul": "Laporan prestasi murid guna telefon sahaja",
+  "hook": "BANG, MACAM MANA NAK BUAT LAPORAN PRESTASI MURID GUNA TELEFON SAJA?\n\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT LAPORAN PRESTASI MURID GUNA TELEFON SAJA?\n\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Tulis data ringkas:\n\nSenaraikan nama murid, subjek dan markah dalam bentuk senarai biasa.",
+   "2. Minta ChatGPT tulis:\n\n“Write a short progress report in Malay for each student: result, strengths, one improvement. Use a warm tone for parents, under 100 words each.”",
+   "3. Semak nama dan markah:\n\nPastikan semua betul sebelum hantar. Mudahkan?"
+  ],
+  "cta": "",
+  "tags": [
+   "laporan murid",
+   "guru tuisyen",
+   "chatgpt",
+   "telefon"
+  ]
+ },
+ {
+  "id": "tm0534",
+  "judul": "Poster kelas ceria dalam 10 minit",
+  "hook": "BANG, MACAM MANA NAK BUAT POSTER KELAS YANG CERIA TANPA REKA BENTUK, DALAM 10 MINIT?\n\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT POSTER KELAS YANG CERIA TANPA REKA BENTUK, DALAM 10 MINIT?\n\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Tentukan tema:\n\nTulis satu ayat tentang poster, contohnya “Poster peraturan kelas untuk murid umur 5 tahun, warna cerah, perkataan sedikit.”",
+   "2. Minta Canva AI bantu:\n\nTampal ayat itu dalam Canva AI, dan minta susun 3 bahagian: gambar besar, tajuk pendek dan 3 ayat mudah.",
+   "3. Ubah ikut kelas:\n\nTukar warna dan gambar ikut tema kelas, kemudian cetak satu salinan sebagai ujian."
+  ],
+  "cta": "",
+  "tags": [
+   "poster kelas",
+   "prasekolah",
+   "canva ai",
+   "reka bentuk"
+  ]
+ },
+ {
+  "id": "tm0535",
+  "judul": "Website portfolio cikgu dari telefon",
+  "hook": "BANG, MACAM MANA NAK BUAT WEBSITE PORTFOLIO CIKGU TANPA CODING, GUNA TELEFON SAJA?\n\nSenang saja. Meh saya kongsikan caranya.",
+  "posts": [
+   "BANG, MACAM MANA NAK BUAT WEBSITE PORTFOLIO CIKGU TANPA CODING, GUNA TELEFON SAJA?\n\nSenang saja. Meh saya kongsikan caranya.",
+   "1. Tulis isi portfolio:\n\nSenaraikan pengalaman mengajar, projek murid dan sijil. Tampal dalam Gemini Notebook aka NotebookLM, lalu minta:\n\n“Summarize these notes into a 4-section portfolio outline: profile, teaching, student projects, achievements. Keep the original facts.”",
+   "2. Tukar jadi halaman web:\n\nSalin outline ke Claude, lalu minta:\n\n“Turn this outline into a single-page HTML portfolio with calm colours, mobile-friendly layout, and no external libraries.”",
+   "3. Uji di telefon:\n\nBuka pratonton, semak nama dan gambar. Betul tak?"
+  ],
+  "cta": "",
+  "tags": [
+   "portfolio cikgu",
+   "sejarah",
+   "notebooklm",
+   "website"
+  ]
+ },
+ {
+  "id": "tm0536",
+  "judul": "App sains ringkas di telefon dengan Gemini",
+  "hook": "Sebenarnya kita boleh guna Gemini untuk bikin app belajar di telefon yang ringkas untuk kelas sains. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini untuk bikin app belajar di telefon yang ringkas untuk kelas sains. Ini caranya:",
+   "1. Minta Gemini susun isi:\n\n“Keep the original content. List 10 key facts about [topic] for Form 1 science students, with a one-line answer each.”\n\nSemak fakta sekali lagi dengan buku teks.",
+   "2. Tukar ke bentuk app:\n\nTampal arahan ini: “Turn these 10 facts into a single-file mobile quiz app, big buttons, score at the end.”\n\nGemini akan tulis kod ringkas untuk app itu.",
+   "3. Uji dulu:\n\nMain dari awal sampai habis di telefon, pastikan jawapan sains betul sebelum guna dalam kelas."
+  ],
+  "cta": "",
+  "tags": [
+   "app sains",
+   "gemini",
+   "telefon",
+   "form 1"
+  ]
+ },
+ {
+  "id": "tm0537",
+  "judul": "Lumba jawab berkumpulan untuk murid kecil",
+  "hook": "Cikgu prasekolah yang kena jaga 25 murid kecil dalam satu kelas dan masih nak buat aktiviti seronok, thread ini untuk korang.",
+  "posts": [
+   "Cikgu prasekolah yang kena jaga 25 murid kecil dalam satu kelas dan masih nak buat aktiviti seronok, thread ini untuk korang.\n\nPenat tu bukan main. Lepas sekolah pun masih fikir aktiviti esok.\n\nAda dua tip ringkas yang boleh bagi lebih banyak masa rehat.",
+   "1. Minta idea permainan:\n\n“Give 5 team relay game ideas for 5-year-olds using a [topic] theme, with simple Malay instructions.”\n\nAmbil satu yang paling mudah dibuat dalam kelas.",
+   "2. Bina lumba jawab berkumpulan:\n\nGunakan Gemini Notebook aka NotebookLM untuk ringkaskan bahan, kemudian minta: “Turn these 10 picture questions into a team quiz race, with two teams and a score board.”\n\nUji sekali dengan dua murid sebelum guna dalam kelas."
+  ],
+  "cta": "",
+  "tags": [
+   "prasekolah",
+   "lumba jawab",
+   "notebooklm",
+   "aktiviti kelas"
+  ]
+ },
+ {
+  "id": "tm0538",
+  "judul": "Borang maklum balas PJ dalam beberapa minit",
+  "hook": "Sebenarnya kita boleh guna Gemini untuk bikin borang maklum balas murid selepas kelas PJ dalam beberapa minit. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna Gemini untuk bikin borang maklum balas murid selepas kelas PJ dalam beberapa minit. Ini caranya:",
+   "1. Tetapkan soalan asas:\n\n“Keep the original content. Create 5 feedback questions for students after a PE lesson on [topic], simple Malay, with 3 rating and 2 open questions.”",
+   "2. Tambah soalan keselamatan:\n\n“Add one question about whether students felt safe and comfortable during the activity.”\n\nBaca dan pastikan soalan tak menakutkan murid.",
+   "3. Simpan dan edar:\n\nSalin ke dokumen, cetak satu salinan untuk cuba. Betulkan dulu sebelum edar."
+  ],
+  "cta": "",
+  "tags": [
+   "cikgu pj",
+   "borang murid",
+   "gemini",
+   "keselamatan"
+  ]
+ },
+ {
+  "id": "tm0539",
+  "judul": "Peta minda sistem solar dalam 15 minit",
+  "hook": "Infografik peta minda macam ini sekarang boleh siap dalam 15 minit saja. Cara dia:",
+  "posts": [
+   "Infografik peta minda macam ini sekarang boleh siap dalam 15 minit saja. Cara dia:",
+   "1. Tulis tajuk dan 5 cabang:\n\nContoh: Sistem Solar, dengan cabang planet, bintang, satelit, gerhana dan graviti.",
+   "2. Minta Canva AI susun:\n\nTampal tajuk dan cabang, lalu minta susunan peta minda berwarna dengan satu ikon setiap cabang.",
+   "3. Uji dulu:\n\nSemak fakta dan ejaan, pastikan murid faham dalam 30 saat sebelum guna."
+  ],
+  "cta": "",
+  "tags": [
+   "peta minda",
+   "sekolah menengah",
+   "canva ai",
+   "infografik"
+  ]
+ },
+ {
+  "id": "tm0540",
+  "judul": "Lima prompt kad imbas untuk cikgu sains",
+  "hook": "5 prompt ChatGPT yang setiap cikgu sains patut simpan untuk bikin kad imbas kosa kata.",
+  "posts": [
+   "5 prompt ChatGPT yang setiap cikgu sains patut simpan untuk bikin kad imbas kosa kata.\n\nSimpan dulu, senang cari bila perlu ulang kelas.",
+   "1. Ambil istilah utama:\n\n“From this science chapter on [topic], list 15 key terms with simple Malay definitions.”\n\n2. Tukar jadi kad:\n\n“Format these as flashcards: term on front, definition and one real example on back.”\n\nSemak fakta sebelum cetak.",
+   "3. Tambah gambar rajah:\n\n“For each flashcard, suggest one simple diagram that a Form 2 student can draw.”\n\n4. Uji murid:\n\n“Make a 10-question quiz from these flashcards, multiple choice, with answers at the end.”",
+   "5. Ulang minggu depan:\n\n“Create a spaced revision schedule for these terms over 5 days, 3 terms per day.”\n\nSelamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "kad imbas",
+   "cikgu sains",
+   "chatgpt",
+   "kosa kata"
+  ]
+ },
+ {
+  "id": "tm0541",
+  "judul": "Berhenti minta infografik kosong, bina peta minda",
+  "hook": "BERHENTI minta Canva AI “buatkan infografik”. Cikgu PJ boleh guna framework ini untuk hasilkan peta minda yang lebih kemas.",
+  "posts": [
+   "BERHENTI minta Canva AI “buatkan infografik”. Cikgu PJ boleh guna framework ini untuk hasilkan peta minda yang lebih kemas.\n\nIni framework dan dua contoh.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Tajuk peta minda\n+ Bilangan cabang\n+ Tahap murid\n+ Gaya warna\n+ Bahasa Melayu\n\nMakin jelas, makin kemas hasilnya.",
+   "2. Peta minda peraturan permainan:\n\n“Create a mind map with 5 branches: safety, turns, scores, teams, sports. Bright colours, one icon per branch, Malay language.”",
+   "3. Peta minda teknik lari:\n\n“Create a mind map with 4 branches: warm-up, technique, practice, rest. One short Malay sentence per branch for students.”"
+  ],
+  "cta": "",
+  "tags": [
+   "peta minda",
+   "cikgu pj",
+   "canva ai",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0542",
+  "judul": "Kenapa video AI kelam-kabut, ini punca",
+  "hook": "Kenapa video animasi pendek yang AI buat selalu nampak kelam-kabut dan terlalu panjang untuk kelas?",
+  "posts": [
+   "Kenapa video animasi pendek yang AI buat selalu nampak kelam-kabut dan terlalu panjang untuk kelas?\n\nJom kita tengok punca dan cara betulkan.",
+   "1. Tambah had masa dan adegan:\n\n“Make a 60-second animated video script on [topic] with 5 scenes, 12 seconds each, one idea per scene.”\n\nSebab prompt umum buat AI tak tahu berapa saat dan untuk tahap murid yang mana. Tambah ini dalam prompt pertama.",
+   "2. Tetapkan gaya dan ayat:\n\n“Use flat simple shapes, slow motion, plain Malay narration under 20 words per scene.”\n\nSemak satu adegan dulu. Betul tak?"
+  ],
+  "cta": "",
+  "tags": [
+   "video animasi",
+   "canva ai",
+   "prompt",
+   "sekolah"
+  ]
+ },
+ {
+  "id": "tm0543",
+  "judul": "Enam shortcut slaid untuk cikgu sains",
+  "hook": "Bolehlah cuba shortcut prompt ini dekat Gemini ya. Untuk cikgu sains yang nak slaid pengajaran cepat siap.",
+  "posts": [
+   "Bolehlah cuba shortcut prompt ini dekat Gemini ya. Untuk cikgu sains yang nak slaid pengajaran cepat siap.",
+   "1. Ringkaskan topik:\n“Summarize [topic] in 6 slide titles for Form 2 students.”\n2. Isi slaid:\n“Write 3 bullets per slide, plain Malay, under 12 words each.”\n3. Gambar rajah:\n“Suggest one simple diagram per slide about [topic].”\n4. Soalan kuiz:\n“Write 3 quiz questions for the last slide.”\n5. Nota guru:\n“Write 2-line speaker notes for each slide.”\n6. Semakan fakta:\n“Check the facts and list any claims that need a source.”\n\nSelamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "slaid sains",
+   "gemini",
+   "shortcut prompt",
+   "cikgu sains"
+  ]
+ },
+ {
+  "id": "tm0544",
+  "judul": "Kenapa video AI hambar, betulkan arahan",
+  "hook": "Kenapa video animasi pendek yang AI hasilkan selalu nampak hambar dan tak sesuai umur murid?",
+  "posts": [
+   "Kenapa video animasi pendek yang AI hasilkan selalu nampak hambar dan tak sesuai umur murid?\n\nJom kita bongkar sebabnya.",
+   "1. Tetapkan umur dan gaya:\n\n“Script a 45-second animated explainer on [topic] for 10-year-old viewers, cheerful tone, simple characters, plain Malay narration.”\n\nSebab arahan terlalu umum, Gemini hanya ikut apa yang disebut. Tanpa umur dan gaya, hasilnya ikut tekaan.",
+   "2. Tambah contoh adegan:\n\n“For each scene, describe one visual example a student can recognise, and one question to pause on.”\n\nSemak sekali sebelum produksi."
+  ],
+  "cta": "",
+  "tags": [
+   "video animasi",
+   "gemini",
+   "content creator",
+   "prompt"
+  ]
+ },
+ {
+  "id": "tm0545",
+  "judul": "Soalan Angry Birds untuk kelas KAFA",
+  "hook": "Dulu saya ambil berjam-jam untuk buat soalan matematik untuk kelas KAFA. Sekarang tak sampai 15 minit dengan Gemini Canvas.",
+  "posts": [
+   "Dulu saya ambil berjam-jam untuk buat soalan matematik untuk kelas KAFA. Sekarang tak sampai 15 minit dengan Gemini Canvas.\n\nMalam-malam duduk lukis kotak dan tulis soalan satu-satu, memang penat. Lepas itu saya cuba cara yang lebih ringkas.",
+   "1. Minta permainan dengan soalan:\n\n“Create a single-file HTML game like Angry Birds where students fire at correct answers to math questions, Year 4 level, 10 questions, Malay language.”",
+   "2. Tambah bunyi dan skor:\n\n“Add score, lives, sound effects, and a retry button. Keep the questions simple.”\n\nUji dulu, betulkan soalan yang tak sesuai untuk umur murid."
+  ],
+  "cta": "",
+  "tags": [
+   "kafa",
+   "angry birds",
+   "matematik",
+   "gemini canvas"
+  ]
+ },
+ {
+  "id": "tm0546",
+  "judul": "Borang murid ringkas, tetapkan had dulu",
+  "hook": "Kenapa borang maklum balas murid yang AI buat selalu nampak berterabur dan terlalu panjang?",
+  "posts": [
+   "Kenapa borang maklum balas murid yang AI buat selalu nampak berterabur dan terlalu panjang?\n\nJom kita tengok sebabnya.",
+   "1. Tetapkan had:\n\n“Create a feedback form with 5 questions only, simple Malay, one question per line, no sub-questions.”\n\nSebab arahan tak ada had, AI tambah soalan sebanyak yang dia rasa patut.",
+   "2. Tambah skala dan contoh:\n\n“Use a 1 to 5 rating scale, add one example answer per question, and keep each question under 12 words.”\n\nBetulkan satu soalan dulu sebelum cetak semua."
+  ],
+  "cta": "",
+  "tags": [
+   "borang murid",
+   "guru tuisyen",
+   "gemini",
+   "maklum balas"
+  ]
+ },
+ {
+  "id": "tm0547",
+  "judul": "Peta minda kuliah siap dalam 10 minit",
+  "hook": "Infografik peta minda macam ini sekarang boleh siap dalam 10 minit saja. Cara dia:",
+  "posts": [
+   "Infografik peta minda macam ini sekarang boleh siap dalam 10 minit saja. Cara dia:",
+   "1. Tulis tajuk dan topik kuliah:\n\nCukup satu ayat ringkas. Contoh: “Mind map on research methods for undergraduates.”",
+   "2. Minta ChatGPT susun cabang:\n\n“Create a mind map outline with 6 main branches and 3 sub-points each, for undergraduates. Output in plain Malay.”",
+   "3. Uji dulu:\n\nSemak cabang dan fakta, pastikan tiada istilah yang tak tepat.\n\nKomen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "peta minda",
+   "pensyarah",
+   "chatgpt",
+   "infografik"
+  ]
+ },
+ {
+  "id": "tm0548",
+  "judul": "Borang maklum balas siap dalam beberapa minit",
+  "hook": "Dulu saya ambil berjam-jam untuk susun borang maklum balas murid selepas program. Sekarang cuma beberapa minit dengan Gemini Notebook aka NotebookLM.",
+  "posts": [
+   "Dulu saya ambil berjam-jam untuk susun borang maklum balas murid selepas program. Sekarang cuma beberapa minit dengan Gemini Notebook aka NotebookLM.\n\nDuduk tulis soalan satu-satu lalu susun semula, memang melelahkan. Lepas itu saya cuba cara yang lebih ringkas.",
+   "1. Tampal tujuan program:\n\n“Keep the original content. Create a 6-question feedback form for participants of a [topic] workshop, 4 rating and 2 open questions, Malay language.”",
+   "2. Semak sebelum edar:\n\nBaca dengan mata murid, betulkan soalan yang samar.\n\nKomen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "borang maklum balas",
+   "notebooklm",
+   "program",
+   "bengkel"
+  ]
+ },
+ {
+  "id": "tm0549",
+  "judul": "Nota grammar Inggeris dalam satu halaman",
+  "hook": "KHAS UNTUK CIKGU BAHASA INGGERIS\n\nFramework prompt untuk bikin nota ringkas grammar yang murid faham dalam satu halaman.",
+  "posts": [
+   "KHAS UNTUK CIKGU BAHASA INGGERIS\n\nFramework prompt untuk bikin nota ringkas grammar yang murid faham dalam satu halaman.\n\nIni framework dan dua contoh.",
+   "1. Tetapkan ini dalam prompt:\n\n+ Topik grammar\n+ Tahap murid\n+ Panjang nota\n+ Contoh ayat\n+ Penerangan dalam bahasa Melayu\n\nMakin jelas, makin kemas nota yang keluar.",
+   "2. Contoh untuk tenses:\n\n“Write a one-page note on present perfect for Form 3 learners. Explain in Malay, give 3 examples per rule, and add 3 practice sentences.”",
+   "3. Contoh untuk preposition:\n\n“Write a one-page note on prepositions of time for Year 5 learners, with a table, 4 examples and a short quiz.”\n\nSelamat mencuba."
+  ],
+  "cta": "",
+  "tags": [
+   "grammar inggeris",
+   "cikgu bahasa inggeris",
+   "chatgpt",
+   "nota ringkas"
+  ]
+ },
+ {
+  "id": "tm0550",
+  "judul": "Nota kuliah jadi satu halaman untuk ulang",
+  "hook": "Sebenarnya kita boleh guna ChatGPT untuk ringkaskan nota kuliah yang panjang jadi satu halaman yang senang diulang. Ini caranya:",
+  "posts": [
+   "Sebenarnya kita boleh guna ChatGPT untuk ringkaskan nota kuliah yang panjang jadi satu halaman yang senang diulang. Ini caranya:",
+   "1. Tampal nota penuh:\n\n“Keep the original content. Summarize these lecture notes into 8 key points, each under 20 words, plain Malay.”\n\nSemak sekali dengan nota asal.",
+   "2. Tambah soalan latihan:\n\n“Add 5 self-test questions at the end, with answers hidden below a line.”\n\nBaca dulu sebelum tidur, ulang esok pagi.",
+   "3. Simpan dalam satu fail:\n\nSalin ke dokumen dan beri nama ikut topik dan tarikh.\n\nKomen PROMPT kalau nak saya kongsi template penuh."
+  ],
+  "cta": "PROMPT",
+  "tags": [
+   "nota kuliah",
+   "pelajar universiti",
+   "chatgpt",
+   "ringkasan"
+  ]
+ }
+]

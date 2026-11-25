@@ -1,0 +1,171 @@
+THREAD #020
+Judul: "Dari ngeluh soal murid yang gak ngerti materi, sampai punya apps yang dipakai sekolah lain, ini frame work yang kupakai 😭"
+Angle: cerita guru yang dulu cuma ngeluh di ruang guru, lalu keluhan itu jadi kerangka (framework) sederhana: empat kotak di kertas A4.
+Contoh mapel/jenjang: Bahasa Inggris SMP (simple past), lalu dilirik guru B. Indonesia dan guru SD.
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Dari ngeluh soal murid yang gak ngerti materi, sampai punya apps yang dipakai sekolah lain, ini frame work yang kupakai 😭
+
+dulu aku cuma ngeluh di ruang guru tiap jam istirahat.
+
+kuceritain dari awal ya, siapa tau kamu juga lagi di titik itu.
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Aku ngajar Bahasa Inggris di SMP. Kelas 8, jam ketiga, habis istirahat. Kalau aku nanya "any questions?", yang kedengeran cuma kipas angin 😭
+
+Materinya sebenernya gampang: simple past. Tapi tiap aku jelasin pakai tabel di papan, separuh kelas kayak lagi nonton film tanpa subtitle.
+
+Aku ngeluh: "kok mereka gak ngerti sih?"
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Suatu siang ada satu murid nulis di kertas kecil dan nyelipin ke buku aku:
+
+"Miss, I don't get it. Kalau aku jawab salah, aku malu."
+
+Kertasnya kulipat dan kusimpen di laci. Dua hari kepikiran terus.
+
+Ternyata masalahnya bukan murid kurang pinter. Masalahnya cara aku ngasih materi cuma ada satu jalan.
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Aku mulai nyatet di pinggir buku pelajaran. Setiap kali ada yang bingung, aku tulis tiga pertanyaan:
+
+1. Bingungnya di bagian mana?
+2. Dia udah ngerti apa?
+3. Apa yang bisa dia pegang sekarang juga?
+
+Gak ada yang ilmiah. Cuma coretan seadanya 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Dari tiga pertanyaan itu lahir kerangka yang sekarang aku sebut "empat kotak" di kertas A4:
+
+kotak 1: satu situasi nyata (pesan di grup, antrean kantin, pesan kopi)
+kotak 2: satu kalimat English yang dipakai di situasi itu
+kotak 3: pilihan jawaban, murid tinggal tap yang bener
+kotak 4: penjelasan kenapa jawaban itu salah atau benar
+
+Aku gambar di excalidraw dulu, sebelum ngetik apa-apa.
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Pertama kali kubawa ke AI, aku nulisnya kayak lagi curhat:
+
+"aku guru bahasa inggris smp, muridku bingung simple past karena kebanyakan teori. aku mau tiap soal berbentuk situasi kantin. kalau salah, tampilkan alasannya."
+
+Hasilnya lumayan. Tapi tombolnya kecil banget, dan satu soal muncul dua kali 😭
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Aku revisi. Kutunjukin gambar empat kotak tadi, sambil bilang: "tombolnya gede, teksnya satu kalimat, dan jangan ada dua soal di layar yang sama."
+
+Hasil kedua jauh lebih rapi. Mulai kelihatan kayak yang ada di kepalaku.
+
+Pelajaran kecil: AI gak bisa nebak isi kepalamu. Gambar sederhana itu yang jadi penerjemahnya 🙌
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Versi ketiga kubawa ke kelas. Gak ada pengumuman, cuma satu link yang kutulis di papan tulis.
+
+Dua menit pertama sunyi banget. Aku mikir: "yah, gagal."
+
+Terus ada yang nyeletuk: "Miss, kalau aku salah, ini dikasih tau kenapa ya?"
+
+Iya. Dan itu yang selama ini aku lupa kasih.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Yang bikin aku mikir dua kali: murid yang biasanya diem di belakang malah paling sering mencet tombol "coba lagi".
+
+Ternyata yang mereka takutin bukan salahnya. Yang mereka takutin itu dibilang salah tanpa alasan.
+
+Pas ada alasannya, mereka berani nyoba, dan soal sederhana jadi kayak game kecil.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Dua minggu kemudian, guru Bahasa Indonesia dari kelas sebelah mampir.
+
+"Bu, itu buat simple past ya? Boleh aku pinjem buat latihan kalimat tanya?"
+
+Aku bilang boleh. Eh, dia nambahin: "Nanti aku bikin versi buat tenses lain, aku kabarin ya."
+
+Itu pertama kalinya aku ngerasa: kerangka ini ternyata bisa dipake orang lain 😭
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Dari situ pelan-pelan ada guru dari sekolah lain nanya. Ada yang minta dibikin buat Bahasa Inggris SD, ada juga yang nanya bisa gak dipake buat mapel lain.
+
+Dan aku baru sadar: empat kotak itu gak cuma buat English. Situasinya yang ganti, strukturnya tetap.
+
+Jadi gak perlu jago coding buat ngerti cara bikinnya. Cukup kenal muridmu.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Ini catatan dari kerangka yang sekarang kupakai:
+
+- mulai dari situasi yang dekat sama murid, bukan dari aturan
+- satu layar, satu pertanyaan
+- kalau salah, jelasin alasannya (jangan cuma "salah")
+- tes ke satu-dua murid dulu, baru ke satu kelas
+- jangan tambah fitur sebelum yang pertama beneran dipake
+
+Ini hasil coba-coba, bukan teori dari buku.
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Yang sering orang takutin: "nanti ada yang protes, nanti muridnya ngeledek, nanti aku dianggap sok tau."
+
+Ada sih yang nyeletuk. Tapi lama-lama mereka malah nanya balik: "Miss, ada level yang lebih susah gak?"
+
+Itu kejutan paling manis buat guru yang dulu cuma ngeluh 😭
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Kalau kamu guru dan lagi capek ngeluh soal murid yang gak ngerti, ketahuilah: keluhanmu itu sebenernya data.
+
+Itu bahan pertama buat app-mu sendiri.
+
+Yang bikin beda cuma kamu mau nulis keluhan itu jadi situasi, bukan dibiarin nguap di ruang guru.
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Jadi coba satu hal hari ini: tulis satu situasi dari kelasmu yang bikin muridmu bengong. Simpan di catatan, jangan dibuang.
+
+Kalau kamu mau, tulis di komentar: situasi apa yang paling sering bikin muridmu bingung? Aku pengen baca 🙌
+
+Simpan thread ini juga biar gampang dibuka lagi.

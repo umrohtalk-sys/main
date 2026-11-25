@@ -1,0 +1,54 @@
+PREVIEW THREAD — BAHASA INDONESIA
+Akun   : Threads @edugamelabs.id
+Topik  : Guru
+Bentuk : 1 post utama + 3 balasan berantai
+Beda dengan @auzan_hasfi & @auzanhasfi: bahasa Indonesia, sudut "dulu vs sekarang", sasaran guru & dosen, contoh game lain, link versi /id
+Status : DRAF
+
+==================================================
+POST 1 (utama)
+==================================================
+Dulu saya kira bikin game edukasi itu harus jago coding.
+
+Ternyata sekarang cukup tahu mau ngajarin apa, sisanya bisa dibantu AI.
+
+Saya rangkum cara yang saya pakai jadi satu app, supaya guru dan dosen lain bisa langsung coba tanpa ribet.
+
+Penjelasannya di bawah ya
+
+==================================================
+BALASAN 1
+==================================================
+Namanya Prompt Generator
+
+Isinya bukan game jadi, tapi "resep" untuk bikin game atau app sendiri. Tinggal pilih jenisnya, isi mapel, kelas dan materinya, lalu app menyusun prompt yang lengkap.
+
+Prompt itu tinggal ditempel ke Claude, ChatGPT atau Gemini. Mau yang gratis juga bisa.
+
+==================================================
+BALASAN 2
+==================================================
+Beberapa yang sudah jadi dari prompt ini
+
+Game platformer hitung-hitungan, escape room yang pintunya baru kebuka kalau soalnya benar, sampai game ketapel ala Angry Birds yang pakai soal matematika
+
+Bisa dipakai di kelas, dibagikan ke siswa lewat link, atau dijual sebagai produk digital
+
+Coba versi demonya gratis:
+demoprompt.edugamelabs.com/id
+
+==================================================
+BALASAN 3
+==================================================
+Versi lengkapnya ada lebih banyak jenis game dan app, galeri prompt siap pakai, plus panduan dari bikin sampai jualan
+
+lptoolsid.edugamelabs.com/id
+
+Kalau masih bingung mulai dari mana, tulis saja di kolom komentar. Nanti saya bantu arahkan
+
+==================================================
+CATATAN
+==================================================
+- Setiap post di bawah 500 karakter.
+- Link versi Indonesia (/id), sudah dicek aktif.
+- Contoh game berbeda dari dua akun lain (Lompat Hitung, Bilik Misteri, Lastik Clawd).

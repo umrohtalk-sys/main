@@ -1,0 +1,161 @@
+THREAD SERI #13 - 15 POST
+Judul: "Aku adalah guru yang kemarin bingung mau jual apps ke siapa, ternyata pembelinya ada di sebelah ruang guru 😭"
+Angle: cerita guru PJOK SMP yang sibuk mikirin "pasar" jauh-jauh (grup Facebook, marketplace, guru se-Indonesia), padahal yang butuh app-nya justru orang-orang di sekolahnya sendiri: guru BK, wali kelas, wakasek, sampai satpam. Jualan muncul sebagai kejutan, bukan tutorial.
+Contoh mapel/jenjang: PJOK, SMP (app pencatat lari & tes kebugaran)
+Catatan: tiap post di bawah 500 karakter.
+
+-----------------------------------------------------------------------
+1/15
+-----------------------------------------------------------------------
+Aku adalah guru yang kemarin bingung mau jual apps ke siapa, ternyata pembelinya ada di sebelah ruang guru 😭
+
+aku guru PJOK SMP, bukan orang IT, bukan orang marketing
+
+berminggu-minggu nyari "target pasar" sampe pusing, eh jawabannya lewat sambil bawa gelas teh
+
+#AIThreads
+
+
+-----------------------------------------------------------------------
+2/15
+-----------------------------------------------------------------------
+Awalnya simpel. Tiap tes lari 12 menit, aku nyatet putaran murid pakai kertas yang ditempel di papan jalan.
+
+Kertasnya basah keringat. Pulpennya macet. Ada yang ngaku 8 putaran padahal 5 😭
+
+Jadi aku iseng bikin app pakai AI: tinggal tap nama murid tiap dia lewat garis, putarannya keitung sendiri, nilainya langsung keluar.
+
+
+-----------------------------------------------------------------------
+3/15
+-----------------------------------------------------------------------
+Pertama kali dipakai di lapangan, rasanya kayak naik level.
+
+Gak ada kertas terbang. Gak ada debat "Pak aku tadi udah lewat loh". Murid malah antre liat layar HP-ku, pengen tau putarannya udah berapa.
+
+Pulang sekolah aku senyum-senyum sendiri. Terus muncul pikiran klasik: "ini bisa dijual gak ya?"
+
+
+-----------------------------------------------------------------------
+4/15
+-----------------------------------------------------------------------
+Di situlah aku mulai ribet sendiri.
+
+Aku nonton video "cara menemukan target pasar". Bikin catatan persona pembeli. Mikir gabung grup guru PJOK se-Indonesia. Mikir bikin akun jualan.
+
+Dua minggu lewat. App-nya gak kemana-mana. Yang nambah cuma tab browser 😭
+
+
+-----------------------------------------------------------------------
+5/15
+-----------------------------------------------------------------------
+Terus suatu siang aku lagi buka app itu di meja ruang guru, ngerapiin nilai.
+
+Guru BK lewat, berhenti, ngintip layar.
+
+"Pak, itu bisa nyatet yang lain gak? Aku tiap hari nyatet anak telat pakai buku tulis, rekap akhir bulannya bikin pengen nangis."
+
+Aku cuma bisa jawab: "...bisa sih kayaknya."
+
+
+-----------------------------------------------------------------------
+6/15
+-----------------------------------------------------------------------
+Malamnya aku buka AI lagi. Kali ini gak bingung mau ngetik apa, karena masalahnya jelas banget, aku denger langsung dari orangnya.
+
+"bikin pencatat siswa terlambat, tap nama, jam keluar otomatis, rekap per bulan per kelas, tombol besar karena dipakai sambil berdiri di gerbang."
+
+Besok paginya kutunjukin. Dia bilang "HAH udah jadi?"
+
+
+-----------------------------------------------------------------------
+7/15
+-----------------------------------------------------------------------
+Di situ aku sadar sesuatu yang lucu.
+
+Dua minggu aku nyari pembeli di internet, nebak-nebak mereka butuh apa.
+
+Sepuluh menit di ruang guru, aku dapet orang yang ngomong sendiri masalahnya, lengkap sama detail yang gak bakal kepikiran di catatan persona mana pun. Kayak "dipakai sambil berdiri di gerbang" itu 😭
+
+
+-----------------------------------------------------------------------
+8/15
+-----------------------------------------------------------------------
+Abis itu kabarnya nyebar tanpa aku promosi apa-apa.
+
+Wali kelas 8 nanya bisa gak bikin absen piket kelas. Guru seni minta pengingat jadwal latihan pentas. Wakasek kurikulum minta rekap jam kosong guru.
+
+Ruang guru tiba-tiba jadi tempat orang antre curhat ke aku, bukan curhat soal murid, tapi soal kerjaan yang masih pakai kertas.
+
+
+-----------------------------------------------------------------------
+9/15
+-----------------------------------------------------------------------
+Yang paling bikin aku ngakak: Pak satpam.
+
+Dia nyamperin pas aku lagi parkir motor, malu-malu:
+
+"Pak, kalau buat nyatet tamu yang dateng bisa juga gak? Bukunya udah penuh coretan."
+
+Aku jadi mikir, orang yang paling butuh app di sekolah ternyata bukan yang paling sering pegang laptop.
+
+
+-----------------------------------------------------------------------
+10/15
+-----------------------------------------------------------------------
+Uangnya datang dengan cara yang gak kurencanain.
+
+Wakasek bilang ke kepala sekolah. Kepala sekolah manggil aku, bukan buat negur, tapi nanya: "bisa gak dirapiin jadi satu paket buat sekolah, nanti dianggarin."
+
+Aku keluar ruangan itu jalannya pelan banget. Masih gak percaya 😭
+
+
+-----------------------------------------------------------------------
+11/15
+-----------------------------------------------------------------------
+Terus kepala sekolah itu cerita ke kepala sekolah lain pas rapat MKKS.
+
+Minggu depannya ada sekolah tetangga yang nanya.
+
+Jadi "pasar" yang dua minggu kucari di internet itu ternyata jalurnya begini: ruang guru, ruang kepsek, rapat kepala sekolah. Bukan algoritma. Obrolan.
+
+
+-----------------------------------------------------------------------
+12/15
+-----------------------------------------------------------------------
+Beberapa hal kecil yang kupelajari (hasil salah, bukan teori):
+
+- Sebelum mikir jual ke siapa, tanya dulu "siapa di sekitarku yang masih nyatet pakai kertas?"
+- Biarin orang liat app-mu kepake, itu promosi paling jujur
+- Dengerin kalimat keluhannya utuh, itu prompt terbaikmu
+- Satu orang yang beneran butuh lebih berharga dari seribu yang "mungkin tertarik"
+
+
+-----------------------------------------------------------------------
+13/15
+-----------------------------------------------------------------------
+Aku juga belajar buat gak malu sama app yang sederhana.
+
+App pencatat telat itu cuma tombol nama sama tabel. Gak ada animasi, gak ada fitur keren.
+
+Tapi buat guru BK yang tiap akhir bulan begadang ngerekap buku tulis, itu bukan sederhana. Itu jam tidurnya balik.
+
+
+-----------------------------------------------------------------------
+14/15
+-----------------------------------------------------------------------
+Kalau kamu guru yang lagi bingung "app-ku ini buat siapa ya?", coba deh besok duduk agak lama di ruang guru.
+
+Dengerin keluhan yang biasanya cuma lewat: "capek rekap", "bukunya ilang", "lupa terus jadwalnya".
+
+Sumpah, itu bukan keluhan. Itu daftar pesanan yang belum ada yang ngerjain 😭
+
+
+-----------------------------------------------------------------------
+15/15
+-----------------------------------------------------------------------
+Jadi pembeli pertamamu mungkin gak jauh. Mungkin lagi duduk dua meja dari kamu, ngeluh sambil ngaduk teh.
+
+Kalau di sekolahmu ada satu kerjaan yang masih pakai kertas dan bikin semua orang capek, tulis di komentar ya, siapa tau itu app pertamamu.
+
+Atau simpan thread ini buat dibaca lagi pas lagi bingung 🙌
