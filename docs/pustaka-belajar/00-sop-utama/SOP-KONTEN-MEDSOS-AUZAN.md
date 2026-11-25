@@ -296,7 +296,7 @@ Base: `https://preview.edugamelabs.com/kertas-tinta/games/<slug>/`
 | Liga Stik Pro | PES / bola sepak (Soal Momen) | `liga-stik-pro` | 23 Nov malam @auzan_hasfi |
 | Bola Hamster Clawd | Hamsterball (3 pintu jawapan) | `bola-hamster-clawd` | 23 Nov malam @edugamelabs.id |
 | Lastik Clawd | Angry Birds (soalan sebelum lontaran) | `lastik-clawd` | 24 Nov @auzanhasfi |
-| Dunia Clawd | Roblox obby 3D | `dunia-clawd` | 24 Nov @auzan_hasfi |
+| Dunia Clawd | Roblox obby 3D | `dunia-clawd` | 24 Nov @auzan_hasfi; 26 Nov ketiga akun (format "Berhenti minta AI" + 4 prompt bertahap) |
 | Potong Tali Clawd | Cut the Rope (Soal Bintang) | `potong-tali-clawd` | 24 Nov @edugamelabs.id |
 | Arena Clawd Pro | Mobile Legends / MOBA | `arena-clawd-pro` (juga preview.edugamelabs.com/arena-clawd/) | belum (dipakai di post rujukan lama) |
 | Siaga Merdeka | Red Alert RTS | `siaga-merdeka` | belum |
